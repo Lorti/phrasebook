@@ -1,4 +1,3 @@
-// https://wikitravel.org/en/Japanese_phrasebook
 /* eslint-disable no-cond-assign,no-console */
 const path = require('path');
 const fs = require('fs');

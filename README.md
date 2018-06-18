@@ -1,6 +1,10 @@
-# phrasebook
+# Phrasebook
 
-> A Vue.js project
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/manuninja)
+
+🇯🇵 📖 Interactive Japanese phrasebook optimized for travelling and offline usage, using data from the [Japanese phrasebook](https://wikitravel.org/en/Japanese_phrasebook) on Wikitravel
+
+---
 
 ## Build Setup
 
@@ -27,4 +31,9 @@ npm run e2e
 npm test
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Author
+
+Manuel Wieser<br>
+<https://manu.ninja/><br>
+<https://twitter.com/manuelwieser><br>
+<https://www.paypal.me/manuninja><br>
