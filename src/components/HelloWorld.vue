@@ -1,18 +1,12 @@
 <template>
   <div>
-    <label>
-      <input type="checkbox" v-model="showPronunciation"> Pronunciation (for English speakers)
-    </label>
     <section v-for="set in sets" :key="set.id">
       <h2>{{ set.name }}</h2>
       <dl v-for="phrase in phrases(set.id)" :key="phrase.id">
         <dt>{{ phrase.english }}</dt>
         <dd>
           {{ phrase.japanese }}
-          <em>
-            {{ phrase.romaji }}
-            <small v-if="showPronunciation">{{ phrase.pronunciation }}</small>
-          </em>
+          <em>{{ phrase.romaji }}</em>
         </dd>
       </dl>
     </section>

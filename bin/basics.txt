@@ -1,3 +1,4 @@
+===Basics===
 ; Good afternoon. : こんにちは。 ''Konnichiwa.'' (''Kohn-nee-chee-wah'')
 ; How are you? : お元気ですか? ''O-genki desu ka?'' (''Oh-GEN'-kee des-ka?'')
 ; Fine, thank you. : はい、元気です。 ''Hai, genki desu.'' (''Hahy, GEN'-kee des.'')

@@ -1,503 +1,993 @@
 {
   "phrases": {
-    "85e959d8-7f64-4cf8-ba77-1d3972be143a": {
-      "id": "c9610387-08b1-4907-9033-5fae633885d5",
+    "aa3ea769-e37c-4ca1-9a44-1c0b84a12ba8": {
+      "id": "d8186e78-0f66-47c0-bd42-421e286a80e0",
       "english": "Good afternoon.",
       "japanese": "こんにちは。",
       "romaji": "Konnichiwa.",
-      "pronunciation": "Kohn-nee-chee-wah",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "b2449e38-af94-4227-8e40-3b46ad07cf52": {
-      "id": "c01f0684-39fb-4837-94d4-ecac24dd49e5",
+    "e95ade9b-6c13-4c75-a4b5-2c6c5708c6fd": {
+      "id": "82ee6c63-f093-489f-8000-e3612e555266",
       "english": "How are you?",
       "japanese": "お元気ですか?",
       "romaji": "O-genki desu ka?",
-      "pronunciation": "Oh-GEN'-kee des-ka?",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "026f203c-4931-44d7-827b-f74ef1576032": {
-      "id": "568c04b1-f1d1-4cfc-8a4e-b04ba7e7398c",
+    "a832b7db-db18-404d-b4a3-91b2e65500e0": {
+      "id": "c3fc080e-2dbe-4c48-8f31-d1633c52088a",
       "english": "Fine, thank you.",
       "japanese": "はい、元気です。",
       "romaji": "Hai, genki desu.",
-      "pronunciation": "Hahy, GEN'-kee des.",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "00efcb5a-b302-4cee-a336-5e2ffc9bfa3d": {
-      "id": "8f258ccb-a06c-47af-ba28-6ac7f2456805",
+    "a8ea0549-5e67-4490-93b0-37b220c47e4f": {
+      "id": "c65c3279-0414-4894-a09c-6597b5bed4da",
       "english": "How about you?",
       "japanese": "あなたは？",
       "romaji": "Anata wa?",
-      "pronunciation": "Ah-nah-tah wa?",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "c5b1ebd5-1502-4222-a03d-9f1d099bae33": {
-      "id": "bccbb3e3-4b8e-4134-9692-5cd0b4e39166",
+    "a637f30e-bf8b-4417-b50d-7471f7fb506f": {
+      "id": "7740161d-6e49-47b2-be88-e7b049941d3a",
       "english": "What's your name? (lit. \"Your name is...\")",
       "japanese": "お名前は？",
       "romaji": "O-namae wa?",
-      "pronunciation": "Oh-nah-mah-eh wah?",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "b299b07b-fcdc-4bf9-8a0c-13520138c357": {
-      "id": "8e724cec-45d3-4bcb-875c-bd0c427a422c",
+    "0ca9bd27-1305-4da5-86e0-f64156ec1ee0": {
+      "id": "79e6fcd2-5f85-4cdd-9de8-9238335f522c",
       "english": "My name is ... .",
       "japanese": "… です。",
       "romaji": "... desu.",
-      "pronunciation": "... des.",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "53a3fc85-9846-4ce2-836a-430176b5b553": {
-      "id": "a027a800-c6d1-4998-b3b3-614dc4be4733",
+    "733aafd7-b1ff-4d84-a74d-3bf2e2d3004e": {
+      "id": "98a41b9e-e2b5-40de-bd6b-c799024f7c33",
       "english": "My name is .... (honorific; highly formal)",
       "japanese": "... と申します。",
       "romaji": "... to mōshimasu.",
-      "pronunciation": "Toh MOHH-shee-mahs",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "7d45c401-a4b7-41bb-88d1-4dd185de79c3": {
-      "id": "7fa2b7f1-64f2-401c-9b35-6a7ce3df1233",
+    "873faf8d-5504-490e-b9da-86269f2c196c": {
+      "id": "6ede7526-8630-40fd-a0ee-6486f85d5b10",
       "english": "Nice to meet you. (formal)",
       "japanese": "始めまして。どうぞ宜しくお願いします。",
       "romaji": "Hajimemashite. Dōzo yoroshiku onegai shimasu",
-      "pronunciation": "Hah-jee-meh-mahsh-teh DOHH-zoh yoh-rohsh-koo oh-neh-gahy shee-mahs",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "81b95385-207d-40b9-bb92-2ef95e60b7a7": {
-      "id": "26a404ac-6b3a-4af6-ad80-914f72377513",
+    "cdbb309a-a2a5-4ebc-80f8-855147abe842": {
+      "id": "73271a36-4c78-4313-ae55-5772b04889d5",
       "english": "Please. (request)",
       "japanese": "お願いします。",
       "romaji": "Onegai shimasu.",
-      "pronunciation": "Oh-neh-gahy shee-mahs",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "84ac15ad-d1bb-447a-9ca6-0f10467f799b": {
-      "id": "b9f1a8e2-d19e-4b89-ab9e-0aa4093f6d31",
+    "cd696f1e-3248-4449-b0ed-45094006c5bd": {
+      "id": "9e9690bb-1c4b-4344-a120-ae6451305b7d",
       "english": "Please. (offer)",
       "japanese": "どうぞ。",
       "romaji": "Dōzo.",
-      "pronunciation": "DOHH-zoh",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "cebcdd2e-2426-449f-8979-85155d594400": {
-      "id": "82fec1ea-ba88-4272-87d0-a6045e15d517",
+    "07719c93-633a-4597-9eeb-59395764f828": {
+      "id": "e7fc968e-522b-439c-a3d1-93854cda665d",
       "english": "This person is ... . (when introducing somebody)",
       "japanese": "こちらは …",
       "romaji": "Kochira wa ...",
-      "pronunciation": "Koh-chee-rah wah ...",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "edb8ae8a-e387-4c74-adff-b9b025ea7a93": {
-      "id": "458312e0-459c-4902-9912-cdc6d08415c7",
+    "a61075ae-be20-4706-bcd4-658d33ac55ca": {
+      "id": "1fad7ac4-ef84-47d2-91eb-c43e0befe477",
       "english": "Thank you very much. (formal)",
       "japanese": "どうもありがとうございます。",
       "romaji": "Dōmo arigatō gozaimasu.",
-      "pronunciation": "DOHH-moh ah-REE-gah-tohh goh-zahy-mahs",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "3cc762dd-b5fa-4ae5-9911-97ecd80f5348": {
-      "id": "86aba83b-19e4-45ce-b910-2036fce4d04b",
+    "94ffa6c8-88c9-4679-ab7e-0d6cf514f1be": {
+      "id": "818dfce2-953d-488d-bbc6-30cd5c443e44",
       "english": "Thank you. (less formal)",
       "japanese": "ありがとうございます。",
       "romaji": "Arigatō gozaimasu.",
-      "pronunciation": "Ah-REE-gah-tohh goh-zahy-mahs",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "71180edd-bb0c-4b78-82be-d0458419e348": {
-      "id": "81a175ba-0374-42be-8fb5-7a464e50d7a0",
+    "21ae65ec-0525-45bb-882e-b12b88e5d0d9": {
+      "id": "113e0866-822b-4217-a69c-55e4cf31a5c3",
       "english": "Thank you. (normal)",
       "japanese": "ありがとう。",
       "romaji": "Arigatō.",
-      "pronunciation": "Ah-REE-gah-tohh",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "c66a2fb0-82e8-48bb-b460-8ce023abdcd4": {
-      "id": "762a7536-8b24-4e3b-a6b6-db4ea4e6ccbb",
+    "ff189ad0-1704-48e5-9d13-273cad854a70": {
+      "id": "99038ab3-c94b-4956-8572-2c1908caf7ce",
       "english": "Thanks. (informal)",
       "japanese": "どうも。",
       "romaji": "Dōmo.",
-      "pronunciation": "DOHH-moh",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "1f131695-4b4e-41ed-9f1e-5966df842102": {
-      "id": "bf995990-9360-4ac5-bbba-6c7a7dd682b9",
+    "2a15e143-caf7-4ac7-88c7-f7fe3393c4c3": {
+      "id": "e0f67623-d910-45e0-8001-0c9037c0933f",
       "english": "You're welcome.",
       "japanese": "どういたしまして。",
       "romaji": "Dō itashimashite.",
-      "pronunciation": "Dohh ee-tah-shee-mahsh-teh",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "2ea2389e-a9b9-499d-98c4-b65e252c5209": {
-      "id": "2960cc62-5ae5-4b09-9feb-462b77ae8043",
+    "1451ebfc-caaa-4c2f-855e-412c471075a9": {
+      "id": "c07b99e4-0cae-49fc-82ad-d1bf827359eb",
       "english": "yes",
       "japanese": "はい",
       "romaji": "hai",
-      "pronunciation": "Hahy",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "1e1d730b-275b-4d82-b27e-d4b539df01e1": {
-      "id": "11069eb4-1354-4616-bb3c-191145db46fc",
+    "f5be9625-de9a-498a-88c5-530d7dbe70a6": {
+      "id": "36b7d3b2-5641-4508-b1c7-9de4566e6c4b",
       "english": "no",
       "japanese": "いいえ",
       "romaji": "iie",
-      "pronunciation": "Ee-eh",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "3c2c6597-cb78-4699-a399-bc8da666fa36": {
-      "id": "c36eabdf-acd7-4b38-ab58-43707902c67f",
+    "ae8ff50b-7d7d-4cc3-9c92-d2c67db6b14a": {
+      "id": "f8aba950-2710-4809-910c-3ee68cc204a5",
       "english": "Excuse me.",
       "japanese": "すみません。",
       "romaji": "Sumimasen.",
-      "pronunciation": "Soo-mee-mah-SEN'",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "972dcd89-0f60-4e1d-a753-bab8594eeeeb": {
-      "id": "322eaab3-94bc-40c8-a3cc-fedd5adf6cf2",
+    "eea25eec-d34a-4dbe-a606-a8d423ee9fac": {
+      "id": "d6cecb9e-71b1-4b3a-ba5a-741855d4aabf",
       "english": "I'm sorry.",
       "japanese": "ごめんなさい。",
       "romaji": "Gomen nasai.",
-      "pronunciation": "Goh-men-nah-sahy",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "93c94dc5-ef72-46c7-a052-7854d5d996b2": {
-      "id": "b95ea903-e7a6-42f3-9c28-664c705e43ff",
+    "100a1250-7ce2-4052-ab3b-af5ee9a9393a": {
+      "id": "f1a4da30-9325-41b0-9116-95946338e9fe",
       "english": "I'm sorry. (informal)",
       "japanese": "ごめん",
       "romaji": "Gomen.",
-      "pronunciation": "Goh-men'",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "c7edc631-6570-4136-a6f9-0b09611bc23d": {
-      "id": "3dddbc7b-b229-417b-b30a-e9b7b6a708ec",
+    "8465c896-5ada-410b-ae92-6ca59ba1ec26": {
+      "id": "a77e21aa-43ee-42c7-b3e4-4727823d1848",
       "english": "Goodbye. (long-term)",
       "japanese": "さようなら。",
       "romaji": "Sayōnara.",
-      "pronunciation": "Sah-yohh-nah-rah",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "d02f8692-dff8-4da6-b807-7379de920329": {
-      "id": "455345db-c509-4e90-9aeb-67d988f090f2",
+    "ce4482cb-2012-4b88-9bfc-36770872a193": {
+      "id": "5985e94b-c457-4877-a2e7-e54105d5ca51",
       "english": "Goodbye. (informal)",
       "japanese": "じゃね。",
       "romaji": "Ja ne.",
-      "pronunciation": "Jahh neh.",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "c16fd6d7-42cc-4f42-b3cd-f304eb1b247f": {
-      "id": "9e145380-cf2d-4538-996b-61bcec524510",
+    "1b56b829-cfb0-4583-938a-f3cf363b9eba": {
+      "id": "7127972a-9b1e-45b8-88ab-380a95d632da",
       "english": "I can't speak Japanese (very well).",
       "japanese": "日本語が（よく）話せません。",
       "romaji": "Nihongo ga (yoku) hanasemasen.",
-      "pronunciation": "Nee-hohn'-goh gah (yoh-koo) hah-nah-seh-mah-sen'",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "c16532cb-eb49-4b72-8e97-9efe0153139c": {
-      "id": "fc32812c-9dee-4b03-a537-0ee1c7e1a13e",
+    "bd6a0d12-2f1b-45c3-b3ff-be8d805dc415": {
+      "id": "6a278d24-cfc0-47c1-b456-494883630d57",
       "english": "Do you speak Japanese?",
       "japanese": "日本語が話せますか？",
       "romaji": "Nihongo ga hanasemasu ka?",
-      "pronunciation": "Nee-hohn'-goh gah hah-nah-seh-mahs kah?",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "d29dd901-c32a-4dd2-9a1a-6a0ca1e1e8da": {
-      "id": "34b3368d-ac34-4c32-8af6-95544d570777",
+    "80ca7eb4-d619-4afe-8929-a13f3f8d375c": {
+      "id": "3f079ac3-e203-456c-904b-f063cadf0ee8",
       "english": "Yes, a little.",
       "japanese": "はい、少し。",
       "romaji": "Hai, sukoshi.",
-      "pronunciation": "Hahy, skoh-shee",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "76fe7eb8-2910-40b1-83fd-f1aa00b0f306": {
-      "id": "4b19ffb2-7a0d-4f82-afb9-3350410e7d5b",
+    "0ddc2f1b-f376-4183-a0c1-e5f6d42fa621": {
+      "id": "b3c5606c-2fe4-470a-85dd-8ba9da4fb01e",
       "english": "Do you speak English?",
       "japanese": "英語が話せますか？",
       "romaji": "Eigo ga hanasemasu ka?",
-      "pronunciation": "Ey-goh gah hah-nah-seh-mahs kah?",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "1d32f54c-3bb8-4e75-91bb-b6cec9523a8b": {
-      "id": "1e22401d-87cb-4c0f-913f-fb14656f1eaa",
+    "18de96ba-a23a-4728-a748-9026cfe2c834": {
+      "id": "20028461-3b59-4de7-b733-08c10eddf5d2",
       "english": "Is there someone here who speaks English?",
       "japanese": "誰か英語が話せますか？",
       "romaji": "Dareka eigo ga hanasemasu ka?",
-      "pronunciation": "Dah-reh-kah ey-goh gah hah-nah-seh-mahs kah?",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "496d4914-0654-4f4d-9507-97852cf5384e": {
-      "id": "9734c16e-b9b2-4e50-afa8-a0809065d1e2",
+    "985b6514-23b9-4f65-ae74-40052f3adc27": {
+      "id": "c60f6b54-43b7-45c4-870e-2e475e052052",
       "english": "Please speak slowly.",
       "japanese": "ゆっくり話してください。",
       "romaji": "Yukkuri hanashite kudasai.",
-      "pronunciation": "Yook-koo-ree hah-nahsh-teh koo-dah-sahy",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "89d0c11c-fef4-4bb3-baf1-1371d555cbb8": {
-      "id": "7fe27047-6258-4ef9-a681-3ab312e4dc20",
+    "5c1db1fd-da10-49d3-8cf1-7af4f74bbc24": {
+      "id": "807aca5f-8626-4d24-815c-1b36a258664c",
       "english": "Please say it again.",
       "japanese": "もう一度言ってください。",
       "romaji": "Mō ichido itte kudasai.",
-      "pronunciation": "Mohh ee-chee-doh eet-teh koo-dah-sahy",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "85c8f9e2-6a65-4fe4-ab13-8ee8bff11bf8": {
-      "id": "d8e97150-84a1-4364-ab0f-20ebde12bc9c",
+    "b8438c02-7f2f-4b19-b10c-c4a26a5987a9": {
+      "id": "d561b13b-9809-4b3f-bf5d-850a633e18ad",
       "english": "Please help!",
       "japanese": "助けて！",
       "romaji": "Tasukete!",
-      "pronunciation": "Tah-skeh-teh!",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "c2668ca0-55ab-4dd2-aee8-67d0382b75ab": {
-      "id": "ba5ad9a0-06d4-4345-805e-ebeadc346c58",
+    "3aeba658-4924-4264-9fab-a71a98cc4f8f": {
+      "id": "a601442e-078d-4234-bff2-07ea111c25bd",
       "english": "Look out!",
       "japanese": "危ない！",
       "romaji": "Abunai!",
-      "pronunciation": "Ah-boo-NAHY!",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "fa391ada-d4a9-4007-a8da-e47d34c22b35": {
-      "id": "b5192623-1be0-4f70-8775-9ca7e2249336",
+    "35400fe1-c57f-46fc-9061-af12b32e5199": {
+      "id": "be77f77d-41a3-4e1e-88fa-54c6c9f2938e",
       "english": "Good morning.",
       "japanese": "お早うございます。",
       "romaji": "Ohayō gozaimasu.",
-      "pronunciation": "Oh-hah-yohh goh-zahy-mahs",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "735f5c60-57dd-44c8-a730-560964cfc575": {
-      "id": "d8f0a813-ba82-46b0-8994-7ed882275b7b",
+    "3ddb9061-ec98-4653-bf04-c7455e45a64c": {
+      "id": "b79e67c5-04ca-4bcd-982b-66fea5a18e03",
       "english": "Good morning. (informal)",
       "japanese": "おはよう。",
       "romaji": "Ohayō.",
-      "pronunciation": null,
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "2e2cea39-594d-4b69-a543-1417a6989372": {
-      "id": "07e1647c-5204-4a47-83b2-eff67bac9120",
+    "a4e2ac7f-5074-4cbc-ad77-919070ea0f4b": {
+      "id": "d6ac867f-540c-454a-b62d-fd493af15320",
       "english": "Good evening.",
       "japanese": "こんばんは。",
       "romaji": "Konbanwa.",
-      "pronunciation": "Kohm-bahng-wah",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "2694b2d6-7d72-4bcb-b864-fd61fa5285f3": {
-      "id": "d2478c33-9124-40a3-998e-d5de591b6cd1",
+    "fcf45052-72d3-419d-9542-f021cc68e8d7": {
+      "id": "63bbe348-97ba-4f7a-8c76-cdb1c568c4c3",
       "english": "Good night (to sleep)",
       "japanese": "お休みなさい。",
       "romaji": "Oyasuminasai.",
-      "pronunciation": "Oh-yah-soo-mee-nah-sahy",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "7b0faaa9-ddaf-4eed-a286-131567b58d8f": {
-      "id": "994d8bef-dfdc-4563-8fc7-c59e8aeedcf9",
+    "a0ad98be-1ae8-4683-bfd2-6ea819d96c5a": {
+      "id": "273e75b7-c2ae-4eda-8c61-06ff02d2ef3f",
       "english": "Good night (to sleep) (informal)",
       "japanese": "お休み。",
       "romaji": "Oyasumi.",
-      "pronunciation": null,
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "f3dd6746-cdcb-481a-b832-82d06073d6e4": {
-      "id": "83fb7f40-0093-43a0-846a-5a6fc993ffa7",
+    "b2697f0c-d8c8-44d5-a48b-f1e68285ff17": {
+      "id": "6f91f9a1-2212-4aca-a1b6-b0c9e49ed277",
       "english": "I don't understand.",
       "japanese": "分かりません。",
       "romaji": "Wakarimasen.",
-      "pronunciation": "Wah-kah-ree-mah-sen'",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "904fb35d-199e-4e70-bc94-c350c00fd25b": {
-      "id": "3cbc32f7-bc57-4b9b-9b5d-ce811d4ba298",
+    "203335dc-cb4a-4991-8e4b-ebe424e43c14": {
+      "id": "1f725e3d-c921-4a90-9c16-e083355c6e81",
       "english": "I am not Japanese.",
       "japanese": "日本人ではありません。",
       "romaji": "Nihonjin dewa arimasen.",
-      "pronunciation": "Nee-hohn-jeen deh-wah ah-ree-mah-sen'",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "da0bf0a5-0ff0-4db6-9933-1d40512af2d5": {
-      "id": "abc1ba49-ac2b-4a11-8fd4-677abb0d9368",
+    "b4a7a462-02ac-4563-885e-259ddf659787": {
+      "id": "d3ec9141-96a4-43e7-8759-e77dc4ae7e70",
       "english": "Where is the toilet?",
       "japanese": "お手洗い・トイレはどこですか？",
       "romaji": "Otearai/toire wa doko desu ka?",
-      "pronunciation": "Oh-teh-ah-rahy/toy-reh wah doh-koh des kah?",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "3b6fe09c-4160-4968-bbaa-b84f4df8a297": {
-      "id": "fd018c08-f7ad-4995-b969-af76fdfe3e10",
+    "bc264300-743a-47f6-9c94-0d01be888cda": {
+      "id": "a7a291aa-c6a9-4245-8dc2-5b25be285bdd",
       "english": "What?",
       "japanese": "何？",
       "romaji": "Nani?",
-      "pronunciation": "Nah-nee?",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "a588ae9b-1273-4d24-8b86-b81724d308f8": {
-      "id": "170e85dc-b7f2-475f-8ffe-baf420725985",
+    "436914cb-f94c-4952-af1c-217a2bf5546e": {
+      "id": "06f20cbe-f69e-40f2-b4f5-bfe3c1ac5330",
       "english": "Where?",
       "japanese": "どこ？",
       "romaji": "Doko?",
-      "pronunciation": "Doh-koh?",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "39b6b6bf-ddd9-4c09-9f81-7d0df197f8ed": {
-      "id": "f515ca30-d5f1-4e92-8098-f11058d72b9b",
+    "07248949-7f67-4fbf-9bbf-f926d2c8d4dc": {
+      "id": "0afc7435-ccf4-46b0-8404-7f89461266fd",
       "english": "Who?",
       "japanese": "誰？",
       "romaji": "Dare?",
-      "pronunciation": "Dah-reh?",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "5c1a797f-22f2-47e8-90aa-3ab05ae8cbe2": {
-      "id": "f64a9190-445e-414b-afa0-568a0a2fab93",
+    "7031e2b9-3477-40bd-86eb-dc18e4047f8b": {
+      "id": "385d6fce-5fb1-468d-8936-71ba9b40c0e0",
       "english": "When?",
       "japanese": "いつ？",
       "romaji": "Itsu?",
-      "pronunciation": "Eet-soo?",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "1dbf56b0-30bf-47de-b5f3-3cffe85ba957": {
-      "id": "227f914c-09be-403a-a6f7-78a05d0caf92",
+    "1713f137-b0be-436c-bb62-d394a05d5f7f": {
+      "id": "9de625bb-3040-4b56-95d9-54f6e92f76b1",
       "english": "Which?",
       "japanese": "どれ？",
       "romaji": "Dore?",
-      "pronunciation": "Doh-reh?",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "df2b3dc5-90a8-48d5-8581-effe1b462394": {
-      "id": "13ee8613-43d2-4e7a-b1f8-1ffe8ca16bd8",
+    "4f193848-cd70-406d-a3f8-a0efe67d0baa": {
+      "id": "b241ce93-a91b-400d-bce9-273a782aca32",
       "english": "Why?",
       "japanese": "どうして",
       "romaji": "Dōshite",
-      "pronunciation": "DOHH-sh'teh?",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "77874f18-1af4-4bdf-adb0-547563d76707": {
-      "id": "c7c15055-6ea7-4fe0-83fc-38c2faba5ba2",
+    "1ddd0939-4959-422b-b893-be512a1b15db": {
+      "id": "d2613f96-48bb-45e0-aa3c-36fc756403b1",
       "english": "Why? (informal)",
       "japanese": "なんで？",
       "romaji": "Nande",
-      "pronunciation": "NAHN-deh?",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "6146a794-3f24-4340-9beb-bd5e60039c5a": {
-      "id": "578d7acf-822c-4f8c-be09-8c6c9969a131",
+    "9448d96e-9445-430e-b8fc-f17df83aaa81": {
+      "id": "1323ebea-04f8-40dd-895c-b947aff5b059",
       "english": "How?",
       "japanese": "どうやって？",
       "romaji": "Dōyatte",
-      "pronunciation": "DOHH yaht-teh?",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "063166b0-ed71-4736-8362-7c28cc473d1a": {
-      "id": "d9992348-990e-4d6b-b71e-34309380b899",
+    "8a68bfd8-b47f-487c-a744-004caae6a81c": {
+      "id": "70e4530d-326f-4d7d-af14-63901ad7b887",
       "english": "How much?",
       "japanese": "いくら？",
       "romaji": "Ikura?",
-      "pronunciation": "Ee-koo-rah?",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "498ebf88-60a5-4537-acb5-c41c5aeac59d": {
-      "id": "e667245c-9b4f-4325-8ca6-75a391e4b50f",
+    "906c2eb1-a540-4b74-a859-9ea23f203fa0": {
+      "id": "dcffa192-26d7-4627-a052-203d625042fc",
       "english": "What type of?",
       "japanese": "どんな？",
       "romaji": "Donna?",
-      "pronunciation": "DOHN-nah?",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "fca75d1b-2e71-484c-914d-aab72bbf836d": {
+      "id": "1db67ab6-b94a-43a6-a6c7-986366782b1a",
+      "english": "I'm hungry.",
+      "japanese": "お腹がすきました。",
+      "romaji": "Onaka ga sukimashita.",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "ef29cdb9-f490-46fc-a146-655e6fd62311": {
+      "id": "24a9679f-962c-45e8-8bca-925e8eeb3376",
+      "english": "A table for one person/two people, please.",
+      "japanese": "一人・二人です。",
+      "romaji": "Hitori/futari desu.",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "db5f1994-4f5d-4a46-9f55-defd0df18c9e": {
+      "id": "39821097-9ca7-42e6-8dc5-0549691988aa",
+      "english": "Please bring a menu.",
+      "japanese": "メニューを下さい。",
+      "romaji": "Menu wo kudasai.",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "87914981-7972-461c-869e-e025b71636f9": {
+      "id": "7060be11-5b7f-4396-bd03-2a141b4689ff",
+      "english": "Can I look in the kitchen?",
+      "japanese": "調理場を見てもいいですか？",
+      "romaji": "Chōriba wo mite mo ii desu ka?",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "6ada4f78-7f26-45e4-a98a-ce5bb1fa4075": {
+      "id": "937caf22-317e-48e8-93fa-974b099f7b02",
+      "english": "Is there a house specialty?",
+      "japanese": "お勧めはありますか？",
+      "romaji": "O-susume wa arimasu ka?",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "572bc80b-9b8d-4d03-9d76-271740308f5c": {
+      "id": "2ea9e758-f494-4d55-8885-8e9d89629ea6",
+      "english": "Is there a local specialty?",
+      "japanese": "この辺の名物はありますか？",
+      "romaji": "Kono hen no mēbutsu wa arimasu ka?",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "c8dc4fc5-7d65-40f5-ac71-b16067d9e8d1": {
+      "id": "8d265170-1eb0-4ee7-88c7-b3864503cd7c",
+      "english": "Please choose for me.",
+      "japanese": "お任せします。",
+      "romaji": "O-makase shimasu.",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "917e6a72-638d-4d50-bbf5-9f174d686865": {
+      "id": "4b79a5b8-fa81-464a-810e-8fb44b78859c",
+      "english": "I'm a vegetarian.",
+      "japanese": "ベジタリアンです。",
+      "romaji": "Bejitarian desu.",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "97f2faf6-be19-4d0c-8b08-c0476322e243": {
+      "id": "0c7ac079-f8e3-445b-a157-2ab1d6e84d0b",
+      "english": "I don't eat pork.",
+      "japanese": "豚肉はだめです。",
+      "romaji": "Butaniku wa dame desu.",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "8fa1f63e-2f46-41e2-ac25-69ce60215eb7": {
+      "id": "b40a80fd-9597-4de0-8237-f54d74610de2",
+      "english": "I don't eat beef.",
+      "japanese": "牛肉はだめです。",
+      "romaji": "Gyūniku wa dame desu.",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "0ed9047d-6e4b-44d8-9699-00a9d14770d0": {
+      "id": "3b3301aa-f5a9-4723-9601-a87f7d01d945",
+      "english": "I don't eat raw fish.",
+      "japanese": "生の魚はだめです。",
+      "romaji": "Nama no sakana wa dame desu.",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "1aeda240-d07a-4e38-b43c-664d653875a2": {
+      "id": "8fd26b98-ef22-4a9a-ae6e-dbba9525cf60",
+      "english": "Please do not use too much oil.",
+      "japanese": "油を控えて下さい。",
+      "romaji": "Abura wo hikaete kudasai.",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "8b9b32f8-a5de-49c1-a160-728dd0f72a37": {
+      "id": "fd865e16-e86a-4fa4-8d6c-ed2d519b684c",
+      "english": "fixed-price meal",
+      "japanese": "定食",
+      "romaji": "teishoku",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "91d72f2c-61c6-4960-a8ec-8bcb92a8df9e": {
+      "id": "7b50989c-4572-4467-ad04-3afab4eb0d6e",
+      "english": "à la carte",
+      "japanese": "一品料理",
+      "romaji": "ippinryōri",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "25032e87-43b8-4c7c-b3ec-0068ff4d6f5e": {
+      "id": "fada24c2-6700-4485-8bfc-bdd6311ee7f3",
+      "english": "breakfast",
+      "japanese": "朝食",
+      "romaji": "chōshoku",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "18bd569c-78bd-47f2-8c55-5efae1352d62": {
+      "id": "466e6815-5afa-4525-a390-af1eea8b6c77",
+      "english": "lunch",
+      "japanese": "昼食",
+      "romaji": "chūshoku",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "ee2d953e-e8ec-450b-99c3-302c5e586d22": {
+      "id": "230f8233-7e1b-4044-a248-da32ca90f0db",
+      "english": "light meal/snack",
+      "japanese": "軽食",
+      "romaji": "keishoku",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "9a0f9202-8b75-4f97-84cb-3fc2150da3ba": {
+      "id": "991e3417-cb63-4b08-b3c5-de5a801900b9",
+      "english": "supper",
+      "japanese": "夕食",
+      "romaji": "yūshoku",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "85335aac-f189-44fc-85ae-3c64b3880c03": {
+      "id": "b87c456e-0cf8-4bbf-8c03-201f8dcb455c",
+      "english": "Please bring _____.",
+      "japanese": "_____ を下さい。",
+      "romaji": "_____ wo kudasai.",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "b707882c-e283-445e-b6fd-879084f9c457": {
+      "id": "f71f3adb-2b7c-41fd-b674-94bebceb3ac2",
+      "english": "I want a dish containing _____.",
+      "japanese": "_____が入ってるものを下さい。",
+      "romaji": "____ ga haitteru mono wo kudasai.",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "07aecb61-e721-40ca-8079-ac62f6f6cec3": {
+      "id": "124167db-f9ec-4f04-bbf6-37bf1ad04a44",
+      "english": "chicken",
+      "japanese": "鶏肉",
+      "romaji": "toriniku",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "4e5a6aff-6cd2-430c-8f6a-b1bd424f8c77": {
+      "id": "5dcddef4-c39e-41f8-a087-dc50b7a1092c",
+      "english": "beef",
+      "japanese": "牛肉",
+      "romaji": "gyūniku",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "13fdb91d-9158-40c9-b4f0-1dfe0f570db9": {
+      "id": "e0ba8996-c21f-4e39-a35c-6a84a57dbb4f",
+      "english": "pork",
+      "japanese": "豚肉",
+      "romaji": "butaniku",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "942528c4-eb79-404b-af9c-8ca2023d4c74": {
+      "id": "3ecd6aaa-471d-4e2f-a4f8-c8d3609fdece",
+      "english": "mutton",
+      "japanese": "羊肉",
+      "romaji": "yōniku",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "07f8179e-9926-4b97-bab5-3791c18f334d": {
+      "id": "b909b595-92c2-4f8d-9b76-18ecffde41df",
+      "english": "fish",
+      "japanese": "魚",
+      "romaji": "sakana",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "2ea66a30-36b1-4515-bf5e-e53bb9b65f40": {
+      "id": "d8ee5b36-f161-4a3c-b7a9-2f70cdff6491",
+      "english": "ham",
+      "japanese": "ハム",
+      "romaji": "hamu",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "5bc500c1-87eb-4a67-9609-43086963ae71": {
+      "id": "0dd642cd-cb42-4097-b1f7-c7d939d783df",
+      "english": "sausage",
+      "japanese": "ソーセージ",
+      "romaji": "sōsēji",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "e2dfd922-e71e-4e56-9745-c8139006aaa1": {
+      "id": "b7d86cc9-4a9a-4bba-af71-6a0f63717d49",
+      "english": "cheese",
+      "japanese": "チーズ",
+      "romaji": "chīzu",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "a52f98e3-1359-4557-a224-5b9881714d74": {
+      "id": "c89d4ff7-31d8-4846-9894-8c99f27697c8",
+      "english": "eggs",
+      "japanese": "卵",
+      "romaji": "tamago",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "1c35a9ca-4039-4cab-a39a-45e440fae8b5": {
+      "id": "fcbb9d25-6d1a-4b06-8f37-fedea6e1d2fa",
+      "english": "salad",
+      "japanese": "サラダ",
+      "romaji": "sarada",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "b8b8a5df-5aaf-4266-9214-4d98c67557b9": {
+      "id": "ba340035-4538-4715-8bf0-043109124e2d",
+      "english": "(fresh) vegetables",
+      "japanese": "(生)野菜",
+      "romaji": "(nama) yasai",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "53ed715f-0e88-469d-8f0b-d3464388687d": {
+      "id": "f7b0fff1-e6b5-4770-aebd-4f91bea8bd39",
+      "english": "(fresh) fruit",
+      "japanese": "(生)果物",
+      "romaji": "(nama) kudamono",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "035bb91d-a5dc-4f61-af7e-b3f1da5dc2b2": {
+      "id": "0bfd5042-520f-4dec-9fbc-b11aeb4b97f7",
+      "english": "bread",
+      "japanese": "パン",
+      "romaji": "pan",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "9d278095-a7af-4df3-a0cf-2f3c8e524389": {
+      "id": "d6b6880f-8b4f-4007-bfe7-d3b7ace01638",
+      "english": "toast",
+      "japanese": "トースト",
+      "romaji": "tōsuto",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "1b947fd3-80cc-4296-8aa2-a9d5cf3b846f": {
+      "id": "10f2e44c-2d76-4f0b-bb93-14b74ad025f2",
+      "english": "noodles",
+      "japanese": "麺類",
+      "romaji": "menrui",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "b9f6a678-d05c-495d-80b0-c6e437d01119": {
+      "id": "068ca314-da92-47c8-a308-7a04f444eaf2",
+      "english": "pasta",
+      "japanese": "パスタ",
+      "romaji": "pasuta",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "3350dde5-69b2-4aad-bf88-5c227359ded1": {
+      "id": "281997c7-4f19-4b4b-9533-f36448cdbf25",
+      "english": "rice",
+      "japanese": "ご飯",
+      "romaji": "gohan",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "411e0a16-cef8-40d8-b1a1-3f1ebd1bef4f": {
+      "id": "6654f200-1a61-45ff-b938-66af8fae60b1",
+      "english": "soup",
+      "japanese": "スープ :",
+      "romaji": "sūpu",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "822b43e1-9527-4079-988c-e444d72c8e93": {
+      "id": "0b7a1030-489c-4130-b88f-6a0166dea954",
+      "english": "beans",
+      "japanese": "豆",
+      "romaji": "mame",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "6f585ee0-c997-4c85-acd3-4988a1ba870a": {
+      "id": "7cdbb25e-96a0-4eaf-a084-291b31a7b38a",
+      "english": "May I have a glass/cup of _____?",
+      "japanese": "_____ を一杯下さい。",
+      "romaji": "____ wo ippai kudasai.",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "b82aaa4c-14e2-4aa3-b420-e1247bf96eab": {
+      "id": "0666ede2-870f-46a9-9bc4-5c2693e7c775",
+      "english": "May I have a bottle of _____?",
+      "japanese": "_____ を一本下さい。",
+      "romaji": "_____ wo ippon kudasai.",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "90f1bcf7-5a7b-474b-95b9-601baf77e8ff": {
+      "id": "cfb897e9-abfc-47d5-9eb7-a663d2679468",
+      "english": "coffee",
+      "japanese": "コーヒー",
+      "romaji": "kōhī",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "f9d21b17-c949-4f54-ba45-d6b58acfa7c3": {
+      "id": "0d1172e1-2156-40d8-9f82-e46540103520",
+      "english": "green tea",
+      "japanese": "お茶",
+      "romaji": "ocha",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "b07bfbac-7131-41a5-8c5c-4cb33188f4ba": {
+      "id": "822d4540-d906-4640-86ff-0e4b49d65a81",
+      "english": "black tea",
+      "japanese": "紅茶",
+      "romaji": "kōcha",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "802222a8-3fc1-4671-9d3f-37fbfc6b53a5": {
+      "id": "a7a6e884-123c-4006-b0bf-5ebc40e54206",
+      "english": "juice",
+      "japanese": "果汁",
+      "romaji": "kajū",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "b9d3d62a-2e54-45a5-bae1-aa098c7c3af4": {
+      "id": "a59b9274-e2c2-4d91-b462-103c523d2764",
+      "english": "water",
+      "japanese": "水",
+      "romaji": "mizu",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "ea75a884-5336-43e5-a9d6-a8e54ab500f2": {
+      "id": "42b7009e-17db-4d44-ba0e-0b36e36ff255",
+      "english": "beer",
+      "japanese": "ビール",
+      "romaji": "bīru",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "e02beb13-1ff5-4915-b530-c0c901164734": {
+      "id": "58f25450-c5cc-4d1c-a73a-6673dbab66ab",
+      "english": "red/white wine",
+      "japanese": "赤/白ワイン",
+      "romaji": "aka/shiro wain",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "a6caf236-b1dc-488d-ae95-0bbadb88f899": {
+      "id": "717ba679-d410-4619-ac85-526391d0e11d",
+      "english": "Do you have _____?",
+      "japanese": "_____ はありますか?",
+      "romaji": "_____ wa arimasu ka?",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "5083cff1-6f08-43b9-8ee3-2b47ca91e67d": {
+      "id": "ff046c73-198d-48ab-aaf4-2994b9279af5",
+      "english": "chopsticks",
+      "japanese": "お箸",
+      "romaji": "o-hashi",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "007f8d1f-1d37-4d88-aff8-08bb82dabfd0": {
+      "id": "0ff2dae4-9c78-415c-b053-8be947da45dd",
+      "english": "fork",
+      "japanese": "フォーク",
+      "romaji": "fōku",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "28f4ef11-e868-4e62-8fb7-99c0983c538e": {
+      "id": "1744ba3f-d2ca-4e4a-ba06-7139d24fa7a3",
+      "english": "spoon",
+      "japanese": "スプーン",
+      "romaji": "supūn",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "e1282b28-c617-4d66-a4b6-9ddfcd641713": {
+      "id": "b33352c9-aaeb-4c1b-9605-e57e8790e8de",
+      "english": "salt",
+      "japanese": "塩",
+      "romaji": "shio",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "403056ad-67c2-469d-ac33-72b1b0312cd0": {
+      "id": "dcf74bbe-9735-4664-9e3b-9fcd17d871e6",
+      "english": "black pepper",
+      "japanese": "胡椒",
+      "romaji": "koshō",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "de012541-0b81-43ae-8bea-233793f84b99": {
+      "id": "601954d4-e8b1-4e61-b85a-9c5b8b90078e",
+      "english": "soy sauce",
+      "japanese": "醤油",
+      "romaji": "shōyu",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "9267d4f8-601b-4433-8648-f7004c02373c": {
+      "id": "2151e028-8dc5-4a09-9432-535fe5e115b5",
+      "english": "ashtray",
+      "japanese": "灰皿",
+      "romaji": "haizara",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "f174be0d-8e64-47c3-910f-8077c8aad78c": {
+      "id": "0df51778-5bdd-4487-9cd1-a20d24908273",
+      "english": "Excuse me, waiter? (''getting attention of server'')",
+      "japanese": "済みません",
+      "romaji": "sumimasen",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "6e4280a3-ba7c-4d65-a468-a383e617d873": {
+      "id": "d9006d0c-82dd-41fb-b584-fc9844cdcaa9",
+      "english": "It was delicious. (when finishing a meal)",
+      "japanese": "ご馳走さまでした。",
+      "romaji": "Gochisōsama deshita.",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "b560c1cc-d037-427b-8c0c-21629ba550e9": {
+      "id": "d24ad773-4cbb-49a3-b89d-a019db2792a5",
+      "english": "Please clear the plates.",
+      "japanese": "お皿を下げてください。",
+      "romaji": "Osara o sagete kudasai.",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
+      ]
+    },
+    "4ee328d9-528b-4bac-9e57-b97c1cfaeffa": {
+      "id": "8122ff2f-96d0-4acb-9666-6b324493e0f0",
+      "english": "The check, please.",
+      "japanese": "お勘定お願いします。",
+      "romaji": "O-kanjo onegaishimasu.",
+      "sets": [
+        "fbe18548-e7bc-465c-93ec-25c2eb084a84"
       ]
     }
   },
@@ -505,6 +995,10 @@
     "5bbcdb75-3bbf-4e5d-83ce-65425be830fc": {
       "id": "5bbcdb75-3bbf-4e5d-83ce-65425be830fc",
       "name": "Basics"
+    },
+    "fbe18548-e7bc-465c-93ec-25c2eb084a84": {
+      "id": "fbe18548-e7bc-465c-93ec-25c2eb084a84",
+      "name": "Eating"
     }
   }
 }

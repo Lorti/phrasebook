@@ -12,7 +12,8 @@
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
     "build": "node build/build.js",
-    "convert": "node bin/convert-wiki-markup.js 5bbcdb75-3bbf-4e5d-83ce-65425be830fc | pbcopy"
+    "convert": "node bin/convert-wiki-markup.js basics.txt 5bbcdb75-3bbf-4e5d-83ce-65425be830fc | pbcopy",
+    "uuid": "node bin/uuid"
   },
   "dependencies": {
     "localforage": "^1.7.1",
