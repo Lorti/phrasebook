@@ -5,6 +5,9 @@ import localforage from 'localforage';
 
 import App from './App';
 import router from './router';
+import store from './store';
+
+import data from './assets/data.json';
 
 Vue.config.productionTip = false;
 
@@ -12,24 +15,12 @@ Vue.config.productionTip = false;
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>',
+  async created() {
+    await localforage.setItem('data', data);
+    await store.dispatch('SET_PHRASES');
+    await store.dispatch('SET_SETS');
+  },
 });
-
-const data = {
-  entries: {
-    456: {
-      id: 456,
-      english: 'Good afternoon.',
-      japanese: 'こんにちは。',
-      romaji: 'Konnichiwa.',
-      pronunciation: 'Kohn-nee-chee-wah',
-      sets: [123],
-    },
-  },
-  sets: {
-    123: { id: 123, name: 'basics' },
-  },
-};
-
-localforage.setItem('data', data);

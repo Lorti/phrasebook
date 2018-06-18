@@ -1,0 +1,30 @@
+{
+  "phrases": {
+    "1": {
+      "id": 456,
+      "english": "Good afternoon.",
+      "japanese": "こんにちは。",
+      "romaji": "Konnichiwa.",
+      "pronunciation": "Kohn-nee-chee-wah",
+      "sets": [
+        123
+      ]
+    },
+    "2": {
+      "id": 789,
+      "english": "How are you?",
+      "japanese": "お元気ですか？",
+      "romaji": "O-genki desu ka?",
+      "pronunciation": "Oh-GEN'-kee des-ka?",
+      "sets": [
+        123
+      ]
+    }
+  },
+  "sets": {
+    "123": {
+      "id": 123,
+      "name": "Basics"
+    }
+  }
+}
