@@ -1,29 +1,509 @@
 {
   "phrases": {
-    "1": {
-      "id": 456,
+    "85e959d8-7f64-4cf8-ba77-1d3972be143a": {
+      "id": "c9610387-08b1-4907-9033-5fae633885d5",
       "english": "Good afternoon.",
       "japanese": "こんにちは。",
       "romaji": "Konnichiwa.",
       "pronunciation": "Kohn-nee-chee-wah",
       "sets": [
-        123
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     },
-    "2": {
-      "id": 789,
+    "b2449e38-af94-4227-8e40-3b46ad07cf52": {
+      "id": "c01f0684-39fb-4837-94d4-ecac24dd49e5",
       "english": "How are you?",
-      "japanese": "お元気ですか？",
+      "japanese": "お元気ですか?",
       "romaji": "O-genki desu ka?",
       "pronunciation": "Oh-GEN'-kee des-ka?",
       "sets": [
-        123
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "026f203c-4931-44d7-827b-f74ef1576032": {
+      "id": "568c04b1-f1d1-4cfc-8a4e-b04ba7e7398c",
+      "english": "Fine, thank you.",
+      "japanese": "はい、元気です。",
+      "romaji": "Hai, genki desu.",
+      "pronunciation": "Hahy, GEN'-kee des.",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "00efcb5a-b302-4cee-a336-5e2ffc9bfa3d": {
+      "id": "8f258ccb-a06c-47af-ba28-6ac7f2456805",
+      "english": "How about you?",
+      "japanese": "あなたは？",
+      "romaji": "Anata wa?",
+      "pronunciation": "Ah-nah-tah wa?",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "c5b1ebd5-1502-4222-a03d-9f1d099bae33": {
+      "id": "bccbb3e3-4b8e-4134-9692-5cd0b4e39166",
+      "english": "What's your name? (lit. \"Your name is...\")",
+      "japanese": "お名前は？",
+      "romaji": "O-namae wa?",
+      "pronunciation": "Oh-nah-mah-eh wah?",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "b299b07b-fcdc-4bf9-8a0c-13520138c357": {
+      "id": "8e724cec-45d3-4bcb-875c-bd0c427a422c",
+      "english": "My name is ... .",
+      "japanese": "… です。",
+      "romaji": "... desu.",
+      "pronunciation": "... des.",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "53a3fc85-9846-4ce2-836a-430176b5b553": {
+      "id": "a027a800-c6d1-4998-b3b3-614dc4be4733",
+      "english": "My name is .... (honorific; highly formal)",
+      "japanese": "... と申します。",
+      "romaji": "... to mōshimasu.",
+      "pronunciation": "Toh MOHH-shee-mahs",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "7d45c401-a4b7-41bb-88d1-4dd185de79c3": {
+      "id": "7fa2b7f1-64f2-401c-9b35-6a7ce3df1233",
+      "english": "Nice to meet you. (formal)",
+      "japanese": "始めまして。どうぞ宜しくお願いします。",
+      "romaji": "Hajimemashite. Dōzo yoroshiku onegai shimasu",
+      "pronunciation": "Hah-jee-meh-mahsh-teh DOHH-zoh yoh-rohsh-koo oh-neh-gahy shee-mahs",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "81b95385-207d-40b9-bb92-2ef95e60b7a7": {
+      "id": "26a404ac-6b3a-4af6-ad80-914f72377513",
+      "english": "Please. (request)",
+      "japanese": "お願いします。",
+      "romaji": "Onegai shimasu.",
+      "pronunciation": "Oh-neh-gahy shee-mahs",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "84ac15ad-d1bb-447a-9ca6-0f10467f799b": {
+      "id": "b9f1a8e2-d19e-4b89-ab9e-0aa4093f6d31",
+      "english": "Please. (offer)",
+      "japanese": "どうぞ。",
+      "romaji": "Dōzo.",
+      "pronunciation": "DOHH-zoh",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "cebcdd2e-2426-449f-8979-85155d594400": {
+      "id": "82fec1ea-ba88-4272-87d0-a6045e15d517",
+      "english": "This person is ... . (when introducing somebody)",
+      "japanese": "こちらは …",
+      "romaji": "Kochira wa ...",
+      "pronunciation": "Koh-chee-rah wah ...",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "edb8ae8a-e387-4c74-adff-b9b025ea7a93": {
+      "id": "458312e0-459c-4902-9912-cdc6d08415c7",
+      "english": "Thank you very much. (formal)",
+      "japanese": "どうもありがとうございます。",
+      "romaji": "Dōmo arigatō gozaimasu.",
+      "pronunciation": "DOHH-moh ah-REE-gah-tohh goh-zahy-mahs",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "3cc762dd-b5fa-4ae5-9911-97ecd80f5348": {
+      "id": "86aba83b-19e4-45ce-b910-2036fce4d04b",
+      "english": "Thank you. (less formal)",
+      "japanese": "ありがとうございます。",
+      "romaji": "Arigatō gozaimasu.",
+      "pronunciation": "Ah-REE-gah-tohh goh-zahy-mahs",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "71180edd-bb0c-4b78-82be-d0458419e348": {
+      "id": "81a175ba-0374-42be-8fb5-7a464e50d7a0",
+      "english": "Thank you. (normal)",
+      "japanese": "ありがとう。",
+      "romaji": "Arigatō.",
+      "pronunciation": "Ah-REE-gah-tohh",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "c66a2fb0-82e8-48bb-b460-8ce023abdcd4": {
+      "id": "762a7536-8b24-4e3b-a6b6-db4ea4e6ccbb",
+      "english": "Thanks. (informal)",
+      "japanese": "どうも。",
+      "romaji": "Dōmo.",
+      "pronunciation": "DOHH-moh",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "1f131695-4b4e-41ed-9f1e-5966df842102": {
+      "id": "bf995990-9360-4ac5-bbba-6c7a7dd682b9",
+      "english": "You're welcome.",
+      "japanese": "どういたしまして。",
+      "romaji": "Dō itashimashite.",
+      "pronunciation": "Dohh ee-tah-shee-mahsh-teh",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "2ea2389e-a9b9-499d-98c4-b65e252c5209": {
+      "id": "2960cc62-5ae5-4b09-9feb-462b77ae8043",
+      "english": "yes",
+      "japanese": "はい",
+      "romaji": "hai",
+      "pronunciation": "Hahy",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "1e1d730b-275b-4d82-b27e-d4b539df01e1": {
+      "id": "11069eb4-1354-4616-bb3c-191145db46fc",
+      "english": "no",
+      "japanese": "いいえ",
+      "romaji": "iie",
+      "pronunciation": "Ee-eh",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "3c2c6597-cb78-4699-a399-bc8da666fa36": {
+      "id": "c36eabdf-acd7-4b38-ab58-43707902c67f",
+      "english": "Excuse me.",
+      "japanese": "すみません。",
+      "romaji": "Sumimasen.",
+      "pronunciation": "Soo-mee-mah-SEN'",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "972dcd89-0f60-4e1d-a753-bab8594eeeeb": {
+      "id": "322eaab3-94bc-40c8-a3cc-fedd5adf6cf2",
+      "english": "I'm sorry.",
+      "japanese": "ごめんなさい。",
+      "romaji": "Gomen nasai.",
+      "pronunciation": "Goh-men-nah-sahy",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "93c94dc5-ef72-46c7-a052-7854d5d996b2": {
+      "id": "b95ea903-e7a6-42f3-9c28-664c705e43ff",
+      "english": "I'm sorry. (informal)",
+      "japanese": "ごめん",
+      "romaji": "Gomen.",
+      "pronunciation": "Goh-men'",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "c7edc631-6570-4136-a6f9-0b09611bc23d": {
+      "id": "3dddbc7b-b229-417b-b30a-e9b7b6a708ec",
+      "english": "Goodbye. (long-term)",
+      "japanese": "さようなら。",
+      "romaji": "Sayōnara.",
+      "pronunciation": "Sah-yohh-nah-rah",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "d02f8692-dff8-4da6-b807-7379de920329": {
+      "id": "455345db-c509-4e90-9aeb-67d988f090f2",
+      "english": "Goodbye. (informal)",
+      "japanese": "じゃね。",
+      "romaji": "Ja ne.",
+      "pronunciation": "Jahh neh.",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "c16fd6d7-42cc-4f42-b3cd-f304eb1b247f": {
+      "id": "9e145380-cf2d-4538-996b-61bcec524510",
+      "english": "I can't speak Japanese (very well).",
+      "japanese": "日本語が（よく）話せません。",
+      "romaji": "Nihongo ga (yoku) hanasemasen.",
+      "pronunciation": "Nee-hohn'-goh gah (yoh-koo) hah-nah-seh-mah-sen'",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "c16532cb-eb49-4b72-8e97-9efe0153139c": {
+      "id": "fc32812c-9dee-4b03-a537-0ee1c7e1a13e",
+      "english": "Do you speak Japanese?",
+      "japanese": "日本語が話せますか？",
+      "romaji": "Nihongo ga hanasemasu ka?",
+      "pronunciation": "Nee-hohn'-goh gah hah-nah-seh-mahs kah?",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "d29dd901-c32a-4dd2-9a1a-6a0ca1e1e8da": {
+      "id": "34b3368d-ac34-4c32-8af6-95544d570777",
+      "english": "Yes, a little.",
+      "japanese": "はい、少し。",
+      "romaji": "Hai, sukoshi.",
+      "pronunciation": "Hahy, skoh-shee",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "76fe7eb8-2910-40b1-83fd-f1aa00b0f306": {
+      "id": "4b19ffb2-7a0d-4f82-afb9-3350410e7d5b",
+      "english": "Do you speak English?",
+      "japanese": "英語が話せますか？",
+      "romaji": "Eigo ga hanasemasu ka?",
+      "pronunciation": "Ey-goh gah hah-nah-seh-mahs kah?",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "1d32f54c-3bb8-4e75-91bb-b6cec9523a8b": {
+      "id": "1e22401d-87cb-4c0f-913f-fb14656f1eaa",
+      "english": "Is there someone here who speaks English?",
+      "japanese": "誰か英語が話せますか？",
+      "romaji": "Dareka eigo ga hanasemasu ka?",
+      "pronunciation": "Dah-reh-kah ey-goh gah hah-nah-seh-mahs kah?",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "496d4914-0654-4f4d-9507-97852cf5384e": {
+      "id": "9734c16e-b9b2-4e50-afa8-a0809065d1e2",
+      "english": "Please speak slowly.",
+      "japanese": "ゆっくり話してください。",
+      "romaji": "Yukkuri hanashite kudasai.",
+      "pronunciation": "Yook-koo-ree hah-nahsh-teh koo-dah-sahy",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "89d0c11c-fef4-4bb3-baf1-1371d555cbb8": {
+      "id": "7fe27047-6258-4ef9-a681-3ab312e4dc20",
+      "english": "Please say it again.",
+      "japanese": "もう一度言ってください。",
+      "romaji": "Mō ichido itte kudasai.",
+      "pronunciation": "Mohh ee-chee-doh eet-teh koo-dah-sahy",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "85c8f9e2-6a65-4fe4-ab13-8ee8bff11bf8": {
+      "id": "d8e97150-84a1-4364-ab0f-20ebde12bc9c",
+      "english": "Please help!",
+      "japanese": "助けて！",
+      "romaji": "Tasukete!",
+      "pronunciation": "Tah-skeh-teh!",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "c2668ca0-55ab-4dd2-aee8-67d0382b75ab": {
+      "id": "ba5ad9a0-06d4-4345-805e-ebeadc346c58",
+      "english": "Look out!",
+      "japanese": "危ない！",
+      "romaji": "Abunai!",
+      "pronunciation": "Ah-boo-NAHY!",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "fa391ada-d4a9-4007-a8da-e47d34c22b35": {
+      "id": "b5192623-1be0-4f70-8775-9ca7e2249336",
+      "english": "Good morning.",
+      "japanese": "お早うございます。",
+      "romaji": "Ohayō gozaimasu.",
+      "pronunciation": "Oh-hah-yohh goh-zahy-mahs",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "735f5c60-57dd-44c8-a730-560964cfc575": {
+      "id": "d8f0a813-ba82-46b0-8994-7ed882275b7b",
+      "english": "Good morning. (informal)",
+      "japanese": "おはよう。",
+      "romaji": "Ohayō.",
+      "pronunciation": null,
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "2e2cea39-594d-4b69-a543-1417a6989372": {
+      "id": "07e1647c-5204-4a47-83b2-eff67bac9120",
+      "english": "Good evening.",
+      "japanese": "こんばんは。",
+      "romaji": "Konbanwa.",
+      "pronunciation": "Kohm-bahng-wah",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "2694b2d6-7d72-4bcb-b864-fd61fa5285f3": {
+      "id": "d2478c33-9124-40a3-998e-d5de591b6cd1",
+      "english": "Good night (to sleep)",
+      "japanese": "お休みなさい。",
+      "romaji": "Oyasuminasai.",
+      "pronunciation": "Oh-yah-soo-mee-nah-sahy",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "7b0faaa9-ddaf-4eed-a286-131567b58d8f": {
+      "id": "994d8bef-dfdc-4563-8fc7-c59e8aeedcf9",
+      "english": "Good night (to sleep) (informal)",
+      "japanese": "お休み。",
+      "romaji": "Oyasumi.",
+      "pronunciation": null,
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "f3dd6746-cdcb-481a-b832-82d06073d6e4": {
+      "id": "83fb7f40-0093-43a0-846a-5a6fc993ffa7",
+      "english": "I don't understand.",
+      "japanese": "分かりません。",
+      "romaji": "Wakarimasen.",
+      "pronunciation": "Wah-kah-ree-mah-sen'",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "904fb35d-199e-4e70-bc94-c350c00fd25b": {
+      "id": "3cbc32f7-bc57-4b9b-9b5d-ce811d4ba298",
+      "english": "I am not Japanese.",
+      "japanese": "日本人ではありません。",
+      "romaji": "Nihonjin dewa arimasen.",
+      "pronunciation": "Nee-hohn-jeen deh-wah ah-ree-mah-sen'",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "da0bf0a5-0ff0-4db6-9933-1d40512af2d5": {
+      "id": "abc1ba49-ac2b-4a11-8fd4-677abb0d9368",
+      "english": "Where is the toilet?",
+      "japanese": "お手洗い・トイレはどこですか？",
+      "romaji": "Otearai/toire wa doko desu ka?",
+      "pronunciation": "Oh-teh-ah-rahy/toy-reh wah doh-koh des kah?",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "3b6fe09c-4160-4968-bbaa-b84f4df8a297": {
+      "id": "fd018c08-f7ad-4995-b969-af76fdfe3e10",
+      "english": "What?",
+      "japanese": "何？",
+      "romaji": "Nani?",
+      "pronunciation": "Nah-nee?",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "a588ae9b-1273-4d24-8b86-b81724d308f8": {
+      "id": "170e85dc-b7f2-475f-8ffe-baf420725985",
+      "english": "Where?",
+      "japanese": "どこ？",
+      "romaji": "Doko?",
+      "pronunciation": "Doh-koh?",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "39b6b6bf-ddd9-4c09-9f81-7d0df197f8ed": {
+      "id": "f515ca30-d5f1-4e92-8098-f11058d72b9b",
+      "english": "Who?",
+      "japanese": "誰？",
+      "romaji": "Dare?",
+      "pronunciation": "Dah-reh?",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "5c1a797f-22f2-47e8-90aa-3ab05ae8cbe2": {
+      "id": "f64a9190-445e-414b-afa0-568a0a2fab93",
+      "english": "When?",
+      "japanese": "いつ？",
+      "romaji": "Itsu?",
+      "pronunciation": "Eet-soo?",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "1dbf56b0-30bf-47de-b5f3-3cffe85ba957": {
+      "id": "227f914c-09be-403a-a6f7-78a05d0caf92",
+      "english": "Which?",
+      "japanese": "どれ？",
+      "romaji": "Dore?",
+      "pronunciation": "Doh-reh?",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "df2b3dc5-90a8-48d5-8581-effe1b462394": {
+      "id": "13ee8613-43d2-4e7a-b1f8-1ffe8ca16bd8",
+      "english": "Why?",
+      "japanese": "どうして",
+      "romaji": "Dōshite",
+      "pronunciation": "DOHH-sh'teh?",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "77874f18-1af4-4bdf-adb0-547563d76707": {
+      "id": "c7c15055-6ea7-4fe0-83fc-38c2faba5ba2",
+      "english": "Why? (informal)",
+      "japanese": "なんで？",
+      "romaji": "Nande",
+      "pronunciation": "NAHN-deh?",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "6146a794-3f24-4340-9beb-bd5e60039c5a": {
+      "id": "578d7acf-822c-4f8c-be09-8c6c9969a131",
+      "english": "How?",
+      "japanese": "どうやって？",
+      "romaji": "Dōyatte",
+      "pronunciation": "DOHH yaht-teh?",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "063166b0-ed71-4736-8362-7c28cc473d1a": {
+      "id": "d9992348-990e-4d6b-b71e-34309380b899",
+      "english": "How much?",
+      "japanese": "いくら？",
+      "romaji": "Ikura?",
+      "pronunciation": "Ee-koo-rah?",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
+      ]
+    },
+    "498ebf88-60a5-4537-acb5-c41c5aeac59d": {
+      "id": "e667245c-9b4f-4325-8ca6-75a391e4b50f",
+      "english": "What type of?",
+      "japanese": "どんな？",
+      "romaji": "Donna?",
+      "pronunciation": "DOHN-nah?",
+      "sets": [
+        "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
       ]
     }
   },
   "sets": {
-    "123": {
-      "id": 123,
+    "5bbcdb75-3bbf-4e5d-83ce-65425be830fc": {
+      "id": "5bbcdb75-3bbf-4e5d-83ce-65425be830fc",
       "name": "Basics"
     }
   }
