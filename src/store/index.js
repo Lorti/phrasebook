@@ -1,16 +1,13 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
-import localforage from 'localforage';
 
 Vue.use(Vuex);
 
 const actions = {
-  async SET_PHRASES({ commit }) {
-    const { phrases } = await localforage.getItem('data');
+  async FETCH_DATABASE({ commit }) {
+    const { phrases, sets } = await fetch('/static/data.json')
+      .then(response => response.json());
     commit('SET_PHRASES', phrases);
-  },
-  async SET_SETS({ commit }) {
-    const { sets } = await localforage.getItem('data');
     commit('SET_SETS', sets);
   },
 };
