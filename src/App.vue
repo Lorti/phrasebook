@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>🇯🇵 Phrasebook</h1>
+    <h1><router-link to="/">🇯🇵 Phrasebook</router-link></h1>
     <transition name="fade" mode="out-in">
       <router-view/>
     </transition>
@@ -27,5 +27,9 @@ export default {
 .fade-enter,
 .fade-leave-to {
   opacity: 0;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
 }
 </style>

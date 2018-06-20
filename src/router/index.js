@@ -10,13 +10,15 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Sets',
+      redirect: 'sets',
+    },
+    {
+      path: '/sets',
       component: Sets,
     },
     {
       path: '/sets/:set',
       props: true,
-      name: 'Phrases',
       component: Phrases,
     },
   ],

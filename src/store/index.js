@@ -19,6 +19,17 @@ const mutations = {
   SET_SETS: (state, sets) => {
     state.sets = sets;
   },
+  ADD_FAVORITE: (state, phrase) => {
+    if (!state.favorites.includes(phrase)) {
+      state.favorites.push(phrase);
+    }
+  },
+  REMOVE_FAVORITE: (state, phrase) => {
+    const index = state.favorites.indexOf(phrase);
+    if (index) {
+      state.favorites.splice(index, 1);
+    }
+  },
 };
 
 const getters = {
@@ -29,12 +40,14 @@ const getters = {
     }
     return list.filter(phrase => phrase.sets.includes(set));
   },
+  isFavorite: state => phrase => state.favorites.includes(phrase),
 };
 
 export default new Vuex.Store({
   state: {
-    phrases: null,
-    sets: null,
+    phrases: {},
+    sets: {},
+    favorites: [],
   },
   actions,
   mutations,

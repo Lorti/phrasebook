@@ -1,6 +1,6 @@
 {
   "name": "phrasebook",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A Vue.js project",
   "author": "Manuel Wieser <office@manuelwieser.com>",
   "private": true,
