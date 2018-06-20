@@ -1,9 +1,13 @@
 {
   "name": "phrasebook",
   "version": "0.1.0",
-  "description": "A Vue.js project",
-  "author": "Manuel Wieser <office@manuelwieser.com>",
-  "private": true,
+  "description": "Interactive Japanese phrasebook optimized for travelling and offline usage, using data from Wikitravel",
+  "author": {
+    "name": "Manuel Wieser",
+    "email": "office@manuelwieser.com",
+    "url": "https://manu.ninja/"
+  },
+  "license": "MIT",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",

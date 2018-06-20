@@ -2,7 +2,7 @@
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/manuninja)
 
-Interactive Japanese phrasebook optimized for travelling and offline usage, using data from the [Japanese phrasebook](https://wikitravel.org/en/Japanese_phrasebook) on Wikitravel
+Interactive Japanese phrasebook optimized for travelling and offline usage, using data from [Wikitravel](https://wikitravel.org/en/Japanese_phrasebook)
 
 ---
 
