@@ -1,6 +1,6 @@
 <template>
   <md-list class="md-double-line">
-    <template v-for="(phrase, index) in phrases">
+    <template v-for="phrase in phrases">
       <md-list-item :key="phrase.id">
         <div class="md-list-item-text">
           <span>{{ phrase.english }}</span>
@@ -13,9 +13,6 @@
           <md-icon v-else class="md-primary">favorite_border</md-icon>
         </md-button>
       </md-list-item>
-
-      <md-divider v-if="index < phrases.length - 1"
-                  :key="`${phrase.id}-divider`"/>
     </template>
   </md-list>
 </template>
@@ -43,3 +40,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+  .md-list-item-text {
+    white-space: normal;
+  }
+</style>

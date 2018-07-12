@@ -1,6 +1,6 @@
 <template>
   <md-list class="md-triple-line">
-    <template v-for="(set, id, index) in sets">
+    <template v-for="set in sets">
       <md-list-item :key="set.id" :to="`/sets/${ set.id }`">
         <div class="md-list-item-text">
           <span>{{ set.name }}</span>
@@ -12,8 +12,6 @@
           <md-icon class="md-primary">favorite_border</md-icon>
         </md-button>
       </md-list-item>
-
-      <md-divider v-if="index < Object.keys(sets).length - 1" :key="`${set.id}-divider`"/>
     </template>
   </md-list>
 </template>

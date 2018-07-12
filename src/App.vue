@@ -59,16 +59,13 @@ export default {
   @import "~vue-material/dist/theme/all";
 
   html,
-  body {
+  body,
+  .md-app {
     height: 100%;
   }
 
   a {
     color: inherit;
     text-decoration: none !important;
-  }
-
-  .md-app {
-    height: 100%;
   }
 </style>
