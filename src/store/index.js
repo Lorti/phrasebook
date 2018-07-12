@@ -26,7 +26,7 @@ const mutations = {
   },
   REMOVE_FAVORITE: (state, phrase) => {
     const index = state.favorites.indexOf(phrase);
-    if (index) {
+    if (index !== -1) {
       state.favorites.splice(index, 1);
     }
   },
@@ -41,6 +41,8 @@ const getters = {
     return list.filter(phrase => phrase.sets.includes(set));
   },
   isFavorite: state => phrase => state.favorites.includes(phrase),
+  phrasesCount: (state, _getters) => set => _getters.phrases(set).length,
+  firstPhrase: (state, _getters) => set => _getters.phrases(set).shift(),
 };
 
 export default new Vuex.Store({

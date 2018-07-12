@@ -1,20 +1,23 @@
 <template>
-  <div>
-    <dl v-for="phrase in phrases" :key="phrase.id">
-      <label>
-        <input type="checkbox"
-               :checked="isFavorite(phrase.id)"
-               @change="toggleFavorite(phrase.id)">
-        <span v-if="isFavorite(phrase.id)">★</span>
-        <span v-else>☆</span>
-      </label>
-      <dt>{{ phrase.english }}</dt>
-      <dd>
-        {{ phrase.japanese }}
-        <em>{{ phrase.romaji }}</em>
-      </dd>
-    </dl>
-  </div>
+  <md-list class="md-double-line">
+    <template v-for="(phrase, index) in phrases">
+      <md-list-item :key="phrase.id">
+        <div class="md-list-item-text">
+          <span>{{ phrase.english }}</span>
+          <span>{{ phrase.japanese }} <em>{{ phrase.romaji }}</em></span>
+        </div>
+
+        <md-button class="md-icon-button md-list-action"
+                   @click="toggleFavorite(phrase.id)">
+          <md-icon v-if="isFavorite(phrase.id)" class="md-primary">favorite</md-icon>
+          <md-icon v-else class="md-primary">favorite_border</md-icon>
+        </md-button>
+      </md-list-item>
+
+      <md-divider v-if="index < phrases.length - 1"
+                  :key="`${phrase.id}-divider`"/>
+    </template>
+  </md-list>
 </template>
 
 <script>
@@ -40,18 +43,3 @@ export default {
   },
 };
 </script>
-
-<style scoped lang="scss">
-dt {
-  font-weight: bold;
-}
-label {
-  width: 44px;
-  height: 44px;
-  float: right;
-  text-align: right;
-}
-input {
-  display: none;
-}
-</style>

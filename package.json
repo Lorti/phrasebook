@@ -23,6 +23,7 @@
     "localforage": "^1.7.1",
     "sass-loader": "^7.0.3",
     "vue": "^2.5.2",
+    "vue-material": "^1.0.0-beta-10.2",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },
@@ -82,7 +83,8 @@
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
     "webpack-dev-server": "^2.9.1",
-    "webpack-merge": "^4.1.0"
+    "webpack-merge": "^4.1.0",
+    "workbox-webpack-plugin": "^3.3.0"
   },
   "engines": {
     "node": ">= 6.0.0",
