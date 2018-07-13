@@ -27,3 +27,7 @@ new Vue({
     await store.dispatch('FETCH_DATABASE');
   },
 });
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/service-worker.js');
+}

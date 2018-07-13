@@ -10,6 +10,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin')
 
 const env = process.env.NODE_ENV === 'testing'
   ? require('../config/test.env')
@@ -123,7 +124,15 @@ const webpackConfig = merge(baseWebpackConfig, {
         from: path.resolve(__dirname, '../_redirects'),
         to: config.build.assetsRoot,
       }
-    ])
+    ]),
+
+    new SWPrecacheWebpackPlugin(
+      {
+        cacheId: 'phrasebook',
+        filename: 'service-worker.js',
+        staticFileGlobsIgnorePatterns: [/\.map$/],
+      }
+    ),
   ]
 })
 

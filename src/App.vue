@@ -40,7 +40,7 @@
         </p>
         <p>Developed with ❤️ by Manuel Wieser</p>
         <p><a href="https://twitter.com/manuelwieser">@manuelwieser</a> | <a href="https://manu.ninja">manu.ninja</a></p>
-        <p><a href="https://www.paypal.me/manuninja"><img src="https://img.shields.io/badge/Donate-PayPal-blue.svg" alt="Donate"></a></p>
+        <p><a href="https://www.paypal.me/manuninja"><img src="./assets/paypal.svg" alt="Donate"></a></p>
         <p>© {{ (new Date()).getFullYear() }} Manuel Wieser</p>
       </footer>
     </md-app-content>

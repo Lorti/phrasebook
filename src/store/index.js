@@ -11,10 +11,11 @@ const actions = {
     commit('SET_PHRASES', phrases);
     commit('SET_SETS', sets);
 
-    let favorites = await localforage.getItem('favorites');
-    const validPhrases = [...Object.values(state.phrases)].map(phrase => phrase.id);
-    favorites = JSON.parse(favorites).filter(id => validPhrases.includes(id));
-    commit('SET_FAVORITES', favorites);
+    const favorites = JSON.parse(await localforage.getItem('favorites'));
+    if (favorites) {
+      const validPhrases = [...Object.values(state.phrases)].map(phrase => phrase.id);
+      commit('SET_FAVORITES', favorites.filter(id => validPhrases.includes(id)));
+    }
   },
   async ADD_FAVORITE({ commit, state }, phrase) {
     commit('ADD_FAVORITE', phrase);
