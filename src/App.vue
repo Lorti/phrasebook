@@ -1,5 +1,5 @@
 <template>
-  <md-app>
+  <md-app :md-scrollbar="false">
     <md-app-toolbar class="md-primary">
       <router-link to="/" class="md-title">🇯🇵 Phrasebook</router-link>
 
