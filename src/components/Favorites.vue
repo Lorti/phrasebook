@@ -11,8 +11,14 @@
     <md-list class="md-double-line">
       <md-list-item v-for="phrase in filteredPhrases" :key="phrase.id">
         <div class="md-list-item-text">
-          <span>{{ phrase.english }}</span>
-          <span>{{ phrase.japanese }} <em>{{ phrase.romaji }}</em></span>
+          <template v-if="!$store.state.settings.swapLanguages">
+            <span>{{ phrase.english }}</span>
+            <span>{{ phrase.japanese }} <em>{{ phrase.romaji }}</em></span>
+          </template>
+          <template v-else>
+            <span>{{ phrase.japanese }}</span>
+            <span>{{ phrase.romaji }} <em>{{ phrase.english }}</em></span>
+          </template>
         </div>
 
         <md-button class="md-icon-button md-list-action" :md-ripple="false"

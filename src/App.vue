@@ -17,12 +17,10 @@
 
       <md-list>
         <md-list-item>
-          <md-icon>cloud_upload</md-icon>
-          <span class="md-list-item-text">Import</span>
-        </md-list-item>
-        <md-list-item>
-          <md-icon>cloud_download</md-icon>
-          <span class="md-list-item-text">Export</span>
+          <md-icon>swap_vert</md-icon>
+          <span class="md-list-item-text">
+            <md-checkbox v-model="swapLanguages">Swap English/Japanese</md-checkbox>
+          </span>
         </md-list-item>
         <md-list-item href="https://manu.ninja">
           <md-icon>info</md-icon>
@@ -55,6 +53,16 @@ export default {
       menuVisible: false,
     };
   },
+  computed: {
+    swapLanguages: {
+      get() {
+        return this.$store.state.settings.swapLanguages;
+      },
+      set(value) {
+        this.$store.commit('TOGGLE_SETTING_SWAP_LANGUAGES', value);
+      },
+    },
+  }
 };
 </script>
 
