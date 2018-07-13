@@ -13,7 +13,7 @@
           <span>{{ phrase.japanese }} <em>{{ phrase.romaji }}</em></span>
         </div>
 
-        <md-button class="md-icon-button md-list-action"
+        <md-button class="md-icon-button md-list-action" :md-ripple="false"
                    @click="toggleFavorite(phrase.id)">
           <md-icon v-if="isFavorite(phrase.id)" class="md-primary">favorite</md-icon>
           <md-icon v-else class="md-primary">favorite_border</md-icon>

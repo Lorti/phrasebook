@@ -8,7 +8,7 @@
           <p>{{ first(set.id).japanese }}…</p>
         </div>
 
-        <md-button class="md-icon-button md-list-action">
+        <md-button class="md-icon-button md-list-action" :md-ripple="false">
           <md-icon class="md-primary">favorite_border</md-icon>
         </md-button>
       </md-list-item>
