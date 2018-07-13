@@ -38,9 +38,10 @@ export default {
     },
     filteredPhrases() {
       if (this.filter.length) {
-        return this.phrases.filter(phrase => phrase.japanese.includes(this.filter) ||
-            phrase.english.includes(this.filter) ||
-            phrase.romaji.includes(this.filter));
+        return this.phrases.filter((phrase) => {
+          const haystack = (phrase.japanese + phrase.english + phrase.romaji).toLowerCase();
+          return haystack.includes(this.filter.toLowerCase());
+        });
       }
       return this.phrases;
     },
