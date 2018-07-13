@@ -989,7 +989,603 @@
       "sets": [
         "fbe18548-e7bc-465c-93ec-25c2eb084a84"
       ]
+    },
+    "becc1e99-88ac-4cf0-bcac-b91a0cf9f9f3": {
+      "id": "69954371-90a3-4aa0-a422-c8ae2731af92",
+      "english": "small roundish objects (apples, sweets)",
+      "japanese": "個",
+      "romaji": "-ko",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "5b58849f-3a88-4481-83aa-793eed840fe1": {
+      "id": "66bcf3cf-3457-4c96-bb06-360eeb60463c",
+      "english": "people",
+      "japanese": "人",
+      "romaji": "-nin",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "3c3d05d9-87dc-49dc-9271-b744fac0f665": {
+      "id": "137d78c5-24cd-4e99-a7d4-5add1b0b2653",
+      "english": "animals",
+      "japanese": "匹",
+      "romaji": "-hiki, -biki, -piki",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "467999d2-f887-4f33-b307-f10fc35b664c": {
+      "id": "e30d4b57-b394-475a-a538-42e1d1437e97",
+      "english": "flat objects (papers, tickets)",
+      "japanese": "枚",
+      "romaji": "-mai",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "11def838-6aef-4285-b50f-d96b9c623e68": {
+      "id": "0eeee9bc-c08e-4c9f-a086-c0334bf03aa5",
+      "english": "long objects (bottles, pens)",
+      "japanese": "本",
+      "romaji": "-hon, -bon, -pon",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "7d6c7cbf-376a-41b8-9341-5208f1c26662": {
+      "id": "33ca3aec-086a-4fe9-afa3-60debbc4ad24",
+      "english": "cups, glasses",
+      "japanese": "杯",
+      "romaji": "-hai, -bai, -pai",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "fbd0f74c-50f7-4bb5-a0d9-c64a2e22c498": {
+      "id": "b7a4c5d7-b9f3-4585-ad99-5f6e637808bf",
+      "english": "nights of a stay",
+      "japanese": "泊",
+      "romaji": "-haku, -paku",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "bc9cfe27-b96e-46ca-9298-7da28ce05041": {
+      "id": "5c1a81bb-f9d6-4bda-b35d-330f98490907",
+      "english": "years (age)",
+      "japanese": "歳",
+      "romaji": "-sai",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "298c4c58-6ff9-47db-893b-8898e8b8d069": {
+      "id": "0d6363b5-5edb-4aa8-8578-15a1bfe11cd3",
+      "english": "1",
+      "japanese": "一つ",
+      "romaji": "hitotsu",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "9e98f102-a183-461f-83fa-af845ce3f33a": {
+      "id": "1f4ea169-cb5d-437b-a1d9-d767ab35968f",
+      "english": "2",
+      "japanese": "二つ",
+      "romaji": "futatsu",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "67302965-08cc-4108-bfb2-25da1efbbba2": {
+      "id": "5f930a3e-06a4-4a34-b9d4-472712869a17",
+      "english": "3",
+      "japanese": "三つ",
+      "romaji": "mittsu",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "b3ad7b62-8aae-4587-88f5-a2313928f830": {
+      "id": "d576ada6-0422-4e6b-a811-a7b2f90e6e52",
+      "english": "4",
+      "japanese": "四つ",
+      "romaji": "yottsu",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "6106b4d2-3b7f-40d7-9759-500dadac390f": {
+      "id": "194d26a3-5b5a-4af5-a873-f1c46774a273",
+      "english": "5",
+      "japanese": "五つ",
+      "romaji": "itsutsu",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "5fa2b0fa-e0bd-42df-a651-d9d94067c795": {
+      "id": "0504b68c-5ad1-4d17-a01b-8d6fe5f3dc75",
+      "english": "6",
+      "japanese": "六つ",
+      "romaji": "muttsu",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "7ea8e0f7-a40a-495c-b342-0967ea2e8410": {
+      "id": "82aa1419-9c5f-450b-8848-20d1773f5a20",
+      "english": "7",
+      "japanese": "七つ",
+      "romaji": "nanatsu",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "ee20f702-74cc-49a1-9a47-54389300fcd4": {
+      "id": "7f1549b7-6009-4898-81ed-dc5abe2f8fe6",
+      "english": "8",
+      "japanese": "八つ",
+      "romaji": "yattsu",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "bc82d88e-fc89-4538-a5d8-1a4ae4561f42": {
+      "id": "7bd18581-f0ec-4591-94d3-e8463494a0dd",
+      "english": "9",
+      "japanese": "九つ",
+      "romaji": "kokonotsu",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "ba5d2719-c321-4a8a-82e0-32f8c2bfc0c4": {
+      "id": "b16c25ac-4cfc-4cdc-86c3-349bc2bfbbc2",
+      "english": "0",
+      "japanese": "〇",
+      "romaji": "zero",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "4ccbc621-8473-4fef-b3ab-e02f3b71e7a5": {
+      "id": "aec31508-6b69-4000-8f6f-73c1316fae65",
+      "english": "1",
+      "japanese": "一",
+      "romaji": "ichi",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "bbbbe03f-bc3f-40e0-9536-94dc9fb28c0c": {
+      "id": "77fea3d3-0fea-4294-bab2-18327686e5ce",
+      "english": "2",
+      "japanese": "二",
+      "romaji": "ni",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "ef5ad535-813a-4311-8ed6-22ddbda3a4f8": {
+      "id": "87e21b64-6e64-4a0d-a719-3437dd4bfe5c",
+      "english": "3",
+      "japanese": "三",
+      "romaji": "san",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "4bafed3f-7f60-465b-ab8c-6fbb09a0779a": {
+      "id": "bd69cf0e-39c5-46bb-bcf9-28d8515b15ae",
+      "english": "4",
+      "japanese": "四",
+      "romaji": "yon",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "10884975-ac46-4067-ae84-fb610bfc0b6e": {
+      "id": "1121e1e3-3c6d-4039-92ca-0beabea6fb34",
+      "english": "5",
+      "japanese": "五",
+      "romaji": "go",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "506d3804-807f-4dc7-ae65-6a5834b840de": {
+      "id": "ef72b705-54c3-41da-bee2-7d10691b707e",
+      "english": "6",
+      "japanese": "六",
+      "romaji": "roku",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "af172bd6-15f0-470e-8616-a4f89f49a589": {
+      "id": "50a5a779-a11e-4ad1-9c1f-4b5dacddb37c",
+      "english": "7",
+      "japanese": "七",
+      "romaji": "nana",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "b1f957c1-e902-4b9e-9a09-02790fb9d9b5": {
+      "id": "c819762c-3abf-48c8-b55c-1faebb70ac3f",
+      "english": "8",
+      "japanese": "八",
+      "romaji": "hachi",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "2fdac4bd-dac6-47c8-be77-990608a12cab": {
+      "id": "08285805-a99e-4af9-9c7a-1ce2ae9a874c",
+      "english": "9",
+      "japanese": "九",
+      "romaji": "kyū",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "2c7909d8-cc13-499a-9042-0cfeabac3f4c": {
+      "id": "d2a3524c-b494-41f6-9738-cf3598163d18",
+      "english": "10",
+      "japanese": "十",
+      "romaji": "jū",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "d5d5860c-1446-448b-a87c-fef136d8f0a5": {
+      "id": "e57b3288-337c-491b-8e13-a39628079384",
+      "english": "11",
+      "japanese": "十一",
+      "romaji": "jū-ichi",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "3718112c-d88d-49cf-b890-61918dba3819": {
+      "id": "4bf32dd6-1747-4996-a61d-69aca1a10cb5",
+      "english": "12",
+      "japanese": "十二",
+      "romaji": "jū-ni",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "66316345-18d9-41f9-86a0-330f5ad60ce1": {
+      "id": "1e9b62e0-3ce7-4946-b56e-5641f7ec9842",
+      "english": "13",
+      "japanese": "十三",
+      "romaji": "jū-san",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "e2dec597-ba1b-4caf-a31a-6267bc87031d": {
+      "id": "092846a8-7b7c-4cd5-ad45-91c55aed5c4a",
+      "english": "14",
+      "japanese": "十四",
+      "romaji": "jū-yon",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "b9f94c71-b7ab-4669-953e-0a6a6b9623e8": {
+      "id": "7a313760-026c-4b8f-9cd0-06b4d774a645",
+      "english": "15",
+      "japanese": "十五",
+      "romaji": "jū-go",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "ba998cba-2c87-4448-b63f-27b80e79ec82": {
+      "id": "a14db755-0deb-4a66-9c81-3a1ef8c7de8d",
+      "english": "16",
+      "japanese": "十六",
+      "romaji": "jū-roku",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "dded610d-a752-4bef-b60c-0499de1a85d6": {
+      "id": "95311e45-841b-4227-b7af-aea1b32f57b6",
+      "english": "17",
+      "japanese": "十七",
+      "romaji": "jū-nana",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "5dddc295-5507-4043-b505-5df91cf8eec7": {
+      "id": "c03034a0-05d0-4916-adfd-cb66c268bf08",
+      "english": "18",
+      "japanese": "十八",
+      "romaji": "jū-hachi",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "b60508a0-513e-4a6f-82ae-59b847bd8083": {
+      "id": "5c24c7d8-945a-49c7-8c2c-b0e588ecc67e",
+      "english": "19",
+      "japanese": "十九",
+      "romaji": "jū-kyū",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "57a25a65-9a11-4168-b797-74f0f756218c": {
+      "id": "e79630f4-6371-4770-b34f-3025bb5ccb2b",
+      "english": "20",
+      "japanese": "二十",
+      "romaji": "ni-jū",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "8f7205d5-4f03-432f-830e-e066e0a19113": {
+      "id": "12c566f6-f2ca-45df-9629-60103c9c1e50",
+      "english": "21",
+      "japanese": "二十一",
+      "romaji": "ni-jū-ichi",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "89bb018e-5782-4683-b53c-633e5b700059": {
+      "id": "cff63b6d-6eac-491e-9e32-a0ca63870e75",
+      "english": "22",
+      "japanese": "二十二",
+      "romaji": "ni-jū-ni",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "083b454b-c8f3-41f2-bf5a-fa3d43287916": {
+      "id": "b8deeb84-7f05-4ce6-bf8e-bd2dc1ded715",
+      "english": "23",
+      "japanese": "二十三",
+      "romaji": "ni-jū-san",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "e62d9f25-50c0-4f52-a195-d038292b89d4": {
+      "id": "dbcfe47b-7b50-460e-9138-fb52652c99b0",
+      "english": "30",
+      "japanese": "三十",
+      "romaji": "san-jū",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "3e1a96c9-1e27-4104-aed1-79927859331b": {
+      "id": "5dcfee02-dcda-4dcb-8b69-6c90a5a9114d",
+      "english": "40",
+      "japanese": "四十",
+      "romaji": "yon-jū",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "fdd3cf8e-dc02-4b03-a3be-748482a5ac1e": {
+      "id": "f8904bb8-978a-410d-81cc-9b805d44da11",
+      "english": "50",
+      "japanese": "五十",
+      "romaji": "go-jū",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "ce295e41-63ea-4cd9-ad03-ea8620900e71": {
+      "id": "81c2a279-d43f-4501-b709-b6551939861a",
+      "english": "60",
+      "japanese": "六十",
+      "romaji": "roku-jū",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "d8e14aad-6033-4bb8-ba91-95c3b3d93f7c": {
+      "id": "eb08f7cb-4a86-4880-9960-bfd926db9c92",
+      "english": "70",
+      "japanese": "七十",
+      "romaji": "nana-jū",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "1fc2bb92-fa79-4118-9648-7d62fd99a8c4": {
+      "id": "b5f64481-ebfb-4d77-b42d-e6071b62c458",
+      "english": "80",
+      "japanese": "八十",
+      "romaji": "hachi-jū",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "0eddf5bb-8968-4f12-ac3e-0694426a6d18": {
+      "id": "b409185f-4fc7-4b03-956d-55c0eefb9f7c",
+      "english": "90",
+      "japanese": "九十",
+      "romaji": "kyū-jū",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "99db445f-1dba-48af-b49d-283766377187": {
+      "id": "f8264a22-b352-421a-a841-370285301cb8",
+      "english": "100",
+      "japanese": "百",
+      "romaji": "hyaku",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "db9666c5-56e2-4fa7-b3b3-a8041fe7e7ab": {
+      "id": "8b3eaed8-621d-4fd9-a0ce-fc0d4727a9ea",
+      "english": "200",
+      "japanese": "二百",
+      "romaji": "nihyaku",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "08325efe-4a57-4280-a381-a423e61bf574": {
+      "id": "b265f143-4755-411e-8af0-446331395c8f",
+      "english": "300",
+      "japanese": "三百",
+      "romaji": "sambyaku",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "baaadeaf-2ea1-4a17-b642-cf454169eedd": {
+      "id": "13f3fee3-fe99-4347-9436-45dd679391bc",
+      "english": "600",
+      "japanese": "六百",
+      "romaji": "roppyaku",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "a2242810-1d30-4376-97dc-cec8359de329": {
+      "id": "5f532e36-2f3c-4e51-ba69-6a6710f9ca91",
+      "english": "800",
+      "japanese": "八百",
+      "romaji": "happyaku",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "75d3e080-60e2-4983-a536-8af9e1683333": {
+      "id": "4257e167-2818-41cf-9e93-d4f9660f27c6",
+      "english": "1000",
+      "japanese": "千",
+      "romaji": "sen",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "c2fd657c-a9ee-4112-a317-36b29d9f244d": {
+      "id": "af3b5977-d438-41f0-bdd0-a0c94e2fd8b2",
+      "english": "2000",
+      "japanese": "二千",
+      "romaji": "ni-sen",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "e960ea23-3172-49f0-b3cf-9e48ac0ef70e": {
+      "id": "c75741dc-f765-457a-acae-01df8ddfe310",
+      "english": "3000",
+      "japanese": "三千",
+      "romaji": "san-zen",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "006638b0-d41e-4e4d-a634-c3a4d555029c": {
+      "id": "435f8c2c-d455-4893-9117-3a5d539d0899",
+      "english": "10,000",
+      "japanese": "一万",
+      "romaji": "ichi-man",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "6742c9c1-062d-4daf-8fea-23bba1b0c2b7": {
+      "id": "697c6a60-7a4c-4abb-870e-125e5b790f16",
+      "english": "1,000,000",
+      "japanese": "百万",
+      "romaji": "hyaku-man",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "d4c9fb2e-3160-4faf-8d54-2dc324f9ab01": {
+      "id": "319fcaa7-04ab-4e47-9b9b-ffcbcc18c67b",
+      "english": "100,000,000",
+      "japanese": "一億",
+      "romaji": "ichi-oku",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "62b63381-f650-4c1e-8719-1edf17a44734": {
+      "id": "3153cb48-a116-4944-9d45-1b0bb11cfeb2",
+      "english": "1,000,000,000,000",
+      "japanese": "一兆",
+      "romaji": "itchō",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "21f39e84-fdbf-4a82-af03-a4bdae0c9f0e": {
+      "id": "9c1f957d-4ed6-447e-9bb6-5007cc2a4003",
+      "english": "0.5",
+      "japanese": "〇・五",
+      "romaji": "rei ten go",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "471c3e3d-ad0f-450d-ae9c-da3432a44e51": {
+      "id": "07373e06-66c2-44e9-a4e9-acf63bd7b711",
+      "english": "0.56",
+      "japanese": "〇・五六",
+      "romaji": "rei ten go-roku",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "272ba431-222e-40fd-a62e-66076faa200b": {
+      "id": "adb46dda-78eb-4175-a367-43284f159d71",
+      "english": "number _____ (''train, bus, etc.'')",
+      "japanese": "_____番",
+      "romaji": "____ ban",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "3bbfa4fb-a0e1-4e0d-b725-1df286fe1d73": {
+      "id": "168dcb18-b6d5-4afd-b395-0bef7e355194",
+      "english": "half",
+      "japanese": "半分",
+      "romaji": "hambun",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "a8ee19e3-8445-4fd0-b035-d26820252751": {
+      "id": "fb7ddf13-6975-4781-b13d-b055a39cb960",
+      "english": "less (few)",
+      "japanese": "少ない",
+      "romaji": "sukunai",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
+    },
+    "844bd680-49dc-4f39-997a-7ecf80b67ede": {
+      "id": "835dad62-2de9-4acb-82c3-70d3a15dc1e3",
+      "english": "more (many)",
+      "japanese": "多い",
+      "romaji": "ōi",
+      "sets": [
+        "c6c6b26c-c407-4de0-8720-67442b74065c"
+      ]
     }
+
+
   },
   "sets": {
     "5bbcdb75-3bbf-4e5d-83ce-65425be830fc": {
@@ -999,6 +1595,11 @@
     "fbe18548-e7bc-465c-93ec-25c2eb084a84": {
       "id": "fbe18548-e7bc-465c-93ec-25c2eb084a84",
       "name": "Eating"
+    },
+    "c6c6b26c-c407-4de0-8720-67442b74065c": {
+      "id": "c6c6b26c-c407-4de0-8720-67442b74065c",
+      "name": "Numbers",
+      "notes": "<h4>Numbers</h4><p>While Arabic (Western) numerals are employed for most uses in Japan, you will occasionally still spot Japanese numerals at eg. markets and the menus of fancy restaurants.  The characters used are nearly identical to Chinese numerals, and like Chinese, Japanese uses groups of 4 digits, not 3. \"One million\" is thus 百万 (<i>hyaku-man</i>), literally \"hundred ten-thousands\".</p><p>There are both Japanese and Chinese readings for most numbers, but presented below are the more commonly used Chinese readings.  Note that, due to superstition (<i>shi</i> also means \"death\"), 4 and 7 typically use the Japanese readings <i>yon</i> and <i>nana</i> instead.</p><h4>Counters</h4><p>When counting objects, Japanese uses special counter words. For example, \"two <i>bottles of</i> beer\" is ビール２本 <i>biiru nihon</i>, where <i>ni</i> is \"two\" and <i>-hon</i> means \"bottles\". Unlike in English, where counter words are often optional or non-existent, in Japanese they're mandatory whenever you count something (e.g. 車２台 <i>kuruma ni-dai</i>, two cars; 台 <i>dai</i> counts machines).</p><p>Note how many counters change form depending on the previous number: one, two, three glasses are <i>ippai</i>, <i>nihai</i>, <i>sanbai</i> respectively.　There are also a few exceptions: one person and two people are <i>hitori</i> and <i>futari</i>. 20 years old is usually pronounced <i>hatachi</i>. You'll still be understood if you get these wrong though.</p><h4>一つ <i>hitotsu</i></h4><p>For numbers from one to nine, an old counting system is often used which applies to virtually any object you may want to count, without the need to attach a specific counter:</p><ol><li>一つ <i>hitotsu</i></li><li>二つ <i>futatsu</i></li><li>三つ <i>mittsu</i></li><li>四つ <i>yottsu</i></li><li>五つ <i>itsutsu</i></li><li>六つ <i>muttsu</i></li><li>七つ <i>nanatsu</i></li><li>八つ <i>yattsu</i></li><li>九つ <i>kokonotsu</i></li></ol><p>It is always a good idea to use a specific counter whenever possible, but using the generic numbers above is often equally acceptable. This system is rarely used anymore for numbers greater than nine.</p>"
     }
   }
 }

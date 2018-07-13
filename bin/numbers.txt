@@ -1,0 +1,77 @@
+===Numbers===
+While Arabic (Western) numerals are employed for most uses in Japan, you will occasionally still spot Japanese numerals at eg. markets and the menus of fancy restaurants.  The characters used are nearly identical to Chinese numerals, and like [[Chinese phrasebook|Chinese]], Japanese uses groups of 4 digits, not 3. "One million" is thus 百万 (''hyaku-man''), literally "hundred ten-thousands".
+
+There are both Japanese and Chinese readings for most numbers, but presented below are the more commonly used Chinese readings.  Note that, due to superstition (''shi'' also means "death"), 4 and 7 typically use the Japanese readings ''yon'' and ''nana'' instead.
+
+{{infobox|Down for the count|When counting objects, Japanese uses special '''counter''' words. For example, "two ''bottles of'' beer" is ビール２本 ''biiru nihon'', where ''ni'' is "two" and ''-hon'' means "bottles". Unlike in English, where counter words are often optional or non-existent, in Japanese they're mandatory whenever you count something (e.g. 車２台 ''kuruma ni-dai'', two cars; 台 ''dai'' counts machines). Alas, the list of possible counters is vast, but some useful ones include:
+; small roundish objects (apples, sweets) : 個 ''-ko''
+; people : 人 ''-nin'' , 名様 ''-meisama'' (polite)
+; animals : 匹 ''-hiki, -biki, -piki''
+; flat objects (papers, tickets) : 枚 ''-mai''
+; long objects (bottles, pens): 本 ''-hon, -bon, -pon''
+; cups, glasses: 杯 ''-hai, -bai, -pai''
+; nights of a stay : 泊 ''-haku, -paku''
+; years (age) : 歳 ''-sai''
+Note how many counters change form depending on the previous number: one, two, three glasses are ''ippai'', ''nihai'', ''sanbai'' respectively.　There are also a few exceptions: one person and two people are ''hitori'' and ''futari''. 20 years old is usually pronounced ''hatachi''. You'll still be understood if you get these wrong though.
+
+For numbers from one to nine, an old counting system is often used which applies to virtually any object you may want to count, without the need to attach a specific counter:
+; 1 : 一つ ''hitotsu''
+; 2 : 二つ ''futatsu''
+; 3 : 三つ ''mittsu''
+; 4 : 四つ ''yottsu''
+; 5 : 五つ ''itsutsu''
+; 6 : 六つ ''muttsu''
+; 7 : 七つ ''nanatsu''
+; 8 : 八つ ''yattsu''
+; 9 : 九つ ''kokonotsu''
+It is always a good idea to use a specific counter whenever possible, but using the generic numbers above is often equally acceptable. This system is rarely used anymore for numbers greater than nine.}}
+
+; 0 : 〇 (''zero'' or ''maru'') / 零 (''rei'') in finance
+; 1 : 一 (''ichi'')
+; 2 : 二 (''ni'')
+; 3 : 三 (''san'')
+; 4 : 四 (''yon'' or ''shi'')
+; 5 : 五 (''go'')
+; 6 : 六 (''roku'')
+; 7 : 七 (''nana'' or ''shichi'')
+; 8 : 八 (''hachi'')
+; 9 : 九 (''kyū'')
+; 10 : 十 (''jū'')
+; 11 : 十一 (''jū-ichi'')
+; 12 : 十二 (''jū-ni'')
+; 13 : 十三 (''jū-san'')
+; 14 : 十四 (''jū-yon'')
+; 15 : 十五 (''jū-go'')
+; 16 : 十六 (''jū-roku'')
+; 17 : 十七 (''jū-nana'')
+; 18 : 十八 (''jū-hachi'')
+; 19 : 十九 (''jū-kyū''/''jū-ku'')
+; 20 : 二十 (''ni-jū'')
+; 21 : 二十一 (''ni-jū-ichi'')
+; 22 : 二十二 (''ni-jū-ni'')
+; 23 : 二十三 (''ni-jū-san'')
+; 30 : 三十 (''san-jū'')
+; 40 : 四十(''yon-jū'')
+; 50 : 五十 (''go-jū'')
+; 60 : 六十 (''roku-jū'')
+; 70 : 七十(''nana-jū'')
+; 80 : 八十 (''hachi-jū'')
+; 90 : 九十 (''kyū-jū'')
+; 100 : 百 (''hyaku'')
+; 200 : 二百 (''nihyaku'')
+; 300 : 三百 (''sambyaku'')
+; 600 : 六百 (''roppyaku'')
+; 800 : 八百 (''happyaku'')
+; 1000 : 千 (''sen'')
+; 2000 : 二千 (''ni-sen'')
+; 3000 : 三千 (''san-zen'')
+; 10,000 : 一万 (''ichi-man'')
+; 1,000,000 : 百万 (''hyaku-man'')
+; 100,000,000 : 一億 (''ichi-oku'')
+; 1,000,000,000,000 : 一兆 (''itchō'')
+; 0.5 : 〇・五 (''rei ten go'')
+; 0.56 : 〇・五六 (''rei ten go-roku'')
+; number _____ (''train, bus, etc.'') : _____番 (''____ ban'')
+; half : 半分 (''hambun'')
+; less (few) : 少ない (''sukunai'')
+; more (many) : 多い (''ōi'')

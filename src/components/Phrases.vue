@@ -11,6 +11,14 @@
     </md-field>
 
     <md-list class="md-double-line">
+      <md-list-item md-expand>
+        <md-icon>info</md-icon>
+        <span class="md-list-item-text">Notes</span>
+        <div slot="md-expand">
+          <div class="notes" v-html="notes"></div>
+        </div>
+      </md-list-item>
+
       <md-list-item v-for="phrase in filteredPhrases" :key="phrase.id">
         <div class="md-list-item-text">
           <span>{{ phrase.english }}</span>
@@ -40,7 +48,11 @@ export default {
   computed: {
     name() {
       return Object.hasOwnProperty.call(this.$store.state.sets, this.set) ?
-        this.$store.state.sets[this.set].name : 'Set';
+        this.$store.state.sets[this.set].name : '';
+    },
+    notes() {
+      return Object.hasOwnProperty.call(this.$store.state.sets, this.set) ?
+        this.$store.state.sets[this.set].notes : '';
     },
     phrases() {
       return this.$store.getters.phrases(this.set);
@@ -81,6 +93,10 @@ export default {
     margin-right: 10px;
   }
   .md-list-item-text {
+    white-space: normal;
+  }
+  .notes {
+    margin: 1em;
     white-space: normal;
   }
   .md-icon:after {
