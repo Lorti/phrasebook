@@ -1,7 +1,13 @@
 <template>
-  <md-list class="md-double-line">
-    <template v-for="phrase in phrases">
-      <md-list-item :key="phrase.id">
+  <div>
+    <md-field>
+      <md-icon>search</md-icon>
+      <label>Search...</label>
+      <md-input v-model="filter"></md-input>
+    </md-field>
+
+    <md-list class="md-double-line">
+      <md-list-item v-for="phrase in filteredPhrases" :key="phrase.id">
         <div class="md-list-item-text">
           <span>{{ phrase.english }}</span>
           <span>{{ phrase.japanese }} <em>{{ phrase.romaji }}</em></span>
@@ -13,17 +19,30 @@
           <md-icon v-else class="md-primary">favorite_border</md-icon>
         </md-button>
       </md-list-item>
-    </template>
-  </md-list>
+    </md-list>
+  </div>
 </template>
 
 <script>
 export default {
   name: 'Phrases',
   props: ['set'],
+  data() {
+    return {
+      filter: '',
+    };
+  },
   computed: {
     phrases() {
       return this.$store.getters.phrases(this.set);
+    },
+    filteredPhrases() {
+      if (this.filter.length) {
+        return this.phrases.filter(phrase => phrase.japanese.includes(this.filter) ||
+            phrase.english.includes(this.filter) ||
+            phrase.romaji.includes(this.filter));
+      }
+      return this.phrases;
     },
   },
   methods: {

@@ -1,7 +1,7 @@
 <template>
-  <md-list class="md-triple-line">
-    <template v-for="set in sets">
-      <md-list-item :key="set.id" :to="`/sets/${ set.id }`">
+  <div>
+    <md-list class="md-triple-line">
+      <md-list-item v-for="set in sets" :key="set.id" :to="`/sets/${ set.id }`">
         <div class="md-list-item-text">
           <span>{{ set.name }}</span>
           <span>{{ count(set.id) }} phrases</span>
@@ -12,8 +12,8 @@
           <md-icon class="md-primary">favorite_border</md-icon>
         </md-button>
       </md-list-item>
-    </template>
-  </md-list>
+    </md-list>
+  </div>
 </template>
 
 <script>
