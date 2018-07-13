@@ -33,6 +33,16 @@
 
     <md-app-content>
       <router-view/>
+
+      <footer class="md-caption">
+        <p>
+          🇯🇵 Phrasebook is an interactive Japanese phrasebook optimized for travelling and offline usage, using data from <a href="https://wikitravel.org/en/Japanese_phrasebook" target="_blank">Wikitravel</a>.
+        </p>
+        <p>Developed with ❤️ by Manuel Wieser</p>
+        <p><a href="https://twitter.com/manuelwieser">@manuelwieser</a> | <a href="https://manu.ninja">manu.ninja</a></p>
+        <p><a href="https://www.paypal.me/manuninja"><img src="https://img.shields.io/badge/Donate-PayPal-blue.svg" alt="Donate"></a></p>
+        <p>© {{ (new Date()).getFullYear() }} Manuel Wieser</p>
+      </footer>
     </md-app-content>
   </md-app>
 </template>
@@ -67,5 +77,10 @@ export default {
   a {
     color: inherit;
     text-decoration: none !important;
+  }
+
+  footer {
+    margin: 2em 0;
+    text-align: center;
   }
 </style>
