@@ -1,5 +1,9 @@
 <template>
   <div>
+    <md-switch class="md-primary filter" v-model="favorites" value="0"></md-switch>
+
+    <h1 class="md-headline">{{ name }}</h1>
+
     <md-field>
       <md-icon>search</md-icon>
       <label>Search...</label>
@@ -30,20 +34,29 @@ export default {
   data() {
     return {
       filter: '',
+      favorites: false,
     };
   },
   computed: {
+    name() {
+      return Object.hasOwnProperty.call(this.$store.state.sets, this.set) ?
+        this.$store.state.sets[this.set].name : 'Set';
+    },
     phrases() {
       return this.$store.getters.phrases(this.set);
     },
     filteredPhrases() {
+      let phrases = this.phrases;
       if (this.filter.length) {
-        return this.phrases.filter((phrase) => {
+        phrases = phrases.filter((phrase) => {
           const haystack = (phrase.japanese + phrase.english + phrase.romaji).toLowerCase();
           return haystack.includes(this.filter.toLowerCase());
         });
       }
-      return this.phrases;
+      if (this.favorites) {
+        phrases = phrases.filter(phrase => this.isFavorite(phrase.id));
+      }
+      return phrases;
     },
   },
   methods: {
@@ -62,7 +75,15 @@ export default {
 </script>
 
 <style scoped>
+  .filter {
+    float: right;
+    margin-top: 6px;
+    margin-right: 10px;
+  }
   .md-list-item-text {
     white-space: normal;
+  }
+  .md-icon:after {
+    background-color: var(--md-theme-default-background, #fff) !important;
   }
 </style>

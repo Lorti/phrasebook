@@ -40,9 +40,9 @@ const getters = {
     }
     return list.filter(phrase => phrase.sets.includes(set));
   },
-  isFavorite: state => phrase => state.favorites.includes(phrase),
   phrasesCount: (state, _getters) => set => _getters.phrases(set).length,
   firstPhrase: (state, _getters) => set => _getters.phrases(set).shift(),
+  isFavorite: state => phrase => state.favorites.includes(phrase),
 };
 
 export default new Vuex.Store({
