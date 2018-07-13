@@ -4,8 +4,13 @@
       <md-list-item v-for="set in sets" :key="set.id" :to="`/sets/${ set.id }`">
         <div class="md-list-item-text">
           <span>{{ set.name }}</span>
-          <span>{{ count(set.id) }} phrases</span>
-          <p>{{ first(set.id).japanese }}…</p>
+          <span>{{ phrasesCount(set.id) }} phrases</span>
+          <p>{{ firstPhrase(set.id).japanese }}…</p>
+        </div>
+      </md-list-item>
+      <md-list-item v-if="favoritesCount" :to="`/sets/favorites`">
+        <div class="md-list-item-text">
+          Favorites ({{ favoritesCount }})
         </div>
       </md-list-item>
     </md-list>
@@ -19,12 +24,15 @@ export default {
     sets() {
       return this.$store.state.sets;
     },
+    favoritesCount() {
+      return this.$store.getters.favorites.length;
+    },
   },
   methods: {
-    count(set) {
+    phrasesCount(set) {
       return this.$store.getters.phrasesCount(set);
     },
-    first(set) {
+    firstPhrase(set) {
       return this.$store.getters.firstPhrase(set);
     },
   },

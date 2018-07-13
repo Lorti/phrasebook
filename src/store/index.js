@@ -59,6 +59,10 @@ const getters = {
   },
   phrasesCount: (state, _getters) => set => _getters.phrases(set).length,
   firstPhrase: (state, _getters) => set => _getters.phrases(set).shift(),
+  favorites: (state, _getters) => {
+    const list = [...Object.values(state.phrases)];
+    return list.filter(phrase => _getters.isFavorite(phrase.id));
+  },
   isFavorite: state => phrase => state.favorites.includes(phrase),
 };
 
