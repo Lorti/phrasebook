@@ -11,7 +11,7 @@
     </md-field>
 
     <md-list class="md-double-line">
-      <md-list-item md-expand>
+      <md-list-item v-if="notes" md-expand>
         <md-icon>info</md-icon>
         <span class="md-list-item-text">Notes</span>
         <div slot="md-expand">
