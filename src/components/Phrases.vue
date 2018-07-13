@@ -1,6 +1,6 @@
 <template>
   <div>
-    <md-switch class="md-primary filter" v-model="favorites" value="0"></md-switch>
+    <md-switch class="md-primary filter" v-model="filterFavorites"></md-switch>
 
     <h1 class="md-headline">{{ name }}</h1>
 
@@ -42,17 +42,24 @@ export default {
   data() {
     return {
       filter: '',
-      favorites: false,
     };
   },
   computed: {
+    filterFavorites: {
+      get() {
+        return this.$store.state.settings.filterFavorites;
+      },
+      set(value) {
+        this.$store.commit('TOGGLE_SETTING_FILTER_FAVORITES', value);
+      },
+    },
     name() {
-      return Object.hasOwnProperty.call(this.$store.state.sets, this.set) ?
-        this.$store.state.sets[this.set].name : '';
+      const set = this.$store.getters.set(this.set);
+      return set ? set.name : '';
     },
     notes() {
-      return Object.hasOwnProperty.call(this.$store.state.sets, this.set) ?
-        this.$store.state.sets[this.set].notes : '';
+      const set = this.$store.getters.set(this.set);
+      return set ? set.notes : '';
     },
     phrases() {
       return this.$store.getters.phrases(this.set);
@@ -65,7 +72,7 @@ export default {
           return haystack.includes(this.filter.toLowerCase());
         });
       }
-      if (this.favorites) {
+      if (this.filterFavorites) {
         phrases = phrases.filter(phrase => this.isFavorite(phrase.id));
       }
       return phrases;

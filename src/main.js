@@ -23,8 +23,8 @@ new Vue({
   store,
   components: { App },
   template: '<App/>',
-  async created() {
-    await store.dispatch('FETCH_DATABASE');
+  created() {
+    store.dispatch('FETCH_DATABASE');
   },
 });
 

@@ -48,9 +48,16 @@ const mutations = {
       state.favorites.splice(index, 1);
     }
   },
+  TOGGLE_SETTING_FILTER_FAVORITES: (state, value) => {
+    state.settings.filterFavorites = value;
+  },
+  TOGGLE_SETTING_SWAP_LANGUAGES: (state, value) => {
+    state.settings.swapLanguages = value;
+  },
 };
 
 const getters = {
+  set: state => id => (Object.hasOwnProperty.call(state.sets, id) ? state.sets[id] : null),
   phrases: state => (set) => {
     const list = [...Object.values(state.phrases)];
     if (!set) {
@@ -72,6 +79,10 @@ export default new Vuex.Store({
     phrases: {},
     sets: {},
     favorites: [],
+    settings: {
+      filterFavorites: false,
+      swapLanguages: false,
+    },
   },
   actions,
   mutations,
