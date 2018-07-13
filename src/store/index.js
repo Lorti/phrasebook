@@ -1,14 +1,28 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
 
+import localforage from 'localforage';
+
 Vue.use(Vuex);
 
 const actions = {
-  async FETCH_DATABASE({ commit }) {
-    const { phrases, sets } = await fetch('/static/data.json')
-      .then(response => response.json());
+  async FETCH_DATABASE({ commit, state }) {
+    const { phrases, sets } = await fetch('/static/data.json').then(response => response.json());
     commit('SET_PHRASES', phrases);
     commit('SET_SETS', sets);
+
+    let favorites = await localforage.getItem('favorites');
+    const validPhrases = [...Object.values(state.phrases)].map(phrase => phrase.id);
+    favorites = JSON.parse(favorites).filter(id => validPhrases.includes(id));
+    commit('SET_FAVORITES', favorites);
+  },
+  async ADD_FAVORITE({ commit, state }, phrase) {
+    commit('ADD_FAVORITE', phrase);
+    await localforage.setItem('favorites', JSON.stringify(state.favorites));
+  },
+  async REMOVE_FAVORITE({ commit, state }, phrase) {
+    commit('REMOVE_FAVORITE', phrase);
+    await localforage.setItem('favorites', JSON.stringify(state.favorites));
   },
 };
 
@@ -18,6 +32,9 @@ const mutations = {
   },
   SET_SETS: (state, sets) => {
     state.sets = sets;
+  },
+  SET_FAVORITES: (state, favorites) => {
+    state.favorites = favorites;
   },
   ADD_FAVORITE: (state, phrase) => {
     if (!state.favorites.includes(phrase)) {

@@ -65,9 +65,9 @@ export default {
     },
     toggleFavorite(phrase) {
       if (this.isFavorite(phrase)) {
-        this.$store.commit('REMOVE_FAVORITE', phrase);
+        this.$store.dispatch('REMOVE_FAVORITE', phrase);
       } else {
-        this.$store.commit('ADD_FAVORITE', phrase);
+        this.$store.dispatch('ADD_FAVORITE', phrase);
       }
     },
   },
