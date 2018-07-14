@@ -131,10 +131,10 @@ const webpackConfig = merge(baseWebpackConfig, {
         cacheId: 'phrasebook',
         filename: 'service-worker.js',
         minify: true,
-        navigateFallback: 'https://phrasebook.g01l.eu/index.html',
+        navigateFallback: 'index.html',
         staticFileGlobsIgnorePatterns: [/\.map$/, /_redirects/],
       }
-    ),
+    )
   ]
 })
 
