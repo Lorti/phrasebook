@@ -2,7 +2,9 @@
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/manuninja)
 
-Interactive Japanese phrasebook optimized for travelling and offline usage, using data from [Wikitravel](https://wikitravel.org/en/Japanese_phrasebook)
+🇯🇵 Phrasebook is an interactive Japanese phrasebook optimized for travel and offline usage, using data from [Wikitravel](https://wikitravel.org/en/Japanese_phrasebook).
+
+<https://phrasebook.g01l.eu>
 
 ---
 
@@ -34,6 +36,6 @@ npm test
 ## Author
 
 Manuel Wieser<br>
-<https://manu.ninja/><br>
+<https://manu.ninja><br>
 <https://twitter.com/manuelwieser><br>
 <https://www.paypal.me/manuninja><br>
