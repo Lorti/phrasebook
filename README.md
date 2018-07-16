@@ -4,7 +4,7 @@
 
 🇯🇵 Phrasebook is an interactive Japanese phrasebook optimized for travel and offline usage, using data from [Wikitravel](https://wikitravel.org/en/Japanese_phrasebook).
 
-<https://phrasebook.g01l.eu>
+<https://www.japanese-phrasebook.com>
 
 ---
 
