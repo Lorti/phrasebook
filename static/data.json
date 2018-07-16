@@ -1583,9 +1583,430 @@
       "sets": [
         "c6c6b26c-c407-4de0-8720-67442b74065c"
       ]
+    },
+    "3d2a37a0-4246-4566-8a79-d4a8c59b227b": {
+      "id": "ddf20b2a-3388-4c23-9e9d-41eecf5f42e4",
+      "english": "black",
+      "japanese": "黒 / ブラック",
+      "romaji": "kuro / burakku",
+      "sets": [
+        "e6a8e931-6b5a-4a0a-9af0-a3fa6831131e"
+      ]
+    },
+    "1beb3ccd-e4c0-408a-b9fe-ce380f51ca48": {
+      "id": "e291ff23-afa5-43e0-93c0-a5de84a9c5ca",
+      "english": "white",
+      "japanese": "白 / ホワイト",
+      "romaji": "shiro / howaito",
+      "sets": [
+        "e6a8e931-6b5a-4a0a-9af0-a3fa6831131e"
+      ]
+    },
+    "d5e35c6e-9b3a-4bb9-baef-10df2c66e52f": {
+      "id": "1da58214-9199-4f4e-aa4a-aedc05a4d7ea",
+      "english": "gray",
+      "japanese": "灰(色) / グレー",
+      "romaji": "hai(iro) / gurē",
+      "sets": [
+        "e6a8e931-6b5a-4a0a-9af0-a3fa6831131e"
+      ]
+    },
+    "9c5b29d6-ca19-4ebc-833b-b6d0491fc79c": {
+      "id": "95c15e06-52e2-4614-9bd2-3ac749bd4ef8",
+      "english": "red",
+      "japanese": "赤 / レッド",
+      "romaji": "aka / reddo",
+      "sets": [
+        "e6a8e931-6b5a-4a0a-9af0-a3fa6831131e"
+      ]
+    },
+    "7864b044-443e-44a7-9202-444e53b9fe4e": {
+      "id": "4764c268-e721-4b2c-9ec4-8293cb8973d2",
+      "english": "blue",
+      "japanese": "青 / ブルー",
+      "romaji": "ao / burū",
+      "sets": [
+        "e6a8e931-6b5a-4a0a-9af0-a3fa6831131e"
+      ]
+    },
+    "19e213bf-77be-4e8b-8237-cf3797f07f80": {
+      "id": "be600c7b-70dd-42b3-8840-e004e7e54c74",
+      "english": "yellow",
+      "japanese": "黄(色) / イエロー",
+      "romaji": "ki(iro) / ierō",
+      "sets": [
+        "e6a8e931-6b5a-4a0a-9af0-a3fa6831131e"
+      ]
+    },
+    "b2191c50-4667-4bd0-bf77-431a495b28cd": {
+      "id": "38abe25c-8f3c-4bea-93ea-573136e24032",
+      "english": "green",
+      "japanese": "緑 / グリーン",
+      "romaji": "midori / guriin",
+      "sets": [
+        "e6a8e931-6b5a-4a0a-9af0-a3fa6831131e"
+      ]
+    },
+    "9edb79bb-36cb-4584-9f57-bd8400dbe0de": {
+      "id": "f3f16c46-e55f-45ad-891b-8bac3c0c8043",
+      "english": "orange",
+      "japanese": "橙 / オレンジ",
+      "romaji": "daidai / orenji",
+      "sets": [
+        "e6a8e931-6b5a-4a0a-9af0-a3fa6831131e"
+      ]
+    },
+    "866878be-6f13-4760-b326-9653afa7dd93": {
+      "id": "3f9f335c-fbec-48b3-a149-87c2dc9baff8",
+      "english": "purple",
+      "japanese": "紫 / パープル",
+      "romaji": "murasaki / pāpuru",
+      "sets": [
+        "e6a8e931-6b5a-4a0a-9af0-a3fa6831131e"
+      ]
+    },
+    "433bf273-3d32-4f45-b9e5-8837cabb7ae1": {
+      "id": "ffd48cd7-bb91-4ee7-83a8-605bed0fa84c",
+      "english": "brown",
+      "japanese": "茶(色) / ブラウン",
+      "romaji": "cha(iro) / buraun",
+      "sets": [
+        "e6a8e931-6b5a-4a0a-9af0-a3fa6831131e"
+      ]
+    },
+    "00513b39-ec7d-4608-8f36-e55f1d70114e": {
+      "id": "5c0972ab-1a0a-40a1-8436-dd721daf6b2e",
+      "english": "Do you have this in my size?",
+      "japanese": "私のサイズでありますか？",
+      "romaji": "Watashi no saizu de arimasu ka?",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "cdcb8fba-0270-42c3-9042-82b660333ed7": {
+      "id": "8125c55a-d423-4921-9adc-ecd6cdbf8f5a",
+      "english": "How much is this?",
+      "japanese": "いくらですか？",
+      "romaji": "Ikura desu ka?",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "a9f1a71c-3040-4791-b5a3-b00190f75e3b": {
+      "id": "8ca29561-dcbd-445c-aa41-67204c435aa5",
+      "english": "That's too expensive.",
+      "japanese": "高過ぎます。",
+      "romaji": "Takasugimasu.",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "3920c33b-74e4-4b50-bd3f-2feb7743b488": {
+      "id": "b7eb6c3d-ea83-4d6b-99d3-d87362c981db",
+      "english": "Would you take _____?",
+      "japanese": "_____円はどうですか？",
+      "romaji": "_____ yen wa dō desu ka?",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "9aee9ec2-b312-4d6d-a4ff-107cd78476ec": {
+      "id": "618a9750-86d6-486b-9907-41f909e0b341",
+      "english": "expensive",
+      "japanese": "高い",
+      "romaji": "takai",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "e501877a-ff86-42ae-9fc7-0a435fd5f907": {
+      "id": "8ff91500-707e-4463-91a3-80335671db0c",
+      "english": "cheap",
+      "japanese": "安い",
+      "romaji": "yasui",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "156f56b6-07bb-4879-999c-331e28bd4626": {
+      "id": "cee8f056-57c2-4a3c-92d3-664f5b59f70f",
+      "english": "I can't afford it.",
+      "japanese": "そんなにお金を持っていません。",
+      "romaji": "Sonna ni okane wo motteimasen.",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "2c7b1779-a0e4-4a5f-bd38-7116130c127e": {
+      "id": "92ce21c3-7423-4d47-9cae-dbe61d0740c1",
+      "english": "I don't want it.",
+      "japanese": "要りません。",
+      "romaji": "Irimasen.",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "e7538532-4ad4-47a1-8477-8bb82ea6cdf3": {
+      "id": "d9b2cece-2afa-474e-9a12-691b9fada029",
+      "english": "You're cheating me.",
+      "japanese": "騙してるんだ。",
+      "romaji": "Damashiterun da.",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "1ec10036-a34e-4887-a945-e194180acbe2": {
+      "id": "b89aa26d-58aa-47e2-8682-21c949a7b05d",
+      "english": "I'm not interested.",
+      "japanese": "興味ありません。",
+      "romaji": "Kyōmi arimasen.",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "79c1dba4-1b52-4780-9a2f-b4d560d43f0b": {
+      "id": "9875dfd7-2ed6-40d0-bec7-38edf2a21cd4",
+      "english": "OK, I'll take it.",
+      "japanese": "はい、それにします。",
+      "romaji": "Hai, sore ni shimasu.",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "da8e925e-0af9-4247-a174-596499af91cf": {
+      "id": "95b13b0f-d28a-4efc-8c1a-bfdc53af63c1",
+      "english": "Can I have a bag?",
+      "japanese": "袋を貰えますか？",
+      "romaji": "Fukuro moraemasu ka?",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "c17f6fa2-61cf-4a66-82cd-8dba038b0fc6": {
+      "id": "a335b2f0-3f63-44d1-9c7e-04e60014808b",
+      "english": "Do you ship (overseas)?",
+      "japanese": "海外へ発送出来ますか？",
+      "romaji": "Kaigai e hassō dekimasu ka?",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "a51cab8a-8b53-4233-914e-71d4d6e34220": {
+      "id": "52fb31dd-0899-4e42-a1c6-316453a51fb8",
+      "english": "I need...",
+      "japanese": "...が欲しいです。",
+      "romaji": "... ga hoshii desu.",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "69dc3c7d-7ff9-42fa-b6cf-6475cbc05430": {
+      "id": "67b3fe2d-5be5-47b6-9ee0-e39a6af1b463",
+      "english": "...spectacles.",
+      "japanese": "眼鏡",
+      "romaji": "megane",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "ade98ad8-ee7d-4ccc-a3aa-a60a3f1df6ac": {
+      "id": "89847f7f-0d30-4c14-9eed-0a3e13bcbd6c",
+      "english": "...toothpaste.",
+      "japanese": "歯磨き",
+      "romaji": "hamigaki",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "81024d7e-0193-4b56-8361-53f3c9f0c810": {
+      "id": "04660adb-34e8-4261-b44d-894d458ee9c4",
+      "english": "...a toothbrush.",
+      "japanese": "歯ブラシ",
+      "romaji": "ha-burashi",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "04c86d05-dfd0-40ae-b274-06e370d02e80": {
+      "id": "f5201e72-b5c8-451a-9ca0-84cc8cc440a1",
+      "english": "...tampons.",
+      "japanese": "タンポン",
+      "romaji": "tampon",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "6c1287c0-49d6-4536-833d-7a274feb242c": {
+      "id": "d7d88a57-f0b1-4ad8-af5e-74d1e091b455",
+      "english": "...soap.",
+      "japanese": "石鹸",
+      "romaji": "sekken",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "f48ff13c-9d9e-46b3-8fd4-14406898da44": {
+      "id": "d8a26ea5-2f24-406b-bb8d-a28352b57b6e",
+      "english": "...shampoo.",
+      "japanese": "シャンプー",
+      "romaji": "shampū",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "96b342b4-928c-4e9d-b47b-24dfb7eea855": {
+      "id": "73190dbf-154b-43b5-b118-0fb03a5b91e0",
+      "english": "...pain reliever. (''e.g., aspirin or ibuprofen'')",
+      "japanese": "鎮痛剤",
+      "romaji": "chintsūzai",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "4cdb2a27-10b7-4a7e-9602-bdc5b5213074": {
+      "id": "11f779ad-6bb7-4f8c-ae96-4a8e1db5a0b3",
+      "english": "...cold medicine.",
+      "japanese": "風邪薬",
+      "romaji": "kazegusuri",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "5f21100b-0867-4420-a916-e3c948ad18aa": {
+      "id": "ef2e8286-65f8-438f-a0fd-04ff1000f2de",
+      "english": "...stomach medicine.",
+      "japanese": "胃腸薬",
+      "romaji": "ichōyaku",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "5dbc014b-e584-4b8b-b2b3-d180a542e487": {
+      "id": "fbd90ae6-8cdd-42ca-9deb-89ebe6cf999d",
+      "english": "...a razor.",
+      "japanese": "剃刀",
+      "romaji": "kamisori",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "f7804fdb-2a9d-421b-b508-33e46d943167": {
+      "id": "b650aab2-a8d6-43aa-8a70-bbb7cd4640c5",
+      "english": "...an umbrella.",
+      "japanese": "傘",
+      "romaji": "kasa",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "08ec5ad3-a2fa-4c58-9757-b597a6d6c889": {
+      "id": "702c98f3-f797-4beb-8745-bc2032ee7151",
+      "english": "...sunblock lotion.",
+      "japanese": "日焼け止め",
+      "romaji": "hiyakedome",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "f9d64d9f-727f-427e-8d3a-c995601652ca": {
+      "id": "385efe51-9c04-42b5-9740-d0546dee75b2",
+      "english": "...a postcard.",
+      "japanese": "葉書",
+      "romaji": "hagaki",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "aad29beb-7590-4db0-a723-b01b28135ff6": {
+      "id": "6d52e7fc-bd9f-455e-9601-05985ddf1242",
+      "english": "...postage stamps.",
+      "japanese": "切手",
+      "romaji": "kitte",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "42aee3d0-b0a2-4b18-bb8f-36ce876a1922": {
+      "id": "7e084f8a-2767-465f-8f27-11a63c223e57",
+      "english": "...batteries.",
+      "japanese": "電池",
+      "romaji": "denchi",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "5c1c636d-23cc-4d9d-8255-0e5ae57b1c53": {
+      "id": "91ce23f7-b596-4a8f-977f-1d4bbe4fc093",
+      "english": "...writing paper.",
+      "japanese": "紙",
+      "romaji": "kami",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "69def1d5-a734-4118-a085-72850b60c937": {
+      "id": "c0f42ad0-39ea-4ef8-9ab1-6bb32e7059fa",
+      "english": "...a pen.",
+      "japanese": "ペン",
+      "romaji": "pen",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "7da412ec-bc77-4e23-bf56-07a183779493": {
+      "id": "092f50eb-b161-4478-aaa5-a8bbd00113ba",
+      "english": "...a pencil.",
+      "japanese": "鉛筆",
+      "romaji": "empitsu",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "4971f188-3476-408a-8d61-22beb4865a25": {
+      "id": "0085444d-911c-4b50-b584-a2cf8822877a",
+      "english": "...English-language books.",
+      "japanese": "英語の本",
+      "romaji": "eigo no hon",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "a3c67127-1914-4f6c-98d4-57e9f6792434": {
+      "id": "9d29c54d-dd0b-4471-8643-a6cca7de2284",
+      "english": "...English-language magazines.",
+      "japanese": "英語の雑誌",
+      "romaji": "eigo no zasshi",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "df28e42b-f6c8-4b6f-962c-82c59302ac92": {
+      "id": "32810cfd-2d00-42df-887d-0a57eb75a714",
+      "english": "...an English-language newspaper.",
+      "japanese": "英字新聞",
+      "romaji": "ēji shinbun",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "3b8cf9fc-f362-44c1-a2ba-65a1a96f0f44": {
+      "id": "7aa02bc1-95ca-416f-a863-db17bda52d0c",
+      "english": "...a Japanese-English dictionary.",
+      "japanese": "和英辞典",
+      "romaji": "waē jiten",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
+    },
+    "0d0c2ca4-3633-4197-be63-2140fdbe82d6": {
+      "id": "6d5f60a7-940c-487e-b689-392fe9227b6d",
+      "english": "...an English-Japanese dictionary.",
+      "japanese": "英和辞典",
+      "romaji": "ēwa jiten",
+      "sets": [
+        "926e2760-f74d-4154-87ea-284c98b93509"
+      ]
     }
-
-
   },
   "sets": {
     "5bbcdb75-3bbf-4e5d-83ce-65425be830fc": {
@@ -1600,6 +2021,15 @@
       "id": "c6c6b26c-c407-4de0-8720-67442b74065c",
       "name": "Numbers",
       "notes": "<h4>Numbers</h4><p>While Arabic (Western) numerals are employed for most uses in Japan, you will occasionally still spot Japanese numerals at eg. markets and the menus of fancy restaurants.  The characters used are nearly identical to Chinese numerals, and like Chinese, Japanese uses groups of 4 digits, not 3. \"One million\" is thus 百万 (<i>hyaku-man</i>), literally \"hundred ten-thousands\".</p><p>There are both Japanese and Chinese readings for most numbers, but presented below are the more commonly used Chinese readings.  Note that, due to superstition (<i>shi</i> also means \"death\"), 4 and 7 typically use the Japanese readings <i>yon</i> and <i>nana</i> instead.</p><h4>Counters</h4><p>When counting objects, Japanese uses special counter words. For example, \"two <i>bottles of</i> beer\" is ビール２本 <i>biiru nihon</i>, where <i>ni</i> is \"two\" and <i>-hon</i> means \"bottles\". Unlike in English, where counter words are often optional or non-existent, in Japanese they're mandatory whenever you count something (e.g. 車２台 <i>kuruma ni-dai</i>, two cars; 台 <i>dai</i> counts machines).</p><p>Note how many counters change form depending on the previous number: one, two, three glasses are <i>ippai</i>, <i>nihai</i>, <i>sanbai</i> respectively.　There are also a few exceptions: one person and two people are <i>hitori</i> and <i>futari</i>. 20 years old is usually pronounced <i>hatachi</i>. You'll still be understood if you get these wrong though.</p><h4>一つ <i>hitotsu</i></h4><p>For numbers from one to nine, an old counting system is often used which applies to virtually any object you may want to count, without the need to attach a specific counter:</p><ol><li>一つ <i>hitotsu</i></li><li>二つ <i>futatsu</i></li><li>三つ <i>mittsu</i></li><li>四つ <i>yottsu</i></li><li>五つ <i>itsutsu</i></li><li>六つ <i>muttsu</i></li><li>七つ <i>nanatsu</i></li><li>八つ <i>yattsu</i></li><li>九つ <i>kokonotsu</i></li></ol><p>It is always a good idea to use a specific counter whenever possible, but using the generic numbers above is often equally acceptable. This system is rarely used anymore for numbers greater than nine.</p>"
+    },
+    "e6a8e931-6b5a-4a0a-9af0-a3fa6831131e": {
+      "id": "e6a8e931-6b5a-4a0a-9af0-a3fa6831131e",
+      "name": "Colors",
+      "notes": "<p>Many of the English words for colors are widely used and understood by almost all Japanese. These are indicated after the slash.</p></p>Note that some Japanese colors are normally suffixed with -iro (色) to distinguish between the color and the object. For example, 茶 cha means \"tea\", but 茶色 chairo means \"tea-color\" → \"brown\".</p>"
+    },
+    "926e2760-f74d-4154-87ea-284c98b93509": {
+      "id": "926e2760-f74d-4154-87ea-284c98b93509",
+      "name": "Shopping"
     }
   }
 }

@@ -1,0 +1,15 @@
+===Colors===
+Many of the English words for colors are widely used and understood by almost all Japanese. These are indicated after the slash.
+
+Note that some Japanese colors are normally suffixed with ''-iro'' (色) to distinguish between the color and the object.  For example, 茶 ''cha'' means "tea", but 茶色 ''chairo'' means "tea-color" &rarr; "brown".
+
+; black : 黒 / ブラック (''kuro / burakku'')
+; white : 白 / ホワイト (''shiro / howaito'')
+; gray : 灰(色) / グレー (''hai(iro) / gurē'')
+; red : 赤 / レッド (''aka / reddo'')
+; blue : 青 / ブルー (''ao / burū'')
+; yellow : 黄(色) / イエロー (''ki(iro) / ierō'')
+; green : 緑 / グリーン (''midori / guriin'')
+; orange : 橙 / オレンジ (''daidai / orenji'')
+; purple : 紫 / パープル (''murasaki / pāpuru'')
+; brown : 茶(色) / ブラウン (''cha(iro) / buraun'')
