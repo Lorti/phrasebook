@@ -45,6 +45,9 @@
 export default {
   name: 'Phrases',
   props: ['set'],
+  title() {
+    return this.name;
+  },
   data() {
     return {
       filter: '',

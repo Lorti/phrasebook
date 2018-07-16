@@ -22,9 +22,19 @@
             <md-checkbox v-model="swapLanguages">Swap English/Japanese</md-checkbox>
           </span>
         </md-list-item>
-        <md-list-item href="https://manu.ninja">
-          <md-icon>info</md-icon>
-          <span class="md-list-item-text">Who’s behind Phrasebook?</span>
+      </md-list>
+
+      <md-divider></md-divider>
+      <md-subheader>Support</md-subheader>
+
+      <md-list>
+        <md-list-item href="https://github.com/Lorti/phrasebook">
+          <md-icon>code</md-icon>
+          <span class="md-list-item-text">GitHub Repository</span>
+        </md-list-item>
+        <md-list-item href="https://www.paypal.me/manuninja">
+          <md-icon>mood</md-icon>
+          <span class="md-list-item-text">Donate via PayPal</span>
         </md-list-item>
       </md-list>
     </md-app-drawer>
@@ -62,7 +72,7 @@ export default {
         this.$store.commit('TOGGLE_SETTING_SWAP_LANGUAGES', value);
       },
     },
-  }
+  },
 };
 </script>
 

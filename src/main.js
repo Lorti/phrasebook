@@ -8,10 +8,13 @@ import router from './router';
 import store from './store';
 
 import * as filters from './util/filters';
+import title from './util/title';
 
 Object.keys(filters).forEach((key) => {
   Vue.filter(key, filters[key]);
 });
+
+Vue.mixin(title);
 
 Vue.use(VueMaterial);
 Vue.config.productionTip = false;

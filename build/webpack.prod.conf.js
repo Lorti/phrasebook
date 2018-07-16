@@ -11,6 +11,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin')
+const PrerenderSPAPlugin = require('prerender-spa-plugin')
 
 const env = process.env.NODE_ENV === 'testing'
   ? require('../config/test.env')
@@ -122,7 +123,7 @@ const webpackConfig = merge(baseWebpackConfig, {
       },
       {
         from: path.resolve(__dirname, '../_redirects'),
-        to: config.build.assetsRoot,
+        to: config.build.assetsRoot
       }
     ]),
 
@@ -134,7 +135,12 @@ const webpackConfig = merge(baseWebpackConfig, {
         navigateFallback: 'index.html',
         staticFileGlobsIgnorePatterns: [/\.map$/, /_redirects/],
       }
-    )
+    ),
+
+    new PrerenderSPAPlugin({
+      staticDir: config.build.assetsRoot,
+      routes: ['/']
+    })
   ]
 })
 
