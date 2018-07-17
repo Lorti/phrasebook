@@ -7,17 +7,21 @@ import App from './App';
 import router from './router';
 import store from './store';
 
-import * as filters from './util/filters';
-import title from './util/title';
-
-Object.keys(filters).forEach((key) => {
-  Vue.filter(key, filters[key]);
-});
-
-Vue.mixin(title);
-
 Vue.use(VueMaterial);
 Vue.config.productionTip = false;
+
+function setTitle(title) {
+  if (title) {
+    document.title = `🇯🇵 Phrasebook | ${title}`;
+  } else {
+    document.title = '🇯🇵 Phrasebook';
+  }
+}
+
+Vue.directive('document-title', {
+  inserted(el, binding) { setTitle(binding.value); },
+  update(el, binding) { setTitle(binding.value); },
+});
 
 /* eslint-disable no-new */
 new Vue({
@@ -25,10 +29,11 @@ new Vue({
   router,
   store,
   render: h => h(App),
+  created() {
+    store.dispatch('FETCH_DATABASE');
+  },
   mounted() {
-    store.dispatch('FETCH_DATABASE').then(() => {
-      document.dispatchEvent(new Event('render-event'));
-    });
+    document.dispatchEvent(new Event('render-event'));
   },
 });
 

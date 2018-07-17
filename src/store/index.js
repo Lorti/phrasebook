@@ -58,6 +58,14 @@ const mutations = {
 
 const getters = {
   set: state => id => (Object.hasOwnProperty.call(state.sets, id) ? state.sets[id] : null),
+  setName: (state, _getters) => (id) => {
+    const set = _getters.set(id);
+    return set ? set.name : null;
+  },
+  setNotes: (state, _getters) => (id) => {
+    const set = _getters.set(id);
+    return set ? set.notes : null;
+  },
   phrases: state => (set) => {
     const list = [...Object.values(state.phrases)];
     if (!set) {

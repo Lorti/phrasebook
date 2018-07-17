@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-document-title="`Favorites`">
     <h1 class="md-headline">Favorites</h1>
 
     <md-field>

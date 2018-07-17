@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-document-title="name">
     <md-switch class="md-primary filter" v-model="filterFavorites"></md-switch>
 
     <h1 class="md-headline">{{ name }}</h1>
@@ -45,9 +45,6 @@
 export default {
   name: 'Phrases',
   props: ['set'],
-  title() {
-    return this.name;
-  },
   data() {
     return {
       filter: '',
@@ -63,12 +60,10 @@ export default {
       },
     },
     name() {
-      const set = this.$store.getters.set(this.set);
-      return set ? set.name : '';
+      return this.$store.getters.setName(this.set);
     },
     notes() {
-      const set = this.$store.getters.set(this.set);
-      return set ? set.notes : '';
+      return this.$store.getters.setNotes(this.set);
     },
     phrases() {
       return this.$store.getters.phrases(this.set);

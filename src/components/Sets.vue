@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-document-title="``">
     <md-list class="md-triple-line">
       <md-list-item v-for="set in sets" :key="set.id" :to="`/sets/${ set.id }`">
         <div class="md-list-item-text">
