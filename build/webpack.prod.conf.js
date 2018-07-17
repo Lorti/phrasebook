@@ -11,7 +11,9 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin')
-// const PrerenderSPAPlugin = require('prerender-spa-plugin')
+const { sets } = require('../static/data.json')
+const PrerenderSPAPlugin = require('prerender-spa-plugin')
+const Renderer = PrerenderSPAPlugin.PuppeteerRenderer
 
 const env = process.env.NODE_ENV === 'testing'
   ? require('../config/test.env')
@@ -137,10 +139,13 @@ const webpackConfig = merge(baseWebpackConfig, {
       }
     ),
 
-    // new PrerenderSPAPlugin({
-    //   staticDir: config.build.assetsRoot,
-    //   routes: ['/']
-    // })
+    new PrerenderSPAPlugin({
+      staticDir: config.build.assetsRoot,
+      routes: ['/', ...Object.keys(sets).map(set => `/sets/${set}`)],
+      renderer: new Renderer({
+        renderAfterDocumentEvent: 'render-event'
+      })
+    })
   ]
 })
 

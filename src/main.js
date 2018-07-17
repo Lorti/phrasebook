@@ -24,10 +24,11 @@ new Vue({
   el: '#app',
   router,
   store,
-  components: { App },
-  template: '<App/>',
-  created() {
-    store.dispatch('FETCH_DATABASE');
+  render: h => h(App),
+  mounted() {
+    store.dispatch('FETCH_DATABASE').then(() => {
+      document.dispatchEvent(new Event('render-event'));
+    });
   },
 });
 
