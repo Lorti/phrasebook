@@ -33,9 +33,7 @@ new Vue({
     store.dispatch('FETCH_DATABASE');
   },
   mounted() {
-    setTimeout(() => {
-      document.dispatchEvent(new Event('render-event'));
-    }, 1000);
+    document.dispatchEvent(new Event('render-event'));
   },
 });
 
