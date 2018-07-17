@@ -2006,16 +2006,777 @@
       "sets": [
         "926e2760-f74d-4154-87ea-284c98b93509"
       ]
+    },
+    "7d0f1950-abeb-44c2-bd60-453a0176eaf7": {
+      "id": "be6c24cc-4e56-49fe-afbb-34d067e50422",
+      "english": "Japan",
+      "japanese": "日本",
+      "romaji": "Nihon/Nippon",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "2c3af57c-6686-40b6-a5bb-65b35cf85bd5": {
+      "id": "c5b00764-c5d3-4321-be23-22b4b94c9925",
+      "english": "State of Japan",
+      "japanese": "日本国",
+      "romaji": "Nihon-koku",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "a62a1064-5a0d-4948-b648-a162640ec29b": {
+      "id": "6654fa06-c439-4e97-8fe8-f4e9d62c4e49",
+      "english": "Asia",
+      "japanese": "アジア",
+      "romaji": "Ajia",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "9cdce638-4478-4c57-98b1-d84bf8fdb989": {
+      "id": "f29ccb98-2582-4ad8-bfcc-066b3f848783",
+      "english": "China",
+      "japanese": "中国",
+      "romaji": "Chūgoku",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "97c8ea92-85e1-4293-a4e4-ddc1b12b309a": {
+      "id": "f51faeb6-ca7b-4efe-9611-57f736b87023",
+      "english": "People's Republic of China",
+      "japanese": "中華人民共和国",
+      "romaji": "Chūka jinmin Kyouwa koku",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "51b6e2bb-19bc-4b9d-acbb-14e89b888d58": {
+      "id": "0e746a83-295d-4b58-8fb3-77f176cc9bf3",
+      "english": "Taiwan",
+      "japanese": "台湾",
+      "romaji": "Taiwan",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "03e1380b-852c-495d-a800-6d983ff201d5": {
+      "id": "b0b26b34-7e4e-4b51-a167-a8aa540ef734",
+      "english": "Hong Kong",
+      "japanese": "香港",
+      "romaji": "Honkon",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "7c86dde4-5846-49f0-a856-62074cf475f4": {
+      "id": "564322e4-6442-45db-8daa-719721b43c8b",
+      "english": "South Korea",
+      "japanese": "韓国",
+      "romaji": "Kankoku",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "922f5ce8-8310-4405-9a52-8e351bae1ecc": {
+      "id": "a2f63f0f-81e0-462a-9af2-419af8e7520a",
+      "english": "Republic of Korea",
+      "japanese": "大韓民国",
+      "romaji": "Daikan Minkoku",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "849844d5-bd96-4aec-a6a2-4d36779a50d8": {
+      "id": "2a67c68e-95ac-4ade-b0d2-35af0dcf0fd4",
+      "english": "North Korea",
+      "japanese": "北朝鮮",
+      "romaji": "Kitachōsen",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "93dd4965-6065-4f5b-ba01-78f93974f51e": {
+      "id": "5bd7e744-3da6-4083-8452-8c815f1b896f",
+      "english": "Democratic People's Republic of Korea",
+      "japanese": "朝鮮民主主義人民共和国",
+      "romaji": "Chōsen Minsyu syugi Jinmin Kyouwa koku",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "c3e2b4d4-5083-4420-9b8f-e0a3f91d8ffb": {
+      "id": "d14835bd-71f5-4c6b-9105-c59e2705e17c",
+      "english": "Mongol",
+      "japanese": "モンゴル",
+      "romaji": "Mongoru",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "75373044-7623-4194-a275-25efa98ad458": {
+      "id": "13bac29d-1425-4813-b8ab-9f69667ae6af",
+      "english": "Thailand",
+      "japanese": "タイ",
+      "romaji": "Tai",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "8d76571a-cbed-41b8-ba1c-a1383106d953": {
+      "id": "9ddb22d8-5aa8-47fa-90de-088fcb97dbaf",
+      "english": "Philippines",
+      "japanese": "フィリピン",
+      "romaji": "Firipin",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "89accd97-9d67-43e0-899c-7538dcc1f2f1": {
+      "id": "79bd714c-94c5-4e16-84d0-9a05f09360d8",
+      "english": "Vietnam",
+      "japanese": "ベトナム",
+      "romaji": "Betonamu",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "e8bdf8c4-b8ae-4fad-a047-648edec6dad7": {
+      "id": "c176838c-61d0-45f8-abb1-c3d39271462d",
+      "english": "Malaysia",
+      "japanese": "マレーシア",
+      "romaji": "Marēsia",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "3d26f63c-f89b-4b8f-8dc9-c4955866f2dc": {
+      "id": "145e9a2d-5aff-4f20-8da1-57fc032de9a8",
+      "english": "Myanmar",
+      "japanese": "ミャンマー",
+      "romaji": "Myanmā'', ビルマ ''Biruma",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "e5cf34c6-f0d0-4348-9c91-d0ed4573fda5": {
+      "id": "80eac616-f7a9-4977-a753-ada6c99d1c9e",
+      "english": "Laos",
+      "japanese": "ラオス",
+      "romaji": "Raosu",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "0919892d-1dde-4ef7-a5b1-2bcee496fb09": {
+      "id": "43d6c806-3800-4897-8455-85619292fa2e",
+      "english": "United Arab Emirates",
+      "japanese": "アラブ首長国連邦",
+      "romaji": "Arabu-shuchōkoku-rempō",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "e331c18a-f528-43f3-b9b1-f94b8be7fcaf": {
+      "id": "d35b826c-0bab-4ce6-9924-eb1150419e3a",
+      "english": "Israel",
+      "japanese": "イスラエル",
+      "romaji": "Isuraeru",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "d4112dd6-029b-4379-8053-0c77ca2aa9f6": {
+      "id": "aac67752-2db7-43cc-a25f-a32197467e6e",
+      "english": "Iraq",
+      "japanese": "イラク",
+      "romaji": "Iraku",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "0ae4e34f-39c9-4a53-88a7-c2dafeb14674": {
+      "id": "562b82af-6b7c-4dfb-a337-90f92e3ad5b0",
+      "english": "Iran",
+      "japanese": "イラン",
+      "romaji": "Iran",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "b7701d96-6bf1-4f83-97f6-9deb4ba186e2": {
+      "id": "804b3c2e-c571-4fb3-9508-e76dc9fca26c",
+      "english": "India",
+      "japanese": "インド",
+      "romaji": "Indo",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "92177c25-cd55-47eb-9946-ce0e049a6d6b": {
+      "id": "1816f42e-3cbd-442a-a2e5-89da84d4a2b6",
+      "english": "Turkey",
+      "japanese": "トルコ",
+      "romaji": "Toruko",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "e9f2623b-492b-42f1-8bf2-35c713d93289": {
+      "id": "622166f6-7c95-4121-9362-07aeab46e2bd",
+      "english": "Bangladesh",
+      "japanese": "バングラデシュ",
+      "romaji": "Banguradeshu",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "b1a2ee3b-f20e-4e25-9efb-31d3f577a238": {
+      "id": "7529d6a4-7194-4e7f-b102-ec93d0a8aa5d",
+      "english": "Oceania",
+      "japanese": "オセアニア",
+      "romaji": "Oseania",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "ae2c4b75-18b8-4d36-af5c-f0e4eded08e6": {
+      "id": "36cc502d-7c5c-4bd9-80c2-bdccdad9f016",
+      "english": "Australia",
+      "japanese": "オーストラリア",
+      "romaji": "Ōsutoraria",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "e33497c8-c7c4-471b-a871-2cfe8ad14bd9": {
+      "id": "bdc3416e-a1e6-4464-959e-09d2c5e53a28",
+      "english": "Australia",
+      "japanese": "豪州",
+      "romaji": "Gōshū",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "80a66433-a8c0-4859-b86b-6d76c2195fb7": {
+      "id": "d559b879-ba3e-418a-b360-110956a073fe",
+      "english": "New Zealand",
+      "japanese": "ニュージーランド",
+      "romaji": "Nyūjīrando",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "c41accd2-ee7f-4fb8-a813-81a607d7e661": {
+      "id": "68961979-0b5a-404a-a111-f6747640972b",
+      "english": "Europe",
+      "japanese": "ヨーロッパ",
+      "romaji": "Yōroppa",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "507ed58e-9cfa-43eb-9ba3-ae84ed4b1021": {
+      "id": "549a2f72-3351-4cd3-9224-4d00b9cf9f37",
+      "english": "Iceland",
+      "japanese": "アイスランド",
+      "romaji": "Aisurando",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "d55dc521-0232-4e9b-afc1-d61aca0f67dc": {
+      "id": "a6e456f9-0e56-4e17-a37e-ed6bbb7e0047",
+      "english": "Ireland",
+      "japanese": "アイルランド",
+      "romaji": "Airurando",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "18a18baa-6c22-4257-83f2-13d9611821d5": {
+      "id": "8239a942-d9b1-4e2e-a295-66a3039e7951",
+      "english": "United Kingdom",
+      "japanese": "イギリス",
+      "romaji": "Igirisu",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "96251a88-7312-468a-9c6c-7c9ac7ba8858": {
+      "id": "f5ef0c5d-4ba4-4397-935d-43fa6f94c7b0",
+      "english": "United Kingdom",
+      "japanese": "英国",
+      "romaji": "Eikoku",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "045e1ac1-38c2-40c0-93cb-71a151d2a7a4": {
+      "id": "989d2fea-4f6f-422e-9a16-760b8fa69465",
+      "english": "Scotland",
+      "japanese": "スコットランド",
+      "romaji": "Sukottorando",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "cb2e213a-fa8b-4268-906b-f8859052340a": {
+      "id": "cfd45252-88d5-4646-8cdc-fd8b5b7c9684",
+      "english": "Italy",
+      "japanese": "イタリア",
+      "romaji": "Itaria",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "7505cb9c-3e43-441e-8491-9e5f8411f544": {
+      "id": "bc050187-1c00-41a3-a778-3e4cbc00598a",
+      "english": "Ukraine",
+      "japanese": "ウクライナ",
+      "romaji": "Ukuraina",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "71669add-0b75-44ad-bbea-53bff8eb5d49": {
+      "id": "22ebaea5-7154-4d55-b486-0799f390427c",
+      "english": "Estonia",
+      "japanese": "エストニア",
+      "romaji": "Esutonia",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "02459b06-95c2-48bd-928a-999b6a0c76ab": {
+      "id": "9e4c2af2-a619-4946-ae57-aa5178dcee0f",
+      "english": "Austria",
+      "japanese": "オーストリア",
+      "romaji": "Ōsutoria",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "fac51c33-9270-4ec7-b653-3ba47e369161": {
+      "id": "823e3684-539f-4b98-8b22-141e35824dd6",
+      "english": "The Netherlands",
+      "japanese": "オランダ",
+      "romaji": "Oranda",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "69fdd7a9-59b4-4ca0-a58b-26399cfc6760": {
+      "id": "e89bed7c-429e-4785-ba8a-07ac31753f01",
+      "english": "Ellas",
+      "japanese": "ギリシャ",
+      "romaji": "Girisya",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "a204f884-5e7b-4a15-a638-eb1f07f03355": {
+      "id": "a1773976-ad64-49c3-a50e-a2cf3e662824",
+      "english": "Croatia",
+      "japanese": "クロアチア",
+      "romaji": "Kuroachia",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "c77434d6-2a67-494f-8a8d-d4c693cf71a3": {
+      "id": "d14cf4c0-3ad0-4fca-8301-0646a1f130b5",
+      "english": "Kosovo",
+      "japanese": "コソボ",
+      "romaji": "Kosobo",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "c7e2a924-e26b-4da6-ae3c-40d8f861d1e8": {
+      "id": "3a439334-4359-4254-96e4-f04746e899be",
+      "english": "Switzerland",
+      "japanese": "スイス",
+      "romaji": "Suisu",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "5ac2faee-d9e6-4f1d-878a-8bc89d26f791": {
+      "id": "9efbe189-ae80-4d58-8e1c-300aa85a8042",
+      "english": "Sweden",
+      "japanese": "スウェーデン",
+      "romaji": "Suēden",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "c34ebba6-c0a9-4f4e-8899-2e21294ccddd": {
+      "id": "866aacd3-4908-4479-9110-b09ebbf247cd",
+      "english": "Spain",
+      "japanese": "スペイン",
+      "romaji": "Supein",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "d803b206-1a03-4d3f-8851-77cf8e22ae7f": {
+      "id": "1f693be6-bc91-4985-b8e8-86c162401da5",
+      "english": "Catalunya",
+      "japanese": "カタルーニャ",
+      "romaji": "Katarūnya",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "1c6b2882-3642-4ae4-bb26-d2a0d04505fb": {
+      "id": "673a6b57-65db-4f23-bf1f-c7305da4acbc",
+      "english": "Galicia",
+      "japanese": "ガリシア",
+      "romaji": "Garisia",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "93e34aed-a2cf-4bec-a702-b02544a6b1e5": {
+      "id": "4b80c420-4cc7-4f31-9e3f-4d284dddbc69",
+      "english": "Basque",
+      "japanese": "バスク",
+      "romaji": "Basuku",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "425085a4-bb1a-46b1-95df-1df08e005c33": {
+      "id": "0cc311f9-39cc-4a55-aec1-9c5ef1c6ac98",
+      "english": "Valencia",
+      "japanese": "バレンシア",
+      "romaji": "Barensia",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "219da849-eded-42b0-b200-60972f30faaa": {
+      "id": "5f237474-7182-4420-97d1-214c77f9f116",
+      "english": "Serbia",
+      "japanese": "セルビア",
+      "romaji": "Serubia",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "65053afb-3afe-4b56-beb0-9ea26dc45e09": {
+      "id": "85298221-0fef-4cb1-943d-48176188e53f",
+      "english": "Denmark",
+      "japanese": "デンマーク",
+      "romaji": "Denmāku",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "974195df-fe8b-4ea9-84e7-34d61f018d75": {
+      "id": "ae0dc479-b5ac-424f-bc78-1d890b941109",
+      "english": "Germany",
+      "japanese": "ドイツ",
+      "romaji": "Doitsu",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "25591a6a-66f1-4a70-9167-91e6403eb00b": {
+      "id": "94af9eee-c8ed-4618-8700-284f54a09c69",
+      "english": "Norway",
+      "japanese": "ノルウェー",
+      "romaji": "Noruē",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "dd0d1b9d-0d8e-44ad-812d-60f6d706b350": {
+      "id": "90456796-df50-4851-8984-7cc6998b3a2f",
+      "english": "Hungary",
+      "japanese": "ハンガリー",
+      "romaji": "Hangarī",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "b029e2a8-7b6d-4a63-b573-8786db901bb4": {
+      "id": "cda292e7-7fd9-4a4b-a4f9-23dbed6f240b",
+      "english": "Finland",
+      "japanese": "フィンランド",
+      "romaji": "Finrando",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "43f3186f-c7f9-4878-a2d2-0b69239d3697": {
+      "id": "d113c799-6614-4ddf-9192-c3e9e536974f",
+      "english": "France",
+      "japanese": "フランス",
+      "romaji": "Furansu",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "d54912a8-9bbb-4254-a132-3ef3633db316": {
+      "id": "be869c1d-e893-4936-a8c3-37851117d197",
+      "english": "Bulgaria",
+      "japanese": "ブルガリア",
+      "romaji": "Barugaria",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "956bd5cd-00bb-4ae8-8730-7070e1ca112d": {
+      "id": "224c0944-ccc5-4b2b-9393-115883e490c4",
+      "english": "Belgium",
+      "japanese": "ベルギー",
+      "romaji": "Berugī",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "27b3f040-14f7-4836-b996-55c4f256d5e7": {
+      "id": "4fe3154b-6b94-4141-9ac2-24e15249b03a",
+      "english": "Poland",
+      "japanese": "ポーランド",
+      "romaji": "Pōrando",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "cbd3e961-033a-43a6-80d4-8cf25ed71b76": {
+      "id": "07aaa11d-7c0d-4de1-a8cc-353089f3b272",
+      "english": "Silesia",
+      "japanese": "シレジア",
+      "romaji": "Sirejia",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "5b4e4efe-6996-40a6-8436-443f418a6898": {
+      "id": "068fa743-a28c-446d-b5cf-58c56da18efd",
+      "english": "Bosnia and Herzegovina",
+      "japanese": "ボスニア・ヘルツェゴビナ",
+      "romaji": "Bosunia Herutsuegobina",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "76e096a9-429e-4d47-97eb-8bcfcb4cd842": {
+      "id": "ae41e181-48ae-403f-bf26-db7d00137543",
+      "english": "Portugal",
+      "japanese": "ポルトガル",
+      "romaji": "Porutogaru",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "3d85052e-e45b-4559-9308-e9b4ce35e9c5": {
+      "id": "0bec03be-fdbf-44ed-9cdf-22dc956b3712",
+      "english": "Montenegro",
+      "japanese": "モンテネグロ",
+      "romaji": "Monteneguro",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "91413168-933b-47c4-8249-e3d79f75b601": {
+      "id": "07ec01b8-b86a-4e0e-b514-50a7b1be634f",
+      "english": "Latvia",
+      "japanese": "ラトビア",
+      "romaji": "Ratobia",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "f9ed5795-b3cd-4f23-8c71-d03aaeb46ce0": {
+      "id": "b130866e-db17-4d75-809e-087093aaa589",
+      "english": "Lithuania",
+      "japanese": "リトアニア",
+      "romaji": "Ritoania",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "8a64827c-8e40-4bc8-bda0-8723db89494c": {
+      "id": "a77a1a82-17e2-4cec-a4ac-6a8a0511d13a",
+      "english": "Romania",
+      "japanese": "ルーマニア",
+      "romaji": "Rūmania",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "25ae5558-7592-4919-a8d1-5af7cd46b670": {
+      "id": "5fc44f40-73e6-4dad-b5e3-05135b60cc12",
+      "english": "Luxembourg",
+      "japanese": "ルクセンブルク",
+      "romaji": "Rukusenburuku",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "d7085f9b-4f40-4e07-abab-48f53f64889d": {
+      "id": "aec75453-efbc-4c37-844c-d88f4d368aff",
+      "english": "Russia",
+      "japanese": "ロシア",
+      "romaji": "Roshia",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "bac0763f-5082-454a-9c45-7dca940a065d": {
+      "id": "9a447646-6974-4556-83c6-6940246a4107",
+      "english": "Africa",
+      "japanese": "アフリカ",
+      "romaji": "Afurika",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "e4a3d981-0c89-43b5-88ed-657a2eb6426c": {
+      "id": "d34db218-d6f5-437f-bff5-855e6c4d352d",
+      "english": "Egypt",
+      "japanese": "エジプト",
+      "romaji": "Ejiputo",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "84802163-adc2-43c0-8fe1-da6d10df37f0": {
+      "id": "9d23b9bd-0e44-4740-b614-cb37443616b9",
+      "english": "Ethiopia",
+      "japanese": "エチオピア",
+      "romaji": "Echiopia",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "d31d6a42-0d08-4276-b8bb-2e1f8b38290b": {
+      "id": "3bd6963f-2268-45ce-8007-32462c0d7e63",
+      "english": "South Africa",
+      "japanese": "南アフリカ",
+      "romaji": "Minami-afurika",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "c3b2e810-d6e0-4afe-aee1-7603195533d2": {
+      "id": "d5ac67fa-817b-49d9-b8db-435afcdea9c3",
+      "english": "North America",
+      "japanese": "北アメリカ",
+      "romaji": "Kita-Amerika",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "19640ff6-5719-487a-adc1-f50c17ac814a": {
+      "id": "363f9d40-1f60-47d4-ad1b-a2b283e080cf",
+      "english": "United States of America",
+      "japanese": "アメリカ",
+      "romaji": "Amerika",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "da9c81b3-b3f3-4345-90ac-5bcd85410398": {
+      "id": "9d23af18-bb9f-4d6a-94bd-f277ef0a4d9c",
+      "english": "United States of America",
+      "japanese": "米国",
+      "romaji": "Beikoku",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "38f2d248-19f0-4f5f-8283-68a07a2ab4dd": {
+      "id": "e406ecd8-0158-4e7c-a5d1-d2c3a9a982b8",
+      "english": "Canada",
+      "japanese": "カナダ",
+      "romaji": "Kanada",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "e3606c24-02ac-42ec-bfd6-5ae76987b2a0": {
+      "id": "e1d8d5da-2a98-4a0a-848c-80c0a8b95eb7",
+      "english": "Mexico",
+      "japanese": "メキシコ",
+      "romaji": "Mekishiko",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "28818296-0a4f-4655-9ad3-6abc3f4ad265": {
+      "id": "2698a5b6-46eb-457f-9815-0f47eac78adb",
+      "english": "South America",
+      "japanese": "南アメリカ",
+      "romaji": "Minami-Amerika",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "3acc559d-7d7d-40d8-8e48-5bbf8567e376": {
+      "id": "921d71d4-964e-42ce-9dd0-06bf70ad5999",
+      "english": "Argentina",
+      "japanese": "アルゼンチン",
+      "romaji": "Aruzenchin",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "1d9f8a65-5484-4146-b3d8-84ffa518ed6e": {
+      "id": "608f04bf-1268-465a-b340-545f8fe3c724",
+      "english": "Chile",
+      "japanese": "チリ",
+      "romaji": "Chiri",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "23cb72dc-a51d-4f11-af5c-ce8bc89b38d9": {
+      "id": "df901a12-6e88-419f-92a5-8874f06e6512",
+      "english": "Brazil",
+      "japanese": "ブラジル",
+      "romaji": "Burajiru",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "05251cb3-84b7-4fff-a69c-1752de17be0b": {
+      "id": "3cbfa438-e6be-4b77-b467-c14ae785ae9b",
+      "english": "Venezuela",
+      "japanese": "ベネズエラ",
+      "romaji": "Benezuera",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "5a33214e-e55a-4e4a-ac0c-201572501315": {
+      "id": "a8cd3347-1a83-4290-91b8-fe5b783222f5",
+      "english": "Peru",
+      "japanese": "ペルー",
+      "romaji": "Perū",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
+    },
+    "1be22707-c795-4fa3-a9f2-32cf4d7a23b4": {
+      "id": "e22cf2a8-6090-48b5-8a08-182a7d9dca71",
+      "english": "Bolivia",
+      "japanese": "ボリビア",
+      "romaji": "Boribia",
+      "sets": [
+        "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
+      ]
     }
   },
   "sets": {
     "5bbcdb75-3bbf-4e5d-83ce-65425be830fc": {
       "id": "5bbcdb75-3bbf-4e5d-83ce-65425be830fc",
       "name": "Basics"
-    },
-    "fbe18548-e7bc-465c-93ec-25c2eb084a84": {
-      "id": "fbe18548-e7bc-465c-93ec-25c2eb084a84",
-      "name": "Eating"
     },
     "c6c6b26c-c407-4de0-8720-67442b74065c": {
       "id": "c6c6b26c-c407-4de0-8720-67442b74065c",
@@ -2027,9 +2788,17 @@
       "name": "Colors",
       "notes": "<p>Many of the English words for colors are widely used and understood by almost all Japanese. These are indicated after the slash.</p></p>Note that some Japanese colors are normally suffixed with -iro (色) to distinguish between the color and the object. For example, 茶 cha means \"tea\", but 茶色 chairo means \"tea-color\" → \"brown\".</p>"
     },
+    "fbe18548-e7bc-465c-93ec-25c2eb084a84": {
+      "id": "fbe18548-e7bc-465c-93ec-25c2eb084a84",
+      "name": "Eating"
+    },
     "926e2760-f74d-4154-87ea-284c98b93509": {
       "id": "926e2760-f74d-4154-87ea-284c98b93509",
       "name": "Shopping"
+    },
+    "e62ee5fb-89c5-46b6-b29a-19f1c07114a4": {
+      "id": "e62ee5fb-89c5-46b6-b29a-19f1c07114a4",
+      "name": "Countries"
     }
   }
 }

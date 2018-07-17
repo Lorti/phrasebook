@@ -1,0 +1,93 @@
+===Country and territory names===
+Country and territory names in Japanese are generally borrowed from their English names and written in katakana. The names of languages are generally formed by adding 語 (''go'') to the end of the country name. Some of the main exceptions are as follows:
+
+;日本 ''Nihon/Nippon'' : Japan
+;日本国 ''Nihon-koku'': State of Japan
+;アジア ''Ajia'' : Asia
+;中国 ''Chūgoku'' : China
+;中華人民共和国 ''Chūka jinmin Kyouwa koku'' : People's Republic of China
+;台湾 ''Taiwan'' : Taiwan
+;香港 ''Honkon'': Hong Kong
+;韓国 ''Kankoku'' : South Korea
+;大韓民国 ''Daikan Minkoku'' : South Korea
+;北朝鮮 ''Kitachōsen'' : North Korea
+;朝鮮民主主義人民共和国 ''Chōsen Minsyu syugi Jinmin Kyouwa koku'' : Democratic People's Republic of Korea
+;モンゴル　''Mongoru'' : Mongol
+;タイ ''Tai'' : Thailand
+;フィリピン ''Firipin'' : Philippines
+;ベトナム ''Betonamu'' : Vietnam
+;マレーシア ''Marēsia'' : Malaysia
+;ミャンマー ''Myanmā'', ビルマ ''Biruma'' : Myanmar
+;ラオス　''Raosu'' : Laos
+;アラブ首長国連邦 ''Arabu-shuchōkoku-rempō'' : United Arab Emirates
+;イスラエル ''Isuraeru'' : Israel
+;イラク ''Iraku'' : Iraq
+;イラン ''Iran'' : Iran
+;インド ''Indo'' : India
+;トルコ ''Toruko'' : Turkey
+;バングラデシュ ''Banguradeshu'' : Bangladesh
+
+;オセアニア ''Oseania'' : Oceania
+;オーストラリア ''Ōsutoraria'' : Australia
+;豪州 ''Gōshū'' : Australia
+;ニュージーランド ''Nyūjīrando'' : New Zealand
+
+;ヨーロッパ ''Yōroppa'' : Europe
+;アイスランド ''Aisurando'' : Iceland
+;アイルランド ''Airurando'' : Ireland
+;イギリス ''Igirisu'' : United Kingdom
+;英国 ''Eikoku'' : United Kingdom
+;スコットランド ''Sukottorando'' : Scotland
+;イタリア ''Itaria'' : Italy
+;ウクライナ ''Ukuraina'' : Ukraine
+;エストニア ''Esutonia'' : Estonia
+;オーストリア ''Ōsutoria'' : Austria
+;オランダ ''Oranda'' : The Netherlands
+;ギリシャ ''Girisya'' : Ellas
+;クロアチア ''Kuroachia'' : Croatia
+;コソボ ''Kosobo'' : Kosovo
+;スイス ''Suisu'' : Switzerland
+;スウェーデン ''Suēden'' : Sweden
+;スペイン　''Supein'' : Spain
+;カタルーニャ　''Katarūnya'' : Catalunya
+;ガリシア　''Garisia'' : Galicia
+;バスク　''Basuku'' : Basque
+;バレンシア　''Barensia'' : Valencia
+;セルビア　''Serubia'' : Serbia
+;デンマーク ''Denmāku'' : Denmark
+;ドイツ ''Doitsu'' : Germany
+;ノルウェー ''Noruē'' : Norway
+;ハンガリー ''Hangarī'' : Hungary
+;フィンランド ''Finrando'' : Finland
+;フランス ''Furansu'' : France
+;ブルガリア ''Barugaria'' : Bulgaria
+;ベルギー　''Berugī'' : Belgium
+;ポーランド ''Pōrando'' : Poland
+;シレジア ''Sirejia'' : Silesia
+;ボスニア・ヘルツェゴビナ ''Bosunia Herutsuegobina'' : Bosnia and Herzegovina
+;ポルトガル ''Porutogaru'' : Portugal
+;モンテネグロ ''Monteneguro'' : Montenegro
+;ラトビア ''Ratobia'' : Latvia
+;リトアニア ''Ritoania'' : Lithuania
+;ルーマニア ''Rūmania'' : Romania
+;ルクセンブルク ''Rukusenburuku'' : Luxembourg
+;ロシア ''Roshia'' : Russia
+
+;アフリカ ''Afurika'' : Africa
+;エジプト ''Ejiputo'' : Egypt
+;エチオピア ''Echiopia'' : Ethiopia
+;南アフリカ ''Minami-afurika'' : South Africa
+
+;北アメリカ ''Kita-Amerika'' : North America
+;アメリカ ''Amerika'' : United States of America
+;米国 ''Beikoku'': United States of America
+;カナダ ''Kanada'' : Canada
+;メキシコ ''Mekishiko'' : Mexico
+
+;南アメリカ ''Minami-Amerika'' : South America
+;アルゼンチン ''Aruzenchin'' : Argentina
+;チリ ''Chiri'' : Chile
+;ブラジル ''Burajiru'' : Brazil
+;ベネズエラ ''Benezuera'' : Venezuela
+;ペルー　''Perū'' : Peru
+;ボリビア ''Boribia'' : Bolivia
