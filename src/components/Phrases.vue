@@ -37,6 +37,10 @@
           <md-icon v-else class="md-primary">favorite_border</md-icon>
         </md-button>
       </md-list-item>
+
+      <template v-for="set in subsets">
+        <md-subheader :key="set.id">{{ set.name }}</md-subheader>
+      </template>
     </md-list>
   </div>
 </template>
@@ -80,6 +84,9 @@ export default {
         phrases = phrases.filter(phrase => this.isFavorite(phrase.id));
       }
       return phrases;
+    },
+    subsets() {
+      return this.$store.getters.subsets(this.set);
     },
   },
   methods: {
