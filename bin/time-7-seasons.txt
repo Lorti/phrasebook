@@ -1,0 +1,6 @@
+====Seasons====
+;Spring : 春 (''haru'')
+;Summer : 夏 (''natsu'')
+;Rainy season : 梅雨 (''tsuyu'', ''baiu'')
+;Autumn : 秋 (''aki'')
+;Winter : 冬 (''fuyu'')

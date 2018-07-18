@@ -1,0 +1,9 @@
+====Days====
+
+; today : 今日(''kyō'')
+; yesterday : 昨日(''kinō'')
+; tomorrow : 明日(''ashita'')
+; tomorrow (formal) : 明日(''asu'')
+; this week : 今週(''konshū'')
+; last week : 先週(''senshū'')
+; next week : 来週(''raishū'')

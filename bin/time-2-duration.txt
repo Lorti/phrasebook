@@ -1,0 +1,10 @@
+
+====Duration====
+Confusingly, the Japanese words for "N days" (long) and "Nth day" are the same, so eg. 二日 ''futsuka'' means both "two days" and "the second day of the month".  (See [[#Days of the Month]] for the full list.)  You can tag on -間 ''kan'' at the end, eg. ''futsukakan'' 2日間, to clarify that you mean "two days long". The exception is 一日, which is read ''ichinichi'' to mean "one day/all day", but ''tsuitachi'' to mean "first day".
+
+; _____ minute(s) : _____ 分 (''fun'' or ''pun'')
+; _____ hour(s) : _____ 時間 (''jikan'')
+; _____ day(s) : _____ 日間 (''nichikan'' or ''(k)kakan'', see note above)
+; _____ week(s) : _____ 週間 (''shūkan'')
+; _____ month(s) : _____ ヶ月 (''kagetsu'')
+; _____ year(s) : _____ 年 (''nen'')

@@ -1,0 +1,20 @@
+====Days of the month====
+The 1st through the 10th of the month have special names:
+
+; First day of the month :1日 (''tsuitachi'')
+; Second day of the month : 2日 (''futsuka'')
+; Third day of the month : 3日 (''mikka'')
+; Fourth day of the month : 4日 (''yokka'')
+; Fifth day of the month : 5日 (''itsuka'')
+; Sixth day of the month : 6日 (''muika'')
+; Seventh day of the month : 7日 (''nanoka'')
+; Eighth day of the month : 8日 (''yōka'')
+; Ninth day of the month : 9日 (''kokonoka'')
+; Tenth day of the month : 10日 (''tōka'')
+
+The other days of the month are more orderly, just add the suffix ''-nichi'' to the ordinal number.  Note that 14, 20, and 24 deviate from this pattern.
+
+; Eleventh day of the month : 11日 (''jūichinichi'')
+; Fourteenth day of the month : 14日 (''jūyokka'')
+; Twentieth day of the month : 20日 (''hatsuka'')
+; Twenty-fourth day of the month : 24日 (''nijūyokka'')
