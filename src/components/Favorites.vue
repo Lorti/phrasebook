@@ -9,30 +9,20 @@
     </md-field>
 
     <md-list class="md-double-line">
-      <md-list-item v-for="phrase in filteredPhrases" :key="phrase.id">
-        <div class="md-list-item-text">
-          <template v-if="!$store.state.settings.swapLanguages">
-            <span>{{ phrase.english }}</span>
-            <span>{{ phrase.japanese }} <em>{{ phrase.romaji }}</em></span>
-          </template>
-          <template v-else>
-            <span>{{ phrase.japanese }}</span>
-            <span>{{ phrase.romaji }} <em>{{ phrase.english }}</em></span>
-          </template>
-        </div>
-
-        <md-button class="md-icon-button md-list-action" :md-ripple="false"
-                   @click="removeFavorite(phrase)">
-          <md-icon class="md-primary">close</md-icon>
-        </md-button>
-      </md-list-item>
+      <phrase v-for="phrase in filteredPhrases"
+              :phrase="phrase" :key="phrase.id" onlyRemoveFavorites="true"></phrase>
     </md-list>
   </div>
 </template>
 
 <script>
+import Phrase from '@/components/Phrase';
+
 export default {
   name: 'Favorites',
+  components: {
+    phrase: Phrase,
+  },
   data() {
     return {
       filter: '',
@@ -52,21 +42,10 @@ export default {
       return this.phrases;
     },
   },
-  methods: {
-    removeFavorite(phrase) {
-      // eslint-disable-next-line no-alert
-      if (confirm(`Do you really want to remove ${phrase.japanese} from your favorites?`)) {
-        this.$store.dispatch('REMOVE_FAVORITE', phrase.id);
-      }
-    },
-  },
 };
 </script>
 
 <style scoped>
-  .md-list-item-text {
-    white-space: normal;
-  }
   .md-icon:after {
     background-color: var(--md-theme-default-background, #fff) !important;
   }

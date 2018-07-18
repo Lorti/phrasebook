@@ -19,24 +19,8 @@
         </div>
       </md-list-item>
 
-      <md-list-item v-for="phrase in filteredPhrases" :key="phrase.id">
-        <div class="md-list-item-text">
-          <template v-if="!$store.state.settings.swapLanguages">
-            <span>{{ phrase.english }}</span>
-            <span>{{ phrase.japanese }} <em>{{ phrase.romaji }}</em></span>
-          </template>
-          <template v-else>
-            <span>{{ phrase.japanese }}</span>
-            <span>{{ phrase.romaji }} <em>{{ phrase.english }}</em></span>
-          </template>
-        </div>
-
-        <md-button class="md-icon-button md-list-action" :md-ripple="false"
-                   @click="toggleFavorite(phrase.id)">
-          <md-icon v-if="isFavorite(phrase.id)" class="md-primary">favorite</md-icon>
-          <md-icon v-else class="md-primary">favorite_border</md-icon>
-        </md-button>
-      </md-list-item>
+      <phrase v-for="phrase in filteredPhrases"
+              :phrase="phrase" :key="phrase.id"></phrase>
 
       <template v-for="set in subsets">
         <md-subheader :key="set.id">{{ set.name }}</md-subheader>
@@ -46,8 +30,13 @@
 </template>
 
 <script>
+import Phrase from '@/components/Phrase';
+
 export default {
   name: 'Phrases',
+  components: {
+    phrase: Phrase,
+  },
   props: ['set'],
   data() {
     return {
@@ -81,24 +70,12 @@ export default {
         });
       }
       if (this.filterFavorites) {
-        phrases = phrases.filter(phrase => this.isFavorite(phrase.id));
+        phrases = phrases.filter(phrase => this.$store.getters.isFavorite(phrase.id));
       }
       return phrases;
     },
     subsets() {
       return this.$store.getters.subsets(this.set);
-    },
-  },
-  methods: {
-    isFavorite(phrase) {
-      return this.$store.getters.isFavorite(phrase);
-    },
-    toggleFavorite(phrase) {
-      if (this.isFavorite(phrase)) {
-        this.$store.dispatch('REMOVE_FAVORITE', phrase);
-      } else {
-        this.$store.dispatch('ADD_FAVORITE', phrase);
-      }
     },
   },
 };
@@ -109,9 +86,6 @@ export default {
     float: right;
     margin-top: 6px;
     margin-right: 10px;
-  }
-  .md-list-item-text {
-    white-space: normal;
   }
   .notes {
     margin: 1em;
