@@ -19,11 +19,14 @@
         </div>
       </md-list-item>
 
-      <phrase v-for="phrase in filteredPhrases"
+      <phrase v-for="phrase in filteredPhrases(set)"
               :phrase="phrase" :key="phrase.id"></phrase>
 
-      <template v-for="set in subsets">
-        <md-subheader :key="set.id">{{ set.name }}</md-subheader>
+      <template v-for="subset in subsets">
+        <md-subheader :key="subset.id">{{ subset.name }}</md-subheader>
+
+        <phrase v-for="phrase in filteredPhrases(subset.id)"
+                :phrase="phrase" :key="phrase.id"></phrase>
       </template>
     </md-list>
   </div>
@@ -58,11 +61,13 @@ export default {
     notes() {
       return this.$store.getters.setNotes(this.set);
     },
-    phrases() {
-      return this.$store.getters.phrases(this.set);
+    subsets() {
+      return this.$store.getters.subsets(this.set);
     },
-    filteredPhrases() {
-      let phrases = this.phrases;
+  },
+  methods: {
+    filteredPhrases(setId) {
+      let phrases = this.$store.getters.phrases(setId);
       if (this.filter.length) {
         phrases = phrases.filter((phrase) => {
           const haystack = (phrase.japanese + phrase.english + phrase.romaji).toLowerCase();
@@ -73,9 +78,6 @@ export default {
         phrases = phrases.filter(phrase => this.$store.getters.isFavorite(phrase.id));
       }
       return phrases;
-    },
-    subsets() {
-      return this.$store.getters.subsets(this.set);
     },
   },
 };

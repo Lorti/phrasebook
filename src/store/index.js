@@ -65,7 +65,7 @@ const getters = {
   },
   subsets: (state, _getters) => (setId) => {
     const setObject = _getters.set(setId);
-    if (!Object.hasOwnProperty.call(setObject, 'subsets')) {
+    if (!setObject || !Object.hasOwnProperty.call(setObject, 'subsets')) {
       return [];
     }
     return [...Object.values(state.sets)].filter(set => setObject.subsets.includes(set.id));
