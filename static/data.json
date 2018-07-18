@@ -3547,6 +3547,102 @@
       "sets": [
         "790d76ce-22cb-40d2-8344-92014e45d23a"
       ]
+    },
+    "af897fb0-4926-4e72-83e9-c708d1bd2825": {
+      "id": "30a91a34-f3d7-4145-8e0d-f245330da7e0",
+      "english": "Open",
+      "japanese": "営業中",
+      "sets": [
+        "d241e2a6-13ca-416d-967f-53caa8984f54"
+      ]
+    },
+    "9248039c-d70d-410d-a3bc-5192a84ed9d6": {
+      "id": "7353dab2-e8fc-466d-ad09-ff4994717441",
+      "english": "Closed",
+      "japanese": "準備中",
+      "sets": [
+        "d241e2a6-13ca-416d-967f-53caa8984f54"
+      ]
+    },
+    "3cbea54f-4e32-4661-899e-72465ef4a34b": {
+      "id": "0bab4e68-a2d3-4646-a883-825a573fef19",
+      "english": "Entrance",
+      "japanese": "入口",
+      "sets": [
+        "d241e2a6-13ca-416d-967f-53caa8984f54"
+      ]
+    },
+    "3202d5e5-6b63-4c5f-9a47-39b1230f0187": {
+      "id": "5e1acfc2-8d8e-45fd-b411-36257fbda523",
+      "english": "Exit",
+      "japanese": "出口",
+      "sets": [
+        "d241e2a6-13ca-416d-967f-53caa8984f54"
+      ]
+    },
+    "33981ee5-ec4f-4851-8859-1c8efcab6876": {
+      "id": "c6e5e9fd-9782-4490-92a0-111b8bd6a94d",
+      "english": "Big / Middle / Small",
+      "japanese": "大・中・小",
+      "sets": [
+        "d241e2a6-13ca-416d-967f-53caa8984f54"
+      ]
+    },
+    "28fbf3b2-6caa-4aa8-8611-60cb64e9bc78": {
+      "id": "100aa9ff-1cfb-47d5-aa36-bdfb380f2feb",
+      "english": "Push",
+      "japanese": "押",
+      "sets": [
+        "d241e2a6-13ca-416d-967f-53caa8984f54"
+      ]
+    },
+    "eb72a1e5-aed5-455f-8711-aa0baa7a3b24": {
+      "id": "79ec9ae4-8fd3-49a1-bd9c-ce149725b135",
+      "english": "Pull",
+      "japanese": "引",
+      "sets": [
+        "d241e2a6-13ca-416d-967f-53caa8984f54"
+      ]
+    },
+    "6d4a149f-590a-480f-998f-54526c8cd676": {
+      "id": "a31859a1-c121-467d-b8eb-85223cbc40d5",
+      "english": "Toilet",
+      "japanese": "お手洗い, トイレ, 化粧室",
+      "sets": [
+        "d241e2a6-13ca-416d-967f-53caa8984f54"
+      ]
+    },
+    "1306015f-5eb1-483d-84ae-bbd9db05cbc7": {
+      "id": "914451da-a2a8-480d-9a8d-738c09ae3534",
+      "english": "Men",
+      "japanese": "男",
+      "sets": [
+        "d241e2a6-13ca-416d-967f-53caa8984f54"
+      ]
+    },
+    "bfef9cb5-ed85-4b29-919f-383061aa8329": {
+      "id": "d0070929-73e2-4e80-af99-882ceda47823",
+      "english": "Women",
+      "japanese": "女",
+      "sets": [
+        "d241e2a6-13ca-416d-967f-53caa8984f54"
+      ]
+    },
+    "405a2298-3373-4a4e-8f0f-b318f1232864": {
+      "id": "855d4eb4-5ecd-4fd9-850a-07b788b7c6d6",
+      "english": "Forbidden",
+      "japanese": "禁止",
+      "sets": [
+        "d241e2a6-13ca-416d-967f-53caa8984f54"
+      ]
+    },
+    "21030eb9-1a9e-49d5-929c-fa55ab65f612": {
+      "id": "47af003f-7d8e-4950-a9bc-87f3c9632ba8",
+      "english": "Yen",
+      "japanese": "円",
+      "sets": [
+        "d241e2a6-13ca-416d-967f-53caa8984f54"
+      ]
     }
   },
   "sets": {
@@ -3554,6 +3650,11 @@
       "id": "5bbcdb75-3bbf-4e5d-83ce-65425be830fc",
       "name": "Basics",
       "slug": "basics"
+    },
+    "d241e2a6-13ca-416d-967f-53caa8984f54": {
+      "id": "d241e2a6-13ca-416d-967f-53caa8984f54",
+      "name": "Signs",
+      "slug": "signs"
     },
     "88941df9-799f-4595-948c-24d3ba510483": {
       "id": "88941df9-799f-4595-948c-24d3ba510483",

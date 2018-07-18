@@ -9,6 +9,7 @@ const sets = args.slice(1);
 
 const defaultRegex = /;(.*?):(.*?)\(?''(.*?)''/gm;
 const countryRegex = /;(.*?)\s*?''(.*?)''\s*?:\s*?(.*?)$/gm;
+const signsRegex = /;(.*?):(.*?)$/gm;
 
 function parsePhrases(markup, _sets) {
   const phrases = {};
@@ -54,8 +55,33 @@ function parseCountries(markup, _sets) {
   return phrases;
 }
 
+function parseSigns(markup, _sets) {
+  const phrases = {};
+  let matches;
+
+  while ((matches = signsRegex.exec(markup)) !== null) {
+    if (matches.index === signsRegex.lastIndex) {
+      signsRegex.lastIndex += 1;
+    }
+
+    const id = uuidv4();
+    phrases[id] = {
+      id: uuidv4(),
+      english: matches[2].trim(),
+      japanese: matches[1].trim(),
+      sets: _sets,
+    };
+  }
+
+  return phrases;
+}
+
 fs.readFile(path.join(__dirname, source), 'utf-8', (err, data) => {
   if (err) throw err;
-  const phrases = Object.assign({}, parsePhrases(data, sets), parseCountries(data, sets));
+  const phrases = Object.assign({},
+    parsePhrases(data, sets),
+    parseCountries(data, sets),
+    parseSigns(data, sets)
+  );
   console.log(JSON.stringify(phrases, null, 2));
 });

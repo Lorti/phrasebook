@@ -1,0 +1,12 @@
+; 営業中 : Open
+; 準備中 : Closed
+; 入口 : Entrance
+; 出口 : Exit
+; 大・中・小 : Big / Middle / Small
+; 押 : Push
+; 引 : Pull
+; お手洗い, トイレ, 化粧室 : Toilet
+; 男 : Men
+; 女 : Women
+; 禁止 : Forbidden
+; 円 : Yen (ja: ''en'')
