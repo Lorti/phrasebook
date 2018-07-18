@@ -57,24 +57,44 @@ const mutations = {
 };
 
 const getters = {
-  set: state => id => (Object.hasOwnProperty.call(state.sets, id) ? state.sets[id] : null),
-  setName: (state, _getters) => (id) => {
-    const set = _getters.set(id);
+  set: state => setId => (Object.hasOwnProperty.call(state.sets, setId) ? state.sets[setId] : null),
+  sets: (state) => {
+    const allSubsets = [...Object.values(state.sets)]
+      .reduce((subsets, set) => subsets.concat(set.subsets), []);
+    return [...Object.values(state.sets)].filter(set => !allSubsets.includes(set.id));
+  },
+  subsets: (state, _getters) => (setId) => {
+    const setObject = _getters.set(setId);
+    if (!Object.hasOwnProperty.call(setObject, 'subsets')) {
+      return [];
+    }
+    return [...Object.values(state.sets)].filter(set => setObject.subsets.includes(set.id));
+  },
+  setName: (state, _getters) => (setId) => {
+    const set = _getters.set(setId);
     return set ? set.name : null;
   },
-  setNotes: (state, _getters) => (id) => {
-    const set = _getters.set(id);
+  setNotes: (state, _getters) => (setId) => {
+    const set = _getters.set(setId);
     return set ? set.notes : null;
   },
-  phrases: state => (set) => {
+  phrases: state => (setId) => {
     const list = [...Object.values(state.phrases)];
-    if (!set) {
+    if (!setId) {
       return list;
     }
-    return list.filter(phrase => phrase.sets.includes(set));
+    return list.filter(phrase => phrase.sets.includes(setId));
   },
-  phrasesCount: (state, _getters) => set => _getters.phrases(set).length,
-  firstPhrase: (state, _getters) => set => _getters.phrases(set).shift(),
+  phrasesCount: (state, _getters) => (setId) => {
+    const subsets = _getters.subsets(setId);
+    const subsetsPhrasesCount =
+      subsets.reduce((count, subset) => count + _getters.phrasesCount(subset.id), 0);
+    return _getters.phrases(setId).length + subsetsPhrasesCount;
+  },
+  firstPhrase: (state, _getters) => (setId) => {
+    const phrases = _getters.phrases(setId);
+    return phrases ? phrases.shift() : null;
+  },
   favorites: (state, _getters) => {
     const list = [...Object.values(state.phrases)];
     return list.filter(phrase => _getters.isFavorite(phrase.id));
