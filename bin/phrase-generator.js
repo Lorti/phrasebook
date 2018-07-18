@@ -78,10 +78,12 @@ function parseSigns(markup, _sets) {
 
 fs.readFile(path.join(__dirname, source), 'utf-8', (err, data) => {
   if (err) throw err;
-  const phrases = Object.assign({},
-    parsePhrases(data, sets),
-    parseCountries(data, sets),
-    parseSigns(data, sets)
-  );
+  let phrases = parsePhrases(data, sets);
+  if (!phrases) {
+    phrases = parseSigns(data, sets);
+  }
+  if (!phrases) {
+    phrases = parseCountries(data, sets);
+  }
   console.log(JSON.stringify(phrases, null, 2));
 });

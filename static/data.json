@@ -3141,7 +3141,6 @@
         "a8d02e79-6892-4695-9811-c3f0b563e951"
       ]
     },
-
     "c17dba94-c449-4094-bf3b-46af9d93af77": {
       "id": "114d676f-dba1-49cc-92de-33bc42be342b",
       "english": "My ... hurts.",
@@ -3484,7 +3483,6 @@
         "05be73ae-cb6b-4a61-8d85-27305ee35fa6"
       ]
     },
-
     "3a250e3b-4c69-4a9a-a98a-5a72d48ec53c": {
       "id": "484bba23-64f8-4d95-a0a4-038e7337e323",
       "english": "Blizzard",
@@ -3643,6 +3641,591 @@
       "sets": [
         "d241e2a6-13ca-416d-967f-53caa8984f54"
       ]
+    },
+    "3206ba67-bccd-4fae-ac3b-a07e468e2d89": {
+      "id": "2047caae-8042-4d47-aabd-0e5fe7663bc7",
+      "english": "now",
+      "japanese": "今",
+      "romaji": "ima",
+      "sets": [
+        "be4745fe-a10c-49aa-935a-b9d8925bf811"
+      ]
+    },
+    "3d02eed5-e90d-42b7-84c7-1b6be8aba541": {
+      "id": "5935f5d0-2ecb-428b-886b-5bcfc562d89a",
+      "english": "later",
+      "japanese": "後で",
+      "romaji": "atode",
+      "sets": [
+        "be4745fe-a10c-49aa-935a-b9d8925bf811"
+      ]
+    },
+    "d5516da6-9d3c-4743-b011-7c06a8e38b1f": {
+      "id": "b8f3b46d-86e6-4e24-a10c-e3d34ecf1b61",
+      "english": "before",
+      "japanese": "前に",
+      "romaji": "mae ni",
+      "sets": [
+        "be4745fe-a10c-49aa-935a-b9d8925bf811"
+      ]
+    },
+    "d0fb73f6-8961-400d-bdce-587876325a76": {
+      "id": "a4d7a92d-23e0-4388-8865-3e8d47fc97fb",
+      "english": "before ___",
+      "japanese": "___ の前に",
+      "romaji": "___ no mae ni",
+      "sets": [
+        "be4745fe-a10c-49aa-935a-b9d8925bf811"
+      ]
+    },
+    "5dc673d0-455d-4349-9bb3-b97028cce066": {
+      "id": "0a541afc-b7bc-4f7b-ab8a-2f3a333e7840",
+      "english": "morning",
+      "japanese": "朝",
+      "romaji": "asa",
+      "sets": [
+        "be4745fe-a10c-49aa-935a-b9d8925bf811"
+      ]
+    },
+    "d51d7b6e-cd4e-4a87-a547-467c6344757d": {
+      "id": "3ca40d97-94cb-4d21-aa18-ac20942d7540",
+      "english": "afternoon",
+      "japanese": "午後",
+      "romaji": "gogo",
+      "sets": [
+        "be4745fe-a10c-49aa-935a-b9d8925bf811"
+      ]
+    },
+    "97701159-78dc-4ef9-98db-4a81d6d348a3": {
+      "id": "efd14811-5005-429d-8cc5-5f2f70c76dde",
+      "english": "evening",
+      "japanese": "夕方",
+      "romaji": "yūgata",
+      "sets": [
+        "be4745fe-a10c-49aa-935a-b9d8925bf811"
+      ]
+    },
+    "73396d1a-cbec-4abd-9cbe-2bb9646bdb6f": {
+      "id": "332e2712-e2fc-49b8-b02c-ba92578dcf91",
+      "english": "night",
+      "japanese": "夜",
+      "romaji": "yoru",
+      "sets": [
+        "be4745fe-a10c-49aa-935a-b9d8925bf811"
+      ]
+    },
+    "894c5bfa-a48b-4518-a10c-13f4fcfe96b2": {
+      "id": "6fc109f8-60cc-42eb-8eae-978539998490",
+      "english": "six o'clock in the morning",
+      "japanese": "朝6時",
+      "romaji": "asa rokuji",
+      "sets": [
+        "28e171ee-407e-413b-8ba6-b7fbf1eff431"
+      ]
+    },
+    "371cc44e-4695-4cc2-aaed-084466eb6e98": {
+      "id": "9949ed29-4629-4324-9951-fd385d4d7e9e",
+      "english": "nine o'clock AM",
+      "japanese": "午前9時",
+      "romaji": "gozen kuji",
+      "sets": [
+        "28e171ee-407e-413b-8ba6-b7fbf1eff431"
+      ]
+    },
+    "9fd2c278-a75f-4307-bc24-7a637b9cde98": {
+      "id": "72d5f5db-3156-497e-bd50-9b394e9a577c",
+      "english": "noon",
+      "japanese": "正午",
+      "romaji": "shōgo",
+      "sets": [
+        "28e171ee-407e-413b-8ba6-b7fbf1eff431"
+      ]
+    },
+    "39704ff7-af8b-4481-bdff-a1577020f56d": {
+      "id": "21e52208-7c66-47bf-8b57-b056eb1f044c",
+      "english": "one o'clock PM",
+      "japanese": "午後1時",
+      "romaji": "gogo ichiji.",
+      "sets": [
+        "28e171ee-407e-413b-8ba6-b7fbf1eff431"
+      ]
+    },
+    "7cca5d08-e58a-4166-bfe6-031c612cc544": {
+      "id": "8c1443dc-887c-4e14-bf15-b1c61786b4b5",
+      "english": "two o'clock PM",
+      "japanese": "午後2時",
+      "romaji": "gogo niji",
+      "sets": [
+        "28e171ee-407e-413b-8ba6-b7fbf1eff431"
+      ]
+    },
+    "48cbb41b-a120-4e91-95e6-9c7c42b7ea77": {
+      "id": "d03577eb-cb69-4736-8e6d-1a791f8b6f0f",
+      "english": "midnight",
+      "japanese": "夜12時",
+      "romaji": "yoru jūniji",
+      "sets": [
+        "28e171ee-407e-413b-8ba6-b7fbf1eff431"
+      ]
+    },
+    "c933940f-511c-4da9-823b-103bfc51e452": {
+      "id": "b29a1e6b-9f72-4560-b05d-638661ad1577",
+      "english": "_____ minute(s)",
+      "japanese": "_____ 分",
+      "romaji": "fun",
+      "sets": [
+        "64cf61e1-a948-46c7-b9d1-a40743765700"
+      ]
+    },
+    "c3fd9133-54dc-4e08-bf70-fec72fd250a7": {
+      "id": "87623940-2828-43ae-9603-eecee7914365",
+      "english": "_____ hour(s)",
+      "japanese": "_____ 時間",
+      "romaji": "jikan",
+      "sets": [
+        "64cf61e1-a948-46c7-b9d1-a40743765700"
+      ]
+    },
+    "5b996306-c53f-4f7b-bb05-060e30f2d5de": {
+      "id": "c7e9c06e-8432-4025-9dc2-3b4ee2d963f9",
+      "english": "_____ day(s)",
+      "japanese": "_____ 日間",
+      "romaji": "nichikan",
+      "sets": [
+        "64cf61e1-a948-46c7-b9d1-a40743765700"
+      ]
+    },
+    "b36a14bc-af2c-48c8-abab-c2c30f297fd8": {
+      "id": "668ee515-8b6c-4492-bcca-3c8c7682b6f3",
+      "english": "_____ week(s)",
+      "japanese": "_____ 週間",
+      "romaji": "shūkan",
+      "sets": [
+        "64cf61e1-a948-46c7-b9d1-a40743765700"
+      ]
+    },
+    "f588af2b-d0bb-4d48-a6f7-b3564dedd283": {
+      "id": "8e662944-e6bf-4c03-b373-8aef06958a04",
+      "english": "_____ month(s)",
+      "japanese": "_____ ヶ月",
+      "romaji": "kagetsu",
+      "sets": [
+        "64cf61e1-a948-46c7-b9d1-a40743765700"
+      ]
+    },
+    "c455e48e-832c-4d08-9aa1-424c97049d79": {
+      "id": "c8754996-cd26-494c-89e9-f018deaa22f2",
+      "english": "_____ year(s)",
+      "japanese": "_____ 年",
+      "romaji": "nen",
+      "sets": [
+        "64cf61e1-a948-46c7-b9d1-a40743765700"
+      ]
+    },
+    "82c7ca86-aafc-4312-a47c-ab2cb86cc5ea": {
+      "id": "6e0050f3-6c15-4b76-bb6f-2b463141403c",
+      "english": "today",
+      "japanese": "今日",
+      "romaji": "kyō",
+      "sets": [
+        "0065a004-6ce0-426d-a62a-afcc67c1318b"
+      ]
+    },
+    "97061878-b64d-4fb0-87b8-18d0f842dd09": {
+      "id": "ca67d6ef-1959-44c3-8956-4cb1e5cc1ab9",
+      "english": "yesterday",
+      "japanese": "昨日",
+      "romaji": "kinō",
+      "sets": [
+        "0065a004-6ce0-426d-a62a-afcc67c1318b"
+      ]
+    },
+    "b2bd4c67-0cc7-4787-9936-32e7cd2b272f": {
+      "id": "671a5ac7-5465-468f-8756-8a2fa3879287",
+      "english": "tomorrow",
+      "japanese": "明日",
+      "romaji": "ashita",
+      "sets": [
+        "0065a004-6ce0-426d-a62a-afcc67c1318b"
+      ]
+    },
+    "8b2efbc7-49db-49bb-adcf-7242fa63b112": {
+      "id": "a9f3019d-d6c7-4ba6-9179-a0075cdb01e6",
+      "english": "tomorrow (formal)",
+      "japanese": "明日",
+      "romaji": "asu",
+      "sets": [
+        "0065a004-6ce0-426d-a62a-afcc67c1318b"
+      ]
+    },
+    "e5132068-3428-4a78-ac1f-894e758ab549": {
+      "id": "5ec710a4-7722-48d2-8337-543f3b50ecc1",
+      "english": "this week",
+      "japanese": "今週",
+      "romaji": "konshū",
+      "sets": [
+        "0065a004-6ce0-426d-a62a-afcc67c1318b"
+      ]
+    },
+    "0e6af926-611f-45e1-91a7-b6614c503154": {
+      "id": "c6a55207-2a84-41ca-bced-5f2f54c7482c",
+      "english": "last week",
+      "japanese": "先週",
+      "romaji": "senshū",
+      "sets": [
+        "0065a004-6ce0-426d-a62a-afcc67c1318b"
+      ]
+    },
+    "21d2e59a-2be3-46e5-a089-1d18e447a4be": {
+      "id": "c39e946f-1c19-417d-bf54-bd887549599c",
+      "english": "next week",
+      "japanese": "来週",
+      "romaji": "raishū",
+      "sets": [
+        "0065a004-6ce0-426d-a62a-afcc67c1318b"
+      ]
+    },
+    "885571f5-4d2e-4c14-a149-5b940b910c61": {
+      "id": "d2c8dd9e-e677-4591-8973-88ee81c868c9",
+      "english": "Sunday",
+      "japanese": "日曜日",
+      "romaji": "nichiyōbi",
+      "sets": [
+        "3d3e8f3d-a49e-426f-9a74-91d14534ad75"
+      ]
+    },
+    "f7e9ff38-1f6f-481b-a560-96d762c6012d": {
+      "id": "f8ee4a41-ac13-4fc2-b7ba-bd0a7146d6e3",
+      "english": "Monday",
+      "japanese": "月曜日",
+      "romaji": "getsuyōbi",
+      "sets": [
+        "3d3e8f3d-a49e-426f-9a74-91d14534ad75"
+      ]
+    },
+    "12bc0418-4fbf-4e6f-9659-0a3fb2155994": {
+      "id": "f3f9ce9f-e1b2-4736-9f70-6992042acacb",
+      "english": "Tuesday",
+      "japanese": "火曜日",
+      "romaji": "kayōbi",
+      "sets": [
+        "3d3e8f3d-a49e-426f-9a74-91d14534ad75"
+      ]
+    },
+    "f73a062d-86c0-4949-8dc0-5e24f02fe199": {
+      "id": "d74014f6-def4-45f7-a91a-eba78c9302b8",
+      "english": "Wednesday",
+      "japanese": "水曜日",
+      "romaji": "suiyōbi",
+      "sets": [
+        "3d3e8f3d-a49e-426f-9a74-91d14534ad75"
+      ]
+    },
+    "c8253c56-a350-4c88-b5c6-ef5d31bf95de": {
+      "id": "57c642f5-efbd-4f4a-9c78-11efb004b883",
+      "english": "Thursday",
+      "japanese": "木曜日",
+      "romaji": "mokuyōbi",
+      "sets": [
+        "3d3e8f3d-a49e-426f-9a74-91d14534ad75"
+      ]
+    },
+    "210badac-a48e-490a-ae25-c03b9be2efa4": {
+      "id": "e520c467-a4b1-43fc-b640-57bfec5ce6e8",
+      "english": "Friday",
+      "japanese": "金曜日",
+      "romaji": "kin'yōbi",
+      "sets": [
+        "3d3e8f3d-a49e-426f-9a74-91d14534ad75"
+      ]
+    },
+    "fc139f3b-4227-4de8-ae77-2f3e2a993b02": {
+      "id": "dd37fd3f-a070-4acd-a861-08798feb7985",
+      "english": "Saturday",
+      "japanese": "土曜日",
+      "romaji": "doyōbi",
+      "sets": [
+        "3d3e8f3d-a49e-426f-9a74-91d14534ad75"
+      ]
+    },
+    "a214c5e0-06ab-4b86-ab7c-13a02fe031f7": {
+      "id": "64e327b7-363d-4d0f-87ee-4735fe21d144",
+      "english": "First day of the month",
+      "japanese": "1日",
+      "romaji": "tsuitachi",
+      "sets": [
+        "57036555-f4d4-4301-90fd-10384b66412b"
+      ]
+    },
+    "18d4dd90-7cae-4a04-aa00-39e6a1eca703": {
+      "id": "a74ae5bf-2e6d-4efe-b804-20e947296738",
+      "english": "Second day of the month",
+      "japanese": "2日",
+      "romaji": "futsuka",
+      "sets": [
+        "57036555-f4d4-4301-90fd-10384b66412b"
+      ]
+    },
+    "b5b5c3ac-4af4-4d3b-9f20-8d1f51958fab": {
+      "id": "f0b139a0-393d-4c01-90be-1168ea0481da",
+      "english": "Third day of the month",
+      "japanese": "3日",
+      "romaji": "mikka",
+      "sets": [
+        "57036555-f4d4-4301-90fd-10384b66412b"
+      ]
+    },
+    "953052f0-9a6b-4147-b180-167767613613": {
+      "id": "3a113a91-ce50-4f91-a1f4-62b5d09d9f44",
+      "english": "Fourth day of the month",
+      "japanese": "4日",
+      "romaji": "yokka",
+      "sets": [
+        "57036555-f4d4-4301-90fd-10384b66412b"
+      ]
+    },
+    "d186029a-48c7-4f16-98f9-2ee355c9c435": {
+      "id": "3229e99e-c364-406e-80f3-dc721c3646b6",
+      "english": "Fifth day of the month",
+      "japanese": "5日",
+      "romaji": "itsuka",
+      "sets": [
+        "57036555-f4d4-4301-90fd-10384b66412b"
+      ]
+    },
+    "f87095fb-826a-4acb-b6de-04392f54f9e2": {
+      "id": "846323c7-6283-4af1-aeec-17efa9fd7779",
+      "english": "Sixth day of the month",
+      "japanese": "6日",
+      "romaji": "muika",
+      "sets": [
+        "57036555-f4d4-4301-90fd-10384b66412b"
+      ]
+    },
+    "9279e179-ee5e-4da0-b746-2d671ba4bae3": {
+      "id": "45213ff9-d1e0-497c-9c7d-1f5db41f30a9",
+      "english": "Seventh day of the month",
+      "japanese": "7日",
+      "romaji": "nanoka",
+      "sets": [
+        "57036555-f4d4-4301-90fd-10384b66412b"
+      ]
+    },
+    "38854239-d8d3-4959-bf4c-4f9684f78378": {
+      "id": "087312b7-4f72-4e3a-850c-a3cca1e7563b",
+      "english": "Eighth day of the month",
+      "japanese": "8日",
+      "romaji": "yōka",
+      "sets": [
+        "57036555-f4d4-4301-90fd-10384b66412b"
+      ]
+    },
+    "a80e6d36-fc54-4ad5-9b87-8a42262d94ab": {
+      "id": "9f69e79a-4e1b-4fa8-9fa3-b90f6f7938d7",
+      "english": "Ninth day of the month",
+      "japanese": "9日",
+      "romaji": "kokonoka",
+      "sets": [
+        "57036555-f4d4-4301-90fd-10384b66412b"
+      ]
+    },
+    "77a969b2-6909-474c-9f95-7f02ebcaca80": {
+      "id": "e6f65366-6fd6-4254-90f8-f5c4dcabbd10",
+      "english": "Tenth day of the month",
+      "japanese": "10日",
+      "romaji": "tōka",
+      "sets": [
+        "57036555-f4d4-4301-90fd-10384b66412b"
+      ]
+    },
+    "df35386a-8dbd-4651-9c33-fdb411229b52": {
+      "id": "e2b17ce5-037d-4751-b6db-9d0a6f11f23d",
+      "english": "Eleventh day of the month",
+      "japanese": "11日",
+      "romaji": "jūichinichi",
+      "sets": [
+        "57036555-f4d4-4301-90fd-10384b66412b"
+      ]
+    },
+    "4b30dc77-805f-40c0-84e7-464a6c2552c2": {
+      "id": "5bd4b883-4fa7-4389-971e-5f75c34be1ec",
+      "english": "Fourteenth day of the month",
+      "japanese": "14日",
+      "romaji": "jūyokka",
+      "sets": [
+        "57036555-f4d4-4301-90fd-10384b66412b"
+      ]
+    },
+    "db0e9d05-93f0-4a65-a77d-9eac26b4c8f1": {
+      "id": "5a46d987-d22e-4647-8dca-b86472fa8c65",
+      "english": "Twentieth day of the month",
+      "japanese": "20日",
+      "romaji": "hatsuka",
+      "sets": [
+        "57036555-f4d4-4301-90fd-10384b66412b"
+      ]
+    },
+    "184d3cd8-5237-46d1-ba1c-0819c5c316f8": {
+      "id": "c6f7570e-f42c-4b41-b4ed-d15638065161",
+      "english": "Twenty-fourth day of the month",
+      "japanese": "24日",
+      "romaji": "nijūyokka",
+      "sets": [
+        "57036555-f4d4-4301-90fd-10384b66412b"
+      ]
+    },
+    "029bff6f-2991-4298-9b42-78d66cf89e24": {
+      "id": "110fae2d-991e-405e-97d5-c7f974e74819",
+      "english": "January",
+      "japanese": "1月",
+      "romaji": "ichigatsu",
+      "sets": [
+        "8e50f7c5-0162-4564-b2a6-c1f13e02fd72"
+      ]
+    },
+    "c0cdb2f9-adfe-4556-aa81-4180e3c95523": {
+      "id": "0e4c9d07-417f-4f67-b1fd-e25fe27cdf2f",
+      "english": "February",
+      "japanese": "2月",
+      "romaji": "nigatsu",
+      "sets": [
+        "8e50f7c5-0162-4564-b2a6-c1f13e02fd72"
+      ]
+    },
+    "33fd321b-eada-4534-a390-f2ec12a2e7d0": {
+      "id": "b19c428d-38dd-4c80-8316-809e99b31e24",
+      "english": "March",
+      "japanese": "3月",
+      "romaji": "sangatsu",
+      "sets": [
+        "8e50f7c5-0162-4564-b2a6-c1f13e02fd72"
+      ]
+    },
+    "db9a8186-2dac-4523-8410-4c1d6d77e87a": {
+      "id": "822e3cdb-fdf2-48ed-b842-e957451b2880",
+      "english": "April",
+      "japanese": "4月",
+      "romaji": "shigatsu",
+      "sets": [
+        "8e50f7c5-0162-4564-b2a6-c1f13e02fd72"
+      ]
+    },
+    "ffd0fc00-2558-4018-8ea0-5a6947d03d66": {
+      "id": "4e76615f-33df-49a8-8209-00f336132786",
+      "english": "May",
+      "japanese": "5月",
+      "romaji": "gogatsu",
+      "sets": [
+        "8e50f7c5-0162-4564-b2a6-c1f13e02fd72"
+      ]
+    },
+    "41ec3ad9-f9ad-4ad4-a6ce-e720f154269a": {
+      "id": "554719ce-d02f-4918-bf20-5c9f541e09dc",
+      "english": "June",
+      "japanese": "6月",
+      "romaji": "rokugatsu",
+      "sets": [
+        "8e50f7c5-0162-4564-b2a6-c1f13e02fd72"
+      ]
+    },
+    "8b928761-e8d7-4a35-b839-3c7a3a87fd40": {
+      "id": "7e325e3a-2a6d-4423-b1fb-04ad93622451",
+      "english": "July",
+      "japanese": "7月",
+      "romaji": "shichigatsu",
+      "sets": [
+        "8e50f7c5-0162-4564-b2a6-c1f13e02fd72"
+      ]
+    },
+    "c6823810-1539-475b-a547-6698fc67aa82": {
+      "id": "499e3fd1-6f2d-4464-a521-0c71f0ef87b5",
+      "english": "August",
+      "japanese": "8月",
+      "romaji": "hachigatsu",
+      "sets": [
+        "8e50f7c5-0162-4564-b2a6-c1f13e02fd72"
+      ]
+    },
+    "db425473-9312-4589-a28a-2936162c0479": {
+      "id": "184358a4-d3f4-4deb-8eb4-342c05874b29",
+      "english": "September",
+      "japanese": "9月",
+      "romaji": "kugatsu",
+      "sets": [
+        "8e50f7c5-0162-4564-b2a6-c1f13e02fd72"
+      ]
+    },
+    "575c8012-da3c-4019-825e-6179e35e728e": {
+      "id": "c5d273bf-17a0-41d6-8df7-354060a98dda",
+      "english": "October",
+      "japanese": "10月",
+      "romaji": "jūgatsu",
+      "sets": [
+        "8e50f7c5-0162-4564-b2a6-c1f13e02fd72"
+      ]
+    },
+    "abd206e5-24f8-446d-ab96-5cde09e4e540": {
+      "id": "65dff9e6-38ab-431b-bc44-eb79259217be",
+      "english": "November",
+      "japanese": "11月",
+      "romaji": "jūichigatsu",
+      "sets": [
+        "8e50f7c5-0162-4564-b2a6-c1f13e02fd72"
+      ]
+    },
+    "edb9d687-d4e4-4bfa-947d-a0bec03fb72b": {
+      "id": "8cc67fdd-59dc-4a08-a9fa-13cbd8e1be36",
+      "english": "December",
+      "japanese": "12月",
+      "romaji": "jūnigatsu",
+      "sets": [
+        "8e50f7c5-0162-4564-b2a6-c1f13e02fd72"
+      ]
+    },
+    "add4ebe4-926e-447b-8be0-92dd33de9533": {
+      "id": "308e1c77-68b3-4a62-b73f-d08b5a9f3408",
+      "english": "Spring",
+      "japanese": "春",
+      "romaji": "haru",
+      "sets": [
+        "8f8ae1b1-cdf0-4e1e-ad13-83912c8fe10f"
+      ]
+    },
+    "e772c62c-ba17-4289-8f1a-8b85fd628ca4": {
+      "id": "43b5c0f8-8ff4-4d14-8001-e85edb617075",
+      "english": "Summer",
+      "japanese": "夏",
+      "romaji": "natsu",
+      "sets": [
+        "8f8ae1b1-cdf0-4e1e-ad13-83912c8fe10f"
+      ]
+    },
+    "151cd973-c6f4-4555-aa35-de3cf5d6f367": {
+      "id": "9a8414f2-41a4-4122-a781-5677191150c6",
+      "english": "Rainy season",
+      "japanese": "梅雨",
+      "romaji": "tsuyu",
+      "sets": [
+        "8f8ae1b1-cdf0-4e1e-ad13-83912c8fe10f"
+      ]
+    },
+    "c68c6717-f21c-4f9f-b8a8-b365ae1fb88d": {
+      "id": "b6e6b5e2-2591-4a64-80cc-86ab73324b9d",
+      "english": "Autumn",
+      "japanese": "秋",
+      "romaji": "aki",
+      "sets": [
+        "8f8ae1b1-cdf0-4e1e-ad13-83912c8fe10f"
+      ]
+    },
+    "ba51b41f-a0fb-4548-8a1c-6005d7721837": {
+      "id": "c2ec4c0f-db77-497a-a87a-699f1c4250b6",
+      "english": "Winter",
+      "japanese": "冬",
+      "romaji": "fuyu",
+      "sets": [
+        "8f8ae1b1-cdf0-4e1e-ad13-83912c8fe10f"
+      ]
     }
   },
   "sets": {
@@ -3698,6 +4281,55 @@
       "name": "Numbers",
       "slug": "numbers",
       "notes": "<h4>Numbers</h4><p>While Arabic (Western) numerals are employed for most uses in Japan, you will occasionally still spot Japanese numerals at eg. markets and the menus of fancy restaurants.  The characters used are nearly identical to Chinese numerals, and like Chinese, Japanese uses groups of 4 digits, not 3. \"One million\" is thus 百万 (<i>hyaku-man</i>), literally \"hundred ten-thousands\".</p><p>There are both Japanese and Chinese readings for most numbers, but presented below are the more commonly used Chinese readings.  Note that, due to superstition (<i>shi</i> also means \"death\"), 4 and 7 typically use the Japanese readings <i>yon</i> and <i>nana</i> instead.</p><h4>Counters</h4><p>When counting objects, Japanese uses special counter words. For example, \"two <i>bottles of</i> beer\" is ビール２本 <i>biiru nihon</i>, where <i>ni</i> is \"two\" and <i>-hon</i> means \"bottles\". Unlike in English, where counter words are often optional or non-existent, in Japanese they're mandatory whenever you count something (e.g. 車２台 <i>kuruma ni-dai</i>, two cars; 台 <i>dai</i> counts machines).</p><p>Note how many counters change form depending on the previous number: one, two, three glasses are <i>ippai</i>, <i>nihai</i>, <i>sanbai</i> respectively.　There are also a few exceptions: one person and two people are <i>hitori</i> and <i>futari</i>. 20 years old is usually pronounced <i>hatachi</i>. You'll still be understood if you get these wrong though.</p><h4>一つ <i>hitotsu</i></h4><p>For numbers from one to nine, an old counting system is often used which applies to virtually any object you may want to count, without the need to attach a specific counter:</p><ol><li>一つ <i>hitotsu</i></li><li>二つ <i>futatsu</i></li><li>三つ <i>mittsu</i></li><li>四つ <i>yottsu</i></li><li>五つ <i>itsutsu</i></li><li>六つ <i>muttsu</i></li><li>七つ <i>nanatsu</i></li><li>八つ <i>yattsu</i></li><li>九つ <i>kokonotsu</i></li></ol><p>It is always a good idea to use a specific counter whenever possible, but using the generic numbers above is often equally acceptable. This system is rarely used anymore for numbers greater than nine.</p>"
+    },
+    "be4745fe-a10c-49aa-935a-b9d8925bf811": {
+      "id": "be4745fe-a10c-49aa-935a-b9d8925bf811",
+      "name": "Time",
+      "slug": "time",
+      "subsets": [
+        "28e171ee-407e-413b-8ba6-b7fbf1eff431",
+        "64cf61e1-a948-46c7-b9d1-a40743765700",
+        "0065a004-6ce0-426d-a62a-afcc67c1318b",
+        "3d3e8f3d-a49e-426f-9a74-91d14534ad75",
+        "57036555-f4d4-4301-90fd-10384b66412b",
+        "8e50f7c5-0162-4564-b2a6-c1f13e02fd72",
+        "8f8ae1b1-cdf0-4e1e-ad13-83912c8fe10f"
+      ]
+    },
+    "28e171ee-407e-413b-8ba6-b7fbf1eff431": {
+      "id": "28e171ee-407e-413b-8ba6-b7fbf1eff431",
+      "name": "Clock Time",
+      "slug": "clock-time"
+    },
+    "64cf61e1-a948-46c7-b9d1-a40743765700": {
+      "id": "64cf61e1-a948-46c7-b9d1-a40743765700",
+      "name": "Duration",
+      "slug": "duration"
+    },
+    "0065a004-6ce0-426d-a62a-afcc67c1318b": {
+      "id": "0065a004-6ce0-426d-a62a-afcc67c1318b",
+      "name": "Days",
+      "slug": "days"
+    },
+    "3d3e8f3d-a49e-426f-9a74-91d14534ad75": {
+      "id": "3d3e8f3d-a49e-426f-9a74-91d14534ad75",
+      "name": "Days of the Week",
+      "slug": "days-of-the-week"
+    },
+    "57036555-f4d4-4301-90fd-10384b66412b": {
+      "id": "57036555-f4d4-4301-90fd-10384b66412b",
+      "name": "Days of the Month",
+      "slug": "days-of-the-month"
+    },
+    "8e50f7c5-0162-4564-b2a6-c1f13e02fd72": {
+      "id": "8e50f7c5-0162-4564-b2a6-c1f13e02fd72",
+      "name": "Months",
+      "slug": "months"
+    },
+    "8f8ae1b1-cdf0-4e1e-ad13-83912c8fe10f": {
+      "id": "8f8ae1b1-cdf0-4e1e-ad13-83912c8fe10f",
+      "name": "Seasons",
+      "slug": "seasons"
     },
     "e6a8e931-6b5a-4a0a-9af0-a3fa6831131e": {
       "id": "e6a8e931-6b5a-4a0a-9af0-a3fa6831131e",
