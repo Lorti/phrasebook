@@ -1,0 +1,8 @@
+====Extreme weather====
+; Blizzard : 吹雪 (''fubuki'')
+; Earthquake : 地震 (''jishin'')
+; Flood : 洪水 (''kōzui'')
+; Landslide : 地滑り (''jisuberi'')
+; Tsunami : 津波 (''tsunami'')
+; Typhoon : 台風 (''taifū'')
+; Volcano eruption : 噴火 (''funka'')

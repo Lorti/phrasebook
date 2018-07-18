@@ -2771,6 +2771,222 @@
       "sets": [
         "e62ee5fb-89c5-46b6-b29a-19f1c07114a4"
       ]
+    },
+    "fbc70ef2-9a04-4e91-adf1-b98364cff309": {
+      "id": "162bef7b-68c5-452e-9315-51298ffbc8d3",
+      "english": "Leave me alone.",
+      "japanese": "ほっといてくれ。",
+      "romaji": "Hottoitekure.",
+      "sets": [
+        "88941df9-799f-4595-948c-24d3ba510483"
+      ]
+    },
+    "0bd2d8de-2240-4d7b-80d3-475f2d7efc1e": {
+      "id": "c1828b7c-f684-4d41-b9b4-d6fbabe09ccf",
+      "english": "Don't touch me!",
+      "japanese": "さわらないで！",
+      "romaji": "Sawaranaide!",
+      "sets": [
+        "88941df9-799f-4595-948c-24d3ba510483"
+      ]
+    },
+    "09ca7d8c-e5c7-4bb3-b3b7-be8da36948d1": {
+      "id": "7cfdf773-d6b5-4895-8899-1da3c37e7471",
+      "english": "I'll call the police.",
+      "japanese": "警察をよぶよ！。",
+      "romaji": "Keisatsu o yobu yo!",
+      "sets": [
+        "88941df9-799f-4595-948c-24d3ba510483"
+      ]
+    },
+    "3842b6fb-cbd8-4f30-9dab-1e1ba2ae42af": {
+      "id": "929d690f-e04e-4cd1-a8ce-9c53384a9bed",
+      "english": "Police!",
+      "japanese": "警察！",
+      "romaji": "Keisatsu!",
+      "sets": [
+        "88941df9-799f-4595-948c-24d3ba510483"
+      ]
+    },
+    "3b7a1861-e1e2-4de6-a0fc-8916fe8d1c42": {
+      "id": "00b344c4-8f21-4cba-b47e-c59488f7a2c2",
+      "english": "Stop! Thief!",
+      "japanese": "動くな! 泥棒！",
+      "romaji": "Ugokuna! Dorobō!",
+      "sets": [
+        "88941df9-799f-4595-948c-24d3ba510483"
+      ]
+    },
+    "f65b4374-8763-41ab-84c8-291d02c607cd": {
+      "id": "3e824c03-6fcf-4e59-bce9-7068bd9a1849",
+      "english": "I need your help.",
+      "japanese": "手伝ってください。",
+      "romaji": "Tetsudatte kudasai.",
+      "sets": [
+        "88941df9-799f-4595-948c-24d3ba510483"
+      ]
+    },
+    "b95dac29-f39b-461d-8438-82b5aff9b32a": {
+      "id": "b52b8677-5c9a-4405-bb5b-2b4b0c954571",
+      "english": "It's an emergency.",
+      "japanese": "緊急です。",
+      "romaji": "Kinkyū desu.",
+      "sets": [
+        "88941df9-799f-4595-948c-24d3ba510483"
+      ]
+    },
+    "9c8cc7e8-c3c3-4315-be2d-13895fcaf2ca": {
+      "id": "0c1ddc15-b5bd-4118-8392-7deba753eca7",
+      "english": "I'm lost.",
+      "japanese": "道を迷っています。",
+      "romaji": "Michi o mayotte imasu.",
+      "sets": [
+        "88941df9-799f-4595-948c-24d3ba510483"
+      ]
+    },
+    "6d5ac899-59c7-4ea5-98a5-e4e772225140": {
+      "id": "de4ad37f-4205-4623-942b-0de142a35a5f",
+      "english": "I lost my bag.",
+      "japanese": "鞄をなくしました。",
+      "romaji": "Kaban o nakushimashita.",
+      "sets": [
+        "88941df9-799f-4595-948c-24d3ba510483"
+      ]
+    },
+    "5b186758-d878-4fc9-93c4-4e9f6b15d027": {
+      "id": "a928b411-0612-4bdc-980a-975dbfebad49",
+      "english": "I dropped my wallet.",
+      "japanese": "財布をおとしました。",
+      "romaji": "Saifu o otoshimashita.",
+      "sets": [
+        "88941df9-799f-4595-948c-24d3ba510483"
+      ]
+    },
+    "2acaba4b-2422-49d5-9365-eead839e026a": {
+      "id": "0e201a8f-d0bf-4363-b7cd-2940013a345e",
+      "english": "I'm sick.",
+      "japanese": "病気です。",
+      "romaji": "Byōki desu.",
+      "sets": [
+        "88941df9-799f-4595-948c-24d3ba510483"
+      ]
+    },
+    "6354c709-2a3c-42da-8470-b8446d9e0fb2": {
+      "id": "864a7b62-86ec-4681-96b8-15848b8aaeab",
+      "english": "I don't feel well.",
+      "japanese": "具合がわるいです。",
+      "romaji": "Guai ga warui desu.",
+      "sets": [
+        "88941df9-799f-4595-948c-24d3ba510483"
+      ]
+    },
+    "1652406f-eeb6-4219-ac98-339e71758c22": {
+      "id": "8967ed44-f21e-4602-97a6-2687d8d044b2",
+      "english": "I've been injured.",
+      "japanese": "けがをしました。",
+      "romaji": "Kega o shimashita.",
+      "sets": [
+        "88941df9-799f-4595-948c-24d3ba510483"
+      ]
+    },
+    "a76fa943-211d-4ed6-85d1-9bad139ef511": {
+      "id": "e7bbb348-0933-49ba-af5f-c632bff75d0d",
+      "english": "Please call a doctor.",
+      "japanese": "医者を呼んでください。",
+      "romaji": "Isha o yonde kudasai.",
+      "sets": [
+        "88941df9-799f-4595-948c-24d3ba510483"
+      ]
+    },
+    "1b6ce4bc-5cf7-4ea8-afa8-0dd7a4d62129": {
+      "id": "129b4cc2-60fa-468e-ba54-dd6647c7f1a9",
+      "english": "Can I use your phone?",
+      "japanese": "電話を使わせていただけますか？",
+      "romaji": "Denwa o tsukawasete itadakemasu ka?",
+      "sets": [
+        "88941df9-799f-4595-948c-24d3ba510483"
+      ]
+    },
+    "f3c00220-5af5-405d-806e-c31b1f4d3c64": {
+      "id": "4f9d967e-b20a-4048-aa76-b29fa3ebb796",
+      "english": "I need a doctor.",
+      "japanese": "医者に見てもらいたいです。",
+      "romaji": "Isha ni mite moraitai desu.",
+      "sets": [
+        "1dc90464-21d9-432a-bd6d-a561ecc32be2"
+      ]
+    },
+    "5152ba3a-f8f3-48e8-b840-7f3efe4afeb7": {
+      "id": "e0b65b24-e811-4ff2-b2fa-1d277aa961ec",
+      "english": "Is there a doctor who can speak English?",
+      "japanese": "英語の出来る医者はいますか？",
+      "romaji": "Eigo no dekiru isha wa imasu ka?",
+      "sets": [
+        "1dc90464-21d9-432a-bd6d-a561ecc32be2"
+      ]
+    },
+    "ebd41a92-8265-4b3c-8f9c-71c918d2f7ef": {
+      "id": "06c8df51-185a-4457-ab5f-6b4a0554b8a7",
+      "english": "Please take me to a doctor.",
+      "japanese": "医者に連れていって下さい。",
+      "romaji": "Isha ni tsurete itte kudasai.",
+      "sets": [
+        "1dc90464-21d9-432a-bd6d-a561ecc32be2"
+      ]
+    },
+    "002ab388-b66f-450f-acd8-8f3b6f06586f": {
+      "id": "f62bb88b-2118-4e5b-b682-f70793800339",
+      "english": "My wife/husband/child is sick.",
+      "japanese": "妻・旦那・子供が病気です。",
+      "romaji": "Tsuma/danna/kodomo ga byōki desu.",
+      "sets": [
+        "1dc90464-21d9-432a-bd6d-a561ecc32be2"
+      ]
+    },
+    "1e5d59a2-58ce-4f9a-bc7c-51adbb4dc06c": {
+      "id": "aa2ac00d-3619-4a1a-a5f2-acdfe428b134",
+      "english": "Please call an ambulance.",
+      "japanese": "救急車を呼んで下さい。",
+      "romaji": "Kyūkyūsha o yonde kudasai.",
+      "sets": [
+        "1dc90464-21d9-432a-bd6d-a561ecc32be2"
+      ]
+    },
+    "e45de4eb-4faf-43b6-9b69-d7c16adba307": {
+      "id": "6ea0e954-86b1-41f4-aeae-a80cf406549f",
+      "english": "I need first aid.",
+      "japanese": "応急手当を下さい。",
+      "romaji": "Ōkyū teate o kudasai.",
+      "sets": [
+        "1dc90464-21d9-432a-bd6d-a561ecc32be2"
+      ]
+    },
+    "9e6ec21c-e71b-4c49-8394-23ac674b4823": {
+      "id": "2dd8d855-6b1b-40a5-aaf5-1a075132b137",
+      "english": "I need to go to the emergency room.",
+      "japanese": "救急室にいかなければなりません。",
+      "romaji": "Kyūkyūshitsu ni ikanakereba narimasen.",
+      "sets": [
+        "1dc90464-21d9-432a-bd6d-a561ecc32be2"
+      ]
+    },
+    "62e674cf-7b3f-47b2-8e4a-c2a1235332ba": {
+      "id": "919786de-7f2e-4ca6-b6cf-cb227528bd28",
+      "english": "How long will it take to get better?",
+      "japanese": "治るのはどの位かかりますか？",
+      "romaji": "Naoru no wa dono kurai kakarimasu ka?",
+      "sets": [
+        "1dc90464-21d9-432a-bd6d-a561ecc32be2"
+      ]
+    },
+    "1f0d34b1-fab4-4af4-a044-5082e5947f47": {
+      "id": "5d35e348-a34e-47d4-aab3-6af8b9038f63",
+      "english": "Where is a pharmacy?",
+      "japanese": "薬局はどこですか？",
+      "romaji": "Yakkyoku wa doko desu ka?",
+      "sets": [
+        "1dc90464-21d9-432a-bd6d-a561ecc32be2"
+      ]
     }
   },
   "sets": {
@@ -2778,6 +2994,37 @@
       "id": "5bbcdb75-3bbf-4e5d-83ce-65425be830fc",
       "name": "Basics",
       "slug": "basics"
+    },
+    "88941df9-799f-4595-948c-24d3ba510483": {
+      "id": "88941df9-799f-4595-948c-24d3ba510483",
+      "name": "Problems",
+      "slug": "problems",
+      "subsets": [
+        "1dc90464-21d9-432a-bd6d-a561ecc32be2",
+        "a8d02e79-6892-4695-9811-c3f0b563e951",
+        "f6291639-6912-4894-92d3-fd7051692c9c",
+        "790d76ce-22cb-40d2-8344-92014e45d23a"
+      ]
+    },
+    "1dc90464-21d9-432a-bd6d-a561ecc32be2": {
+      "id": "1dc90464-21d9-432a-bd6d-a561ecc32be2",
+      "name": "Medical Emergencies",
+      "slug": "medical-emergencies"
+    },
+    "a8d02e79-6892-4695-9811-c3f0b563e951": {
+      "id": "a8d02e79-6892-4695-9811-c3f0b563e951",
+      "name": "Allergies",
+      "slug": "allergies"
+    },
+    "f6291639-6912-4894-92d3-fd7051692c9c": {
+      "id": "f6291639-6912-4894-92d3-fd7051692c9c",
+      "name": "Explaining Symptoms",
+      "slug": "explaining-symptoms"
+    },
+    "790d76ce-22cb-40d2-8344-92014e45d23a": {
+      "id": "790d76ce-22cb-40d2-8344-92014e45d23a",
+      "name": "Extreme Weather",
+      "slug": "extreme-weather"
     },
     "c6c6b26c-c407-4de0-8720-67442b74065c": {
       "id": "c6c6b26c-c407-4de0-8720-67442b74065c",
