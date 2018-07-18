@@ -1,7 +1,7 @@
 <template>
   <div v-document-title="``">
     <md-list class="md-triple-line">
-      <md-list-item v-for="set in sets" :key="set.id" :to="`/sets/${ set.id }`">
+      <md-list-item v-for="set in sets" :key="set.id" :to="`/sets/${ set.id }/${ set.slug }`">
         <div class="md-list-item-text">
           <span>{{ set.name }}</span>
           <span>{{ phrasesCount(set.id) }} phrases</span>

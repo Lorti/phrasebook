@@ -2776,29 +2776,35 @@
   "sets": {
     "5bbcdb75-3bbf-4e5d-83ce-65425be830fc": {
       "id": "5bbcdb75-3bbf-4e5d-83ce-65425be830fc",
-      "name": "Basics"
+      "name": "Basics",
+      "slug": "basics"
     },
     "c6c6b26c-c407-4de0-8720-67442b74065c": {
       "id": "c6c6b26c-c407-4de0-8720-67442b74065c",
       "name": "Numbers",
+      "slug": "numbers",
       "notes": "<h4>Numbers</h4><p>While Arabic (Western) numerals are employed for most uses in Japan, you will occasionally still spot Japanese numerals at eg. markets and the menus of fancy restaurants.  The characters used are nearly identical to Chinese numerals, and like Chinese, Japanese uses groups of 4 digits, not 3. \"One million\" is thus 百万 (<i>hyaku-man</i>), literally \"hundred ten-thousands\".</p><p>There are both Japanese and Chinese readings for most numbers, but presented below are the more commonly used Chinese readings.  Note that, due to superstition (<i>shi</i> also means \"death\"), 4 and 7 typically use the Japanese readings <i>yon</i> and <i>nana</i> instead.</p><h4>Counters</h4><p>When counting objects, Japanese uses special counter words. For example, \"two <i>bottles of</i> beer\" is ビール２本 <i>biiru nihon</i>, where <i>ni</i> is \"two\" and <i>-hon</i> means \"bottles\". Unlike in English, where counter words are often optional or non-existent, in Japanese they're mandatory whenever you count something (e.g. 車２台 <i>kuruma ni-dai</i>, two cars; 台 <i>dai</i> counts machines).</p><p>Note how many counters change form depending on the previous number: one, two, three glasses are <i>ippai</i>, <i>nihai</i>, <i>sanbai</i> respectively.　There are also a few exceptions: one person and two people are <i>hitori</i> and <i>futari</i>. 20 years old is usually pronounced <i>hatachi</i>. You'll still be understood if you get these wrong though.</p><h4>一つ <i>hitotsu</i></h4><p>For numbers from one to nine, an old counting system is often used which applies to virtually any object you may want to count, without the need to attach a specific counter:</p><ol><li>一つ <i>hitotsu</i></li><li>二つ <i>futatsu</i></li><li>三つ <i>mittsu</i></li><li>四つ <i>yottsu</i></li><li>五つ <i>itsutsu</i></li><li>六つ <i>muttsu</i></li><li>七つ <i>nanatsu</i></li><li>八つ <i>yattsu</i></li><li>九つ <i>kokonotsu</i></li></ol><p>It is always a good idea to use a specific counter whenever possible, but using the generic numbers above is often equally acceptable. This system is rarely used anymore for numbers greater than nine.</p>"
     },
     "e6a8e931-6b5a-4a0a-9af0-a3fa6831131e": {
       "id": "e6a8e931-6b5a-4a0a-9af0-a3fa6831131e",
       "name": "Colors",
+      "slug": "colors",
       "notes": "<p>Many of the English words for colors are widely used and understood by almost all Japanese. These are indicated after the slash.</p></p>Note that some Japanese colors are normally suffixed with -iro (色) to distinguish between the color and the object. For example, 茶 cha means \"tea\", but 茶色 chairo means \"tea-color\" → \"brown\".</p>"
     },
     "fbe18548-e7bc-465c-93ec-25c2eb084a84": {
       "id": "fbe18548-e7bc-465c-93ec-25c2eb084a84",
-      "name": "Eating"
+      "name": "Eating",
+      "slug": "eating"
     },
     "926e2760-f74d-4154-87ea-284c98b93509": {
       "id": "926e2760-f74d-4154-87ea-284c98b93509",
-      "name": "Shopping"
+      "name": "Shopping",
+      "slug": "shopping"
     },
     "e62ee5fb-89c5-46b6-b29a-19f1c07114a4": {
       "id": "e62ee5fb-89c5-46b6-b29a-19f1c07114a4",
-      "name": "Countries"
+      "name": "Countries",
+      "slug": "countries"
     }
   }
 }

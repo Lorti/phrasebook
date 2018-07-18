@@ -23,6 +23,11 @@ export default new Router({
       props: true,
       component: Phrases,
     },
+    {
+      path: '/sets/:set/:slug',
+      props: true,
+      component: Phrases,
+    },
   ],
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
