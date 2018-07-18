@@ -2987,6 +2987,566 @@
       "sets": [
         "1dc90464-21d9-432a-bd6d-a561ecc32be2"
       ]
+    },
+    "f5fb6760-1d36-4bfb-9f09-b259ff04c3cc": {
+      "id": "ff5e3746-3a7a-4f1b-8369-82662a81f3f9",
+      "english": "I'm allergic to ... .",
+      "japanese": "私は ... アレルギーです。",
+      "romaji": "Watashi wa ... arerugii desu.",
+      "sets": [
+        "a8d02e79-6892-4695-9811-c3f0b563e951"
+      ]
+    },
+    "9c88b566-b80d-48a4-8f52-fd97e3e4dedd": {
+      "id": "139ff18c-63b5-456b-a615-774e5391d5bf",
+      "english": "... antibiotics",
+      "japanese": "抗生物質",
+      "romaji": "kōsei busshitsu",
+      "sets": [
+        "a8d02e79-6892-4695-9811-c3f0b563e951"
+      ]
+    },
+    "ef5040c8-44f0-4578-9c26-55e07772cb20": {
+      "id": "4043a05d-cb20-4114-b1f2-9c4e290213a6",
+      "english": "... aspirin",
+      "japanese": "アスピリン",
+      "romaji": "asupirin",
+      "sets": [
+        "a8d02e79-6892-4695-9811-c3f0b563e951"
+      ]
+    },
+    "d1e90083-7fbc-41ef-b3a9-a7875f797b55": {
+      "id": "1f434693-37d0-4eea-b7ed-799b2fd95ab1",
+      "english": "... codeine",
+      "japanese": "コデイン",
+      "romaji": "kodein",
+      "sets": [
+        "a8d02e79-6892-4695-9811-c3f0b563e951"
+      ]
+    },
+    "31df19d9-8eb2-4de6-908c-9aca741c8fa3": {
+      "id": "aafd555f-337d-4549-9097-46dab97ba767",
+      "english": "... dairy products",
+      "japanese": "乳製品",
+      "romaji": "nyūseihin",
+      "sets": [
+        "a8d02e79-6892-4695-9811-c3f0b563e951"
+      ]
+    },
+    "63dc0228-3981-432e-9238-bf6cd1e07dd4": {
+      "id": "cbff8395-f78d-45c8-af44-95252bc04cfb",
+      "english": "... food coloring",
+      "japanese": "人工着色料",
+      "romaji": "jinkō chakushokuryō",
+      "sets": [
+        "a8d02e79-6892-4695-9811-c3f0b563e951"
+      ]
+    },
+    "11f8ebf8-ea61-4d79-92a3-0da1f05220f2": {
+      "id": "1f3cd12f-f50f-40e3-9c4e-f67cd7e337cc",
+      "english": "... fungus",
+      "japanese": "菌類",
+      "romaji": "kinrui",
+      "sets": [
+        "a8d02e79-6892-4695-9811-c3f0b563e951"
+      ]
+    },
+    "ba23fcf9-c5ab-47fc-9603-8796bdbc500d": {
+      "id": "05eb3699-b88e-4201-9d91-08924155f652",
+      "english": "... MSG",
+      "japanese": "味の素/グルタミン酸ナトリウム",
+      "romaji": "ajinomoto/gurutamin san natoryūmu",
+      "sets": [
+        "a8d02e79-6892-4695-9811-c3f0b563e951"
+      ]
+    },
+    "54157ec1-6e65-48f9-84e9-7408de9458c9": {
+      "id": "5a1eeff6-da7b-43f6-8011-311e5cc11f94",
+      "english": "... mushrooms",
+      "japanese": "キノコ",
+      "romaji": "kinoko",
+      "sets": [
+        "a8d02e79-6892-4695-9811-c3f0b563e951"
+      ]
+    },
+    "b7b2bad9-b5ff-424c-8694-b191e133ba74": {
+      "id": "89c81851-0559-4211-b2a7-2f57cccd7b65",
+      "english": "... peanuts",
+      "japanese": "ピーナッツ",
+      "romaji": "pīnattsu",
+      "sets": [
+        "a8d02e79-6892-4695-9811-c3f0b563e951"
+      ]
+    },
+    "d86d021b-2923-444e-b107-85e415fbc1b9": {
+      "id": "fe40bd9a-d58b-429e-bff9-b7cb817fd278",
+      "english": "... penicillin",
+      "japanese": "ペニシリン",
+      "romaji": "penishirin",
+      "sets": [
+        "a8d02e79-6892-4695-9811-c3f0b563e951"
+      ]
+    },
+    "d622d6bf-66f4-4b2c-a86c-a2c7f6e76496": {
+      "id": "ee00097b-e2a5-44d6-9b44-f38864677a67",
+      "english": "... pollen",
+      "japanese": "花粉",
+      "romaji": "kafun",
+      "sets": [
+        "a8d02e79-6892-4695-9811-c3f0b563e951"
+      ]
+    },
+    "86fdb0de-a53a-4313-9068-e6957c70ec03": {
+      "id": "6166a830-1fc3-4274-a542-d8fe5291d447",
+      "english": "... seafood",
+      "japanese": "魚介類",
+      "romaji": "gyokairui",
+      "sets": [
+        "a8d02e79-6892-4695-9811-c3f0b563e951"
+      ]
+    },
+    "deaca4b0-ce71-4375-af7c-55d4597bed72": {
+      "id": "e59a07f1-8194-4008-a27b-ed37ee148a8c",
+      "english": "... sesame",
+      "japanese": "ゴマ",
+      "romaji": "goma",
+      "sets": [
+        "a8d02e79-6892-4695-9811-c3f0b563e951"
+      ]
+    },
+    "14ebb1a2-6deb-4514-8511-e0d1c1dff8d1": {
+      "id": "7d050bfd-5f9c-45e6-9f9a-20ec86830062",
+      "english": "... shellfish",
+      "japanese": "貝類",
+      "romaji": "kairui",
+      "sets": [
+        "a8d02e79-6892-4695-9811-c3f0b563e951"
+      ]
+    },
+    "e54df34f-7d3d-40c1-935d-6ecd13368b0d": {
+      "id": "63ead8d5-81c5-4baf-9a92-9cf929b3e63c",
+      "english": "... tree nuts, fruits or berries",
+      "japanese": "木の実",
+      "romaji": "kinomi",
+      "sets": [
+        "a8d02e79-6892-4695-9811-c3f0b563e951"
+      ]
+    },
+    "7cabf617-c4aa-45d6-85d4-65a4f5f90dfa": {
+      "id": "b0b6774b-d641-42a5-9c93-882e1743c9e5",
+      "english": "... wheat",
+      "japanese": "小麦",
+      "romaji": "komugi",
+      "sets": [
+        "a8d02e79-6892-4695-9811-c3f0b563e951"
+      ]
+    },
+
+    "c17dba94-c449-4094-bf3b-46af9d93af77": {
+      "id": "114d676f-dba1-49cc-92de-33bc42be342b",
+      "english": "My ... hurts.",
+      "japanese": "… が痛い。",
+      "romaji": "... ga itai.",
+      "sets": [
+        "f6291639-6912-4894-92d3-fd7051692c9c"
+      ]
+    },
+    "ad3d3b83-fea1-4112-8c15-986d58cc7de9": {
+      "id": "03558414-9932-4dd5-ad47-79157e6f689a",
+      "english": "Feeling unwell.",
+      "japanese": "気分が悪い",
+      "romaji": "Kibun ga warui.",
+      "sets": [
+        "f6291639-6912-4894-92d3-fd7051692c9c"
+      ]
+    },
+    "9942f240-80e7-4228-9abf-f5559a351770": {
+      "id": "77f71321-636d-4a9f-8062-d213b3d8a6e2",
+      "english": "Having a fever.",
+      "japanese": "熱があります。",
+      "romaji": "Netsu ga arimasu.",
+      "sets": [
+        "f6291639-6912-4894-92d3-fd7051692c9c"
+      ]
+    },
+    "8efb026d-024c-440d-a265-1132a97036a1": {
+      "id": "d9ce1224-32f1-4482-885c-99459fd76adc",
+      "english": "Coughing a lot.",
+      "japanese": "咳がでます。",
+      "romaji": "Seki ga demasu.",
+      "sets": [
+        "f6291639-6912-4894-92d3-fd7051692c9c"
+      ]
+    },
+    "273b3f4d-8f36-49e0-ab71-67607d3217d7": {
+      "id": "a940216e-470c-478e-84d6-4cd6fee9b28e",
+      "english": "Feeling listless.",
+      "japanese": "体がだるい。",
+      "romaji": "Karada ga darui.",
+      "sets": [
+        "f6291639-6912-4894-92d3-fd7051692c9c"
+      ]
+    },
+    "c2e1d776-b5d8-4fcc-9fa1-ecf19905f7d7": {
+      "id": "99ff7e49-afa5-402a-b797-e8308d12d9a0",
+      "english": "Feeling nauseated.",
+      "japanese": "吐き気がします。",
+      "romaji": "Hakike ga shimasu.",
+      "sets": [
+        "f6291639-6912-4894-92d3-fd7051692c9c"
+      ]
+    },
+    "2e356102-1073-40e2-8e2b-7d03d34c12d5": {
+      "id": "028cc4f1-9ba1-48e5-8c00-81579bddf0d5",
+      "english": "Feeling dizzy.",
+      "japanese": "めまいがします。",
+      "romaji": "Memai ga shimasu.",
+      "sets": [
+        "f6291639-6912-4894-92d3-fd7051692c9c"
+      ]
+    },
+    "973dae83-8119-4eea-a770-d527ee1ea0d8": {
+      "id": "2c70d01c-0b27-4362-99c3-b31a0133b1f5",
+      "english": "Having the chills.",
+      "japanese": "寒気がします。",
+      "romaji": "Samuke ga shimasu.",
+      "sets": [
+        "f6291639-6912-4894-92d3-fd7051692c9c"
+      ]
+    },
+    "9e411571-570a-4ccc-b879-4ed1bbd2763d": {
+      "id": "b901e5b9-4441-4107-a72f-c2931f2fc8ac",
+      "english": "Swallowed something.",
+      "japanese": "何かを呑んでしまいました。",
+      "romaji": "Nanika o nonde shimaimashita.",
+      "sets": [
+        "f6291639-6912-4894-92d3-fd7051692c9c"
+      ]
+    },
+    "82f062ea-92c1-4ee7-af27-a7d0d6656a01": {
+      "id": "c53d64a2-6f9c-4427-bfba-1169228438be",
+      "english": "Bleeding.",
+      "japanese": "出血です。",
+      "romaji": "Shukketsu desu.",
+      "sets": [
+        "f6291639-6912-4894-92d3-fd7051692c9c"
+      ]
+    },
+    "7241d810-3b10-49eb-89d8-2d5cabcb3ceb": {
+      "id": "8cef13a5-1ef4-4916-9957-0943859ded3f",
+      "english": "Broken bone.",
+      "japanese": "骨折です。",
+      "romaji": "Kossetsu desu.",
+      "sets": [
+        "f6291639-6912-4894-92d3-fd7051692c9c"
+      ]
+    },
+    "269e8fb5-2dc6-464d-981c-0b0ea74a9728": {
+      "id": "e2fcdc97-4da3-49e3-8182-5980b58894b9",
+      "english": "He/she is unconscious.",
+      "japanese": "意識不明です。",
+      "romaji": "Ishiki fumei desu.",
+      "sets": [
+        "f6291639-6912-4894-92d3-fd7051692c9c"
+      ]
+    },
+    "25d22acd-f858-442c-998e-81b892a1cd4c": {
+      "id": "5d7dbbc6-3160-4fbf-a324-283071fa877c",
+      "english": "Burned.",
+      "japanese": "火傷です。",
+      "romaji": "Yakedo desu.",
+      "sets": [
+        "f6291639-6912-4894-92d3-fd7051692c9c"
+      ]
+    },
+    "cb1b73a4-b2f0-45af-9243-dbb03cc425d6": {
+      "id": "7b22ee3e-6d15-437d-b6f6-62c076b24ee7",
+      "english": "Trouble breathing.",
+      "japanese": "呼吸困難です。",
+      "romaji": "Kokyū konnan desu.",
+      "sets": [
+        "f6291639-6912-4894-92d3-fd7051692c9c"
+      ]
+    },
+    "c0bfc036-24ed-4185-95e0-9ee94fb3b5dd": {
+      "id": "d19275a7-cb30-4846-a79f-623ffbe32158",
+      "english": "Heart attack.",
+      "japanese": "心臓発作です。",
+      "romaji": "Shinzō hossa desu.",
+      "sets": [
+        "f6291639-6912-4894-92d3-fd7051692c9c"
+      ]
+    },
+    "2987e08b-b3c3-4215-ab5d-a492fc06c4a3": {
+      "id": "5ce72ec3-e785-4e1d-ad3f-64ea68989c3c",
+      "english": "Vision worsened.",
+      "japanese": "視力が落ちました。",
+      "romaji": "Shiryoku ga ochimashita.",
+      "sets": [
+        "f6291639-6912-4894-92d3-fd7051692c9c"
+      ]
+    },
+    "21d03672-e41d-46da-8670-15735da60ddb": {
+      "id": "1668fb2a-eae2-4921-9047-e4db7644007d",
+      "english": "Cannot hear well.",
+      "japanese": "耳が良く聴こえません。",
+      "romaji": "Mimi ga yoku kikoemasen.",
+      "sets": [
+        "f6291639-6912-4894-92d3-fd7051692c9c"
+      ]
+    },
+    "cc01836e-8cc9-4f9d-b620-a5757be04d58": {
+      "id": "ace491ac-8896-4924-9b10-4751ce5ca6e3",
+      "english": "Nose bleeds a lot.",
+      "japanese": "鼻血が良くでます。",
+      "romaji": "Hanaji ga yoku demasu.",
+      "sets": [
+        "f6291639-6912-4894-92d3-fd7051692c9c"
+      ]
+    },
+    "ca875ea2-fe7a-4391-a678-77d53edeb25e": {
+      "id": "3c5ed6a4-4f0c-4921-bd04-ae349dca71b5",
+      "english": "head",
+      "japanese": "頭",
+      "romaji": "atama",
+      "sets": [
+        "05be73ae-cb6b-4a61-8d85-27305ee35fa6"
+      ]
+    },
+    "eb2eb6f3-81cb-41ae-8185-0f3f43d8ce27": {
+      "id": "8a7f0074-07d1-42fa-becb-f28fa4c3e3ba",
+      "english": "face",
+      "japanese": "顔",
+      "romaji": "kao",
+      "sets": [
+        "05be73ae-cb6b-4a61-8d85-27305ee35fa6"
+      ]
+    },
+    "53af89df-1643-4e92-9af0-7f7af6856b14": {
+      "id": "7b50c4fe-e204-44fd-96b8-5478415df0f2",
+      "english": "eyes",
+      "japanese": "目",
+      "romaji": "me",
+      "sets": [
+        "05be73ae-cb6b-4a61-8d85-27305ee35fa6"
+      ]
+    },
+    "38a18f70-25fe-4a7f-b49e-298d786cf19d": {
+      "id": "9eb10d05-97cf-4af5-b1e9-e5c5053d6458",
+      "english": "ears",
+      "japanese": "耳",
+      "romaji": "mimi",
+      "sets": [
+        "05be73ae-cb6b-4a61-8d85-27305ee35fa6"
+      ]
+    },
+    "81500533-c23b-476f-b5fa-d26c281ddc45": {
+      "id": "f64f6ce6-3202-424a-b93f-e2fdd2e9656b",
+      "english": "nose",
+      "japanese": "鼻",
+      "romaji": "hana",
+      "sets": [
+        "05be73ae-cb6b-4a61-8d85-27305ee35fa6"
+      ]
+    },
+    "85ecbef6-7620-4692-9d02-c79529f20a17": {
+      "id": "eaaa44a2-f09b-40b2-8aa9-e8bde3c3e132",
+      "english": "throat",
+      "japanese": "喉",
+      "romaji": "nodo",
+      "sets": [
+        "05be73ae-cb6b-4a61-8d85-27305ee35fa6"
+      ]
+    },
+    "c07a4d9e-a0d3-499b-8be3-c394933c15b1": {
+      "id": "85a8d4d6-bf7c-457b-8b6e-c91d512f208d",
+      "english": "chin",
+      "japanese": "顎",
+      "romaji": "ago",
+      "sets": [
+        "05be73ae-cb6b-4a61-8d85-27305ee35fa6"
+      ]
+    },
+    "ded28d7d-5163-4f57-821f-90376d91961a": {
+      "id": "b6ca01fb-08c8-4e6c-8640-473b14fc024a",
+      "english": "neck",
+      "japanese": "首",
+      "romaji": "kubi",
+      "sets": [
+        "05be73ae-cb6b-4a61-8d85-27305ee35fa6"
+      ]
+    },
+    "eef9bb9e-cff5-4954-9640-c34a580cfe3a": {
+      "id": "d255c96c-7bc0-4fda-ae6e-39a678af98f9",
+      "english": "shoulders",
+      "japanese": "肩",
+      "romaji": "kata",
+      "sets": [
+        "05be73ae-cb6b-4a61-8d85-27305ee35fa6"
+      ]
+    },
+    "7e39d204-a238-4503-bd7e-90ec13a7d719": {
+      "id": "5157e1e2-1b1e-400e-964b-5d824deca85b",
+      "english": "chest",
+      "japanese": "胸",
+      "romaji": "mune",
+      "sets": [
+        "05be73ae-cb6b-4a61-8d85-27305ee35fa6"
+      ]
+    },
+    "d21d4776-eb93-4d7c-b207-893cc18e1e04": {
+      "id": "cc2c00f0-e161-4806-ac6f-91d21d3b80b6",
+      "english": "waist",
+      "japanese": "腰",
+      "romaji": "koshi",
+      "sets": [
+        "05be73ae-cb6b-4a61-8d85-27305ee35fa6"
+      ]
+    },
+    "99713bda-5193-4244-9184-eb6f75fb881a": {
+      "id": "ab805354-a639-4e56-a9de-e8e02c96a19a",
+      "english": "arms",
+      "japanese": "腕",
+      "romaji": "ude",
+      "sets": [
+        "05be73ae-cb6b-4a61-8d85-27305ee35fa6"
+      ]
+    },
+    "d43cf756-e910-425d-8186-c26f2f4ab89d": {
+      "id": "84b8d763-c74e-41ac-b69d-a51852ad3065",
+      "english": "wrists",
+      "japanese": "手首",
+      "romaji": "tekubi",
+      "sets": [
+        "05be73ae-cb6b-4a61-8d85-27305ee35fa6"
+      ]
+    },
+    "97bc142b-f895-4563-9608-7e8b08d9f6c2": {
+      "id": "281b4237-1bbf-48f8-9654-c4eb64fe2207",
+      "english": "fingers",
+      "japanese": "指",
+      "romaji": "yubi",
+      "sets": [
+        "05be73ae-cb6b-4a61-8d85-27305ee35fa6"
+      ]
+    },
+    "890b4974-65e0-4802-9df2-95b83f2bd38f": {
+      "id": "81bc0987-a19c-49be-b779-f78ca12a7399",
+      "english": "hands",
+      "japanese": "手",
+      "romaji": "te",
+      "sets": [
+        "05be73ae-cb6b-4a61-8d85-27305ee35fa6"
+      ]
+    },
+    "d6857433-a7c7-40cb-a04c-2c7f2df90c3d": {
+      "id": "30837ed3-5515-4305-9644-cdab42ca4b96",
+      "english": "elbow",
+      "japanese": "肘",
+      "romaji": "hiji",
+      "sets": [
+        "05be73ae-cb6b-4a61-8d85-27305ee35fa6"
+      ]
+    },
+    "a26f7e71-9cd6-48bd-8d71-4700ac0e4873": {
+      "id": "754aa6eb-253e-41a3-83e4-43d962f8e786",
+      "english": "buttocks",
+      "japanese": "(お)尻",
+      "romaji": "(o)shiri",
+      "sets": [
+        "05be73ae-cb6b-4a61-8d85-27305ee35fa6"
+      ]
+    },
+    "6865b1cf-3ffe-49ca-a3c4-e472d17a0e5f": {
+      "id": "3129e92e-2dee-4d15-86ac-fd8bea9971f9",
+      "english": "thigh",
+      "japanese": "腿",
+      "romaji": "momo",
+      "sets": [
+        "05be73ae-cb6b-4a61-8d85-27305ee35fa6"
+      ]
+    },
+    "75ac2899-1f8a-42c9-8df8-15fb0d9e627b": {
+      "id": "a469371f-3ac2-4306-9d2e-1a351492b7ed",
+      "english": "knee",
+      "japanese": "膝",
+      "romaji": "hiza",
+      "sets": [
+        "05be73ae-cb6b-4a61-8d85-27305ee35fa6"
+      ]
+    },
+    "85bc70c3-f6f9-4496-b839-a5ed86e17f06": {
+      "id": "cbed8427-28a9-41d8-9c7b-3c5cdbb78ecd",
+      "english": "legs, foot",
+      "japanese": "足",
+      "romaji": "ashi",
+      "sets": [
+        "05be73ae-cb6b-4a61-8d85-27305ee35fa6"
+      ]
+    },
+
+    "3a250e3b-4c69-4a9a-a98a-5a72d48ec53c": {
+      "id": "484bba23-64f8-4d95-a0a4-038e7337e323",
+      "english": "Blizzard",
+      "japanese": "吹雪",
+      "romaji": "fubuki",
+      "sets": [
+        "790d76ce-22cb-40d2-8344-92014e45d23a"
+      ]
+    },
+    "6518e3bd-8dd0-494a-9fd3-fe09ad5497b6": {
+      "id": "f60e383b-12de-4efe-b09d-da7dcba771f4",
+      "english": "Earthquake",
+      "japanese": "地震",
+      "romaji": "jishin",
+      "sets": [
+        "790d76ce-22cb-40d2-8344-92014e45d23a"
+      ]
+    },
+    "aa97f3cc-67af-4409-854c-fb3a0d394dc2": {
+      "id": "3da6780d-4791-44bf-9720-d462e03c4cf4",
+      "english": "Flood",
+      "japanese": "洪水",
+      "romaji": "kōzui",
+      "sets": [
+        "790d76ce-22cb-40d2-8344-92014e45d23a"
+      ]
+    },
+    "050c2e98-8e10-4cb1-8e77-95c376007869": {
+      "id": "2fd4ec9a-d50e-4df6-8e26-ce31e538658e",
+      "english": "Landslide",
+      "japanese": "地滑り",
+      "romaji": "jisuberi",
+      "sets": [
+        "790d76ce-22cb-40d2-8344-92014e45d23a"
+      ]
+    },
+    "c37490fa-222b-4b3b-9820-b13ac1a3589a": {
+      "id": "c5cd6062-1c89-4991-a603-d09300df1073",
+      "english": "Tsunami",
+      "japanese": "津波",
+      "romaji": "tsunami",
+      "sets": [
+        "790d76ce-22cb-40d2-8344-92014e45d23a"
+      ]
+    },
+    "e8595ebf-2360-4870-9243-384aef5d6692": {
+      "id": "c35a4342-5fcd-44fb-9cb7-f8ae11da4d8d",
+      "english": "Typhoon",
+      "japanese": "台風",
+      "romaji": "taifū",
+      "sets": [
+        "790d76ce-22cb-40d2-8344-92014e45d23a"
+      ]
+    },
+    "25727d6b-80b0-4d28-95a0-35637990c768": {
+      "id": "a3b23c1e-312b-43fe-a0bc-8e3cb9ccc60c",
+      "english": "Volcano eruption",
+      "japanese": "噴火",
+      "romaji": "funka",
+      "sets": [
+        "790d76ce-22cb-40d2-8344-92014e45d23a"
+      ]
     }
   },
   "sets": {
@@ -3003,6 +3563,7 @@
         "1dc90464-21d9-432a-bd6d-a561ecc32be2",
         "a8d02e79-6892-4695-9811-c3f0b563e951",
         "f6291639-6912-4894-92d3-fd7051692c9c",
+        "05be73ae-cb6b-4a61-8d85-27305ee35fa6",
         "790d76ce-22cb-40d2-8344-92014e45d23a"
       ]
     },
@@ -3020,6 +3581,11 @@
       "id": "f6291639-6912-4894-92d3-fd7051692c9c",
       "name": "Explaining Symptoms",
       "slug": "explaining-symptoms"
+    },
+    "05be73ae-cb6b-4a61-8d85-27305ee35fa6": {
+      "id": "05be73ae-cb6b-4a61-8d85-27305ee35fa6",
+      "name": "Body Parts",
+      "slug": "body-parts"
     },
     "790d76ce-22cb-40d2-8344-92014e45d23a": {
       "id": "790d76ce-22cb-40d2-8344-92014e45d23a",
