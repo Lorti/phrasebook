@@ -44,7 +44,7 @@
 
       <footer class="md-caption">
         <p>
-          🇯🇵 Phrasebook is an interactive Japanese phrasebook optimized for travel and offline usage, using data from <a href="https://wikitravel.org/en/Japanese_phrasebook" target="_blank">Wikitravel</a>.
+          🇯🇵 Phrasebook is a free Japanese phrasebook app optimized for travel and offline usage, using data from <a href="https://wikitravel.org/en/Japanese_phrasebook" target="_blank">Wikitravel</a>.
         </p>
         <p>Developed with ❤️ by Manuel Wieser</p>
         <p><a href="https://twitter.com/manuelwieser">@manuelwieser</a> | <a href="https://manu.ninja">manu.ninja</a></p>

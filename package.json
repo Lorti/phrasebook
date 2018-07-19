@@ -1,7 +1,7 @@
 {
   "name": "phrasebook",
   "version": "0.1.0",
-  "description": "Interactive Japanese phrasebook optimized for travelling and offline usage, using data from Wikitravel",
+  "description": "🇯🇵 Phrasebook is a free Japanese phrasebook app optimized for travel and offline usage, using data from Wikitravel.",
   "author": {
     "name": "Manuel Wieser",
     "email": "office@manuelwieser.com",
