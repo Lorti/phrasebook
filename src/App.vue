@@ -25,6 +25,20 @@
       </md-list>
 
       <md-divider></md-divider>
+      <md-subheader>Social</md-subheader>
+
+      <md-list>
+        <md-list-item href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.japanese-phrasebook.com%2F&quote=%F0%9F%87%AF%F0%9F%87%B5%20Phrasebook" target="_blank">
+          <md-icon>chat_bubble_outline</md-icon>
+          <span class="md-list-item-text">Share on Facebook</span>
+        </md-list-item>
+        <md-list-item href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fwww.japanese-phrasebook.com%2F&text=%F0%9F%87%AF%F0%9F%87%B5%20Phrasebook:%20https%3A%2F%2Fwww.japanese-phrasebook.com%2F" target="_blank">
+          <md-icon>chat_bubble_outline</md-icon>
+          <span class="md-list-item-text">Share on Twitter</span>
+        </md-list-item>
+      </md-list>
+
+      <md-divider></md-divider>
       <md-subheader>Support</md-subheader>
 
       <md-list>
