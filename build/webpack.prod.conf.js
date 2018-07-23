@@ -143,9 +143,9 @@ const webpackConfig = merge(baseWebpackConfig, {
         filename: 'service-worker.js',
         stripPrefix: config.build.assetsRoot,
         staticFileGlobs: [
-          `${config.build.assetsRoot}/index.html`,
+          `${config.build.assetsRoot}/**/*.html`,
           `${config.build.assetsRoot}/static/data.json`,
-          `${config.build.assetsRoot}/static/css/*.js`,
+          `${config.build.assetsRoot}/static/css/*.css`,
           `${config.build.assetsRoot}/static/js/*.js`,
           `${config.build.assetsRoot}/static/**/*.woff`,
           `${config.build.assetsRoot}/static/**/*.woff2`,
