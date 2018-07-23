@@ -48,6 +48,9 @@ const mutations = {
       state.favorites.splice(index, 1);
     }
   },
+  TOGGLE_SETTING_SORT_ALPHABETICALLY: (state, value) => {
+    state.settings.sortAlphabetically = value;
+  },
   TOGGLE_SETTING_FILTER_FAVORITES: (state, value) => {
     state.settings.filterFavorites = value;
   },
@@ -108,6 +111,7 @@ export default new Vuex.Store({
     sets: {},
     favorites: [],
     settings: {
+      sortAlphabetically: false,
       filterFavorites: false,
       swapLanguages: false,
     },

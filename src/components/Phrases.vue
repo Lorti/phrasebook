@@ -1,6 +1,16 @@
 <template>
   <div v-document-title="name">
-    <md-switch class="md-primary filter" v-model="filterFavorites"></md-switch>
+    <div class="filter">
+      <md-button :class="{ 'md-icon-button': true, 'md-primary': sortAlphabetically }"
+                 @click="sortAlphabetically = !sortAlphabetically">
+        <md-icon>sort_by_alpha</md-icon>
+      </md-button>
+
+      <md-button :class="{ 'md-icon-button': true, 'md-primary': filterFavorites }"
+                 @click="filterFavorites = !filterFavorites">
+        <md-icon>filter_list</md-icon>
+      </md-button>
+    </div>
 
     <h1 class="md-headline">{{ name }}</h1>
 
@@ -47,6 +57,14 @@ export default {
     };
   },
   computed: {
+    sortAlphabetically: {
+      get() {
+        return this.$store.state.settings.sortAlphabetically;
+      },
+      set(value) {
+        this.$store.commit('TOGGLE_SETTING_SORT_ALPHABETICALLY', value);
+      },
+    },
     filterFavorites: {
       get() {
         return this.$store.state.settings.filterFavorites;
@@ -74,6 +92,16 @@ export default {
           return haystack.includes(this.filter.toLowerCase());
         });
       }
+      if (this.sortAlphabetically) {
+        phrases = [...phrases].sort((a, b) => {
+          if (a.english.toLowerCase() < b.english.toLowerCase()) {
+            return -1;
+          } else if (a.english.toLowerCase() > b.english.toLowerCase()) {
+            return 1;
+          }
+          return 0;
+        });
+      }
       if (this.filterFavorites) {
         phrases = phrases.filter(phrase => this.$store.getters.isFavorite(phrase.id));
       }
@@ -83,11 +111,10 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
   .filter {
     float: right;
-    margin-top: 6px;
-    margin-right: 10px;
+    margin-top: -(40px - 32px) / 2;
   }
   .notes {
     margin: 1em;
