@@ -168,6 +168,10 @@ export default {
       url('/static/roboto-v18-latin_latin-ext-700.woff') format('woff');
   }
 
+  .md-app {
+    min-height: 100vh;
+  }
+
   a {
     color: inherit;
     text-decoration: none !important;

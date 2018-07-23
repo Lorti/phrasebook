@@ -82,6 +82,17 @@ const webpackConfig = merge(baseWebpackConfig, {
       // necessary to consistently work with multiple chunks via CommonsChunkPlugin
       chunksSortMode: 'dependency'
     }),
+    new HtmlWebpackPlugin({
+      filename: 'shell.html',
+      template: 'shell.html',
+      inject: true,
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true,
+        removeAttributeQuotes: true
+      },
+      chunksSortMode: 'dependency'
+    }),
     // keep module.id stable when vendor modules does not change
     new webpack.HashedModuleIdsPlugin(),
     // enable scope hoisting
@@ -143,21 +154,19 @@ const webpackConfig = merge(baseWebpackConfig, {
         filename: 'service-worker.js',
         stripPrefix: config.build.assetsRoot,
         staticFileGlobs: [
-          `${config.build.assetsRoot}/**/*.html`,
+          `${config.build.assetsRoot}/shell.html`,
+          `${config.build.assetsRoot}/static/**/*.{css,js}`,
+          `${config.build.assetsRoot}/static/**/*.{woff,woff2}`,
           `${config.build.assetsRoot}/static/data.json`,
-          `${config.build.assetsRoot}/static/css/*.css`,
-          `${config.build.assetsRoot}/static/js/*.js`,
-          `${config.build.assetsRoot}/static/**/*.woff`,
-          `${config.build.assetsRoot}/static/**/*.woff2`,
         ],
         minify: true,
-        navigateFallback: 'index.html'
+        navigateFallback: 'shell.html'
       }
     ),
 
     new PrerenderSPAPlugin({
       staticDir: config.build.assetsRoot,
-      routes: ['/', ...Object.values(sets).map(set => `/sets/${set.id}/${set.slug}/`), '/sets/favorites/'],
+      routes: ['/', ...Object.values(sets).map(set => `/sets/${set.id}/${set.slug}`)],
       renderer: new Renderer({
         renderAfterDocumentEvent: 'render-event'
       }),

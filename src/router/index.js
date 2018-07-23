@@ -14,13 +14,13 @@ export default new Router({
       component: Sets,
     },
     {
-      path: '/sets/favorites/',
+      path: '/sets/favorites',
       props: true,
       component: Favorites,
       pathToRegexpOptions: { strict: true },
     },
     {
-      path: '/sets/:set/:slug/',
+      path: '/sets/:set/:slug',
       props: true,
       component: Phrases,
       pathToRegexpOptions: { strict: true },
