@@ -157,7 +157,7 @@ const webpackConfig = merge(baseWebpackConfig, {
 
     new PrerenderSPAPlugin({
       staticDir: config.build.assetsRoot,
-      routes: ['/', ...Object.values(sets).map(set => `/sets/${set.id}/${set.slug}`)],
+      routes: ['/', ...Object.values(sets).map(set => `/sets/${set.id}/${set.slug}/`), '/sets/favorites/'],
       renderer: new Renderer({
         renderAfterDocumentEvent: 'render-event'
       }),

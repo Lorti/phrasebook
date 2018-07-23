@@ -14,19 +14,16 @@ export default new Router({
       component: Sets,
     },
     {
-      path: '/sets/favorites',
+      path: '/sets/favorites/',
       props: true,
       component: Favorites,
+      pathToRegexpOptions: { strict: true },
     },
     {
-      path: '/sets/:set',
+      path: '/sets/:set/:slug/',
       props: true,
       component: Phrases,
-    },
-    {
-      path: '/sets/:set/:slug',
-      props: true,
-      component: Phrases,
+      pathToRegexpOptions: { strict: true },
     },
   ],
   scrollBehavior(to, from, savedPosition) {
