@@ -141,9 +141,17 @@ const webpackConfig = merge(baseWebpackConfig, {
       {
         cacheId: 'phrasebook',
         filename: 'service-worker.js',
+        stripPrefix: config.build.assetsRoot,
+        staticFileGlobs: [
+          `${config.build.assetsRoot}/index.html`,
+          `${config.build.assetsRoot}/static/data.json`,
+          `${config.build.assetsRoot}/static/css/*.js`,
+          `${config.build.assetsRoot}/static/js/*.js`,
+          `${config.build.assetsRoot}/static/**/*.woff`,
+          `${config.build.assetsRoot}/static/**/*.woff2`,
+        ],
         minify: true,
-        navigateFallback: 'index.html',
-        staticFileGlobsIgnorePatterns: [/\.map$/, /_redirects/],
+        navigateFallback: 'index.html'
       }
     ),
 
@@ -152,7 +160,12 @@ const webpackConfig = merge(baseWebpackConfig, {
       routes: ['/', ...Object.values(sets).map(set => `/sets/${set.id}/${set.slug}`)],
       renderer: new Renderer({
         renderAfterDocumentEvent: 'render-event'
-      })
+      }),
+      postProcess(renderedRoute) {
+        renderedRoute.html = renderedRoute.html.replace(
+          '<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>', '');
+        return renderedRoute;
+      }
     })
   ]
 })

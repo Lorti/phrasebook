@@ -23,19 +23,19 @@ Vue.directive('document-title', {
   update(el, binding) { setTitle(binding.value); },
 });
 
-/* eslint-disable no-new */
-new Vue({
-  el: '#app',
-  router,
-  store,
-  render: h => h(App),
-  created() {
-    store.dispatch('FETCH_DATABASE');
-  },
-  mounted() {
-    document.dispatchEvent(new Event('render-event'));
-  },
-});
+store.dispatch('FETCH_DATABASE')
+  .then(() => {
+    /* eslint-disable no-new */
+    new Vue({
+      el: '#app',
+      router,
+      store,
+      render: h => h(App),
+      mounted() {
+        document.dispatchEvent(new Event('render-event'));
+      },
+    });
+  });
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/service-worker.js');
