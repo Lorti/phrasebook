@@ -28,11 +28,11 @@
       <md-subheader>Social</md-subheader>
 
       <md-list>
-        <md-list-item href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.japanese-phrasebook.com%2F&quote=%F0%9F%87%AF%F0%9F%87%B5%20Phrasebook" target="_blank">
+        <md-list-item href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.japanese-phrasebook.com%2F&quote=%F0%9F%87%AF%F0%9F%87%B5%20Phrasebook" target="_blank" rel="noopener">
           <md-icon>chat_bubble_outline</md-icon>
           <span class="md-list-item-text">Share on Facebook</span>
         </md-list-item>
-        <md-list-item href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fwww.japanese-phrasebook.com%2F&text=%F0%9F%87%AF%F0%9F%87%B5%20Phrasebook:%20https%3A%2F%2Fwww.japanese-phrasebook.com%2F" target="_blank">
+        <md-list-item href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fwww.japanese-phrasebook.com%2F&text=%F0%9F%87%AF%F0%9F%87%B5%20Phrasebook:%20https%3A%2F%2Fwww.japanese-phrasebook.com%2F" target="_blank" rel="noopener">
           <md-icon>chat_bubble_outline</md-icon>
           <span class="md-list-item-text">Share on Twitter</span>
         </md-list-item>
@@ -99,6 +99,74 @@ export default {
   ));
 
   @import "~vue-material/dist/theme/all";
+
+  @font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Material Icons'), local('MaterialIcons-Regular'),
+      url('/static/MaterialIcons-Regular.woff2') format('woff2'),
+      url('/static/MaterialIcons-Regular.woff') format('woff');
+  }
+
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Roboto'), local('Roboto-Regular'),
+      url('/static/roboto-v18-latin_latin-ext-regular.woff2') format('woff2'),
+      url('/static/roboto-v18-latin_latin-ext-regular.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Roboto Italic'), local('Roboto-Italic'),
+      url('/static/roboto-v18-latin_latin-ext-italic.woff2') format('woff2'),
+      url('/static/roboto-v18-latin_latin-ext-italic.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Roboto Medium'), local('Roboto-Medium'),
+      url('/static/roboto-v18-latin_latin-ext-500.woff2') format('woff2'),
+      url('/static/roboto-v18-latin_latin-ext-500.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Roboto Bold'), local('Roboto-Bold'),
+      url('/static/roboto-v18-latin_latin-ext-700.woff2') format('woff2'),
+      url('/static/roboto-v18-latin_latin-ext-700.woff') format('woff');
+  }
 
   a {
     color: inherit;

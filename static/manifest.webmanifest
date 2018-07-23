@@ -1,0 +1,9 @@
+{
+  "name": "🇯🇵 Phrasebook",
+  "short_name": "🇯🇵 Phrasebook",
+  "theme_color": "#f44336",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/"
+}
