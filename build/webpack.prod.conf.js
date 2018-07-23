@@ -128,6 +128,10 @@ const webpackConfig = merge(baseWebpackConfig, {
         to: config.build.assetsRoot
       },
       {
+        from: path.resolve(__dirname, '../robots.txt'),
+        to: config.build.assetsRoot
+      },
+      {
         from: path.resolve(__dirname, '../sitemap.xml'),
         to: config.build.assetsRoot
       }
