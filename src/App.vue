@@ -3,7 +3,7 @@
     <md-app-toolbar class="md-primary">
       <router-link class="title" to="/">
         <img class="logo" src="/static/logo.svg" alt="Logo">
-        <span class="md-title">Phrasebook</span>
+        <span class="md-title"><span>Japanese</span> Phrasebook</span>
       </router-link>
 
       <div class="md-toolbar-section-end">
@@ -194,5 +194,18 @@ export default {
   .title {
     display: flex;
     align-items: center;
+  }
+
+  .md-toolbar .md-title {
+    max-width: 7.5em;
+    font-weight: bold;
+    line-height: 1;
+    white-space: normal;
+
+    span {
+      font-size: 16px;
+      font-weight: normal;
+      text-transform: uppercase;
+    }
   }
 </style>
