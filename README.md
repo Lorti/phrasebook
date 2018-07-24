@@ -1,8 +1,8 @@
 # 🇯🇵 Phrasebook
 
-<img src="https://github.com/Lorti/phrasebook/blob/master/logo/svg/Logo_JP_horizontal.svg"> 
-
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/manuninja)
+
+<img src="https://github.com/Lorti/phrasebook/blob/master/logo.png"> 
 
 🇯🇵 Phrasebook is a free Japanese phrasebook app optimized for travel and offline usage, using data from [Wikitravel](https://wikitravel.org/en/Japanese_phrasebook).
 
@@ -35,9 +35,12 @@ npm run e2e
 npm test
 ```
 
-## Author
+## Contributors
 
 Manuel Wieser<br>
 <https://manu.ninja><br>
 <https://twitter.com/manuelwieser><br>
 <https://www.paypal.me/manuninja><br>
+
+Logo by Ksenia<br>
+<https://steemit.com/@happyksu>
