@@ -1,3 +1,5 @@
+<img src="https://github.com/happyksu/phrasebook/blob/master/New_logo/png/Logo_JP_horizontal_%20low_res.png"/>
+
 # 🇯🇵 Phrasebook
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/manuninja)
