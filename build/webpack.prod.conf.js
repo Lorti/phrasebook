@@ -135,16 +135,9 @@ const webpackConfig = merge(baseWebpackConfig, {
         ignore: ['.*']
       },
       {
-        from: path.resolve(__dirname, '../_redirects'),
-        to: config.build.assetsRoot
-      },
-      {
-        from: path.resolve(__dirname, '../robots.txt'),
-        to: config.build.assetsRoot
-      },
-      {
-        from: path.resolve(__dirname, '../sitemap.xml'),
-        to: config.build.assetsRoot
+        from: path.resolve(__dirname, '../root'),
+        to: config.build.assetsRoot,
+        ignore: ['.*']
       }
     ]),
 

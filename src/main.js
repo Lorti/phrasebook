@@ -12,9 +12,9 @@ Vue.config.productionTip = false;
 
 function setTitle(title) {
   if (title) {
-    document.title = `${title} | 🇯🇵 Phrasebook`;
+    document.title = `${title} | Phrasebook`;
   } else {
-    document.title = '🇯🇵 Phrasebook';
+    document.title = 'Phrasebook';
   }
 }
 
