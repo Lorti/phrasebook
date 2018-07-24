@@ -1,7 +1,10 @@
 <template>
   <md-app :md-scrollbar="false">
     <md-app-toolbar class="md-primary">
-      <router-link to="/" class="md-title">🇯🇵 Phrasebook</router-link>
+      <router-link class="title" to="/">
+        <img class="logo" src="/static/logo.svg" alt="Logo">
+        <span class="md-title">Phrasebook</span>
+      </router-link>
 
       <div class="md-toolbar-section-end">
         <md-button @click="menuVisible = !menuVisible">
@@ -181,5 +184,15 @@ export default {
   footer {
     margin: 2em 0;
     text-align: center;
+  }
+
+  .logo {
+    height: 40px !important;
+    width: 40px !important;
+  }
+
+  .title {
+    display: flex;
+    align-items: center;
   }
 </style>
