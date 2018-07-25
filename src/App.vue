@@ -2,7 +2,7 @@
   <md-app :md-scrollbar="false">
     <md-app-toolbar class="md-primary">
       <router-link class="title" to="/">
-        <img class="logo" src="/static/logo.svg" alt="Logo">
+        <img class="logo" src="./assets/logo.svg" alt="Logo">
         <span class="md-title"><span>Japanese</span> Phrasebook</span>
       </router-link>
 
@@ -187,8 +187,9 @@ export default {
   }
 
   .logo {
-    height: 40px !important;
-    width: 40px !important;
+    margin: 0 8px;
+    height: 32px !important;
+    width: 32px !important;
   }
 
   .title {
@@ -203,6 +204,7 @@ export default {
     white-space: normal;
 
     span {
+      display: block;
       font-size: 16px;
       font-weight: normal;
       text-transform: uppercase;
