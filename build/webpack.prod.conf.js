@@ -151,7 +151,6 @@ const webpackConfig = merge(baseWebpackConfig, {
           `${config.build.assetsRoot}/static/**/*.{css,js}`,
           `${config.build.assetsRoot}/static/**/*.{woff,woff2}`,
           `${config.build.assetsRoot}/static/data.json`,
-          `${config.build.assetsRoot}/static/logo.svg`,
         ],
         minify: true,
         navigateFallback: 'shell.html'
