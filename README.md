@@ -1,4 +1,6 @@
-<img src="https://github.com/Lorti/phrasebook/blob/master/logo.png" width="320"> 
+<a href="https://www.japanese-phrasebook.com">
+  <img src="https://github.com/Lorti/phrasebook/blob/master/logo.png" width="256">
+</a> 
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/manuninja)
 
