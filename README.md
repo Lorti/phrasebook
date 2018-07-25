@@ -1,8 +1,6 @@
-# 🇯🇵 Phrasebook
+<img src="https://github.com/Lorti/phrasebook/blob/master/logo.png" width="320"> 
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/manuninja)
-
-<img src="https://github.com/Lorti/phrasebook/blob/master/logo.png"> 
 
 🇯🇵 Phrasebook is a free Japanese phrasebook app optimized for travel and offline usage, using data from [Wikitravel](https://wikitravel.org/en/Japanese_phrasebook).
 
