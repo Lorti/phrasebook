@@ -170,7 +170,6 @@ const webpackConfig = merge(baseWebpackConfig, {
         renderAfterDocumentEvent: 'render-event'
       }),
       postProcess(context) {
-        console.log(context);
         if (context.route === '/404') {
           context.outputPath = path.join(config.build.assetsRoot, '/404.html');
         }
