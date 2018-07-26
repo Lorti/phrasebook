@@ -1,6 +1,7 @@
 {
-  "name": "Phrasebook",
+  "name": "Japanese Phrasebook",
   "short_name": "Phrasebook",
+  "description": "🇯🇵 100% free and open-source Japanese Phrasebook app optimized for travel and offline usage, using data from Wikitravel.",
   "theme_color": "#f44336",
   "background_color": "#ffffff",
   "display": "standalone",

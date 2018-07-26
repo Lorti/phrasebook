@@ -4,7 +4,7 @@
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/manuninja)
 
-🇯🇵 Phrasebook is a free Japanese phrasebook app optimized for travel and offline usage, using data from [Wikitravel](https://wikitravel.org/en/Japanese_phrasebook).
+🇯🇵 100% free and open-source Japanese Phrasebook app optimized for travel and offline usage, using data from [Wikitravel](https://wikitravel.org/en/Japanese_phrasebook).
 
 <https://www.japanese-phrasebook.com>
 
