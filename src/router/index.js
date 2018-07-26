@@ -1,8 +1,9 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Sets from '@/components/Sets';
-import Phrases from '@/components/Phrases';
 import Favorites from '@/components/Favorites';
+import NotFoundComponent from '@/components/NotFoundComponent';
+import Phrases from '@/components/Phrases';
+import Sets from '@/components/Sets';
 
 Vue.use(Router);
 
@@ -17,13 +18,15 @@ export default new Router({
       path: '/sets/favorites',
       props: true,
       component: Favorites,
-      pathToRegexpOptions: { strict: true },
     },
     {
       path: '/sets/:set/:slug',
       props: true,
       component: Phrases,
-      pathToRegexpOptions: { strict: true },
+    },
+    {
+      path: '*',
+      component: NotFoundComponent,
     },
   ],
   scrollBehavior(to, from, savedPosition) {

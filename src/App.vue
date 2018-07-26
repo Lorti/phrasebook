@@ -64,8 +64,8 @@
           🇯🇵 Phrasebook is a free Japanese phrasebook app optimized for travel and offline usage, using data from <a href="https://wikitravel.org/en/Japanese_phrasebook" target="_blank" rel="noopener">Wikitravel</a>.
         </p>
         <p>Developed with ❤️ by Manuel Wieser</p>
-        <p><a href="https://twitter.com/manuelwieser">@manuelwieser</a> | <a href="https://manu.ninja">manu.ninja</a></p>
-        <p><a href="https://www.paypal.me/manuninja"><img src="./assets/paypal.svg" alt="Donate"></a></p>
+        <p><a href="https://twitter.com/manuelwieser" target="_blank" rel="noopener">@manuelwieser</a> | <a href="https://manu.ninja" target="_blank" rel="noopener">manu.ninja</a></p>
+        <p><a href="https://www.paypal.me/manuninja" target="_blank" rel="noopener"><img src="./assets/paypal.svg" alt="Donate"></a></p>
         <p>Logo by <a href="https://steemit.com/@happyksu" target="_blank" rel="noopener">Ksenia</a></p>
         <p>© {{ (new Date()).getFullYear() }} Manuel Wieser</p>
       </footer>

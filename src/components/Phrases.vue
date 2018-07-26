@@ -50,11 +50,21 @@ export default {
   components: {
     phrase: Phrase,
   },
-  props: ['set'],
+  props: {
+    set: {
+      type: String,
+      required: true,
+    },
+  },
   data() {
     return {
       filter: '',
     };
+  },
+  created() {
+    if (!this.$store.getters.set(this.set)) {
+      this.$router.replace('/404');
+    }
   },
   computed: {
     sortAlphabetically: {

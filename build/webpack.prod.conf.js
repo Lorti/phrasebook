@@ -19,6 +19,11 @@ const env = process.env.NODE_ENV === 'testing'
   ? require('../config/test.env')
   : require('../config/prod.env')
 
+const allSubsets = [...Object.values(sets)]
+  .reduce((subsets, set) => subsets.concat(set.subsets), []);
+const allSets = [...Object.values(sets)]
+  .filter(set => !allSubsets.includes(set.id));
+
 const webpackConfig = merge(baseWebpackConfig, {
   module: {
     rules: utils.styleLoaders({
@@ -153,20 +158,25 @@ const webpackConfig = merge(baseWebpackConfig, {
           `${config.build.assetsRoot}/static/data.json`,
         ],
         minify: true,
-        navigateFallback: 'shell.html'
+        navigateFallback: 'shell.html',
+        navigateFallbackWhitelist: [/^((?!\/404).)*$/],
       }
     ),
 
     new PrerenderSPAPlugin({
       staticDir: config.build.assetsRoot,
-      routes: ['/', ...Object.values(sets).map(set => `/sets/${set.id}/${set.slug}`)],
+      routes: ['/', '/404', ...allSets.map(set => `/sets/${set.id}/${set.slug}`)],
       renderer: new Renderer({
         renderAfterDocumentEvent: 'render-event'
       }),
-      postProcess(renderedRoute) {
-        renderedRoute.html = renderedRoute.html.replace(
+      postProcess(context) {
+        console.log(context);
+        if (context.route === '/404') {
+          context.outputPath = path.join(config.build.assetsRoot, '/404.html');
+        }
+        context.html = context.html.replace(
           '<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>', '');
-        return renderedRoute;
+        return context;
       }
     })
   ]
