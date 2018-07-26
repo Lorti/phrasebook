@@ -1,5 +1,5 @@
 <template>
-  <div v-document-title="name">
+  <div v-document-title="name" v-meta-description="description">
     <div class="filter">
       <md-button :class="{ 'md-icon-button': true, 'md-primary': sortAlphabetically }"
                  @click="sortAlphabetically = !sortAlphabetically">
@@ -67,6 +67,11 @@ export default {
     }
   },
   computed: {
+    description() {
+      const count = this.$store.getters.phrasesCount(this.set);
+      const total = Math.floor(this.$store.getters.phrasesCount() / 10) * 10;
+      return `🇯🇵 ${count} Japanese phrases regarding ${this.name}, which are part of more than ${total} phrases in the 100% free and open-source Japanese Phrasebook app optimized for travel and offline usage, using data from Wikitravel.`;
+    },
     sortAlphabetically: {
       get() {
         return this.$store.state.settings.sortAlphabetically;

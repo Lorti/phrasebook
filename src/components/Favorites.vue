@@ -1,5 +1,5 @@
 <template>
-  <div v-document-title="`Favorites`">
+  <div v-document-title="`Favorites`" v-meta-description="``">
     <div class="filter">
       <md-button :class="{ 'md-icon-button': true, 'md-primary': sortAlphabetically }"
                  @click="sortAlphabetically = !sortAlphabetically">

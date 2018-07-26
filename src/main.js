@@ -12,15 +12,26 @@ Vue.config.productionTip = false;
 
 function setTitle(title) {
   if (title) {
-    document.title = `${title} | Phrasebook`;
+    document.title = `${title} | Japanese Phrasebook`;
   } else {
-    document.title = 'Phrasebook';
+    document.title = 'Japanese Phrasebook';
   }
+}
+
+function setDescription(text) {
+  const element = document.querySelector('meta[name="description"]');
+  const description = '🇯🇵 100% free and open-source Japanese Phrasebook app optimized for travel and offline usage, using data from Wikitravel.';
+  element.content = text || description;
 }
 
 Vue.directive('document-title', {
   inserted(el, binding) { setTitle(binding.value); },
   update(el, binding) { setTitle(binding.value); },
+});
+
+Vue.directive('meta-description', {
+  inserted(el, binding) { setDescription(binding.value); },
+  update(el, binding) { setDescription(binding.value); },
 });
 
 store.dispatch('FETCH_DATABASE')

@@ -1,5 +1,5 @@
 <template>
-  <div v-document-title="`404 Not Found`">
+  <div v-document-title="`404 Not Found`" v-meta-description="``">
     <h1 class="md-headline">404 Not Found</h1>
 
     <md-list class="md-double-line">

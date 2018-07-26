@@ -1,5 +1,5 @@
 <template>
-  <div v-document-title="``">
+  <div v-document-title="``" v-meta-description="``">
     <h1 class="md-headline">Topics</h1>
 
     <md-list class="md-triple-line">
