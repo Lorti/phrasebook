@@ -22,7 +22,7 @@
         </router-link>
       </div>
 
-      <div class="md-layout-item md-size-100">
+      <div class="md-layout-item">
         <router-link :to="`/sets/favorites/`">
           <md-card md-with-hover class="md-primary">
             <md-ripple>
@@ -70,5 +70,10 @@ export default {
 <style scoped>
   .md-card {
     margin: 0 0 16px;
+  }
+  .md-card-content {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
   }
 </style>
