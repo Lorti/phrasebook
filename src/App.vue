@@ -42,9 +42,13 @@
       </md-list>
 
       <md-divider></md-divider>
-      <md-subheader>Support</md-subheader>
+      <md-subheader>Contributing</md-subheader>
 
       <md-list>
+        <md-list-item href="mailto:feedback@japanese-phrasebook.com">
+          <md-icon>mail_outline</md-icon>
+          <span class="md-list-item-text">feedback@japanese-phrasebook.com</span>
+        </md-list-item>
         <md-list-item href="https://github.com/Lorti/phrasebook">
           <md-icon>code</md-icon>
           <span class="md-list-item-text">GitHub Repository</span>
@@ -52,6 +56,13 @@
         <md-list-item href="https://www.paypal.me/manuninja">
           <md-icon>mood</md-icon>
           <span class="md-list-item-text">Donate via PayPal</span>
+        </md-list-item>
+      </md-list>
+
+      <md-divider></md-divider>
+      <md-list>
+        <md-list-item>
+          <span class="md-list-item-text">© {{ (new Date()).getFullYear() }} Manuel Wieser</span>
         </md-list-item>
       </md-list>
     </md-app-drawer>
