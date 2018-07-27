@@ -4226,6 +4226,429 @@
       "sets": [
         "8f8ae1b1-cdf0-4e1e-ad13-83912c8fe10f"
       ]
+    },
+    "ff3e3ed2-9057-492e-b7cd-04e04c431667": {
+      "id": "a6436a40-132e-4bd0-a1df-f3a599ce6e24",
+      "english": "How much is a ticket to _____?",
+      "japanese": "_____ までいくらですか?",
+      "romaji": "_____ made ikura desu ka?",
+      "sets": [
+        "2ee6e53d-7b32-45ed-83a7-084e9b87292a"
+      ]
+    },
+    "0f8d5dff-9264-4d88-9dac-eced285af9b4": {
+      "id": "0258c529-d95b-4678-9c86-4f20d784c8f4",
+      "english": "One ticket to _____, please.",
+      "japanese": "_____ まで一枚お願いします。",
+      "romaji": "_____ made ichimai onegaishimasu.",
+      "sets": [
+        "2ee6e53d-7b32-45ed-83a7-084e9b87292a"
+      ]
+    },
+    "be83a932-e7ac-4fda-b51d-53a8b63bd72b": {
+      "id": "d53203ce-990f-4bd9-9057-50e69ad7fddb",
+      "english": "Where does this train/bus go?",
+      "japanese": "この電車・バスはどこ行きですか?",
+      "romaji": "Kono densha/basu wa doko yuki desu ka?",
+      "sets": [
+        "2ee6e53d-7b32-45ed-83a7-084e9b87292a"
+      ]
+    },
+    "d6755ca9-0a04-4a59-9a93-69fa1bc82745": {
+      "id": "3bcefec4-684a-4dff-bfbd-4da1e5cb7f33",
+      "english": "Where is the train/bus to _____?",
+      "japanese": "_____ 行きの電車・バスはどこですか?",
+      "romaji": "_____ yuki no densha/basu wa doko desu ka?",
+      "sets": [
+        "2ee6e53d-7b32-45ed-83a7-084e9b87292a"
+      ]
+    },
+    "b9d1f5b0-cb7c-4400-9711-5985ffbea060": {
+      "id": "6ec0e740-9718-49b1-81bb-a504452c2320",
+      "english": "Does this train/bus stop in _____?",
+      "japanese": "この電車・バスは _____ に止まりますか?",
+      "romaji": "Kono densha/basu wa _____ ni tomarimasu ka?",
+      "sets": [
+        "2ee6e53d-7b32-45ed-83a7-084e9b87292a"
+      ]
+    },
+    "57d2c475-9b22-4fbb-b556-980a57d48ece": {
+      "id": "998ef12c-7030-4201-8501-d26fbaa7c1b2",
+      "english": "When does the train/bus for _____ leave?",
+      "japanese": "_____ 行きの電車・バスは何時に出発しますか?",
+      "romaji": "_____ yuki no densha/basu wa nanji ni shuppatsu shimasu ka?",
+      "sets": [
+        "2ee6e53d-7b32-45ed-83a7-084e9b87292a"
+      ]
+    },
+    "89d3bdd9-c343-420b-8bb2-ef433c139f59": {
+      "id": "5cf5f192-e668-4df9-aac6-3873a79f8ccc",
+      "english": "When will this train/bus arrive in _____?",
+      "japanese": "この電車・バスは何時に _____ に着きますか?",
+      "romaji": "Kono densha/basu wa nanji ni _____ ni tsukimasu ka?",
+      "sets": [
+        "2ee6e53d-7b32-45ed-83a7-084e9b87292a"
+      ]
+    },
+    "de2bf49e-7486-4d55-ba02-dbcfe70d9eff": {
+      "id": "00f62451-3118-46ab-97e1-ab691169a603",
+      "english": "How do I get to ...?",
+      "japanese": "... はどちらですか?",
+      "romaji": "_____ wa dochira desu ka?",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "54a1263c-d25a-4c63-bac1-79e046921891": {
+      "id": "14f954db-84ce-4880-8c52-c6cf8c8c558e",
+      "english": "...the train station?",
+      "japanese": "駅...?",
+      "romaji": "eki...",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "ccdd0d66-6e52-46e4-97ed-ffee4a7c1ea3": {
+      "id": "7de516b7-9b28-4244-90cc-b097ad7d9d42",
+      "english": "...the bus station?",
+      "japanese": "バス停...?",
+      "romaji": "basu tei...",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "ae204305-9022-46e6-8485-2f2ee09ab2a2": {
+      "id": "2e44dfae-7e6b-4efe-9f6a-e26819fb4394",
+      "english": "...the airport?",
+      "japanese": "空港...?",
+      "romaji": "kūkō...",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "63631520-1475-4f2d-ae24-3e9bf9da9b56": {
+      "id": "00c53de4-a678-4c83-9b4a-bcfb5ea1997d",
+      "english": "...downtown?",
+      "japanese": "街の中心...?",
+      "romaji": "machi no chūshin...",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "2d8dc250-a67d-40f4-a7b8-515e12bb791a": {
+      "id": "02beb869-c62d-4627-9eaf-e860b646477b",
+      "english": "...the youth hostel?",
+      "japanese": "ユースホステル...?",
+      "romaji": "yūsu hosuteru...",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "6c01d13e-7155-4fbb-bbbe-5fd28d3ba914": {
+      "id": "43fbb40c-20ac-42f1-9e47-2a9a421de3f8",
+      "english": "...the _____ hotel?",
+      "japanese": "_____ ホテル...?",
+      "romaji": "hoteru...",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "6807cb2f-0b7a-47e6-9d3d-f0e38d19a9f7": {
+      "id": "59319d40-9fd8-4c58-8cc7-baf224a88a7a",
+      "english": "...the _____ embassy/consulate?",
+      "japanese": "_____大使館/領事館...?",
+      "romaji": "_____ taishikan/ryōjikan...",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "55fdf75a-ade6-470e-bf09-f6be385be10b": {
+      "id": "93e974a4-1333-40ea-8731-df501b01ab58",
+      "english": "Where are there a lot of ...",
+      "japanese": "...が多い所はどこですか?",
+      "romaji": "_____ga ooi tokoro wa doko desu ka?",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "ffff8cac-5e6e-4c00-8de1-e759be7eae3c": {
+      "id": "7a1543cc-cd6a-44ff-abb7-86c45221d480",
+      "english": "...lodgings?",
+      "japanese": "宿...?",
+      "romaji": "yado...",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "27ed9872-6554-4212-8c80-c50e03fbfbd4": {
+      "id": "09e15742-315b-41ea-a320-4b889259e739",
+      "english": "...restaurants?",
+      "japanese": "レストラン...?",
+      "romaji": "resutoran...",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "01bd1303-d593-4e8c-82c9-36f10ebdc370": {
+      "id": "c3a8226c-9914-4352-aec0-1c98e69e06ca",
+      "english": "...bars?",
+      "japanese": "バー...?",
+      "romaji": "baa...",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "dec46540-83a5-4914-832a-f72c4dc6bf27": {
+      "id": "0d191515-7433-4bdd-9e13-b56e1203c129",
+      "english": "...sites to see?",
+      "japanese": "見物...?",
+      "romaji": "mimono...",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "71b6c769-a438-4139-a87c-d8aa0a04096f": {
+      "id": "982ec890-b98a-4446-886a-9369de79f1ec",
+      "english": "Where is _____?",
+      "japanese": "_____はどこですか?",
+      "romaji": "_____ wa doko desu ka?",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "d01e1484-5820-4008-977b-f1bb00f521ba": {
+      "id": "6cb49fa0-3c14-4622-bee2-9e2d26f8ca1d",
+      "english": "Is it far from here?",
+      "japanese": "ここから遠いですか?",
+      "romaji": "Koko kara tooi desu ka?",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "52a9826e-0ea8-453b-9ffc-40c36b6e6466": {
+      "id": "00341a7c-5a67-4286-b3b1-b3f24e7e3e0c",
+      "english": "Please show me on the map.",
+      "japanese": "地図で指して下さい。",
+      "romaji": "Chizu de sashite kudasai.",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "eef0e724-0d74-493e-8cf0-34683b239f34": {
+      "id": "23acc2f9-a448-4316-802d-5a53ed6a2e44",
+      "english": "street",
+      "japanese": "道",
+      "romaji": "michi",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "c4efcf42-b511-4ed1-834e-614653969530": {
+      "id": "5ff5d4b4-b3a8-4ef3-83c6-c9c240b1e9fb",
+      "english": "Turn left.",
+      "japanese": "左へ曲がってください。",
+      "romaji": "Hidari e magatte kudasai.",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "19b616dc-b713-43aa-a061-e34daaa75f7b": {
+      "id": "6c339e85-f00c-4b02-b681-7870d52d4472",
+      "english": "Turn right.",
+      "japanese": "右へ曲がってください。",
+      "romaji": "Migi e magatte kudasai.",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "0d101160-d791-4ac5-983c-6f7010ca9b64": {
+      "id": "3235ec3b-058d-4fca-9850-91d97d975a6f",
+      "english": "left",
+      "japanese": "左",
+      "romaji": "hidari",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "6d74352f-4b24-452b-bf4b-d9594e39848e": {
+      "id": "1f792eb1-378e-46aa-8ce2-db6cf6351071",
+      "english": "right",
+      "japanese": "右",
+      "romaji": "migi",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "cb5c855c-0cf6-4b4c-9533-0a4494d8029f": {
+      "id": "b938057f-a069-4c3d-8925-b75271cf4866",
+      "english": "straight ahead",
+      "japanese": "まっすぐ",
+      "romaji": "massugu",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "9adfa7e1-2cb1-4fe4-a97a-61687b7a6df1": {
+      "id": "177bc3d6-aede-4f23-baff-83f07ddcda60",
+      "english": "towards the _____",
+      "japanese": "_____ へ向かって",
+      "romaji": "e mukatte",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "513cb27c-c2c5-402d-8dc6-42491118175d": {
+      "id": "0a878825-3359-49fe-84e2-2430b26ae11b",
+      "english": "past the _____",
+      "japanese": "_____ の先",
+      "romaji": "no saki",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "c11a6aa4-4d6b-43f3-bd70-f981b483a34e": {
+      "id": "f6540b4d-9c6d-46c1-b6ae-182e98dc7f85",
+      "english": "before the _____",
+      "japanese": "_____ の前",
+      "romaji": "no mae",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "6f908794-c3fb-4fb4-8502-148d16523d39": {
+      "id": "b8801fa5-3eb9-4540-80c6-6f036fdbe3c4",
+      "english": "Watch for the _____.",
+      "japanese": "_____が目印です。",
+      "romaji": "ga mejirushi desu.",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "2870d1a5-76de-4222-aebe-a7f3402beb20": {
+      "id": "d533a5ff-d900-4f52-9fd2-022f5fee87c1",
+      "english": "intersection",
+      "japanese": "交差点",
+      "romaji": "kōsaten",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "6c81650a-c7bb-4a99-8de6-c1c20684d260": {
+      "id": "2091c1eb-8da1-4987-af08-bf15349317b4",
+      "english": "traffic light",
+      "japanese": "信号",
+      "romaji": "shingou",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "74bbd88d-b624-4bde-bde9-89792fdc76a8": {
+      "id": "781588b5-7a43-4d0b-b6ad-3a62cf4b0a13",
+      "english": "north",
+      "japanese": "北",
+      "romaji": "kita",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "58929847-6cc2-4746-9a87-d1fd1ab63167": {
+      "id": "64f7d59b-5cf9-4687-9d2b-b2188171ec94",
+      "english": "south",
+      "japanese": "南",
+      "romaji": "minami",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "a7dc20aa-86e3-40bf-b50b-010257c55f13": {
+      "id": "14d2faef-6418-4aad-8669-6be1a089726b",
+      "english": "east",
+      "japanese": "東",
+      "romaji": "higashi",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "4d7f3c13-a9c4-450a-8eb7-d990c0c0b916": {
+      "id": "e201c864-ff32-425a-b53d-974e24a816bf",
+      "english": "west",
+      "japanese": "西",
+      "romaji": "nishi",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "a1afb47f-1550-4621-a069-a61102db8415": {
+      "id": "d5ae25c2-0953-400c-982f-98578492f3a6",
+      "english": "uphill",
+      "japanese": "上り",
+      "romaji": "nobori",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "b3d0d749-ce1b-4e21-8888-8f1a56877c2b": {
+      "id": "f3cbf0c2-41e8-498a-bc49-24a4c350a1ab",
+      "english": "downhill",
+      "japanese": "下り",
+      "romaji": "kudari",
+      "sets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7"
+      ]
+    },
+    "a6544c0f-07bc-4f6f-9a70-0904fc9b31d0": {
+      "id": "13d05996-dd17-4d73-99c5-078f206ffef3",
+      "english": "Taxi!",
+      "japanese": "タクシー!",
+      "romaji": "Takushii! (Taxi!)",
+      "sets": [
+        "ff1266dc-0e45-444f-ab99-f20531f7556c"
+      ]
+    },
+    "1773cf6a-d729-471b-8837-4d2cc594dccb": {
+      "id": "312effab-8a73-45bd-8257-44022c2c930a",
+      "english": "Take me to _____, please.",
+      "japanese": "_____までお願いします。",
+      "romaji": "_____ made onegaishimasu.",
+      "sets": [
+        "ff1266dc-0e45-444f-ab99-f20531f7556c"
+      ]
+    },
+    "a8459480-597f-43d0-a0d1-62b12c83c961": {
+      "id": "74f57353-e3c0-41bf-be65-ff86f84c1420",
+      "english": "How much does it cost to get to _____?",
+      "japanese": "_____ までいくらですか?",
+      "romaji": "_____ made ikura desu ka",
+      "sets": [
+        "ff1266dc-0e45-444f-ab99-f20531f7556c"
+      ]
+    },
+    "edfb2894-1507-45a7-bbea-9c2de4fa439b": {
+      "id": "0354384a-773f-4cca-a50d-989b10761632",
+      "english": "Take me there, please.",
+      "japanese": "そこまでお願いします。",
+      "romaji": "soko made onegaishimasu.",
+      "sets": [
+        "ff1266dc-0e45-444f-ab99-f20531f7556c"
+      ]
+    },
+    "ac001654-7a2b-4ad4-8d47-7b5130068c33": {
+      "id": "7e6d85e6-72f2-49df-8859-c5596aa191c8",
+      "english": "Would you open the trunk?",
+      "japanese": "トランクをあけてもらえますか？",
+      "romaji": "toranku o akete moraemasuka",
+      "sets": [
+        "ff1266dc-0e45-444f-ab99-f20531f7556c"
+      ]
+    },
+    "a205bf78-a4e3-499b-881a-39bd39b745ae": {
+      "id": "c3d3ebc3-6f1c-4825-a8e5-f7fb87966556",
+      "english": "Keep the change.",
+      "japanese": "おつりはいりません。",
+      "romaji": "otsuriwa irimasen",
+      "sets": [
+        "ff1266dc-0e45-444f-ab99-f20531f7556c"
+      ]
     }
   },
   "sets": {
@@ -4336,6 +4759,25 @@
       "name": "Colors",
       "slug": "colors",
       "notes": "<p>Many of the English words for colors are widely used and understood by almost all Japanese. These are indicated after the slash.</p></p>Note that some Japanese colors are normally suffixed with -iro (色) to distinguish between the color and the object. For example, 茶 cha means \"tea\", but 茶色 chairo means \"tea-color\" → \"brown\".</p>"
+    },
+    "2ee6e53d-7b32-45ed-83a7-084e9b87292a": {
+      "id": "2ee6e53d-7b32-45ed-83a7-084e9b87292a",
+      "name": "Transportation",
+      "slug": "transportation",
+      "subsets": [
+        "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7",
+        "ff1266dc-0e45-444f-ab99-f20531f7556c"
+      ]
+    },
+    "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7": {
+      "id": "c4ae31aa-6174-47e1-b8a5-8fca47cd24b7",
+      "name": "Directions",
+      "slug": "directions"
+    },
+    "ff1266dc-0e45-444f-ab99-f20531f7556c": {
+      "id": "ff1266dc-0e45-444f-ab99-f20531f7556c",
+      "name": "Taxi",
+      "slug": "taxi"
     },
     "fbe18548-e7bc-465c-93ec-25c2eb084a84": {
       "id": "fbe18548-e7bc-465c-93ec-25c2eb084a84",

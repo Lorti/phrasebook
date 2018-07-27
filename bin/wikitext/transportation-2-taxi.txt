@@ -1,0 +1,7 @@
+====Taxi====
+; Taxi! : タクシー! (''Takushii! (Taxi!)'')
+; Take me to _____, please. : _____までお願いします。 (''_____ made onegaishimasu.'')
+; How much does it cost to get to _____? : _____ までいくらですか? (''_____ made ikura desu ka'')
+; Take me there, please. : そこまでお願いします。 (''soko made onegaishimasu.'')
+; Would you open the trunk? : トランクをあけてもらえますか？(''toranku o akete moraemasuka'')
+; Keep the change. : おつりはいりません。(''otsuriwa irimasen'')
