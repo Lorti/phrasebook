@@ -17,7 +17,7 @@
 
     <md-list class="md-double-line">
       <phrase v-for="phrase in filteredPhrases"
-              :phrase="phrase" :key="phrase.id" onlyRemoveFavorites="true"></phrase>
+              :phrase="phrase" :key="phrase.id" :onlyRemoveFavorites="true"></phrase>
     </md-list>
   </div>
 </template>
