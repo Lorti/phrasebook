@@ -4649,6 +4649,456 @@
       "sets": [
         "ff1266dc-0e45-444f-ab99-f20531f7556c"
       ]
+    },
+    "f0c455f8-4d63-4799-8213-53aa9af8cb87": {
+      "id": "78932005-ab3c-4bdf-bef1-7d706bae14a8",
+      "english": "Do you have any rooms available?",
+      "japanese": "空いてる部屋ありますか?",
+      "romaji": "Aiteru heya arimasu ka?",
+      "sets": [
+        "aab93634-8c15-4758-bc58-dbd80a02044b"
+      ]
+    },
+    "aec64342-1e3e-420d-9b3d-5857f8aa09c7": {
+      "id": "1eaa4205-7345-40ed-a2f3-a9ad9e1b746f",
+      "english": "How much is a room for one person/two people?",
+      "japanese": "一人・二人用の部屋はいくらですか?",
+      "romaji": "Hitori/futari-yō no heya wa ikura desu ka?",
+      "sets": [
+        "aab93634-8c15-4758-bc58-dbd80a02044b"
+      ]
+    },
+    "8facf170-933d-457a-80be-05824bc177a2": {
+      "id": "b37aedae-3ed5-4482-8456-5a1d04653f1f",
+      "english": "Is the room Japanese/Western style?",
+      "japanese": "和室/洋室ですか？",
+      "romaji": "Washitsu/yōshitsu desu ka?",
+      "sets": [
+        "aab93634-8c15-4758-bc58-dbd80a02044b"
+      ]
+    },
+    "9cb9590f-ae19-4473-aa4f-d1fc20035c41": {
+      "id": "35c59b23-6cd5-4fdc-b84a-32f8b40ac3b6",
+      "english": "Does the room come with...",
+      "japanese": "部屋は ... 付きですか?",
+      "romaji": "Heya wa ___ tsuki desu ka?",
+      "sets": [
+        "aab93634-8c15-4758-bc58-dbd80a02044b"
+      ]
+    },
+    "5589c117-f17c-471d-85b9-2c7ff59b33d5": {
+      "id": "61993b24-00df-444f-8edd-87370d782316",
+      "english": "...bedsheets?",
+      "japanese": "床の枚...?",
+      "romaji": "yuka no mai...",
+      "sets": [
+        "aab93634-8c15-4758-bc58-dbd80a02044b"
+      ]
+    },
+    "aa44e4be-4473-43cc-a89c-8a09e81fa7e0": {
+      "id": "81656422-51ac-4a5f-b25a-6d4e9c62323b",
+      "english": "...a bathroom?",
+      "japanese": "風呂場...?",
+      "romaji": "furoba...",
+      "sets": [
+        "aab93634-8c15-4758-bc58-dbd80a02044b"
+      ]
+    },
+    "d3947c30-c3f1-4e44-ae8a-fbe40d23ced2": {
+      "id": "6d5207b9-5bd5-4aa0-a88a-db8eee283c57",
+      "english": "...a telephone?",
+      "japanese": "電話...?",
+      "romaji": "denwa...",
+      "sets": [
+        "aab93634-8c15-4758-bc58-dbd80a02044b"
+      ]
+    },
+    "0bdf4857-62b4-47e7-9147-220a4a218191": {
+      "id": "c1f5d457-c462-4234-85a5-5207fa2221cd",
+      "english": "...a TV?",
+      "japanese": "テレビ?",
+      "romaji": "terebi...",
+      "sets": [
+        "aab93634-8c15-4758-bc58-dbd80a02044b"
+      ]
+    },
+    "4af3df46-3e90-4753-a4b2-d101734f425a": {
+      "id": "75f11e68-fec1-4d0a-9ffe-397833f0d95c",
+      "english": "May I see the room first?",
+      "japanese": "部屋を見てもいいですか?",
+      "romaji": "Heya o mite mo ii desu ka?",
+      "sets": [
+        "aab93634-8c15-4758-bc58-dbd80a02044b"
+      ]
+    },
+    "20bad903-889c-40e8-88be-81c5c9fc98cb": {
+      "id": "a9ac6667-2830-4efc-82dd-9ce3a7129be0",
+      "english": "Do you have a room that is ...?",
+      "japanese": "もっと ... 部屋ありますか?",
+      "romaji": "Motto ... heya arimasu ka?",
+      "sets": [
+        "aab93634-8c15-4758-bc58-dbd80a02044b"
+      ]
+    },
+    "cd4cb81d-bfc8-485a-a841-02af389f2811": {
+      "id": "a8f89f72-6bdf-44dc-8e3c-bedcc12aa38f",
+      "english": "...quieter?",
+      "japanese": "静かな...?",
+      "romaji": "shizuka na...",
+      "sets": [
+        "aab93634-8c15-4758-bc58-dbd80a02044b"
+      ]
+    },
+    "56558bc1-0c57-4657-a6c0-4aa9b090c18b": {
+      "id": "6c7f86e6-746c-452c-a33b-95e4dadf84f2",
+      "english": "...bigger?",
+      "japanese": "広い...?",
+      "romaji": "hiroi...",
+      "sets": [
+        "aab93634-8c15-4758-bc58-dbd80a02044b"
+      ]
+    },
+    "670e0995-461e-45a7-af94-7007dcdb595d": {
+      "id": "8dfe9754-f8b7-4db1-a84e-57b126806b16",
+      "english": "...cleaner?",
+      "japanese": "きれいな...?",
+      "romaji": "kirei na...",
+      "sets": [
+        "aab93634-8c15-4758-bc58-dbd80a02044b"
+      ]
+    },
+    "19d97f4c-a14a-4fde-8d5b-caf9eb27b068": {
+      "id": "0f6c747d-2768-4f8b-9c3d-10954e998aad",
+      "english": "...cheaper?",
+      "japanese": "安い...?",
+      "romaji": "yasui...",
+      "sets": [
+        "aab93634-8c15-4758-bc58-dbd80a02044b"
+      ]
+    },
+    "19108a04-30b0-46a0-aed7-ddd392062014": {
+      "id": "4f29e2c3-035a-4398-bfc9-93b5d53d62c6",
+      "english": "OK, I'll take it.",
+      "japanese": "はい、これで良いです。",
+      "romaji": "Hai, kore de ii desu.",
+      "sets": [
+        "aab93634-8c15-4758-bc58-dbd80a02044b"
+      ]
+    },
+    "384ecfba-41aa-4233-aba4-265baccb1390": {
+      "id": "45c3004c-3684-45af-821d-61ebe6859fe5",
+      "english": "I will stay for _____ night(s).",
+      "japanese": "_____ 晩泊まります。",
+      "romaji": "____ ban tomarimasu.",
+      "sets": [
+        "aab93634-8c15-4758-bc58-dbd80a02044b"
+      ]
+    },
+    "e26894fb-4d64-49ef-a19f-f0b9ebcd42db": {
+      "id": "049de814-0c7c-4903-9f89-60c099140a2d",
+      "english": "Do you know another place to stay?",
+      "japanese": "他の宿はご存知ですか?",
+      "romaji": "Hoka no yado wa gozonji desu ka?",
+      "sets": [
+        "aab93634-8c15-4758-bc58-dbd80a02044b"
+      ]
+    },
+    "59f2ebf6-3b00-4fb1-b492-762eb81a8159": {
+      "id": "839c04b5-7e0d-48d7-be17-634fb6bdbb67",
+      "english": "Do you have ... ?",
+      "japanese": "... ありますか?",
+      "romaji": "... arimasu ka?",
+      "sets": [
+        "aab93634-8c15-4758-bc58-dbd80a02044b"
+      ]
+    },
+    "bab1cac1-cd65-4adf-8f7b-14c0bd8a1333": {
+      "id": "85c842a7-d75e-435b-82e4-1576cdd40f10",
+      "english": "...a safe?",
+      "japanese": "金庫...?",
+      "romaji": "kinko...?",
+      "sets": [
+        "aab93634-8c15-4758-bc58-dbd80a02044b"
+      ]
+    },
+    "c7ba9d46-2297-422b-a149-f109f9b703bb": {
+      "id": "65d8c47a-5056-4f02-9a95-38f5ad98138b",
+      "english": "...lockers?",
+      "japanese": "戸棚...?",
+      "romaji": "todana...?",
+      "sets": [
+        "aab93634-8c15-4758-bc58-dbd80a02044b"
+      ]
+    },
+    "9bf3cab1-551c-4620-8442-ae8a1b095801": {
+      "id": "757cb553-c4ad-432f-9d69-4f6490c5ec88",
+      "english": "Is breakfast/supper included?",
+      "japanese": "朝食・夕食は付きますか?",
+      "romaji": "Chōshoku/yūshoku wa tsukimasu ka?",
+      "sets": [
+        "aab93634-8c15-4758-bc58-dbd80a02044b"
+      ]
+    },
+    "6522c934-337e-44aa-97e5-f112aa64047a": {
+      "id": "e648433d-d880-42c3-bde1-47f2b6cafc96",
+      "english": "What time is breakfast/supper?",
+      "japanese": "朝食・夕食は何時ですか?",
+      "romaji": "Chōshoku/yūshoku wa nanji desu ka?",
+      "sets": [
+        "aab93634-8c15-4758-bc58-dbd80a02044b"
+      ]
+    },
+    "2596ce43-34f0-4357-97d3-8c72a88cf8f1": {
+      "id": "07d8b791-061d-4d48-b3e8-04c4517bee03",
+      "english": "Please clean my room.",
+      "japanese": "部屋を掃除してください。",
+      "romaji": "Heya o sōji shite kudasai.",
+      "sets": [
+        "aab93634-8c15-4758-bc58-dbd80a02044b"
+      ]
+    },
+    "182974a5-ce68-4291-9adb-1fea41ee122c": {
+      "id": "a15430fb-8cd4-42c5-af3d-76b0583e600e",
+      "english": "Please wake me at _____.",
+      "japanese": "_____ に起こしてください。",
+      "romaji": "____ ni okoshite kudasai.",
+      "sets": [
+        "aab93634-8c15-4758-bc58-dbd80a02044b"
+      ]
+    },
+    "b8fb408f-84f4-4d33-bd5d-e9392a4e660f": {
+      "id": "6edb9c75-fd37-44e2-b87f-6fdb6277605c",
+      "english": "I want to check out.",
+      "japanese": "チェックアウトです。",
+      "romaji": "Chekku auto (check out) desu.",
+      "sets": [
+        "aab93634-8c15-4758-bc58-dbd80a02044b"
+      ]
+    },
+    "62f7ed80-9979-4237-947e-1f5c79399c80": {
+      "id": "1185a7a3-d547-47f7-bb2b-a04ddaf7f10f",
+      "english": "Do you have any rooms available?",
+      "japanese": "空いてる部屋ありますか?",
+      "romaji": "Aiteru heya arimasu ka?",
+      "sets": [
+        "6537e0b8-50a2-46e5-87e4-61f95d138a64"
+      ]
+    },
+    "d0c20ef3-9701-44a2-8584-f187a46b0235": {
+      "id": "e7be789e-0d9c-45ac-ab43-18a5545a84fb",
+      "english": "How much is a room for one person/two people?",
+      "japanese": "一人・二人用の部屋はいくらですか?",
+      "romaji": "Hitori/futari-yō no heya wa ikura desu ka?",
+      "sets": [
+        "6537e0b8-50a2-46e5-87e4-61f95d138a64"
+      ]
+    },
+    "b795edf2-cf27-4719-9dd8-3e52a00beaa7": {
+      "id": "c3f1728d-7544-40ef-a36e-7ab5b954b042",
+      "english": "Is the room Japanese/Western style?",
+      "japanese": "和室/洋室ですか？",
+      "romaji": "Washitsu/yōshitsu desu ka?",
+      "sets": [
+        "6537e0b8-50a2-46e5-87e4-61f95d138a64"
+      ]
+    },
+    "ad66f8a1-3cd0-401d-8200-b02723c2f7eb": {
+      "id": "d6b63ed2-5c1c-482f-9d76-3f29510d67cf",
+      "english": "Does the room come with...",
+      "japanese": "部屋は ... 付きですか?",
+      "romaji": "Heya wa ___ tsuki desu ka?",
+      "sets": [
+        "6537e0b8-50a2-46e5-87e4-61f95d138a64"
+      ]
+    },
+    "0bf53aab-ad1d-4c28-9519-5b5ab9d88da4": {
+      "id": "a30622a6-2b19-4d0d-afc0-c823986a3666",
+      "english": "...bedsheets?",
+      "japanese": "床の枚...?",
+      "romaji": "yuka no mai...",
+      "sets": [
+        "6537e0b8-50a2-46e5-87e4-61f95d138a64"
+      ]
+    },
+    "b31a9614-ed57-46a0-a3f3-f5844072ac6c": {
+      "id": "ad0a14f9-c249-4ebb-a31f-5df4d6bb509f",
+      "english": "...a bathroom?",
+      "japanese": "風呂場...?",
+      "romaji": "furoba...",
+      "sets": [
+        "6537e0b8-50a2-46e5-87e4-61f95d138a64"
+      ]
+    },
+    "ed81f872-0d01-44b0-b243-adec0ecad0a6": {
+      "id": "64bcd9e9-6b7d-4e9f-ba41-7eb3f39714d5",
+      "english": "...a telephone?",
+      "japanese": "電話...?",
+      "romaji": "denwa...",
+      "sets": [
+        "6537e0b8-50a2-46e5-87e4-61f95d138a64"
+      ]
+    },
+    "c308863f-9898-4b57-8d2d-94bfae579942": {
+      "id": "19bf09c3-c869-4b1f-9686-389b800f5020",
+      "english": "...a TV?",
+      "japanese": "テレビ?",
+      "romaji": "terebi...",
+      "sets": [
+        "6537e0b8-50a2-46e5-87e4-61f95d138a64"
+      ]
+    },
+    "b41ecf26-306f-43dc-a0d4-66a01d93cfb9": {
+      "id": "910f3319-1212-4eb9-bb48-557348303742",
+      "english": "May I see the room first?",
+      "japanese": "部屋を見てもいいですか?",
+      "romaji": "Heya o mite mo ii desu ka?",
+      "sets": [
+        "6537e0b8-50a2-46e5-87e4-61f95d138a64"
+      ]
+    },
+    "c7a23db9-4b3c-4b49-b379-57aef960ecae": {
+      "id": "c7138c3d-60a1-434a-bfa9-dfe4ec076a9d",
+      "english": "Do you have a room that is ...?",
+      "japanese": "もっと ... 部屋ありますか?",
+      "romaji": "Motto ... heya arimasu ka?",
+      "sets": [
+        "6537e0b8-50a2-46e5-87e4-61f95d138a64"
+      ]
+    },
+    "d2903a31-062a-4891-b71e-d6d6614fb804": {
+      "id": "a34f062b-7f16-4cc6-bc51-63edc8e09c6d",
+      "english": "...quieter?",
+      "japanese": "静かな...?",
+      "romaji": "shizuka na...",
+      "sets": [
+        "6537e0b8-50a2-46e5-87e4-61f95d138a64"
+      ]
+    },
+    "ef383065-d93a-4a0e-ac71-8956e3442b3d": {
+      "id": "2bbe0b9d-353f-4b48-bf97-cae5ee9a9da0",
+      "english": "...bigger?",
+      "japanese": "広い...?",
+      "romaji": "hiroi...",
+      "sets": [
+        "6537e0b8-50a2-46e5-87e4-61f95d138a64"
+      ]
+    },
+    "7458c6e3-499a-4c5d-83af-aff59475ebea": {
+      "id": "c440cba7-4f54-4983-9015-8d9d0423428e",
+      "english": "...cleaner?",
+      "japanese": "きれいな...?",
+      "romaji": "kirei na...",
+      "sets": [
+        "6537e0b8-50a2-46e5-87e4-61f95d138a64"
+      ]
+    },
+    "42e841bf-b794-4662-8c50-71fbbf335fa8": {
+      "id": "d6608b18-f36b-45b9-a4f5-568bbea79e47",
+      "english": "...cheaper?",
+      "japanese": "安い...?",
+      "romaji": "yasui...",
+      "sets": [
+        "6537e0b8-50a2-46e5-87e4-61f95d138a64"
+      ]
+    },
+    "5a47269f-9077-4c71-8968-fdb83b82a69a": {
+      "id": "a0ec5124-06ee-424c-bb6f-5e73d1aac259",
+      "english": "OK, I'll take it.",
+      "japanese": "はい、これで良いです。",
+      "romaji": "Hai, kore de ii desu.",
+      "sets": [
+        "6537e0b8-50a2-46e5-87e4-61f95d138a64"
+      ]
+    },
+    "531b65aa-68b6-4700-806f-f96979e1bdc0": {
+      "id": "95bb2ad7-6574-4815-8e5a-6e0fa1179232",
+      "english": "I will stay for _____ night(s).",
+      "japanese": "_____ 晩泊まります。",
+      "romaji": "____ ban tomarimasu.",
+      "sets": [
+        "6537e0b8-50a2-46e5-87e4-61f95d138a64"
+      ]
+    },
+    "47a8ee65-26dc-4efe-8271-9c4d87adce47": {
+      "id": "8e09b76a-e372-4bca-bcfd-bb83de1c6cb1",
+      "english": "Do you know another place to stay?",
+      "japanese": "他の宿はご存知ですか?",
+      "romaji": "Hoka no yado wa gozonji desu ka?",
+      "sets": [
+        "6537e0b8-50a2-46e5-87e4-61f95d138a64"
+      ]
+    },
+    "530dae17-1c96-4620-a49c-0460aa6621f3": {
+      "id": "23ddbd59-8f48-49ee-84a7-8eef8f87f2c9",
+      "english": "Do you have ... ?",
+      "japanese": "... ありますか?",
+      "romaji": "... arimasu ka?",
+      "sets": [
+        "6537e0b8-50a2-46e5-87e4-61f95d138a64"
+      ]
+    },
+    "72fe6d24-adfd-4fee-a74b-f455f7fa803b": {
+      "id": "c27f0610-c4d3-4004-ae9d-e0b5a11ff2c8",
+      "english": "...a safe?",
+      "japanese": "金庫...?",
+      "romaji": "kinko...?",
+      "sets": [
+        "6537e0b8-50a2-46e5-87e4-61f95d138a64"
+      ]
+    },
+    "90ddd650-3a67-446e-b099-e0e43c1c5faf": {
+      "id": "816f15a0-6398-44b1-b5e5-40f52e410a7c",
+      "english": "...lockers?",
+      "japanese": "戸棚...?",
+      "romaji": "todana...?",
+      "sets": [
+        "6537e0b8-50a2-46e5-87e4-61f95d138a64"
+      ]
+    },
+    "e13930de-f193-4645-bc9e-80175118306d": {
+      "id": "895e9b57-f58a-47af-8702-c2865397589c",
+      "english": "Is breakfast/supper included?",
+      "japanese": "朝食・夕食は付きますか?",
+      "romaji": "Chōshoku/yūshoku wa tsukimasu ka?",
+      "sets": [
+        "6537e0b8-50a2-46e5-87e4-61f95d138a64"
+      ]
+    },
+    "24ce5ff0-22fa-424e-9d26-0135cbd210a8": {
+      "id": "aeaccc2e-6267-4ff0-85c2-e3cc680d636f",
+      "english": "What time is breakfast/supper?",
+      "japanese": "朝食・夕食は何時ですか?",
+      "romaji": "Chōshoku/yūshoku wa nanji desu ka?",
+      "sets": [
+        "6537e0b8-50a2-46e5-87e4-61f95d138a64"
+      ]
+    },
+    "2bff9fcd-29f6-40a9-92c0-8cce62fbb36d": {
+      "id": "0a6f7307-4913-4da0-8c93-25150c652bbe",
+      "english": "Please clean my room.",
+      "japanese": "部屋を掃除してください。",
+      "romaji": "Heya o sōji shite kudasai.",
+      "sets": [
+        "6537e0b8-50a2-46e5-87e4-61f95d138a64"
+      ]
+    },
+    "c82f4900-6724-47b4-9379-d58fec418de6": {
+      "id": "c0308cb3-9f37-4118-8ac4-cfaff7508a99",
+      "english": "Please wake me at _____.",
+      "japanese": "_____ に起こしてください。",
+      "romaji": "____ ni okoshite kudasai.",
+      "sets": [
+        "6537e0b8-50a2-46e5-87e4-61f95d138a64"
+      ]
+    },
+    "055c4b66-1a54-40d2-9bb7-439abdcded6e": {
+      "id": "aa55cb27-9635-4636-b0c8-b6f0af57430f",
+      "english": "I want to check out.",
+      "japanese": "チェックアウトです。",
+      "romaji": "Chekku auto (check out) desu.",
+      "sets": [
+        "6537e0b8-50a2-46e5-87e4-61f95d138a64"
+      ]
     }
   },
   "sets": {
@@ -4778,6 +5228,16 @@
       "id": "ff1266dc-0e45-444f-ab99-f20531f7556c",
       "name": "Taxi",
       "slug": "taxi"
+    },
+    "aab93634-8c15-4758-bc58-dbd80a02044b": {
+      "id": "aab93634-8c15-4758-bc58-dbd80a02044b",
+      "name": "Lodging",
+      "slug": "lodging"
+    },
+    "6537e0b8-50a2-46e5-87e4-61f95d138a64": {
+      "id": "6537e0b8-50a2-46e5-87e4-61f95d138a64",
+      "name": "Money",
+      "slug": "money"
     },
     "fbe18548-e7bc-465c-93ec-25c2eb084a84": {
       "id": "fbe18548-e7bc-465c-93ec-25c2eb084a84",
