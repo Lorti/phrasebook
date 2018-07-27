@@ -5099,6 +5099,339 @@
       "sets": [
         "6537e0b8-50a2-46e5-87e4-61f95d138a64"
       ]
+    },
+    "4d5ac2e7-cb1b-4921-aeb9-e204b4129c32": {
+      "id": "5ea36fe6-9458-4b0f-b6f0-1cfcdbb6d8b4",
+      "english": "Telephone",
+      "japanese": "電話",
+      "romaji": "denwa",
+      "sets": [
+        "a80f9289-ac51-4d7d-bdc1-9943abd817bd"
+      ]
+    },
+    "20d953ea-d0f3-4f4b-b106-abe9222afb6e": {
+      "id": "fb105dac-9cc2-4584-a940-668900f325dd",
+      "english": "Mobile phone",
+      "japanese": "携帯(電話)",
+      "romaji": "kētai",
+      "sets": [
+        "a80f9289-ac51-4d7d-bdc1-9943abd817bd"
+      ]
+    },
+    "ba1a7a91-88b3-4893-b3dd-03e1f53a5fe4": {
+      "id": "ed3f571d-e663-4d73-baf4-13f6e0a50aca",
+      "english": "Telephone number",
+      "japanese": "電話番号",
+      "romaji": "denwa bangō",
+      "sets": [
+        "a80f9289-ac51-4d7d-bdc1-9943abd817bd"
+      ]
+    },
+    "34785c2e-c86b-4560-b908-eefcd70b8a29": {
+      "id": "987507da-7ee7-4270-8aa4-243d3311c102",
+      "english": "Phone book",
+      "japanese": "電話帳",
+      "romaji": "denwa chō",
+      "sets": [
+        "a80f9289-ac51-4d7d-bdc1-9943abd817bd"
+      ]
+    },
+    "393689b0-35a2-4f26-8fc6-5f40b8ca76e9": {
+      "id": "de677ff3-8245-4ec3-a6da-605eafa2830f",
+      "english": "Answering machine",
+      "japanese": "留守番電話",
+      "romaji": "rusuban denwa",
+      "sets": [
+        "a80f9289-ac51-4d7d-bdc1-9943abd817bd"
+      ]
+    },
+    "dd8dd4b9-89ad-430f-9d53-a3e5baf02c16": {
+      "id": "0955f6e8-a48c-48ad-ba37-197c9a8d8dbd",
+      "english": "Hello (only on the phone)",
+      "japanese": "もしもし",
+      "romaji": "moshi moshi",
+      "sets": [
+        "a80f9289-ac51-4d7d-bdc1-9943abd817bd"
+      ]
+    },
+    "6a979ba0-b934-4372-9151-aeeea0790e73": {
+      "id": "8d91e8a8-fff1-4d70-9a87-ab24cb422432",
+      "english": "May I speak to ... .",
+      "japanese": "… をお願いします。",
+      "romaji": "... wo onegaishimasu.",
+      "sets": [
+        "a80f9289-ac51-4d7d-bdc1-9943abd817bd"
+      ]
+    },
+    "9d5be14c-f12f-45b0-80e5-f312851dd3c7": {
+      "id": "7b17dae2-9c80-4f08-a073-d1171e5e6d04",
+      "english": "Is ... there?",
+      "japanese": "… はいらっしゃいますか？",
+      "romaji": "... wa irasshaimasu ka?",
+      "sets": [
+        "a80f9289-ac51-4d7d-bdc1-9943abd817bd"
+      ]
+    },
+    "135a0bb4-66f4-4131-9d54-be12c4d16d9a": {
+      "id": "b1841300-6587-405a-af21-e7affb7cc699",
+      "english": "Who is calling?",
+      "japanese": "どなたですか？",
+      "romaji": "Donata desu ka?",
+      "sets": [
+        "a80f9289-ac51-4d7d-bdc1-9943abd817bd"
+      ]
+    },
+    "c6ace9f9-2337-4ff0-a0a8-43377a056d0e": {
+      "id": "130af9fc-7d6d-462d-aefd-6fa649a5bad0",
+      "english": "One moment, please.",
+      "japanese": "ちょっとお待ちください。",
+      "romaji": "Chotto omachi kudasai.",
+      "sets": [
+        "a80f9289-ac51-4d7d-bdc1-9943abd817bd"
+      ]
+    },
+    "a077a9e0-18da-44a4-98bf-01967741bd48": {
+      "id": "2ecfb159-633b-4834-adfe-fa932e88031c",
+      "english": "... is not here right now.",
+      "japanese": "… は今いません。",
+      "romaji": "... wa ima imasen.",
+      "sets": [
+        "a80f9289-ac51-4d7d-bdc1-9943abd817bd"
+      ]
+    },
+    "8e61d3c9-5514-44e2-ae90-76acf74df742": {
+      "id": "e0230dee-54c5-457e-82f7-53db328a0d20",
+      "english": "I will call you again later.",
+      "japanese": "後でまた電話します。",
+      "romaji": "Ato de mata denwa shimasu.",
+      "sets": [
+        "a80f9289-ac51-4d7d-bdc1-9943abd817bd"
+      ]
+    },
+    "16c2a4c6-1126-47dc-9cbd-4cda4e7c5c66": {
+      "id": "eded9fbf-6fa5-450d-8786-1ebf1f71cfc4",
+      "english": "I got the wrong number.",
+      "japanese": "間違えました。",
+      "romaji": "Machigaemashita.",
+      "sets": [
+        "a80f9289-ac51-4d7d-bdc1-9943abd817bd"
+      ]
+    },
+    "9dbb9de6-4af1-406f-ba93-1efb52268ea1": {
+      "id": "cb7dda87-806b-4d8a-8a07-c5235a6abe77",
+      "english": "The line is busy.",
+      "japanese": "話し中です。",
+      "romaji": "Hanashichū desu.",
+      "sets": [
+        "a80f9289-ac51-4d7d-bdc1-9943abd817bd"
+      ]
+    },
+    "d968b198-7912-4d25-a891-58a5a3e746ba": {
+      "id": "f1d211ef-8ae0-48f5-be4c-8590c4ea1372",
+      "english": "What is your phone number?",
+      "japanese": "電話番号は何番ですか？",
+      "romaji": "Denwa bangō wa nanban desu ka?",
+      "sets": [
+        "a80f9289-ac51-4d7d-bdc1-9943abd817bd"
+      ]
+    },
+    "b1597b31-f282-4bc2-98e5-e28fd97a01dc": {
+      "id": "74c9304d-857d-4fb9-92a2-be7815a66165",
+      "english": "Do you serve alcohol?",
+      "japanese": "お酒ありますか?",
+      "romaji": "O-sake arimasu ka?",
+      "sets": [
+        "f386d747-9189-41b8-925a-3bd7923eb1bf"
+      ]
+    },
+    "3dc9d6b0-df22-4c89-81cc-c8bed081e293": {
+      "id": "8172df1f-cd22-45e4-a130-575e8563c14d",
+      "english": "Is there table service?",
+      "japanese": "テーブルサービスありますか?",
+      "romaji": "Tēburu sābisu arimasu ka?",
+      "sets": [
+        "f386d747-9189-41b8-925a-3bd7923eb1bf"
+      ]
+    },
+    "58835a0d-63c0-4af4-ab3d-e070cebc843d": {
+      "id": "3b416acb-005a-4a93-8824-150b502bf86a",
+      "english": "A beer/two beers, please.",
+      "japanese": "ビール一杯・二杯下さい。",
+      "romaji": "Biiru ippai/nihai kudasai.",
+      "sets": [
+        "f386d747-9189-41b8-925a-3bd7923eb1bf"
+      ]
+    },
+    "c3e81554-1832-4b4f-bc2f-bd24a34d2746": {
+      "id": "0dd27dc6-4db7-4490-ae35-f4acb25276a5",
+      "english": "A glass of red/white wine, please.",
+      "japanese": "赤・白ワイン一杯下さい。",
+      "romaji": "Aka/shiro wain ippai kudasai.",
+      "sets": [
+        "f386d747-9189-41b8-925a-3bd7923eb1bf"
+      ]
+    },
+    "7084188d-e520-46c6-bf45-8da2a41a47bd": {
+      "id": "79bdc017-dd8e-4d04-8374-c577f30619f0",
+      "english": "A mug (of beer), please.",
+      "japanese": "(ビールの)ジョッキ下さい。",
+      "romaji": "(Bīru no) jokki kudasai.",
+      "sets": [
+        "f386d747-9189-41b8-925a-3bd7923eb1bf"
+      ]
+    },
+    "9ab10952-a832-452c-bdee-2296092831b7": {
+      "id": "2f28367c-bc3c-4e4a-b869-73484e228733",
+      "english": "A bottle, please.",
+      "japanese": "ビン下さい。",
+      "romaji": "Bin kudasai.",
+      "sets": [
+        "f386d747-9189-41b8-925a-3bd7923eb1bf"
+      ]
+    },
+    "4f3b911f-974b-40ac-a1a2-21334e79bfae": {
+      "id": "a349724e-dff3-4bd6-877d-eaa0d6e7bc58",
+      "english": "_____ (''hard liquor'') and _____ (''mixer''), please.",
+      "japanese": "_____ と _____ 下さい。",
+      "romaji": "_____ to _____ kudasai.",
+      "sets": [
+        "f386d747-9189-41b8-925a-3bd7923eb1bf"
+      ]
+    },
+    "3dd6a363-940b-412a-90fa-efaf58db72b7": {
+      "id": "7378a8f2-2cc9-4d70-b057-346034c6e6ef",
+      "english": "sake",
+      "japanese": "日本酒",
+      "romaji": "nihonshu",
+      "sets": [
+        "f386d747-9189-41b8-925a-3bd7923eb1bf"
+      ]
+    },
+    "5746ba03-d962-4510-875c-99ea8713f4d6": {
+      "id": "7ff06a59-a6a3-4d60-a041-e027b5ab51c4",
+      "english": "Japanese liquor",
+      "japanese": "焼酎",
+      "romaji": "shōchū",
+      "sets": [
+        "f386d747-9189-41b8-925a-3bd7923eb1bf"
+      ]
+    },
+    "bb42e8db-a018-4a00-8da6-cfd4bca4fba4": {
+      "id": "2403b666-2592-43a3-965c-41e270d1d699",
+      "english": "whiskey",
+      "japanese": "ウイスキー",
+      "romaji": "uisukii",
+      "sets": [
+        "f386d747-9189-41b8-925a-3bd7923eb1bf"
+      ]
+    },
+    "b7d603d0-64f7-4c84-9322-ccf532ef61fd": {
+      "id": "2f5e7dd6-a9ab-49fa-afba-0d1ccf1ba90c",
+      "english": "vodka",
+      "japanese": "ウォッカ",
+      "romaji": "wokka",
+      "sets": [
+        "f386d747-9189-41b8-925a-3bd7923eb1bf"
+      ]
+    },
+    "3454dbfa-f137-4acc-9d06-3eeed12a4e2c": {
+      "id": "75ca5443-6242-47da-9065-831ed17ac1d3",
+      "english": "rum",
+      "japanese": "ラム",
+      "romaji": "ramu",
+      "sets": [
+        "f386d747-9189-41b8-925a-3bd7923eb1bf"
+      ]
+    },
+    "6e9b54a2-aad1-482b-8d02-41d473e39baa": {
+      "id": "1d2b2e5b-fcec-4ab8-b104-429df9633063",
+      "english": "water",
+      "japanese": "水",
+      "romaji": "mizu",
+      "sets": [
+        "f386d747-9189-41b8-925a-3bd7923eb1bf"
+      ]
+    },
+    "9c1c2c2b-6ae9-4aa7-9720-0f0ab8e5491f": {
+      "id": "dbe24a8a-0e4a-431b-a6bb-655a40b72cb2",
+      "english": "club soda",
+      "japanese": "ソーダ",
+      "romaji": "sōda",
+      "sets": [
+        "f386d747-9189-41b8-925a-3bd7923eb1bf"
+      ]
+    },
+    "c4e19ee5-dcf4-4c34-bf9c-e998c0504e6d": {
+      "id": "cfa4695f-f98a-4a85-90eb-989cb9df52cf",
+      "english": "tonic water",
+      "japanese": "トニックウォーター",
+      "romaji": "tonikku wōtā",
+      "sets": [
+        "f386d747-9189-41b8-925a-3bd7923eb1bf"
+      ]
+    },
+    "d117608a-f828-41ea-8cdf-de768867879b": {
+      "id": "4f0ebefc-697d-405d-a08d-a0ab8f2671f5",
+      "english": "orange juice",
+      "japanese": "オレンジジュース",
+      "romaji": "orenji jūsu",
+      "sets": [
+        "f386d747-9189-41b8-925a-3bd7923eb1bf"
+      ]
+    },
+    "a75ecb93-9b32-4abf-904f-696fe0a8715a": {
+      "id": "88fc980a-5971-448d-8d7d-fafbfa1af4d2",
+      "english": "cola (''soda'')",
+      "japanese": "コーラ",
+      "romaji": "kōra",
+      "sets": [
+        "f386d747-9189-41b8-925a-3bd7923eb1bf"
+      ]
+    },
+    "283ded86-15d5-48b1-8d3a-abfb51a41b66": {
+      "id": "617d7995-4135-4b0f-8b00-9a305fa514d2",
+      "english": "with ice",
+      "japanese": "オンザロック",
+      "romaji": "onzarokku (on the rocks)",
+      "sets": [
+        "f386d747-9189-41b8-925a-3bd7923eb1bf"
+      ]
+    },
+    "c96b58e6-5e00-47e4-9956-98c28ab0d123": {
+      "id": "d66d01ed-0234-4d64-ace2-92212bbb2c2b",
+      "english": "Do you have any bar snacks?",
+      "japanese": "おつまみありますか?",
+      "romaji": "O-tsumami arimasu ka?",
+      "sets": [
+        "f386d747-9189-41b8-925a-3bd7923eb1bf"
+      ]
+    },
+    "ec8e7bae-53e4-47dd-af06-1d91a90c4d90": {
+      "id": "4812f4c4-5f6c-46ca-81ac-388ae3dfd16d",
+      "english": "One more, please.",
+      "japanese": "もう一つください。",
+      "romaji": "Mō hitotsu kudasai.",
+      "sets": [
+        "f386d747-9189-41b8-925a-3bd7923eb1bf"
+      ]
+    },
+    "74202910-03cd-414f-8461-a4106a67fee2": {
+      "id": "8820c8ea-b8f2-4030-a830-f359ba8a921e",
+      "english": "Another round, please.",
+      "japanese": "みんなに同じものを一杯ずつください。",
+      "romaji": "Minna ni onaji mono o ippai zutsu kudasai.",
+      "sets": [
+        "f386d747-9189-41b8-925a-3bd7923eb1bf"
+      ]
+    },
+    "4d620a28-1ddb-4062-b363-528e5065c4e2": {
+      "id": "ec7ae955-c6c5-4929-b0a3-a8e394f7a771",
+      "english": "When is closing time?",
+      "japanese": "閉店は何時ですか?",
+      "romaji": "Heiten wa nanji desuka?",
+      "sets": [
+        "f386d747-9189-41b8-925a-3bd7923eb1bf"
+      ]
     }
   },
   "sets": {
@@ -5243,6 +5576,16 @@
       "id": "fbe18548-e7bc-465c-93ec-25c2eb084a84",
       "name": "Eating",
       "slug": "eating"
+    },
+    "a80f9289-ac51-4d7d-bdc1-9943abd817bd": {
+      "id": "a80f9289-ac51-4d7d-bdc1-9943abd817bd",
+      "name": "Phone Calls",
+      "slug": "phone-calls"
+    },
+    "f386d747-9189-41b8-925a-3bd7923eb1bf": {
+      "id": "f386d747-9189-41b8-925a-3bd7923eb1bf",
+      "name": "Bars",
+      "slug": "bars"
     },
     "926e2760-f74d-4154-87ea-284c98b93509": {
       "id": "926e2760-f74d-4154-87ea-284c98b93509",

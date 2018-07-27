@@ -1,0 +1,16 @@
+===On the phone===
+; Telephone : 電話 ''denwa''
+; Mobile phone : 携帯(電話)　''kētai''(denwa)
+; Telephone number : 電話番号 ''denwa bangō''
+; Phone book : 電話帳 ''denwa chō''
+; Answering machine : 留守番電話 ''rusuban denwa''
+; Hello (only on the phone) : もしもし ''moshi moshi''
+; May I speak to ... . : … をお願いします。''... wo onegaishimasu.''
+; Is ... there? : … はいらっしゃいますか？ ''... wa irasshaimasu ka?''
+; Who is calling? : どなたですか？ ''Donata desu ka?''
+; One moment, please. : ちょっとお待ちください。 ''Chotto omachi kudasai.''
+; ... is not here right now. : … は今いません。 ''... wa ima imasen.''
+; I will call you again later. : 後でまた電話します。 ''Ato de mata denwa shimasu.''
+; I got the wrong number. : 間違えました。 ''Machigaemashita.''
+; The line is busy. : 話し中です。 ''Hanashichū desu.''
+; What is your phone number? : 電話番号は何番ですか？ ''Denwa bangō wa nanban desu ka?''
