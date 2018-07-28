@@ -1,0 +1,9 @@
+===Authority===
+; I haven't done anything (wrong). : 何も(悪いこと)していません。(''Nani mo (warui koto) shiteimasen.'')
+; It was a misunderstanding. : 誤解でした。 (''Gokai deshita.'')
+; Where are you taking me? : どこへ連れて行くのですか？ (''Doko e tsurete yukuno desu ka?'')
+; Am I under arrest? : 私は逮捕されてるのですか？ (''Watashi wa taiho sareteruno desu ka?'')
+; I am a citizen of ____. : ____　の国民です。 (''____ no kokumin desu.'')
+; I want to meet with the ____ embassy. : ____ 大使館と会わせて下さい。 (''____ taishikan to awasete kudasai.'')
+; I want to meet with a lawyer. : 弁護士と会わせて下さい。(''Bengoshi to awasete kudasai.'')
+; Can it be settled with a fine? : 罰金で済みますか？ (''Bakkin de sumimasu ka?'')<br>Note: You can say this to a traffic cop, but bribery is highly unlikely to work in Japan.

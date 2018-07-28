@@ -5747,6 +5747,285 @@
       "sets": [
         "f25c5b32-8dd3-45e4-9f37-32776a4d4b57"
       ]
+    },
+    "69858c37-2987-4e2b-956c-001050306e61": {
+      "id": "b2607d17-90a4-4db8-b475-cc09f07ca691",
+      "english": "I want to rent a car.",
+      "japanese": "レンタカーお願いします。",
+      "romaji": "Rentakā (rent-a-car) onegaishimasu.",
+      "sets": [
+        "37d9cf33-e202-43a2-8ca0-9d1471955b95"
+      ]
+    },
+    "937f2b28-ded1-4135-a971-c807d2f8ee13": {
+      "id": "ae542bc1-419f-4cf8-83db-842243e7cc80",
+      "english": "Can I get insurance?",
+      "japanese": "保険入れますか?",
+      "romaji": "Hoken hairemasu ka?",
+      "sets": [
+        "37d9cf33-e202-43a2-8ca0-9d1471955b95"
+      ]
+    },
+    "52b8c060-d2a9-4e02-8200-1abeda8580bc": {
+      "id": "0c94f373-f809-44d2-8371-23df204de757",
+      "english": "Do you have a driver's license?",
+      "japanese": "免許証を持っていますか?",
+      "romaji": "Menkyoshō wo motteimasu ka?",
+      "sets": [
+        "37d9cf33-e202-43a2-8ca0-9d1471955b95"
+      ]
+    },
+    "788a7b55-7453-4237-bf8e-2d785f36a058": {
+      "id": "6ac00bac-65c4-46b9-b10e-82968eb36dde",
+      "english": "stop (''on a street sign'')",
+      "japanese": "止まれ／とまれ",
+      "romaji": "tomare",
+      "sets": [
+        "37d9cf33-e202-43a2-8ca0-9d1471955b95"
+      ]
+    },
+    "013cd11c-b2f8-4262-a6b1-17cf45f6054b": {
+      "id": "21e7d55a-6384-4a7a-a9ab-122e100f395b",
+      "english": "one way",
+      "japanese": "一方通行",
+      "romaji": "ippō tsūkō",
+      "sets": [
+        "37d9cf33-e202-43a2-8ca0-9d1471955b95"
+      ]
+    },
+    "368e05f9-555c-445d-95fd-7e1d86b57d84": {
+      "id": "c5a852ba-f481-4d5f-bba0-686f71a4c9d3",
+      "english": "caution",
+      "japanese": "徐行",
+      "romaji": "jokō",
+      "sets": [
+        "37d9cf33-e202-43a2-8ca0-9d1471955b95"
+      ]
+    },
+    "a40e1bde-2bd3-46a0-a397-46a8f8aa0dd3": {
+      "id": "3f64c89c-af2a-4ba1-aa25-3b271b2ddc03",
+      "english": "no parking",
+      "japanese": "駐車禁止",
+      "romaji": "chūsha kinshi",
+      "sets": [
+        "37d9cf33-e202-43a2-8ca0-9d1471955b95"
+      ]
+    },
+    "4c174204-74b4-4237-89c6-65b0229f9579": {
+      "id": "4c84386f-22c9-498f-98bf-bcc1ee940f71",
+      "english": "speed limit",
+      "japanese": "制限速度",
+      "romaji": "seigen sokudo",
+      "sets": [
+        "37d9cf33-e202-43a2-8ca0-9d1471955b95"
+      ]
+    },
+    "022f7f7a-b0d7-47e9-a56b-ec50143c47bd": {
+      "id": "2be821bb-c548-4705-b733-b96c43c46c39",
+      "english": "gas (''petrol'') station",
+      "japanese": "ガソリンスタンド",
+      "romaji": "gasorin sutando",
+      "sets": [
+        "37d9cf33-e202-43a2-8ca0-9d1471955b95"
+      ]
+    },
+    "1bb3cd9e-210a-4a57-81b6-b3ba9981a891": {
+      "id": "6ee99b13-d92a-41e6-ba37-192a5e6a2196",
+      "english": "petrol",
+      "japanese": "ガソリン",
+      "romaji": "gasorin",
+      "sets": [
+        "37d9cf33-e202-43a2-8ca0-9d1471955b95"
+      ]
+    },
+    "874005aa-c258-4b33-820a-c86fa70f04d0": {
+      "id": "2e4440ff-0db7-4ad7-a598-9f80255e37b9",
+      "english": "diesel",
+      "japanese": "軽油/ディーゼル",
+      "romaji": "keiyu / diizeru",
+      "sets": [
+        "37d9cf33-e202-43a2-8ca0-9d1471955b95"
+      ]
+    },
+    "022db3d6-287a-40b3-8731-a8ace13cc300": {
+      "id": "bdd798cf-a2f5-4b16-a5a9-d5529534a546",
+      "english": "I haven't done anything (wrong).",
+      "japanese": "何も(悪いこと)していません。",
+      "romaji": "Nani mo (warui koto) shiteimasen.",
+      "sets": [
+        "4854b9cf-29f4-4293-a190-ce3dc463b291"
+      ]
+    },
+    "37d4f23a-78ed-4a3b-a160-b48f68ba44ec": {
+      "id": "616c0145-2ca6-4108-bc0b-507c3afaaa8b",
+      "english": "It was a misunderstanding.",
+      "japanese": "誤解でした。",
+      "romaji": "Gokai deshita.",
+      "sets": [
+        "4854b9cf-29f4-4293-a190-ce3dc463b291"
+      ]
+    },
+    "93fa29b1-5358-4b14-981e-a8cb4171889e": {
+      "id": "1faa63c7-41ea-472b-b8c1-41131a5f6f1e",
+      "english": "Where are you taking me?",
+      "japanese": "どこへ連れて行くのですか？",
+      "romaji": "Doko e tsurete yukuno desu ka?",
+      "sets": [
+        "4854b9cf-29f4-4293-a190-ce3dc463b291"
+      ]
+    },
+    "59b10a76-7e38-4472-9aec-c9e9a981eec8": {
+      "id": "e6b35e1a-8f61-46eb-b2d8-649c5151316d",
+      "english": "Am I under arrest?",
+      "japanese": "私は逮捕されてるのですか？",
+      "romaji": "Watashi wa taiho sareteruno desu ka?",
+      "sets": [
+        "4854b9cf-29f4-4293-a190-ce3dc463b291"
+      ]
+    },
+    "2121c0cc-da76-4f7d-8d5d-c1d0f1c22c03": {
+      "id": "e84f0830-c0fb-4861-b9bb-bb77a09d1af5",
+      "english": "I am a citizen of ____.",
+      "japanese": "____　の国民です。",
+      "romaji": "____ no kokumin desu.",
+      "sets": [
+        "4854b9cf-29f4-4293-a190-ce3dc463b291"
+      ]
+    },
+    "e404ef73-1a71-45bc-9201-a6d3e833241a": {
+      "id": "1f617b30-f1fa-4980-9c1f-a4e06417fc26",
+      "english": "I want to meet with the ____ embassy.",
+      "japanese": "____ 大使館と会わせて下さい。",
+      "romaji": "____ taishikan to awasete kudasai.",
+      "sets": [
+        "4854b9cf-29f4-4293-a190-ce3dc463b291"
+      ]
+    },
+    "bd938ed1-da6e-4c6e-9f98-33af8713fa4c": {
+      "id": "9ca0be16-4603-4252-b2b1-e8c121cd080a",
+      "english": "I want to meet with a lawyer.",
+      "japanese": "弁護士と会わせて下さい。",
+      "romaji": "Bengoshi to awasete kudasai.",
+      "sets": [
+        "4854b9cf-29f4-4293-a190-ce3dc463b291"
+      ]
+    },
+    "1da7af38-26b5-49ba-92c6-204b83858c18": {
+      "id": "aa9f3ad5-4968-42cd-86cf-a432d8aa12b3",
+      "english": "Can it be settled with a fine?",
+      "japanese": "罰金で済みますか？",
+      "romaji": "Bakkin de sumimasu ka?",
+      "sets": [
+        "4854b9cf-29f4-4293-a190-ce3dc463b291"
+      ]
+    },
+    "2ff7e2c4-7a79-4078-8beb-91013ebec991": {
+      "id": "8c6caaba-eeeb-446b-907e-23382489c46b",
+      "english": "That's how it is, isn't it? (General agreement, especially old people can be heard going \"sō desu ne\" back and forth quite a few times.)",
+      "japanese": "そうですね。",
+      "romaji": "Sō desu ne.",
+      "sets": [
+        "3c15175b-9c1d-4b67-a427-d5b02c232b9d"
+      ]
+    },
+    "fb4b9dcb-6168-4a7a-b6fa-10518e1a8604": {
+      "id": "6e34b1cd-1d79-430a-93c8-98dc3a150e1a",
+      "english": "I have made you wait (terribly) long. (Used as an excuse after any amount of downtime, even just seconds. Often also used as a starter to get things going again.)",
+      "japanese": "（大変）お待たせしました。",
+      "romaji": "(Taihen) omataseshimashita.",
+      "sets": [
+        "3c15175b-9c1d-4b67-a427-d5b02c232b9d"
+      ]
+    },
+    "fb949440-b8d9-4efe-8c2b-fc88a5241315": {
+      "id": "28e237ff-9b23-460b-87ae-88f877b04b1e",
+      "english": "It's been honorably tiresome. (To colleagues in the sense of \"you gave it all, good work\", but more generally at the end of almost any activity.)",
+      "japanese": "お疲れさまでした。",
+      "romaji": "Otsukaresama deshita.",
+      "sets": [
+        "3c15175b-9c1d-4b67-a427-d5b02c232b9d"
+      ]
+    },
+    "77863592-4903-4f20-9138-b285d717eb5a": {
+      "id": "d4da4e16-32a2-4d7a-a34d-28adcf2a67e7",
+      "english": "Give it your best! (Meant to be encouraging and motivating.)",
+      "japanese": "頑張って！",
+      "romaji": "Ganbatte!",
+      "sets": [
+        "3c15175b-9c1d-4b67-a427-d5b02c232b9d"
+      ]
+    },
+    "fb2f953e-1fc0-45f0-8c59-79cfeca0eb0c": {
+      "id": "49431f5c-c323-4919-80c0-6978de3a64a7",
+      "english": "I will receive. (To yourself before starting to eat or when accepting something offered to you.)",
+      "japanese": "いただきます。",
+      "romaji": "Itadakimasu.",
+      "sets": [
+        "3c15175b-9c1d-4b67-a427-d5b02c232b9d"
+      ]
+    },
+    "e18bf692-1ddb-4dff-a271-5fb430a030e7": {
+      "id": "5bfc1ea0-d7fb-44fa-8a58-525745a2fb49",
+      "english": "I will trouble you. / I will be impolite. (When entering your superiors room or an unfamiliar house, when trying to get someone's attention or generally when interrupting someone.)",
+      "japanese": "失礼します。",
+      "romaji": "Shitsurei shimasu.",
+      "sets": [
+        "3c15175b-9c1d-4b67-a427-d5b02c232b9d"
+      ]
+    },
+    "b6353551-e07e-47e0-83f8-4672bc2a736c": {
+      "id": "a24f75ad-e112-4a3a-b2a9-9c79cb9cf2c9",
+      "english": "I have troubled you. / Excuse my impoliteness. (When leaving your superiors room or an unfamiliar house or generally as \"Sorry to have bothered you, carry on.\")",
+      "japanese": "失礼しました。",
+      "romaji": "Shitsurei shimashita.",
+      "sets": [
+        "3c15175b-9c1d-4b67-a427-d5b02c232b9d"
+      ]
+    },
+    "263a3aeb-2916-4ec0-b130-1ed1df286287": {
+      "id": "72ca0972-9fa2-469f-9fff-c6762b2e40da",
+      "english": "It is alright. (For general reassurance. Used with \"desu ka?\" to inquire if something or somebody is alright.)",
+      "japanese": "大丈夫。",
+      "romaji": "Daijōbu.",
+      "sets": [
+        "3c15175b-9c1d-4b67-a427-d5b02c232b9d"
+      ]
+    },
+    "8d71f942-237a-4cf2-94b5-53cce872e9fa": {
+      "id": "687372d3-4a57-402d-a73c-03b02392ad78",
+      "english": "Great! / Incredible! (Very popular amongst girls and greatly overused.)",
+      "japanese": "凄い！",
+      "romaji": "Sugoi!",
+      "sets": [
+        "3c15175b-9c1d-4b67-a427-d5b02c232b9d"
+      ]
+    },
+    "5278d015-b046-4829-960d-94c15f6d3d77": {
+      "id": "b1e6bbf6-1f9e-4bf0-91bc-b0fc4ea9c617",
+      "english": "How cute! (See \"sugoi\".)",
+      "japanese": "可愛い！",
+      "romaji": "Kawaii!",
+      "sets": [
+        "3c15175b-9c1d-4b67-a427-d5b02c232b9d"
+      ]
+    },
+    "28e2b9b3-b5e5-4100-a521-399f919eed71": {
+      "id": "4545db60-73a4-4d9b-8042-d9c5045f45ed",
+      "english": "Reallyyyyyyy~? (Almost a standard reaction to any kind of news. Can be lengthened indefinitely and is hence useful to stall for time when thinking about a real answer.)",
+      "japanese": "ええぇ〜",
+      "romaji": "Eee~",
+      "sets": [
+        "3c15175b-9c1d-4b67-a427-d5b02c232b9d"
+      ]
+    },
+    "f911a079-5db3-476d-b13a-4b5d2efb3f27": {
+      "id": "a1aaf936-9b89-4a9f-b162-1375f18e99ca",
+      "english": "Lie! (Doesn't necessarily accuse one of lying, usually used in the sense of \"Seriously?!\")",
+      "japanese": "ウソ！",
+      "romaji": "Uso!",
+      "sets": [
+        "3c15175b-9c1d-4b67-a427-d5b02c232b9d"
+      ]
     }
   },
   "sets": {
@@ -5926,6 +6205,22 @@
       "id": "f25c5b32-8dd3-45e4-9f37-32776a4d4b57",
       "name": "Talking about another’s family",
       "slug": "talking-about-another's-family"
+    },
+    "37d9cf33-e202-43a2-8ca0-9d1471955b95": {
+      "id": "37d9cf33-e202-43a2-8ca0-9d1471955b95",
+      "name": "Driving",
+      "slug": "driving"
+    },
+    "4854b9cf-29f4-4293-a190-ce3dc463b291": {
+      "id": "4854b9cf-29f4-4293-a190-ce3dc463b291",
+      "name": "Authority",
+      "slug": "authority",
+      "notes": "In Japan, you can legally be incarcerated for twenty-three (23) days before you are charged, but you do have the right to see a lawyer after the first 48 hours of detention.  Note that if you sign a confession, you <em>will</em> be convicted."
+    },
+    "3c15175b-9c1d-4b67-a427-d5b02c232b9d": {
+      "id": "3c15175b-9c1d-4b67-a427-d5b02c232b9d",
+      "name": "Typical Expressions",
+      "slug": "typical-expressions"
     },
     "e62ee5fb-89c5-46b6-b29a-19f1c07114a4": {
       "id": "e62ee5fb-89c5-46b6-b29a-19f1c07114a4",
