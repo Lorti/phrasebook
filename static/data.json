@@ -6026,6 +6026,159 @@
       "sets": [
         "3c15175b-9c1d-4b67-a427-d5b02c232b9d"
       ]
+    },
+    "e0112c95-a479-43c8-8936-16e41a5b834e": {
+      "id": "3fa81861-47b4-4cdd-be1f-4d55a0ad40fe",
+      "english": "Fool or idiot (Kanto)",
+      "japanese": "バカ",
+      "romaji": "baka",
+      "sets": [
+        "22761199-e15f-4dd9-8319-f1fe2760dfe2"
+      ]
+    },
+    "da429b4d-ce4f-4b4c-b79a-8106aba5a3e2": {
+      "id": "34d1bd59-c779-42ef-bd88-8e3833d04276",
+      "english": "Fool or idiot (Kansai)",
+      "japanese": "アホ",
+      "romaji": "aho",
+      "sets": [
+        "22761199-e15f-4dd9-8319-f1fe2760dfe2"
+      ]
+    },
+    "e68b72a5-2624-43a9-b09d-00f895ba16e8": {
+      "id": "7f644186-db0a-43ae-82c1-6bff38e4528e",
+      "english": "Doing something untimely",
+      "japanese": "まぬけ",
+      "romaji": "manuke",
+      "sets": [
+        "22761199-e15f-4dd9-8319-f1fe2760dfe2"
+      ]
+    },
+    "8015a7ce-6408-435b-967a-d944a4ee4493": {
+      "id": "ca927823-2062-4660-af61-997ca07b5839",
+      "english": "A slow person",
+      "japanese": "のろま",
+      "romaji": "noroma",
+      "sets": [
+        "22761199-e15f-4dd9-8319-f1fe2760dfe2"
+      ]
+    },
+    "c24b5f8a-71a6-4a85-8b67-22f40a7f2fb8": {
+      "id": "d73e2d5b-106c-4bf6-a7f0-e72bfce6cd3e",
+      "english": "Being bad at something",
+      "japanese": "下手",
+      "romaji": "heta",
+      "sets": [
+        "22761199-e15f-4dd9-8319-f1fe2760dfe2"
+      ]
+    },
+    "20f08403-a42c-4e8b-81aa-0cab4a34e824": {
+      "id": "6ac5b9fe-eda1-444b-a1fb-419c349b62b8",
+      "english": "Being very bad at something",
+      "japanese": "下手糞",
+      "romaji": "hetakuso",
+      "sets": [
+        "22761199-e15f-4dd9-8319-f1fe2760dfe2"
+      ]
+    },
+    "6198505e-6707-4983-a45f-e69ec4c917aa": {
+      "id": "4a04fb79-8b5b-4aad-99f8-58e75eff7cd0",
+      "english": "A stingy person",
+      "japanese": "ケチ",
+      "romaji": "kechi",
+      "sets": [
+        "22761199-e15f-4dd9-8319-f1fe2760dfe2"
+      ]
+    },
+    "f7abbd8e-4b50-4270-89e5-7a990f33fb8a": {
+      "id": "36f63642-3cba-490f-b817-8c610b461e0f",
+      "english": "An old man",
+      "japanese": "ジジイ",
+      "romaji": "jijii",
+      "sets": [
+        "22761199-e15f-4dd9-8319-f1fe2760dfe2"
+      ]
+    },
+    "7abcd4d1-e242-4dd3-9a15-7dcbd5b8170c": {
+      "id": "97d5b11f-d315-4540-842d-fc28d5577d9c",
+      "english": "An old woman",
+      "japanese": "ババア",
+      "romaji": "babaa",
+      "sets": [
+        "22761199-e15f-4dd9-8319-f1fe2760dfe2"
+      ]
+    },
+    "0faf9bb4-e28a-4d3c-8648-60bd770a087c": {
+      "id": "16cb4f23-1df2-48ee-a159-39d8295a75c8",
+      "english": "Not being cool",
+      "japanese": "ダサイ",
+      "romaji": "dasai",
+      "sets": [
+        "22761199-e15f-4dd9-8319-f1fe2760dfe2"
+      ]
+    },
+    "7f99fdbc-db96-47de-aa27-073e6e511a7a": {
+      "id": "fe6055eb-0cac-4332-bb30-bf309bbbfe14",
+      "english": "Fussy or depressing",
+      "japanese": "ウザイ",
+      "romaji": "uzai",
+      "sets": [
+        "22761199-e15f-4dd9-8319-f1fe2760dfe2"
+      ]
+    },
+    "1e76cb3a-f8ee-43ad-93c7-4695fe905ce1": {
+      "id": "3e1c3078-ed75-4192-b148-bc7aa52e842f",
+      "english": "Creepy",
+      "japanese": "キモイ",
+      "romaji": "kimoi",
+      "sets": [
+        "22761199-e15f-4dd9-8319-f1fe2760dfe2"
+      ]
+    },
+    "4a805361-a84f-4fa8-b6c7-79a105e348ac": {
+      "id": "538a2b56-3d6f-4916-a427-4585c7750bee",
+      "english": "Drop dead!",
+      "japanese": "くたばれ",
+      "romaji": "kutabare",
+      "sets": [
+        "22761199-e15f-4dd9-8319-f1fe2760dfe2"
+      ]
+    },
+    "9ddb4e2c-6df9-4eb2-8587-5bc3c2441076": {
+      "id": "f7f7fad7-bfb8-4909-8893-fb3e574d0ac4",
+      "english": "Get out of the way!",
+      "japanese": "どけ",
+      "romaji": "doke",
+      "sets": [
+        "22761199-e15f-4dd9-8319-f1fe2760dfe2"
+      ]
+    },
+    "b719bbef-7a4b-4baa-a56e-f130e26fa101": {
+      "id": "75b5e0ef-9880-4bf5-8f0f-3df2b14dd03c",
+      "english": "Noisy!",
+      "japanese": "うるさい",
+      "romaji": "urusai",
+      "sets": [
+        "22761199-e15f-4dd9-8319-f1fe2760dfe2"
+      ]
+    },
+    "5a66d08a-5b02-4dbc-917c-9ceca1cac1e0": {
+      "id": "293a7340-5b15-45c9-a59a-e4df40bc7550",
+      "english": "Shit",
+      "japanese": "糞",
+      "romaji": "kuso",
+      "sets": [
+        "22761199-e15f-4dd9-8319-f1fe2760dfe2"
+      ]
+    },
+    "241810a9-b8fd-49a4-860e-8d619e63e904": {
+      "id": "1459c794-4499-491b-bc56-279a2cd53e21",
+      "english": "Pervert",
+      "japanese": "スケベ",
+      "romaji": "sukebe",
+      "sets": [
+        "22761199-e15f-4dd9-8319-f1fe2760dfe2"
+      ]
     }
   },
   "sets": {
@@ -6226,6 +6379,11 @@
       "id": "e62ee5fb-89c5-46b6-b29a-19f1c07114a4",
       "name": "Countries",
       "slug": "countries"
+    },
+    "22761199-e15f-4dd9-8319-f1fe2760dfe2": {
+      "id": "22761199-e15f-4dd9-8319-f1fe2760dfe2",
+      "name": "Offensive Language",
+      "slug": "offensive-language"
     }
   }
 }
