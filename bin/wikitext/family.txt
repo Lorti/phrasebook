@@ -1,0 +1,6 @@
+===Family===
+; Are you married? : 結婚していますか? (''Kekkon shiteimasu ka?'')
+; I am married. : 結婚しています。 (''Kekkon shiteimasu.'')
+; I am single. : 独身です。 (''Dokushin desu'')
+; Do you have brothers and sisters? : 兄弟はいますか? (''Kyōdai wa imasu ka?'')
+; Do you have children? : 子供はいますか? (''Kodomo wa imasu ka?'')

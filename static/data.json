@@ -5432,6 +5432,321 @@
       "sets": [
         "f386d747-9189-41b8-925a-3bd7923eb1bf"
       ]
+    },
+    "2c330893-9079-4ad9-b8ef-0bc7bbdc52c3": {
+      "id": "e275d0ad-3ffb-427b-ab2c-364e5b6112d5",
+      "english": "Are you married?",
+      "japanese": "結婚していますか?",
+      "romaji": "Kekkon shiteimasu ka?",
+      "sets": [
+        "80cf758a-5bbc-4ced-9e5c-845be86b2b32"
+      ]
+    },
+    "88f9d689-4162-4a39-8156-b89606aca5c1": {
+      "id": "67966aea-1331-4e9f-a2fc-beba43fdac72",
+      "english": "I am married.",
+      "japanese": "結婚しています。",
+      "romaji": "Kekkon shiteimasu.",
+      "sets": [
+        "80cf758a-5bbc-4ced-9e5c-845be86b2b32"
+      ]
+    },
+    "6efb4b81-3f81-49fa-bf42-efda3ce55b2b": {
+      "id": "f90f6e9e-28ba-4dfd-8272-c87672156570",
+      "english": "I am single.",
+      "japanese": "独身です。",
+      "romaji": "Dokushin desu",
+      "sets": [
+        "80cf758a-5bbc-4ced-9e5c-845be86b2b32"
+      ]
+    },
+    "37643ad8-13d5-4a93-b1c7-f36937f575a2": {
+      "id": "66217c00-e3bc-48ca-aa39-d004896906a2",
+      "english": "Do you have brothers and sisters?",
+      "japanese": "兄弟はいますか?",
+      "romaji": "Kyōdai wa imasu ka?",
+      "sets": [
+        "80cf758a-5bbc-4ced-9e5c-845be86b2b32"
+      ]
+    },
+    "ca1afada-ba27-471b-8f4e-955ae8ac81d9": {
+      "id": "4e7757b9-4317-4afc-9bb3-fd14f5f06879",
+      "english": "Do you have children?",
+      "japanese": "子供はいますか?",
+      "romaji": "Kodomo wa imasu ka?",
+      "sets": [
+        "80cf758a-5bbc-4ced-9e5c-845be86b2b32"
+      ]
+    },
+    "7a5e08e0-2eae-4eec-aa73-95809b6184f6": {
+      "id": "1b45fefd-758e-47d9-8e9e-2f9246268336",
+      "english": "Father",
+      "japanese": "父",
+      "romaji": "chichi",
+      "sets": [
+        "461b586d-f0aa-4aa5-983c-9e6800648168"
+      ]
+    },
+    "ceb592c8-c4da-4ee9-aace-df8edf46ab79": {
+      "id": "498a2a41-6d0f-4d99-9be9-1d857c9bd2d9",
+      "english": "Mother",
+      "japanese": "母",
+      "romaji": "haha",
+      "sets": [
+        "461b586d-f0aa-4aa5-983c-9e6800648168"
+      ]
+    },
+    "088ea425-2632-40f0-a2af-6659db242582": {
+      "id": "26531dd7-3a14-4dd7-b856-de28cd1810ab",
+      "english": "Older Brother",
+      "japanese": "兄",
+      "romaji": "ani",
+      "sets": [
+        "461b586d-f0aa-4aa5-983c-9e6800648168"
+      ]
+    },
+    "aa84c865-1ba1-4405-adc6-2aa9ea1bb7e6": {
+      "id": "305a0fd5-b0e1-4e61-8dd7-72604aea18af",
+      "english": "Older Sister",
+      "japanese": "姉",
+      "romaji": "ane",
+      "sets": [
+        "461b586d-f0aa-4aa5-983c-9e6800648168"
+      ]
+    },
+    "39a2a890-e63e-456f-be05-e717895ead2a": {
+      "id": "5d3ba7a3-90cc-44dd-918e-e6b196fb77af",
+      "english": "Younger Brother",
+      "japanese": "弟",
+      "romaji": "otōto",
+      "sets": [
+        "461b586d-f0aa-4aa5-983c-9e6800648168"
+      ]
+    },
+    "1881f5fc-3dd3-4b54-ae6d-0e38b9605236": {
+      "id": "c6c59e08-e4e8-45b6-8891-d5456cc8476e",
+      "english": "Younger Sister",
+      "japanese": "妹",
+      "romaji": "imōto",
+      "sets": [
+        "461b586d-f0aa-4aa5-983c-9e6800648168"
+      ]
+    },
+    "925a7952-5f51-468e-a538-7bb2d90f8d43": {
+      "id": "60cab61a-321d-4362-9afb-4cf8e4b23b91",
+      "english": "Grandfather",
+      "japanese": "祖父",
+      "romaji": "sofu",
+      "sets": [
+        "461b586d-f0aa-4aa5-983c-9e6800648168"
+      ]
+    },
+    "b8c18d07-7cb1-45b1-991c-e43d2a010b8e": {
+      "id": "40c2cc23-23fa-4ea3-bcf4-4484c7af3fc6",
+      "english": "Grandmother",
+      "japanese": "祖母",
+      "romaji": "sobo",
+      "sets": [
+        "461b586d-f0aa-4aa5-983c-9e6800648168"
+      ]
+    },
+    "ea3a4800-a9fb-4232-a7cc-365954f1f3a2": {
+      "id": "fca82b47-1b4c-4f09-b6c1-0eb69e2f7cca",
+      "english": "Uncle",
+      "japanese": "叔父/伯父",
+      "romaji": "oji",
+      "sets": [
+        "461b586d-f0aa-4aa5-983c-9e6800648168"
+      ]
+    },
+    "1684ad9b-704f-4dda-b03d-fc3413a87458": {
+      "id": "2d9b8ade-087e-406e-bd0e-e095443ba9b7",
+      "english": "Aunt",
+      "japanese": "叔母/伯母",
+      "romaji": "oba",
+      "sets": [
+        "461b586d-f0aa-4aa5-983c-9e6800648168"
+      ]
+    },
+    "82404f50-a3f0-40b9-b286-6bdde0e3db69": {
+      "id": "4acbac44-2a09-40bc-aa65-d7226abc2109",
+      "english": "Husband",
+      "japanese": "夫",
+      "romaji": "otto",
+      "sets": [
+        "461b586d-f0aa-4aa5-983c-9e6800648168"
+      ]
+    },
+    "2595caae-8dc4-4238-a368-8aa329232b76": {
+      "id": "10debfbe-a14e-4161-81b8-7f463d45e36d",
+      "english": "Wife",
+      "japanese": "妻",
+      "romaji": "tsuma",
+      "sets": [
+        "461b586d-f0aa-4aa5-983c-9e6800648168"
+      ]
+    },
+    "5fe2d6de-eca8-4656-b143-d5c340542749": {
+      "id": "1444f7ff-304f-4838-a2da-de249d5fef63",
+      "english": "Son",
+      "japanese": "息子",
+      "romaji": "musuko",
+      "sets": [
+        "461b586d-f0aa-4aa5-983c-9e6800648168"
+      ]
+    },
+    "01028c0a-0528-457e-9f47-1fb480040907": {
+      "id": "5bebdabd-2eef-4dc2-acaa-bacb3762f25b",
+      "english": "Daughter",
+      "japanese": "娘",
+      "romaji": "musume",
+      "sets": [
+        "461b586d-f0aa-4aa5-983c-9e6800648168"
+      ]
+    },
+    "f64716ba-5d9e-4227-86c4-0177743b5b94": {
+      "id": "ecd154fd-0481-4656-a612-b4588ccdedc6",
+      "english": "Grandchild",
+      "japanese": "孫",
+      "romaji": "mago",
+      "sets": [
+        "461b586d-f0aa-4aa5-983c-9e6800648168"
+      ]
+    },
+    "01af81f0-d982-4464-bb53-d5cd462a5367": {
+      "id": "4fa919b9-f8fa-48f4-903e-3d994838177f",
+      "english": "Father",
+      "japanese": "お父さん",
+      "romaji": "otōsan",
+      "sets": [
+        "f25c5b32-8dd3-45e4-9f37-32776a4d4b57"
+      ]
+    },
+    "938351f8-aea1-4614-a362-87dad3a90fb7": {
+      "id": "bf217033-f017-4936-b207-b8e42f14d7d6",
+      "english": "Mother",
+      "japanese": "お母さん",
+      "romaji": "okāsan",
+      "sets": [
+        "f25c5b32-8dd3-45e4-9f37-32776a4d4b57"
+      ]
+    },
+    "bd296032-4b0e-470b-a0ec-710188afcda6": {
+      "id": "862ede18-e7cb-40e3-b63d-b6914b0ddeeb",
+      "english": "Older Brother",
+      "japanese": "お兄さん",
+      "romaji": "onīsan",
+      "sets": [
+        "f25c5b32-8dd3-45e4-9f37-32776a4d4b57"
+      ]
+    },
+    "615f77f2-3db4-448c-8545-081873b2184d": {
+      "id": "886f4b00-71e1-45da-9588-26ff79cfb0ab",
+      "english": "Older Sister",
+      "japanese": "お姉さん",
+      "romaji": "onēsan",
+      "sets": [
+        "f25c5b32-8dd3-45e4-9f37-32776a4d4b57"
+      ]
+    },
+    "0fc44df3-c5e7-423b-92ff-221020eb9601": {
+      "id": "99bb2601-0717-46dc-9a4b-522bcf0ce543",
+      "english": "Younger Brother",
+      "japanese": "弟さん",
+      "romaji": "otōtosan",
+      "sets": [
+        "f25c5b32-8dd3-45e4-9f37-32776a4d4b57"
+      ]
+    },
+    "28827e0d-facd-4690-ac05-684d94758c40": {
+      "id": "3ae435ea-2508-408a-a0c2-30dfc2d3ff8b",
+      "english": "Younger Sister",
+      "japanese": "妹さん",
+      "romaji": "imōtosan",
+      "sets": [
+        "f25c5b32-8dd3-45e4-9f37-32776a4d4b57"
+      ]
+    },
+    "9d56921c-cd93-44f8-9e36-865862e014fe": {
+      "id": "12a00a21-335c-48d6-88ea-8bf73a5a9cf2",
+      "english": "Grandfather",
+      "japanese": "おじいさん",
+      "romaji": "ojīsan",
+      "sets": [
+        "f25c5b32-8dd3-45e4-9f37-32776a4d4b57"
+      ]
+    },
+    "c2dac349-6cb1-4ac7-9c41-79bfe2632fc7": {
+      "id": "a02c59d9-b421-4f4d-9d18-ed36be03ac96",
+      "english": "Grandmother",
+      "japanese": "おばあさん",
+      "romaji": "obāsan",
+      "sets": [
+        "f25c5b32-8dd3-45e4-9f37-32776a4d4b57"
+      ]
+    },
+    "1f94a70f-6b00-4c2a-aa69-eefa6ebc4c63": {
+      "id": "5c43fc8c-b356-4473-a2a8-ccab7a03e3ff",
+      "english": "Uncle",
+      "japanese": "おじさん",
+      "romaji": "ojisan",
+      "sets": [
+        "f25c5b32-8dd3-45e4-9f37-32776a4d4b57"
+      ]
+    },
+    "77059e54-aa40-40d5-b2aa-799e4ca16a44": {
+      "id": "e6191fd1-29ee-4722-abb0-6e58775166b1",
+      "english": "Aunt",
+      "japanese": "おばさん",
+      "romaji": "obasan",
+      "sets": [
+        "f25c5b32-8dd3-45e4-9f37-32776a4d4b57"
+      ]
+    },
+    "94529669-1873-4980-8762-f559474580d6": {
+      "id": "20ef0a29-ecdb-4d90-886a-6fb46659ebb4",
+      "english": "Husband",
+      "japanese": "ご主人",
+      "romaji": "goshujin",
+      "sets": [
+        "f25c5b32-8dd3-45e4-9f37-32776a4d4b57"
+      ]
+    },
+    "bc241841-7657-48dc-b629-1df62bf1a016": {
+      "id": "247bc110-24b7-44ed-a117-9fcc6f2d7e3f",
+      "english": "Wife",
+      "japanese": "奥さん",
+      "romaji": "okusan",
+      "sets": [
+        "f25c5b32-8dd3-45e4-9f37-32776a4d4b57"
+      ]
+    },
+    "ed29a8f6-2527-4a9a-931c-46ff6ba89775": {
+      "id": "7aff4227-8e80-4e0c-a613-c36c4d5cbc45",
+      "english": "Son",
+      "japanese": "息子さん",
+      "romaji": "musukosan",
+      "sets": [
+        "f25c5b32-8dd3-45e4-9f37-32776a4d4b57"
+      ]
+    },
+    "6a790724-ce23-43a1-b2b8-a07829c1b4f1": {
+      "id": "bd455619-ca80-4c81-a956-e06d23b13d48",
+      "english": "Daughter",
+      "japanese": "お嬢さん",
+      "romaji": "ojōsan",
+      "sets": [
+        "f25c5b32-8dd3-45e4-9f37-32776a4d4b57"
+      ]
+    },
+    "5b8cc6da-3869-48d7-b14b-0d2aee311780": {
+      "id": "71144003-f942-441f-b60c-ddb789d5eea6",
+      "english": "Grandchild",
+      "japanese": "お孫さん",
+      "romaji": "omagosan",
+      "sets": [
+        "f25c5b32-8dd3-45e4-9f37-32776a4d4b57"
+      ]
     }
   },
   "sets": {
@@ -5591,6 +5906,26 @@
       "id": "926e2760-f74d-4154-87ea-284c98b93509",
       "name": "Shopping",
       "slug": "shopping"
+    },
+    "80cf758a-5bbc-4ced-9e5c-845be86b2b32": {
+      "id": "80cf758a-5bbc-4ced-9e5c-845be86b2b32",
+      "name": "Family",
+      "slug": "family",
+      "notes": "In Japanese, it's always important to use less respectful terms for your own family and more respectful terms for another's family.  Note also that the words for older/younger brother/sister are different.",
+      "subsets": [
+        "461b586d-f0aa-4aa5-983c-9e6800648168",
+        "f25c5b32-8dd3-45e4-9f37-32776a4d4b57"
+      ]
+    },
+    "461b586d-f0aa-4aa5-983c-9e6800648168": {
+      "id": "461b586d-f0aa-4aa5-983c-9e6800648168",
+      "name": "Talking about your own family",
+      "slug": "talking-about-your-own-family"
+    },
+    "f25c5b32-8dd3-45e4-9f37-32776a4d4b57": {
+      "id": "f25c5b32-8dd3-45e4-9f37-32776a4d4b57",
+      "name": "Talking about another’s family",
+      "slug": "talking-about-another's-family"
     },
     "e62ee5fb-89c5-46b6-b29a-19f1c07114a4": {
       "id": "e62ee5fb-89c5-46b6-b29a-19f1c07114a4",
