@@ -33,9 +33,8 @@
                 </div>
               </md-card-header>
               <div class="md-card-content">
-                You can use the
-                <md-icon style="color: currentColor;">favorite_outline</md-icon>
-                to add phrases to your favorites!
+                Use the <md-icon style="color: currentColor;">favorite_outline</md-icon> button
+                to add phrases to your favorites.
               </div>
             </md-ripple>
           </md-card>
@@ -70,10 +69,5 @@ export default {
 <style scoped>
   .md-card {
     margin: 0 0 16px;
-  }
-  .md-card-content {
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
   }
 </style>
