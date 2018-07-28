@@ -22,7 +22,7 @@
         </router-link>
       </div>
 
-      <div class="md-layout-item  md-size-33 md-small-size-50 md-xsmall-size-100">
+      <div class="md-layout-item md-size-33 md-small-size-50 md-xsmall-size-100">
         <router-link :to="`/sets/favorites/`">
           <md-card md-with-hover class="md-primary">
             <md-ripple>
@@ -42,6 +42,42 @@
             </md-ripple>
           </md-card>
         </router-link>
+      </div>
+    </div>
+
+    <h1 class="md-headline">Guides</h1>
+
+    <div class="md-layout md-gutter">
+      <div class="md-layout-item md-size-33 md-small-size-50 md-xsmall-size-100">
+        <a href="https://wikitravel.org/wiki/en/index.php?title=Japanese_phrasebook&oldid=2493591#Pronunciation_guide"
+           target="_blank" rel="noopener">
+          <md-card md-with-hover>
+            <md-ripple>
+              <md-card-header>
+                <div class="md-title">Pronunciation</div>
+              </md-card-header>
+              <div class="md-card-content">
+                Read the pronunciation guide over at Wikitravel…
+              </div>
+            </md-ripple>
+          </md-card>
+        </a>
+      </div>
+
+      <div class="md-layout-item md-size-33 md-small-size-50 md-xsmall-size-100">
+        <a href="https://wikitravel.org/wiki/en/index.php?title=Japanese_phrasebook&oldid=2493591#Grammar"
+           target="_blank" rel="noopener">
+          <md-card md-with-hover>
+            <md-ripple>
+              <md-card-header>
+                <div class="md-title">Grammar</div>
+              </md-card-header>
+              <div class="md-card-content">
+                Read the grammar guide over at Wikitravel…
+              </div>
+            </md-ripple>
+          </md-card>
+        </a>
       </div>
     </div>
   </div>
