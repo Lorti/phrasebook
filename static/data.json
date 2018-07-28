@@ -6196,6 +6196,7 @@
       "id": "88941df9-799f-4595-948c-24d3ba510483",
       "name": "Problems",
       "slug": "problems",
+      "notes": "<h4>What part of \"no\" don't you understand?</h4><p>The Japanese are famously reluctant to say the word \"no\", and in fact the language's closest equivalent, いいえ <em>iie</em>, is largely limited to denying compliments you have received. (\"Your Japanese is excellent! \"<em>Iie</em>, it is very bad!\"). But there are numerous other ways of expressing \"no\", so here are a few to watch out for.</p><dl><dt> いいです。 結構です。 <br><em>Ii desu. Kekkō desu.</em></dt><dd> \"It's good/excellent.\" Used when you don't want more beer, don't want your <em>bentō</em> lunch microwaved, and generally are happy to keep things as they are. Accompany with teeth-sucking and handwaving to be sure to get your point across - both of these expressions may be interpreted as <em>positive</em> responses if you don't include enough nonverbal indications to the contrary.</dd><dt> ちょっと難しいです･･･<br><em>Chotto muzukashii desu...</em></dt><dd> Literally \"it's a little difficult\", but in practice \"it's completely impossible.\" Often just abbreviated to sucking in air through teeth, saying \"chotto\" and looking pained. Take the hint.</dd><dt> 申し訳ないですが･･･<br><em>Mōshiwakenai desuga...</em></dt><dd> \"This is inexcusable but...\" But no. Used by sales clerks and such to tell you that you cannot do or have something.</dd><dt> ダメです。<br><em>Dame desu.</em></dt><dd> \"It's no good.\" Used by equals and superiors to tell you that you cannot do or have something. The Kansai equivalent is <em>akan</em>.</dd><dt> 違います。<br><em>Chigaimasu.</em></dt><dd> \"It is different.\" What they really mean is \"you're wrong\". The casual form <em>chigau</em> and the Kansai contraction <em>chau</em> are also much used.</dd></dl>",
       "subsets": [
         "1dc90464-21d9-432a-bd6d-a561ecc32be2",
         "a8d02e79-6892-4695-9811-c3f0b563e951",
@@ -6233,12 +6234,13 @@
       "id": "c6c6b26c-c407-4de0-8720-67442b74065c",
       "name": "Numbers",
       "slug": "numbers",
-      "notes": "<h4>Numbers</h4><p>While Arabic (Western) numerals are employed for most uses in Japan, you will occasionally still spot Japanese numerals at eg. markets and the menus of fancy restaurants.  The characters used are nearly identical to Chinese numerals, and like Chinese, Japanese uses groups of 4 digits, not 3. \"One million\" is thus 百万 (<i>hyaku-man</i>), literally \"hundred ten-thousands\".</p><p>There are both Japanese and Chinese readings for most numbers, but presented below are the more commonly used Chinese readings.  Note that, due to superstition (<i>shi</i> also means \"death\"), 4 and 7 typically use the Japanese readings <i>yon</i> and <i>nana</i> instead.</p><h4>Counters</h4><p>When counting objects, Japanese uses special counter words. For example, \"two <i>bottles of</i> beer\" is ビール２本 <i>biiru nihon</i>, where <i>ni</i> is \"two\" and <i>-hon</i> means \"bottles\". Unlike in English, where counter words are often optional or non-existent, in Japanese they're mandatory whenever you count something (e.g. 車２台 <i>kuruma ni-dai</i>, two cars; 台 <i>dai</i> counts machines).</p><p>Note how many counters change form depending on the previous number: one, two, three glasses are <i>ippai</i>, <i>nihai</i>, <i>sanbai</i> respectively.　There are also a few exceptions: one person and two people are <i>hitori</i> and <i>futari</i>. 20 years old is usually pronounced <i>hatachi</i>. You'll still be understood if you get these wrong though.</p><h4>一つ <i>hitotsu</i></h4><p>For numbers from one to nine, an old counting system is often used which applies to virtually any object you may want to count, without the need to attach a specific counter:</p><ol><li>一つ <i>hitotsu</i></li><li>二つ <i>futatsu</i></li><li>三つ <i>mittsu</i></li><li>四つ <i>yottsu</i></li><li>五つ <i>itsutsu</i></li><li>六つ <i>muttsu</i></li><li>七つ <i>nanatsu</i></li><li>八つ <i>yattsu</i></li><li>九つ <i>kokonotsu</i></li></ol><p>It is always a good idea to use a specific counter whenever possible, but using the generic numbers above is often equally acceptable. This system is rarely used anymore for numbers greater than nine.</p>"
+      "notes": "<h4>Numbers</h4><p>While Arabic (Western) numerals are employed for most uses in Japan, you will occasionally still spot Japanese numerals at eg. markets and the menus of fancy restaurants. The characters used are nearly identical to Chinese numerals, and like Chinese, Japanese uses groups of 4 digits, not 3. \"One million\" is thus 百万 (<em>hyaku-man</em>), literally \"hundred ten-thousands\".</p><p>There are both Japanese and Chinese readings for most numbers, but presented below are the more commonly used Chinese readings. Note that, due to superstition (<em>shi</em> also means \"death\"), 4 and 7 typically use the Japanese readings <em>yon</em> and <em>nana</em> instead.</p><h4>Counters</h4><p>When counting objects, Japanese uses special counter words. For example, \"two <em>bottles of</em> beer\" is ビール２本 <em>biiru nihon</em>, where <em>ni</em> is \"two\" and <em>-hon</em> means \"bottles\". Unlike in English, where counter words are often optional or non-existent, in Japanese they're mandatory whenever you count something (e.g. 車２台 <em>kuruma ni-dai</em>, two cars; 台 <em>dai</em> counts machines).</p><p>Note how many counters change form depending on the previous number: one, two, three glasses are <em>ippai</em>, <em>nihai</em>, <em>sanbai</em> respectively.　There are also a few exceptions: one person and two people are <em>hitori</em> and <em>futari</em>. 20 years old is usually pronounced <em>hatachi</em>. You'll still be understood if you get these wrong though.</p><h4>一つ <em>hitotsu</em></h4><p>For numbers from one to nine, an old counting system is often used which applies to virtually any object you may want to count, without the need to attach a specific counter:</p><ol><li>一つ <em>hitotsu</em></li><li>二つ <em>futatsu</em></li><li>三つ <em>mittsu</em></li><li>四つ <em>yottsu</em></li><li>五つ <em>itsutsu</em></li><li>六つ <em>muttsu</em></li><li>七つ <em>nanatsu</em></li><li>八つ <em>yattsu</em></li><li>九つ <em>kokonotsu</em></li></ol><p>It is always a good idea to use a specific counter whenever possible, but using the generic numbers above is often equally acceptable. This system is rarely used anymore for numbers greater than nine.</p>"
     },
     "be4745fe-a10c-49aa-935a-b9d8925bf811": {
       "id": "be4745fe-a10c-49aa-935a-b9d8925bf811",
       "name": "Time",
       "slug": "time",
+      "notes": "<h4>Clock Time</h4><p>Clock times are formed as Chinese numeral plus 時 <em>ji</em>, for example, <em>goji</em> 5時 for five o'clock. The exception is four o'clock which is pronounced <em>yoji</em> (四時) instead of <em>shiji</em>. You will be understood if you simply substitute <em>gozen</em> 午前 for \"AM\" and <em>gogo</em> 午後 for PM, although other time qualifiers like 朝 <em>asa</em> for morning and 夜 <em>yoru</em> for night may be more natural. The 24-hour clock is also commonly used in official contexts such as train schedules. TV schedules occasionally use a modified 24-hour clock, with late night showtimes counted from the previous day, e.g. Monday at 26:00 indicates Tuesday at 2:00 AM.</p><h4>Duration</h4><p>Confusingly, the Japanese words for \"N days\" (long) and \"Nth day\" are the same, so eg. 二日 <i>futsuka</i> means both \"two days\" and \"the second day of the month\". You can tag on -間 <em>kan</em> at the end, eg. <em>futsukakan</em> 2日間, to clarify that you mean \"two days long\". The exception is 一日, which is read <em>ichinichi</em> to mean \"one day/all day\", but <em>tsuitachi</em> to mean \"first day\".</p><h4>Writing Time and Date</h4><p>Dates are written in year/month/day (day of week) format, with markers:</p><p>2007年3月21日(火)</p><p>Note that Imperial era years, based on the name and duration of the current Emperor's reign, are also frequently used. 2010 in the Gregorian calendar corresponds to Heisei 22 (平成22年), which may be abbreviated as \"H22\". Dates like \"22/03/24\" (March 24, Heisei 22) are also occasionally seen.</p><p>Interestingly, the era name doesn't necessarily change with the Gregorian calendar year, but instead on the death of the reigning Emperor. So the year 1989 is considered to be both Showa 64 and Heisei 1 - Showa up until Emperor Hirohito's death on 7 January, and Heisei from Emperor Akihito's ascension to the throne on 8 January.</p>",
       "subsets": [
         "28e171ee-407e-413b-8ba6-b7fbf1eff431",
         "64cf61e1-a948-46c7-b9d1-a40743765700",
@@ -6322,7 +6324,8 @@
     "fbe18548-e7bc-465c-93ec-25c2eb084a84": {
       "id": "fbe18548-e7bc-465c-93ec-25c2eb084a84",
       "name": "Eating",
-      "slug": "eating"
+      "slug": "eating",
+      "notes": "<h4>What are they yelling at me?</h4><p> Most Japanese restaurants show their appreciation for customers by loudly greeting them in unison. Expect to hear the following:</p><dl><dt> Irasshai! <em>or</em> Irasshaimase!</dt><dd> \"Come on in!\", said when a customer walks in. You're not expected to respond in any way, just take a seat.</dd><dt> Arigatō gozaimashita!</dt><dd> \"Thank you very much!\", said when a customer leaves.</dd></dl><p>If your meal was good, thank the chef or staff with <em>Gochisōsama deshita</em> when leaving, and you'll get an extra-hearty thank you in return!</p>"
     },
     "a80f9289-ac51-4d7d-bdc1-9943abd817bd": {
       "id": "a80f9289-ac51-4d7d-bdc1-9943abd817bd",
@@ -6332,7 +6335,8 @@
     "f386d747-9189-41b8-925a-3bd7923eb1bf": {
       "id": "f386d747-9189-41b8-925a-3bd7923eb1bf",
       "name": "Bars",
-      "slug": "bars"
+      "slug": "bars",
+      "notes": "<h4>Sake</h4><p>Sake, known in Japanese as 日本酒 <em>nihonshu</em>, has a vocabulary all its own. Here is a brief introduction.</p><dl><dt>atsukan</dt><dd> 熱燗 Heated sake. Recommended only in winter with cheap sake.</dd><dt>hiyashi, reishu</dt><dd> 冷やし, 冷酒 Chilled sake. The way to drink better sake.</dd><dt>isshōbin</dt><dd> 一升瓶 The standard sake bottle, containing 10 <em>gō</em>, ie. 1.8 liters.</dd><dt>ichigō</dt><dd> 一合 The standard measure for servings of sake, around 180 milliliters.</dd><dt>tokkuri</dt><dd> 徳利 A small ceramic jug used to pour sake, contains around one <em>gō</em></dd><dt>masu</dt><dd> 升 A square wooden box traditionally used to drink chilled sake, also contains one <em>gō</em>. Drink from the corner.</dd><dt>choko</dt><dd> ちょこ A tiny gulp-sized ceramic cup for sake.</dd></dl>"
     },
     "926e2760-f74d-4154-87ea-284c98b93509": {
       "id": "926e2760-f74d-4154-87ea-284c98b93509",
@@ -6343,7 +6347,7 @@
       "id": "80cf758a-5bbc-4ced-9e5c-845be86b2b32",
       "name": "Family",
       "slug": "family",
-      "notes": "In Japanese, it's always important to use less respectful terms for your own family and more respectful terms for another's family.  Note also that the words for older/younger brother/sister are different.",
+      "notes": "<h4>Family</h4><p>In Japanese, it's always important to use less respectful terms for your own family and more respectful terms for another's family.  Note also that the words for older/younger brother/sister are different.</p>",
       "subsets": [
         "461b586d-f0aa-4aa5-983c-9e6800648168",
         "f25c5b32-8dd3-45e4-9f37-32776a4d4b57"
@@ -6368,12 +6372,13 @@
       "id": "4854b9cf-29f4-4293-a190-ce3dc463b291",
       "name": "Authority",
       "slug": "authority",
-      "notes": "In Japan, you can legally be incarcerated for twenty-three (23) days before you are charged, but you do have the right to see a lawyer after the first 48 hours of detention.  Note that if you sign a confession, you <em>will</em> be convicted."
+      "notes": "<h4>Authority</h4><p>In Japan, you can legally be incarcerated for twenty-three (23) days before you are charged, but you do have the right to see a lawyer after the first 48 hours of detention.  Note that if you sign a confession, you <em>will</em> be convicted.</p>"
     },
     "3c15175b-9c1d-4b67-a427-d5b02c232b9d": {
       "id": "3c15175b-9c1d-4b67-a427-d5b02c232b9d",
       "name": "Typical Expressions",
-      "slug": "typical-expressions"
+      "slug": "typical-expressions",
+      "notes": "<h4>Four-Syllable Words</h4><p> If words can be shortened, Japanese will inevitably shorten them. Two by two syllables is often the sweet spot, and sometimes it's hard to guess where those came from.</p><dl><dt> デジカメ <em>deji kame</em></dt><dd> デジタルカメラ <em>dejitaru kamera</em>, a digital camera.</dd><dt> パソコン <em>pasokon</em></dt><dd> パーソナルコンピューター <em>pāsonaru konpyūtā</em>, a personal computer. ノート <em>nōto</em> stands for notebooks.</dd><dt> プリクラ <em>purikura</em></dt><dd> プリントクラブ <em>purinto kurabu</em> or \"print club\". A sort of extremely flashy photo booth and a favourite pastime for many.</dd><dt> パチスロ <em>pachi suro</em></dt><dd> パチンコ＆スロット <em>pachinko &amp; surotto</em>, locations everywhere offering the number one Japanese gambling game <em>pachinko</em> and traditional slot machines.</dd><dt> リモコン <em>rimokon</em></dt><dd> リモートコントロール <em>rimōto kontorōru</em>, remote control</dd><dt> KY <em>kei wai</em></dt><dd> 空気読めない <em><b>k</b>ūki <b>y</b>omenai</em>, \"can't read the air\", meaning an unperceptive person who can't read between the lines/can't keep up with a conversation.</dd></dl>"
     },
     "e62ee5fb-89c5-46b6-b29a-19f1c07114a4": {
       "id": "e62ee5fb-89c5-46b6-b29a-19f1c07114a4",

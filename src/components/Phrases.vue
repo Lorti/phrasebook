@@ -131,11 +131,18 @@ export default {
     float: right;
     margin-top: -(40px - 32px) / 2;
   }
+  .md-icon:after {
+    background-color: var(--md-theme-default-background, #fff) !important;
+  }
+</style>
+
+<style lang="scss">
   .notes {
     margin: 1em;
     white-space: normal;
-  }
-  .md-icon:after {
-    background-color: var(--md-theme-default-background, #fff) !important;
+
+    dt {
+      font-weight: bold;
+    }
   }
 </style>
