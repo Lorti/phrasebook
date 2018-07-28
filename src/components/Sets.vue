@@ -23,7 +23,7 @@
       </div>
 
       <div class="md-layout-item md-size-33 md-small-size-50 md-xsmall-size-100">
-        <router-link :to="`/sets/favorites/`">
+        <router-link :to="`/sets/favorites/`" rel="nofollow">
           <md-card md-with-hover class="md-primary">
             <md-ripple>
               <md-card-header>
@@ -57,7 +57,7 @@
                 <div class="md-title">Pronunciation</div>
               </md-card-header>
               <div class="md-card-content">
-                Read the pronunciation guide over at Wikitravel…
+                Read Wikitravel’s pronunciation guide…
               </div>
             </md-ripple>
           </md-card>
@@ -73,7 +73,7 @@
                 <div class="md-title">Grammar</div>
               </md-card-header>
               <div class="md-card-content">
-                Read the grammar guide over at Wikitravel…
+                Read Wikitravel’s grammar guide…
               </div>
             </md-ripple>
           </md-card>
