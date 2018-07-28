@@ -22,7 +22,7 @@
         </router-link>
       </div>
 
-      <div class="md-layout-item">
+      <div class="md-layout-item  md-size-33 md-small-size-50 md-xsmall-size-100">
         <router-link :to="`/sets/favorites/`">
           <md-card md-with-hover class="md-primary">
             <md-ripple>
@@ -33,8 +33,11 @@
                 </div>
               </md-card-header>
               <div class="md-card-content">
-                Use the <md-icon style="color: currentColor;">favorite_outline</md-icon> button
-                to add phrases to your favorites.
+                Use the
+                <md-icon style="color: currentColor;">favorite_outline</md-icon>
+                button to add phrases to your favorites. The
+                <md-icon style="color: currentColor;">filter_list</md-icon>
+                filter in topics then allows you to quickly access what you need.
               </div>
             </md-ripple>
           </md-card>
