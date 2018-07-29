@@ -68,6 +68,16 @@
     </md-app-drawer>
 
     <md-app-content>
+      <header>
+        <img class="hero" src="/static/kinkaku-ji-1000-400.jpg">
+        <div class="copy">
+          <div class="area">
+            🇯🇵 {{totalPhrases}}+ phrases, {{totalSets}} topics, <br>
+            optimized for travel and offline usage
+          </div>
+        </div>
+      </header>
+
       <router-view/>
 
       <footer class="md-caption">
@@ -75,7 +85,7 @@
         <p>Developed with ❤️ by Manuel Wieser</p>
         <p><a href="https://twitter.com/manuelwieser" target="_blank" rel="noopener">@manuelwieser</a> | <a href="https://manu.ninja" target="_blank" rel="noopener">manu.ninja</a></p>
         <p><a href="https://www.paypal.me/manuninja" target="_blank" rel="noopener"><img src="./assets/paypal.svg" alt="Donate"></a></p>
-        <p>Logo by <a href="https://steemit.com/@happyksu" target="_blank" rel="noopener">Ksenia</a></p>
+        <p>Logo by <a href="https://steemit.com/@happyksu" target="_blank" rel="noopener">Ksenia</a> | Pictures by <a href="https://www.instagram.com/daisimerollin/" target="_blank" rel="noopener">Daisy</a></p>
         <p>© {{ (new Date()).getFullYear() }} Manuel Wieser</p>
       </footer>
     </md-app-content>
@@ -99,87 +109,18 @@ export default {
         this.$store.commit('TOGGLE_SETTING_SWAP_LANGUAGES', value);
       },
     },
+    totalPhrases() {
+      return Math.round(this.$store.getters.phrasesCount() / 10) * 10;
+    },
+    totalSets() {
+      return this.$store.getters.sets.length;
+    }
   },
 };
 </script>
 
 <style lang="scss">
-  @import "~vue-material/dist/theme/engine";
-
-  @include md-register-theme("default", (
-    primary: md-get-palette-color(red, 500),
-    accent: md-get-palette-color(cyan, 500)
-  ));
-
-  @import "~vue-material/dist/theme/all";
-
-  @font-face {
-    font-family: 'Material Icons';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Material Icons'), local('MaterialIcons-Regular'),
-      url('/static/MaterialIcons-Regular.woff2') format('woff2'),
-      url('/static/MaterialIcons-Regular.woff') format('woff');
-  }
-
-  .material-icons {
-    font-family: 'Material Icons';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 24px;
-    display: inline-block;
-    line-height: 1;
-    text-transform: none;
-    letter-spacing: normal;
-    word-wrap: normal;
-    white-space: nowrap;
-    direction: ltr;
-
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    -moz-osx-font-smoothing: grayscale;
-    font-feature-settings: 'liga';
-  }
-
-  @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local('Roboto'), local('Roboto-Regular'),
-      url('/static/roboto-v18-latin_latin-ext-regular.woff2') format('woff2'),
-      url('/static/roboto-v18-latin_latin-ext-regular.woff') format('woff');
-  }
-
-  @font-face {
-    font-family: 'Roboto';
-    font-style: italic;
-    font-weight: 400;
-    font-display: swap;
-    src: local('Roboto Italic'), local('Roboto-Italic'),
-      url('/static/roboto-v18-latin_latin-ext-italic.woff2') format('woff2'),
-      url('/static/roboto-v18-latin_latin-ext-italic.woff') format('woff');
-  }
-
-  @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-display: swap;
-    src: local('Roboto Medium'), local('Roboto-Medium'),
-      url('/static/roboto-v18-latin_latin-ext-500.woff2') format('woff2'),
-      url('/static/roboto-v18-latin_latin-ext-500.woff') format('woff');
-  }
-
-  @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: local('Roboto Bold'), local('Roboto-Bold'),
-      url('/static/roboto-v18-latin_latin-ext-700.woff2') format('woff2'),
-      url('/static/roboto-v18-latin_latin-ext-700.woff') format('woff');
-  }
+  @import "styles/vue-material";
 
   .md-app {
     min-height: 100vh;
@@ -217,6 +158,33 @@ export default {
       font-size: 16px;
       font-weight: normal;
       text-transform: uppercase;
+    }
+  }
+
+  header {
+    margin: -16px -16px 16px;
+
+    .hero {
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+      height: auto;
+      max-width: 600px;
+    }
+
+    .copy {
+      position: relative;
+      margin-top: -16px;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+
+    .area {
+      margin: 0 auto;
+      padding: 8px;
+      max-width: 360px;
+      background: #fff;
+      text-align: center;
     }
   }
 </style>
