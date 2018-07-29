@@ -32,10 +32,10 @@
       <phrase v-for="phrase in filteredPhrases(set)"
               :phrase="phrase" :key="phrase.id"></phrase>
 
-      <template v-for="subset in subsets">
-        <md-subheader :key="subset.id">{{ subset.name }}</md-subheader>
+      <template v-for="child in children">
+        <md-subheader :key="child.id">{{ child.name }}</md-subheader>
 
-        <phrase v-for="phrase in filteredPhrases(subset.id)"
+        <phrase v-for="phrase in filteredPhrases(child.id)"
                 :phrase="phrase" :key="phrase.id"></phrase>
       </template>
     </md-list>
@@ -68,9 +68,7 @@ export default {
   },
   computed: {
     description() {
-      const count = this.$store.getters.phrasesCount(this.set);
-      const total = Math.round(this.$store.getters.phrasesCount() / 10) * 10;
-      return `🇯🇵 ${count} Japanese phrases regarding ${this.name}, which are part of more than ${total} phrases in the 100% free and open-source Japanese Phrasebook app optimized for travel and offline usage, using data from Wikitravel.`;
+      return `🇯🇵 ${this.phrasesCount} Japanese phrases regarding ${this.name}, which are part of more than ${this.totalPhrasesCount} phrases in the 100% free and open-source Japanese Phrasebook app optimized for travel and offline usage, using data from Wikitravel.`;
     },
     sortAlphabetically: {
       get() {
@@ -94,8 +92,14 @@ export default {
     notes() {
       return this.$store.getters.setNotes(this.set);
     },
-    subsets() {
+    children() {
       return this.$store.getters.subsets(this.set);
+    },
+    phrasesCount() {
+      return this.$store.getters.phrasesCount(this.set);
+    },
+    totalPhrasesCount() {
+      return this.$store.getters.totalPhrases;
     },
   },
   methods: {

@@ -103,6 +103,8 @@ const getters = {
     return list.filter(phrase => _getters.isFavorite(phrase.id));
   },
   isFavorite: state => phrase => state.favorites.includes(phrase),
+  totalPhrases: (state, _getters) => Math.round(_getters.phrasesCount() / 10) * 10,
+  totalSets: (state, _getters) => _getters.sets.length,
 };
 
 export default new Vuex.Store({

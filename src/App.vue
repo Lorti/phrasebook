@@ -110,10 +110,10 @@ export default {
       },
     },
     totalPhrases() {
-      return Math.round(this.$store.getters.phrasesCount() / 10) * 10;
+      return this.$store.getters.totalPhrases;
     },
     totalSets() {
-      return this.$store.getters.sets.length;
+      return this.$store.getters.totalSets;
     },
   },
 };
