@@ -114,7 +114,7 @@ export default {
     },
     totalSets() {
       return this.$store.getters.sets.length;
-    }
+    },
   },
 };
 </script>

@@ -11,14 +11,14 @@
       </template>
     </div>
 
-    <md-button class="md-icon-button md-list-action" :md-ripple="false"
+    <md-button class="md-icon-button md-list-action"
                v-if="!onlyRemoveFavorites"
                @click="toggleFavorite(phrase.id)">
       <md-icon v-if="isFavorite(phrase.id)" class="md-primary">favorite</md-icon>
       <md-icon v-else class="md-primary">favorite_border</md-icon>
     </md-button>
 
-    <md-button class="md-icon-button md-list-action" :md-ripple="false"
+    <md-button class="md-icon-button md-list-action"
                v-if="onlyRemoveFavorites"
                @click="removeFavorite(phrase)">
       <md-icon class="md-primary">close</md-icon>
