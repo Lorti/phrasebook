@@ -121,6 +121,7 @@ export default {
 
 <style lang="scss">
   @import "styles/vue-material";
+  @import "styles/fonts";
 
   .md-app {
     min-height: 100vh;
@@ -129,22 +130,6 @@ export default {
   a {
     color: inherit;
     text-decoration: none !important;
-  }
-
-  footer {
-    margin: 2em 0;
-    text-align: center;
-  }
-
-  .logo {
-    margin: 0 8px;
-    height: 32px !important;
-    width: 32px !important;
-  }
-
-  .title {
-    display: flex;
-    align-items: center;
   }
 
   .md-toolbar .md-title {
@@ -159,6 +144,17 @@ export default {
       font-weight: normal;
       text-transform: uppercase;
     }
+  }
+
+  .title {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    margin: 0 8px;
+    height: 32px !important;
+    width: 32px !important;
   }
 
   header {
@@ -186,5 +182,10 @@ export default {
       background: #fff;
       text-align: center;
     }
+  }
+
+  footer {
+    margin: 2em 0;
+    text-align: center;
   }
 </style>

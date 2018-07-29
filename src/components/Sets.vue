@@ -6,7 +6,7 @@
       <div class="md-layout-item md-size-33 md-small-size-50 md-xsmall-size-100"
            v-for="set in sets" :key="set.id">
         <router-link :to="`/sets/${ set.id }/${ set.slug }/`">
-          <md-card md-with-hover>
+          <md-card>
             <md-ripple>
               <md-card-header>
                 <div class="md-title">{{ set.name }}</div>
@@ -24,7 +24,7 @@
 
       <div class="md-layout-item md-size-33 md-small-size-50 md-xsmall-size-100">
         <router-link :to="`/sets/favorites/`" rel="nofollow">
-          <md-card md-with-hover class="md-primary">
+          <md-card class="md-primary">
             <md-ripple>
               <md-card-header>
                 <div class="md-title">Favorites</div>
