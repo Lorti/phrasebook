@@ -91,7 +91,7 @@ export default {
       return this.$store.getters.sets;
     },
     favoritesCount() {
-      return this.$store.getters.favorites.length;
+      return this.$store.getters.favoritesCount;
     },
   },
   methods: {

@@ -3,6 +3,9 @@ import Vuex from 'vuex';
 
 import localforage from 'localforage';
 
+const KEY_FAVORITES = 'favorites';
+// const KEY_SETTINGS = 'settings';
+
 Vue.use(Vuex);
 
 const actions = {
@@ -11,28 +14,28 @@ const actions = {
     commit('SET_PHRASES', phrases);
     commit('SET_SETS', sets);
 
-    const favorites = JSON.parse(await localforage.getItem('favorites'));
+    const favorites = JSON.parse(await localforage.getItem(KEY_FAVORITES));
     if (favorites) {
-      const validPhrases = [...Object.values(state.phrases)].map(phrase => phrase.id);
+      const validPhrases = Object.values(state.phrases).map(phrase => phrase.id);
       commit('SET_FAVORITES', favorites.filter(id => validPhrases.includes(id)));
     }
   },
   async ADD_FAVORITE({ commit, state }, phrase) {
     commit('ADD_FAVORITE', phrase);
-    await localforage.setItem('favorites', JSON.stringify(state.favorites));
+    await localforage.setItem(KEY_FAVORITES, JSON.stringify(state.favorites));
   },
   async REMOVE_FAVORITE({ commit, state }, phrase) {
     commit('REMOVE_FAVORITE', phrase);
-    await localforage.setItem('favorites', JSON.stringify(state.favorites));
+    await localforage.setItem(KEY_FAVORITES, JSON.stringify(state.favorites));
   },
 };
 
 const mutations = {
-  SET_PHRASES: (state, phrases) => {
-    state.phrases = phrases;
-  },
   SET_SETS: (state, sets) => {
     state.sets = sets;
+  },
+  SET_PHRASES: (state, phrases) => {
+    state.phrases = phrases;
   },
   SET_FAVORITES: (state, favorites) => {
     state.favorites = favorites;
@@ -60,18 +63,20 @@ const mutations = {
 };
 
 const getters = {
+  // Sets
   set: state => setId => (Object.hasOwnProperty.call(state.sets, setId) ? state.sets[setId] : null),
   sets: (state) => {
-    const allSubsets = [...Object.values(state.sets)]
-      .reduce((subsets, set) => subsets.concat(set.subsets), []);
-    return [...Object.values(state.sets)].filter(set => !allSubsets.includes(set.id));
+    const sets = Object.values(state.sets);
+    const subsets = sets.reduce((_subsets, set) => _subsets.concat(set.subsets), []);
+    return sets.filter(set => !subsets.includes(set.id));
   },
   subsets: (state, _getters) => (setId) => {
     const setObject = _getters.set(setId);
     if (!setObject || !Object.hasOwnProperty.call(setObject, 'subsets')) {
       return [];
     }
-    return [...Object.values(state.sets)].filter(set => setObject.subsets.includes(set.id));
+    return Object.values(state.sets)
+      .filter(set => setObject.subsets.includes(set.id));
   },
   setName: (state, _getters) => (setId) => {
     const set = _getters.set(setId);
@@ -81,28 +86,32 @@ const getters = {
     const set = _getters.set(setId);
     return set ? set.notes : null;
   },
+
+  // Phrases
   phrases: state => (setId) => {
-    const list = [...Object.values(state.phrases)];
     if (!setId) {
-      return list;
+      return Object.values(state.phrases);
     }
-    return list.filter(phrase => phrase.sets.includes(setId));
+    return Object.values(state.phrases)
+      .filter(phrase => phrase.sets.includes(setId));
   },
   phrasesCount: (state, _getters) => (setId) => {
-    const subsets = _getters.subsets(setId);
-    const subsetsPhrasesCount =
-      subsets.reduce((count, subset) => count + _getters.phrasesCount(subset.id), 0);
+    const subsetsPhrasesCount = _getters.subsets(setId)
+      .reduce((count, subset) => count + _getters.phrasesCount(subset.id), 0);
     return _getters.phrases(setId).length + subsetsPhrasesCount;
   },
   firstPhrase: (state, _getters) => (setId) => {
     const phrases = _getters.phrases(setId);
     return phrases ? phrases.shift() : null;
   },
-  favorites: (state, _getters) => {
-    const list = [...Object.values(state.phrases)];
-    return list.filter(phrase => _getters.isFavorite(phrase.id));
-  },
+
+  // Favorites
+  favorites: (state, _getters) => Object.values(state.phrases)
+    .filter(phrase => _getters.isFavorite(phrase.id)),
   isFavorite: state => phrase => state.favorites.includes(phrase),
+  favoritesCount: state => state.favorites.length,
+
+  // Miscellaneous
   totalPhrases: (state, _getters) => Math.round(_getters.phrasesCount() / 10) * 10,
   totalSets: (state, _getters) => _getters.sets.length,
 };

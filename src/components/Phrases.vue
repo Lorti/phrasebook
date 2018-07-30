@@ -32,10 +32,10 @@
       <phrase v-for="phrase in filteredPhrases(set)"
               :phrase="phrase" :key="phrase.id"></phrase>
 
-      <template v-for="child in children">
-        <md-subheader :key="child.id">{{ child.name }}</md-subheader>
+      <template v-for="subset in subsets">
+        <md-subheader :key="subset.id">{{ subset.name }}</md-subheader>
 
-        <phrase v-for="phrase in filteredPhrases(child.id)"
+        <phrase v-for="phrase in filteredPhrases(subset.id)"
                 :phrase="phrase" :key="phrase.id"></phrase>
       </template>
     </md-list>
@@ -92,7 +92,7 @@ export default {
     notes() {
       return this.$store.getters.setNotes(this.set);
     },
-    children() {
+    subsets() {
       return this.$store.getters.subsets(this.set);
     },
     phrasesCount() {
