@@ -82,7 +82,7 @@ export default {
         return this.$store.state.settings.swapLanguages;
       },
       set(value) {
-        this.$store.commit('TOGGLE_SETTING_SWAP_LANGUAGES', value);
+        this.$store.dispatch('TOGGLE_SETTING_SWAP_LANGUAGES', value);
       },
     },
   },

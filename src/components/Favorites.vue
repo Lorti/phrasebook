@@ -53,7 +53,7 @@ export default {
         return this.$store.state.settings.sortAlphabetically;
       },
       set(value) {
-        this.$store.commit('TOGGLE_SETTING_SORT_ALPHABETICALLY', value);
+        this.$store.dispatch('TOGGLE_SETTING_SORT_ALPHABETICALLY', value);
       },
     },
     phrases() {

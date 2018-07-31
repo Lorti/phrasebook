@@ -4,20 +4,25 @@ import Vuex from 'vuex';
 import localforage from 'localforage';
 
 const KEY_FAVORITES = 'favorites';
-// const KEY_SETTINGS = 'settings';
+const KEY_SETTINGS = 'settings';
 
 Vue.use(Vuex);
 
 const actions = {
   async FETCH_DATABASE({ commit, state }) {
     const { phrases, sets } = await fetch('/static/data.json').then(response => response.json());
-    commit('SET_PHRASES', phrases);
     commit('SET_SETS', sets);
+    commit('SET_PHRASES', phrases);
 
     const favorites = JSON.parse(await localforage.getItem(KEY_FAVORITES));
     if (favorites) {
       const validPhrases = Object.values(state.phrases).map(phrase => phrase.id);
       commit('SET_FAVORITES', favorites.filter(id => validPhrases.includes(id)));
+    }
+
+    const settings = JSON.parse(await localforage.getItem(KEY_SETTINGS));
+    if (settings) {
+      commit('SET_SETTINGS', settings);
     }
   },
   async ADD_FAVORITE({ commit, state }, phrase) {
@@ -27,6 +32,18 @@ const actions = {
   async REMOVE_FAVORITE({ commit, state }, phrase) {
     commit('REMOVE_FAVORITE', phrase);
     await localforage.setItem(KEY_FAVORITES, JSON.stringify(state.favorites));
+  },
+  async TOGGLE_SETTING_SORT_ALPHABETICALLY({ commit, state }, value) {
+    commit('TOGGLE_SETTING_SORT_ALPHABETICALLY', value);
+    await localforage.setItem(KEY_SETTINGS, JSON.stringify(state.settings));
+  },
+  async TOGGLE_SETTING_FILTER_FAVORITES({ commit, state }, value) {
+    commit('TOGGLE_SETTING_FILTER_FAVORITES', value);
+    await localforage.setItem(KEY_SETTINGS, JSON.stringify(state.settings));
+  },
+  async TOGGLE_SETTING_SWAP_LANGUAGES({ commit, state }, value) {
+    commit('TOGGLE_SETTING_SWAP_LANGUAGES', value);
+    await localforage.setItem(KEY_SETTINGS, JSON.stringify(state.settings));
   },
 };
 
@@ -39,6 +56,9 @@ const mutations = {
   },
   SET_FAVORITES: (state, favorites) => {
     state.favorites = favorites;
+  },
+  SET_SETTINGS: (state, settings) => {
+    state.settings = settings;
   },
   ADD_FAVORITE: (state, phrase) => {
     if (!state.favorites.includes(phrase)) {

@@ -75,7 +75,7 @@ export default {
         return this.$store.state.settings.sortAlphabetically;
       },
       set(value) {
-        this.$store.commit('TOGGLE_SETTING_SORT_ALPHABETICALLY', value);
+        this.$store.dispatch('TOGGLE_SETTING_SORT_ALPHABETICALLY', value);
       },
     },
     filterFavorites: {
@@ -83,7 +83,7 @@ export default {
         return this.$store.state.settings.filterFavorites;
       },
       set(value) {
-        this.$store.commit('TOGGLE_SETTING_FILTER_FAVORITES', value);
+        this.$store.dispatch('TOGGLE_SETTING_FILTER_FAVORITES', value);
       },
     },
     name() {
