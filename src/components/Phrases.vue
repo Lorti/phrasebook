@@ -29,14 +29,14 @@
         </div>
       </md-list-item>
 
-      <phrase v-for="phrase in filteredPhrases(set)"
-              :phrase="phrase" :key="phrase.id"></phrase>
+      <Phrase v-for="phrase in filteredPhrases(set)"
+              :phrase="phrase" :key="phrase.id"></Phrase>
 
       <template v-for="subset in subsets">
         <md-subheader :key="subset.id">{{ subset.name }}</md-subheader>
 
-        <phrase v-for="phrase in filteredPhrases(subset.id)"
-                :phrase="phrase" :key="phrase.id"></phrase>
+        <Phrase v-for="phrase in filteredPhrases(subset.id)"
+                :phrase="phrase" :key="phrase.id"></Phrase>
       </template>
     </md-list>
   </div>
@@ -48,7 +48,7 @@ import Phrase from '@/components/Phrase';
 export default {
   name: 'Phrases',
   components: {
-    phrase: Phrase,
+    Phrase,
   },
   props: {
     set: {

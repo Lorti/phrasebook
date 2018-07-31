@@ -16,8 +16,8 @@
     </md-field>
 
     <md-list class="md-double-line">
-      <phrase v-for="phrase in filteredPhrases"
-              :phrase="phrase" :key="phrase.id" :onlyRemoveFavorites="true"></phrase>
+      <Phrase v-for="phrase in filteredPhrases"
+              :phrase="phrase" :key="phrase.id" :onlyRemoveFavorites="true"></Phrase>
     </md-list>
   </div>
 </template>
@@ -28,7 +28,7 @@ import Phrase from '@/components/Phrase';
 export default {
   name: 'Favorites',
   components: {
-    phrase: Phrase,
+    Phrase,
   },
   data() {
     return {
