@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="hero">
-      <img src="/static/kinkaku-ji-1000-400.jpg">
+      <img src="/static/kinkaku-ji.jpg">
     </div>
     <div class="bar">
       <div class="copy">
