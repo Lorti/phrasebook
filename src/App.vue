@@ -69,7 +69,9 @@
 
     <md-app-content>
       <header>
-        <img class="hero" src="/static/kinkaku-ji-1000-400.jpg">
+        <div class="hero">
+          <img src="/static/kinkaku-ji-1000-400.jpg">
+        </div>
         <div class="copy">
           <div class="area">
             🇯🇵 {{totalPhrases}}+ phrases, {{totalSets}} topics, <br>
@@ -161,11 +163,23 @@ export default {
     margin: -16px -16px 16px;
 
     .hero {
-      display: block;
+      position: relative;
       margin: 0 auto;
-      width: 100%;
-      height: auto;
       max-width: 600px;
+
+      img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
+
+      &:after {
+        display: block;
+        padding-top: 100% / (5 / 2);
+        content: '';
+      }
     }
 
     .copy {
