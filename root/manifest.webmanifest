@@ -18,5 +18,12 @@
       "sizes": "512x512",
       "type": "image/png"
     }
+  ],
+  "screenshots": [
+    {
+      "src": "/static/japanese-phrasebook-screens.jpg",
+      "sizes": "1470x780",
+      "type": "image/jpeg"
+    }
   ]
 }
