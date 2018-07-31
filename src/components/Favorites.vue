@@ -1,6 +1,6 @@
 <template>
   <div v-document-title="`Favorites`" v-meta-description="``">
-    <div class="filter">
+    <div class="filter" v-if="phrases.length">
       <md-button :class="{ 'md-icon-button': true, 'md-primary': sortAlphabetically }"
                  @click="sortAlphabetically = !sortAlphabetically">
         <md-icon>sort_by_alpha</md-icon>
@@ -9,16 +9,28 @@
 
     <h1 class="md-headline">Favorites</h1>
 
-    <md-field>
-      <md-icon>search</md-icon>
-      <label>Search...</label>
-      <md-input v-model="filter"></md-input>
-    </md-field>
+    <template v-if="phrases.length">
+      <md-field>
+        <md-icon>search</md-icon>
+        <label>Search...</label>
+        <md-input v-model="filter"></md-input>
+      </md-field>
 
-    <md-list class="md-double-line">
-      <Phrase v-for="phrase in filteredPhrases"
-              :phrase="phrase" :key="phrase.id" :onlyRemoveFavorites="true"></Phrase>
-    </md-list>
+      <md-list class="md-double-line">
+        <Phrase v-for="phrase in filteredPhrases"
+                :phrase="phrase" :key="phrase.id" :onlyRemoveFavorites="true"></Phrase>
+      </md-list>
+    </template>
+
+    <template v-else>
+      <div class="empty">
+        Use the
+        <md-icon style="color: currentColor;">favorite_outline</md-icon>
+        button to add phrases to your favorites. The
+        <md-icon style="color: currentColor;">filter_list</md-icon>
+        filter in topics then allows you to quickly access what you need.
+      </div>
+    </template>
   </div>
 </template>
 
@@ -78,5 +90,8 @@ export default {
   }
   .md-icon:after {
     background-color: var(--md-theme-default-background, #fff) !important;
+  }
+  .empty {
+    padding: 16px;
   }
 </style>
