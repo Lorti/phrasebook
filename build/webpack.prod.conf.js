@@ -143,6 +143,10 @@ const webpackConfig = merge(baseWebpackConfig, {
         from: path.resolve(__dirname, '../root'),
         to: config.build.assetsRoot,
         ignore: ['.*']
+      },
+      {
+        from: path.resolve(__dirname, '../root/manifest.webmanifest'),
+        to: `${config.build.assetsRoot}/manifest.json`,
       }
     ]),
 
