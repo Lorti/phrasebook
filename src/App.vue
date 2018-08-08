@@ -47,6 +47,10 @@
 
       <md-divider></md-divider>
       <md-list>
+        <md-list-item href="https://manu.ninja/introducing-japanese-phrasebook">
+          <md-icon>info</md-icon>
+          <span class="md-list-item-text">About “Japanese Phrasebook”…</span>
+        </md-list-item>
         <md-list-item>
           <span class="md-list-item-text">© {{ (new Date()).getFullYear() }} Manuel Wieser</span>
         </md-list-item>
