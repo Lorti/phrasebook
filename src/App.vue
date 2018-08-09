@@ -35,11 +35,11 @@
           <md-icon>mail_outline</md-icon>
           <span class="md-list-item-text">feedback@japanese-phrasebook.com</span>
         </md-list-item>
-        <md-list-item href="https://github.com/Lorti/phrasebook">
+        <md-list-item href="https://github.com/Lorti/phrasebook" target="_blank" rel="noopener">
           <md-icon>code</md-icon>
           <span class="md-list-item-text">GitHub Repository</span>
         </md-list-item>
-        <md-list-item href="https://www.paypal.me/manuninja">
+        <md-list-item href="https://www.paypal.me/manuninja" target="_blank" rel="noopener">
           <md-icon>mood</md-icon>
           <span class="md-list-item-text">Donate via PayPal</span>
         </md-list-item>
@@ -47,9 +47,13 @@
 
       <md-divider></md-divider>
       <md-list>
-        <md-list-item href="https://manu.ninja/introducing-japanese-phrasebook">
+        <md-list-item href="https://manu.ninja/introducing-japanese-phrasebook" target="_blank" rel="noopener">
           <md-icon>info</md-icon>
           <span class="md-list-item-text">About “Japanese Phrasebook”…</span>
+        </md-list-item>
+        <md-list-item to="/privacy/">
+          <md-icon>security</md-icon>
+          <span class="md-list-item-text">Imprint & Data Privacy</span>
         </md-list-item>
         <md-list-item>
           <span class="md-list-item-text">© {{ (new Date()).getFullYear() }} Manuel Wieser</span>
