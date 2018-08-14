@@ -12,10 +12,15 @@ function loadVoices() {
   if (voices.length) {
     voice = voices.find(_voice => /ja[-_]JP/.test(_voice.lang));
   }
-  if (!voice && attempts < 10) {
-    setTimeout(() => {
-      loadVoices();
-    }, 100);
+  if (!voice) {
+    if (attempts < 10) {
+      console.log('`ja-JP` voice not found, retry in 100 ms...');
+      setTimeout(() => {
+        loadVoices();
+      }, 250);
+    } else {
+      console.error('`ja-JP` voice not found.');
+    }
   }
 }
 
