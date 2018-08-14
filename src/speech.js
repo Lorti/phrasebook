@@ -13,7 +13,7 @@ function speak(text) {
     return;
   }
   const voices = synth.getVoices();
-  const voice = voices.find(_voice => _voice.lang === 'ja-JP');
+  const voice = voices.find(_voice => /ja[-_]JP/.test(_voice.lang));
   if (!voice) {
     return;
   }
