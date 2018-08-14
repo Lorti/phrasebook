@@ -1,5 +1,5 @@
 <template>
-  <md-list-item>
+  <md-list-item @click="speak">
     <div class="md-list-item-text">
       <template v-if="!$store.state.settings.swapLanguages">
         <span>{{ phrase.english }}</span>
@@ -27,6 +27,8 @@
 </template>
 
 <script>
+import speech from '../speech';
+
 export default {
   name: 'Phrases',
   props: {
@@ -55,6 +57,10 @@ export default {
       if (confirm(`Do you really want to remove ${phrase.japanese} from your favorites?`)) {
         this.$store.dispatch('REMOVE_FAVORITE', phrase.id);
       }
+    },
+    speak() {
+      speech.toggle(this.$store.state.settings.speechSynthesis);
+      speech.speak(this.phrase.japanese);
     },
   },
 };

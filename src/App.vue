@@ -25,6 +25,16 @@
             <md-checkbox v-model="swapLanguages">Swap English/Japanese</md-checkbox>
           </span>
         </md-list-item>
+
+      <md-divider></md-divider>
+      <md-subheader>Experimental</md-subheader>
+
+        <md-list-item>
+          <md-icon>record_voice_over</md-icon>
+          <span class="md-list-item-text">
+            <md-checkbox v-model="speechSynthesis">Speech Synthesis</md-checkbox>
+          </span>
+        </md-list-item>
       </md-list>
 
       <md-divider></md-divider>
@@ -91,6 +101,14 @@ export default {
       },
       set(value) {
         this.$store.dispatch('TOGGLE_SETTING_SWAP_LANGUAGES', value);
+      },
+    },
+    speechSynthesis: {
+      get() {
+        return this.$store.state.settings.speechSynthesis;
+      },
+      set(value) {
+        this.$store.dispatch('TOGGLE_SETTING_SPEECH_SYNTHESIS', value);
       },
     },
   },

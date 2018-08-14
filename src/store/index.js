@@ -41,6 +41,10 @@ const actions = {
     commit('TOGGLE_SETTING_FILTER_FAVORITES', value);
     await localforage.setItem(KEY_SETTINGS, JSON.stringify(state.settings));
   },
+  async TOGGLE_SETTING_SPEECH_SYNTHESIS({ commit, state }, value) {
+    commit('TOGGLE_SETTING_SPEECH_SYNTHESIS', value);
+    await localforage.setItem(KEY_SETTINGS, JSON.stringify(state.settings));
+  },
   async TOGGLE_SETTING_SWAP_LANGUAGES({ commit, state }, value) {
     commit('TOGGLE_SETTING_SWAP_LANGUAGES', value);
     await localforage.setItem(KEY_SETTINGS, JSON.stringify(state.settings));
@@ -76,6 +80,9 @@ const mutations = {
   },
   TOGGLE_SETTING_FILTER_FAVORITES: (state, value) => {
     state.settings.filterFavorites = value;
+  },
+  TOGGLE_SETTING_SPEECH_SYNTHESIS: (state, value) => {
+    state.settings.speechSynthesis = value;
   },
   TOGGLE_SETTING_SWAP_LANGUAGES: (state, value) => {
     state.settings.swapLanguages = value;
@@ -144,6 +151,7 @@ export default new Vuex.Store({
     settings: {
       sortAlphabetically: false,
       filterFavorites: false,
+      speechSynthesis: false,
       swapLanguages: false,
     },
   },
