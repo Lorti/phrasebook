@@ -1,20 +1,29 @@
+/* eslint-disable no-console,no-plusplus */
 let synth;
 let voice;
 
-if ('speechSynthesis' in window) {
-  synth = window.speechSynthesis;
+let status = false;
 
-  synth.addEventListener('voiceschanged', () => {
-    const voices = synth.getVoices();
+// https://stackoverflow.com/q/21513706
+let attempts = 0;
+function loadVoices() {
+  attempts++;
+  const voices = synth.getVoices();
+  if (voices.length) {
     voice = voices.find(_voice => /ja[-_]JP/.test(_voice.lang));
-    if (!voice) {
-      // eslint-disable-next-line no-console
-      console.error(voices);
-    }
-  });
+  }
+  if (!voice && attempts < 10) {
+    setTimeout(() => {
+      loadVoices();
+    }, 100);
+  }
 }
 
-let status = false;
+if ('speechSynthesis' in window) {
+  synth = window.speechSynthesis;
+  loadVoices();
+}
+
 function toggle(value) {
   status = value;
 }
@@ -24,7 +33,6 @@ function speak(text) {
     return;
   }
   const utterance = new SpeechSynthesisUtterance(text);
-  // eslint-disable-next-line no-console
   utterance.addEventListener('error', error => console.error(error));
   utterance.voice = voice;
   synth.speak(utterance);
