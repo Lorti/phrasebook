@@ -14,7 +14,6 @@ function loadVoices() {
   }
   if (!voice) {
     if (attempts < 10) {
-      console.log('`ja-JP` voice not found, retry in 100 ms...');
       setTimeout(() => {
         loadVoices();
       }, 250);
