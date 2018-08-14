@@ -62,7 +62,8 @@ const mutations = {
     state.favorites = favorites;
   },
   SET_SETTINGS: (state, settings) => {
-    state.settings = settings;
+    // `Object.assign()` to add further settings in future versions.
+    state.settings = Object.assign({}, state.settings, settings);
   },
   ADD_FAVORITE: (state, phrase) => {
     if (!state.favorites.includes(phrase)) {
