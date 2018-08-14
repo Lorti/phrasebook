@@ -31,13 +31,20 @@ if ('speechSynthesis' in window) {
 
 function toggle(value) {
   status = value;
+  console.debug(status);
 }
 
 function speak(text) {
-  if (!status || !synth || synth.speaking) {
+  if (!status) {
+    return;
+  }
+  if (!synth || synth.speaking) {
+    console.debug(synth);
     return;
   }
   const utterance = new SpeechSynthesisUtterance(text);
+  utterance.addEventListener('start', () => console.debug('SpeechSynthesisUtterance.start'));
+  utterance.addEventListener('end', () => console.debug('SpeechSynthesisUtterance.end'));
   utterance.addEventListener('error', error => console.error(error));
   utterance.voice = voice;
   synth.speak(utterance);
