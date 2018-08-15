@@ -2,8 +2,6 @@
 let synth;
 let voice;
 
-let status = false;
-
 // https://stackoverflow.com/q/21513706
 let attempts = 0;
 function loadVoices() {
@@ -28,14 +26,7 @@ if ('speechSynthesis' in window) {
   loadVoices();
 }
 
-function toggle(value) {
-  status = value;
-}
-
 function speak(text) {
-  if (!status) {
-    return;
-  }
   if (!synth || synth.speaking) {
     return;
   }
@@ -50,6 +41,5 @@ function speak(text) {
 }
 
 export default {
-  toggle,
   speak,
 };

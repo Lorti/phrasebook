@@ -1,5 +1,6 @@
 <template>
-  <md-list-item @click="speak">
+  <!-- https://github.com/vuejs/vue/issues/7349 -->
+  <md-list-item v-on="speechSynthesis ? { click: speak } : {}">
     <div class="md-list-item-text">
       <template v-if="!$store.state.settings.swapLanguages">
         <span>{{ phrase.english }}</span>
@@ -41,6 +42,11 @@ export default {
       default: false,
     },
   },
+  computed: {
+    speechSynthesis() {
+      return this.$store.state.settings.speechSynthesis;
+    },
+  },
   methods: {
     isFavorite(phraseId) {
       return this.$store.getters.isFavorite(phraseId);
@@ -59,7 +65,6 @@ export default {
       }
     },
     speak() {
-      speech.toggle(this.$store.state.settings.speechSynthesis);
       speech.speak(this.phrase.japanese);
     },
   },
