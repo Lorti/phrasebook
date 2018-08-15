@@ -30,7 +30,9 @@ function speak(text) {
   if (!synth || synth.speaking) {
     return;
   }
-  const utterance = new SpeechSynthesisUtterance(text);
+  // …,..., ___
+  const output = text.replace(/(…|[._]{2,})/, '');
+  const utterance = new SpeechSynthesisUtterance(output);
   utterance.addEventListener('error', error => console.error(error));
   utterance.lang = 'ja-JP';
   utterance.pitch = 1;
