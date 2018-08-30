@@ -65,7 +65,11 @@ export default {
       }
     },
     speak() {
-      speech.speak(this.phrase.japanese);
+      let text = this.phrase.japanese;
+      if (Object.hasOwnProperty.call(this.phrase, 'hiragana')) {
+        text = this.phrase.hiragana;
+      }
+      speech.speak(text);
     },
   },
 };

@@ -364,6 +364,7 @@
       "id": "a7a291aa-c6a9-4245-8dc2-5b25be285bdd",
       "english": "What?",
       "japanese": "何？",
+      "hiragana": "なに?",
       "romaji": "Nani?",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
@@ -382,6 +383,7 @@
       "id": "0afc7435-ccf4-46b0-8404-7f89461266fd",
       "english": "Who?",
       "japanese": "誰？",
+      "hiragana": "だれ?",
       "romaji": "Dare?",
       "sets": [
         "5bbcdb75-3bbf-4e5d-83ce-65425be830fc"
