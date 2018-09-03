@@ -3056,7 +3056,7 @@
     "ba23fcf9-c5ab-47fc-9603-8796bdbc500d": {
       "id": "05eb3699-b88e-4201-9d91-08924155f652",
       "english": "... MSG",
-      "japanese": "味の素/グルタミン酸ナトリウム",
+      "japanese": "味の素・グルタミン酸ナトリウム",
       "romaji": "ajinomoto/gurutamin san natoryūmu",
       "sets": [
         "a8d02e79-6892-4695-9811-c3f0b563e951"
@@ -3210,6 +3210,7 @@
       "id": "2c70d01c-0b27-4362-99c3-b31a0133b1f5",
       "english": "Having the chills.",
       "japanese": "寒気がします。",
+      "hiragana": "さむけがします。",
       "romaji": "Samuke ga shimasu.",
       "sets": [
         "f6291639-6912-4894-92d3-fd7051692c9c"
