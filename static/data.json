@@ -996,6 +996,7 @@
       "id": "69954371-90a3-4aa0-a422-c8ae2731af92",
       "english": "small roundish objects (apples, sweets)",
       "japanese": "個",
+      "hirgana": "こ",
       "romaji": "-ko",
       "sets": [
         "c6c6b26c-c407-4de0-8720-67442b74065c"
@@ -1005,6 +1006,7 @@
       "id": "66bcf3cf-3457-4c96-bb06-360eeb60463c",
       "english": "people",
       "japanese": "人",
+      "hiragana": "にん",
       "romaji": "-nin",
       "sets": [
         "c6c6b26c-c407-4de0-8720-67442b74065c"
@@ -1014,6 +1016,7 @@
       "id": "137d78c5-24cd-4e99-a7d4-5add1b0b2653",
       "english": "animals",
       "japanese": "匹",
+      "hiragana": "ひき",
       "romaji": "-hiki, -biki, -piki",
       "sets": [
         "c6c6b26c-c407-4de0-8720-67442b74065c"
@@ -1023,6 +1026,7 @@
       "id": "e30d4b57-b394-475a-a538-42e1d1437e97",
       "english": "flat objects (papers, tickets)",
       "japanese": "枚",
+      "hiragana": "まい",
       "romaji": "-mai",
       "sets": [
         "c6c6b26c-c407-4de0-8720-67442b74065c"
@@ -1032,6 +1036,7 @@
       "id": "0eeee9bc-c08e-4c9f-a086-c0334bf03aa5",
       "english": "long objects (bottles, pens)",
       "japanese": "本",
+      "hiragana": "ほん",
       "romaji": "-hon, -bon, -pon",
       "sets": [
         "c6c6b26c-c407-4de0-8720-67442b74065c"
@@ -1041,6 +1046,7 @@
       "id": "33ca3aec-086a-4fe9-afa3-60debbc4ad24",
       "english": "cups, glasses",
       "japanese": "杯",
+      "hiragana": "はい",
       "romaji": "-hai, -bai, -pai",
       "sets": [
         "c6c6b26c-c407-4de0-8720-67442b74065c"
@@ -1050,6 +1056,7 @@
       "id": "b7a4c5d7-b9f3-4585-ad99-5f6e637808bf",
       "english": "nights of a stay",
       "japanese": "泊",
+      "hiragana": "はく",
       "romaji": "-haku, -paku",
       "sets": [
         "c6c6b26c-c407-4de0-8720-67442b74065c"
@@ -1059,6 +1066,7 @@
       "id": "5c1a81bb-f9d6-4bda-b35d-330f98490907",
       "english": "years (age)",
       "japanese": "歳",
+      "hiragana": "さい",
       "romaji": "-sai",
       "sets": [
         "c6c6b26c-c407-4de0-8720-67442b74065c"
@@ -1536,6 +1544,7 @@
       "id": "9c1f957d-4ed6-447e-9bb6-5007cc2a4003",
       "english": "0.5",
       "japanese": "〇・五",
+      "hiragana": "れいてんご",
       "romaji": "rei ten go",
       "sets": [
         "c6c6b26c-c407-4de0-8720-67442b74065c"
@@ -1545,6 +1554,7 @@
       "id": "07373e06-66c2-44e9-a4e9-acf63bd7b711",
       "english": "0.56",
       "japanese": "〇・五六",
+      "hiragana": "れいてんごろく",
       "romaji": "rei ten go-roku",
       "sets": [
         "c6c6b26c-c407-4de0-8720-67442b74065c"
