@@ -3669,6 +3669,7 @@
       "id": "5935f5d0-2ecb-428b-886b-5bcfc562d89a",
       "english": "later",
       "japanese": "後で",
+      "hiragana": "あとで",
       "romaji": "atode",
       "sets": [
         "be4745fe-a10c-49aa-935a-b9d8925bf811"
@@ -3804,6 +3805,7 @@
       "id": "c7e9c06e-8432-4025-9dc2-3b4ee2d963f9",
       "english": "_____ day(s)",
       "japanese": "_____ 日間",
+      "hiragana": "_____ にちかん",
       "romaji": "nichikan",
       "sets": [
         "64cf61e1-a948-46c7-b9d1-a40743765700"
@@ -3831,6 +3833,7 @@
       "id": "c8754996-cd26-494c-89e9-f018deaa22f2",
       "english": "_____ year(s)",
       "japanese": "_____ 年",
+      "hiragana": "_____ ねん",
       "romaji": "nen",
       "sets": [
         "64cf61e1-a948-46c7-b9d1-a40743765700"
@@ -3858,6 +3861,7 @@
       "id": "671a5ac7-5465-468f-8756-8a2fa3879287",
       "english": "tomorrow",
       "japanese": "明日",
+      "hiragana": "あした",
       "romaji": "ashita",
       "sets": [
         "0065a004-6ce0-426d-a62a-afcc67c1318b"
