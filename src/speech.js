@@ -31,7 +31,7 @@ function speak(text) {
     return;
   }
   // …, /, ..., ___
-  const output = text.replace(/([…/]|[._]{2,})/, '');
+  const output = text.replace(/([…/]|[._]{2,})/g, '');
   const utterance = new SpeechSynthesisUtterance(output);
   utterance.addEventListener('error', error => console.error(error));
   utterance.lang = 'ja-JP';
