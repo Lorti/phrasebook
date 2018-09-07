@@ -4717,6 +4717,7 @@
       "id": "81656422-51ac-4a5f-b25a-6d4e9c62323b",
       "english": "...a bathroom?",
       "japanese": "風呂場...?",
+      "hiragana": "ふろば...?",
       "romaji": "furoba...",
       "sets": [
         "aab93634-8c15-4758-bc58-dbd80a02044b"
@@ -4798,6 +4799,7 @@
       "id": "4f29e2c3-035a-4398-bfc9-93b5d53d62c6",
       "english": "OK, I'll take it.",
       "japanese": "はい、これで良いです。",
+      "hiragana": "はい、これでいいです。",
       "romaji": "Hai, kore de ii desu.",
       "sets": [
         "aab93634-8c15-4758-bc58-dbd80a02044b"
