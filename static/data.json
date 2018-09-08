@@ -636,6 +636,7 @@
       "id": "124167db-f9ec-4f04-bbf6-37bf1ad04a44",
       "english": "chicken",
       "japanese": "鶏肉",
+      "hiragana": "とりにく",
       "romaji": "toriniku",
       "sets": [
         "fbe18548-e7bc-465c-93ec-25c2eb084a84"
@@ -663,6 +664,7 @@
       "id": "3ecd6aaa-471d-4e2f-a4f8-c8d3609fdece",
       "english": "mutton",
       "japanese": "羊肉",
+      "hiragana": "ようにく",
       "romaji": "yōniku",
       "sets": [
         "fbe18548-e7bc-465c-93ec-25c2eb084a84"
