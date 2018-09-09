@@ -1710,6 +1710,7 @@
       "id": "8ca29561-dcbd-445c-aa41-67204c435aa5",
       "english": "That's too expensive.",
       "japanese": "高過ぎます。",
+      "hiragana": "たかすぎます。",
       "romaji": "Takasugimasu.",
       "sets": [
         "926e2760-f74d-4154-87ea-284c98b93509"
@@ -1890,6 +1891,7 @@
       "id": "ef2e8286-65f8-438f-a0fd-04ff1000f2de",
       "english": "...stomach medicine.",
       "japanese": "胃腸薬",
+      "hiragana": "いちょうやく",
       "romaji": "ichōyaku",
       "sets": [
         "926e2760-f74d-4154-87ea-284c98b93509"
@@ -5000,6 +5002,7 @@
       "id": "e0230dee-54c5-457e-82f7-53db328a0d20",
       "english": "I will call you again later.",
       "japanese": "後でまた電話します。",
+      "hiragana": "あとでまたでんわします。",
       "romaji": "Ato de mata denwa shimasu.",
       "sets": [
         "a80f9289-ac51-4d7d-bdc1-9943abd817bd"
@@ -5216,6 +5219,7 @@
       "id": "8820c8ea-b8f2-4030-a830-f359ba8a921e",
       "english": "Another round, please.",
       "japanese": "みんなに同じものを一杯ずつください。",
+      "hiragana": "みんなにおなじものをいっぱいずつください。",
       "romaji": "Minna ni onaji mono o ippai zutsu kudasai.",
       "sets": [
         "f386d747-9189-41b8-925a-3bd7923eb1bf"
