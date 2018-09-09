@@ -998,7 +998,7 @@
       "id": "69954371-90a3-4aa0-a422-c8ae2731af92",
       "english": "small roundish objects (apples, sweets)",
       "japanese": "個",
-      "hirgana": "こ",
+      "hiragana": "こ",
       "romaji": "-ko",
       "sets": [
         "c6c6b26c-c407-4de0-8720-67442b74065c"
@@ -5562,7 +5562,7 @@
       "id": "ae542bc1-419f-4cf8-83db-842243e7cc80",
       "english": "Can I get insurance?",
       "japanese": "保険入れますか?",
-      "romaji": "Hoken hairemasu ka?",
+      "romaji": "Hoken iremasu ka?",
       "sets": [
         "37d9cf33-e202-43a2-8ca0-9d1471955b95"
       ]
@@ -5670,7 +5670,7 @@
       "id": "1faa63c7-41ea-472b-b8c1-41131a5f6f1e",
       "english": "Where are you taking me?",
       "japanese": "どこへ連れて行くのですか？",
-      "romaji": "Doko e tsurete yukuno desu ka?",
+      "romaji": "Doko e tsurete ikuno desu ka?",
       "sets": [
         "4854b9cf-29f4-4293-a190-ce3dc463b291"
       ]
@@ -5967,6 +5967,7 @@
       "id": "293a7340-5b15-45c9-a59a-e4df40bc7550",
       "english": "Shit",
       "japanese": "糞",
+      "hiragana": "くそ",
       "romaji": "kuso",
       "sets": [
         "22761199-e15f-4dd9-8319-f1fe2760dfe2"
