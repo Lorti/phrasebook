@@ -68,7 +68,7 @@ export default {
   },
   computed: {
     description() {
-      return `🇯🇵 ${this.phrasesCount} Japanese phrases regarding ${this.name}, which are part of more than ${this.totalPhrasesCount} phrases in the 100% free and open-source Japanese Phrasebook app optimized for travel and offline usage, using data from Wikitravel.`;
+      return `⛩  ${this.phrasesCount} phrases regarding ${this.name}, which are part of 670+ essential phrases in the 100% free Japanese Phrasebook app, optimized for travel and offline usage.`;
     },
     sortAlphabetically: {
       get() {

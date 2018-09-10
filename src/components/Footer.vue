@@ -1,7 +1,12 @@
 
 <template>
     <footer class="md-caption">
-      <p>🇯🇵 100% free and open-source Japanese Phrasebook app optimized for travel and offline usage, using data from <a href="https://wikitravel.org/en/Japanese_phrasebook" target="_blank" rel="noopener">Wikitravel</a>.</p>
+      <p>
+        ⛩ 100% free Japanese Phrasebook app, built for travel and offline usage.
+        Add it to your Home screen and access 670+ essential phrases in 19 topics.
+        Requires no Internet connection and offers speech synthesis,
+        so you know how to pronounce Japanese phrases correctly.
+      </p>
 
       <ul class="share-buttons">
         <li>
@@ -70,6 +75,10 @@
       <p>
         Logo by <a href="https://steemit.com/@happyksu" target="_blank" rel="noopener">Ksenia</a> |
         Pictures by <a href="https://www.instagram.com/daisimerollin/" target="_blank" rel="noopener">Daisy</a>
+      </p>
+
+      <p>
+        Data from <a href="https://wikitravel.org/en/Japanese_phrasebook" target="_blank" rel="noopener">Wikitravel</a>
       </p>
 
       <p>© {{ (new Date()).getFullYear() }} Manuel Wieser</p>

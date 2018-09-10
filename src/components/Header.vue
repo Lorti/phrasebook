@@ -3,12 +3,14 @@
     <div class="hero">
       <img src="/static/kinkaku-ji.jpg" alt="Kinkaku-ji (金閣寺)">
     </div>
+<!--
     <div class="bar">
       <div class="copy">
         🇯🇵 {{totalPhrases}}+ phrases, {{totalSets}} topics, <br>
         optimized for travel and offline usage
       </div>
     </div>
+-->
   </header>
 </template>
 
@@ -28,6 +30,7 @@ export default {
 
 <style lang="scss" scoped>
   header {
+    // margin: -16px -16px 16px;
     margin: -16px -16px 16px;
   }
 
