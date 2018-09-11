@@ -14,14 +14,14 @@
 
     <md-button class="md-icon-button md-list-action"
                v-if="!onlyRemoveFavorites"
-               @click="toggleFavorite(phrase.id)">
+               @click.stop="toggleFavorite(phrase.id)">
       <md-icon v-if="isFavorite(phrase.id)" class="md-primary">favorite</md-icon>
       <md-icon v-else class="md-primary">favorite_border</md-icon>
     </md-button>
 
     <md-button class="md-icon-button md-list-action"
                v-if="onlyRemoveFavorites"
-               @click="removeFavorite(phrase)">
+               @click.stop="removeFavorite(phrase)">
       <md-icon class="md-primary">close</md-icon>
     </md-button>
   </md-list-item>
