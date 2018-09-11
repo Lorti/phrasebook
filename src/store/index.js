@@ -152,7 +152,7 @@ export default new Vuex.Store({
     settings: {
       sortAlphabetically: false,
       filterFavorites: false,
-      speechSynthesis: false,
+      speechSynthesis: true,
       swapLanguages: false,
     },
   },
