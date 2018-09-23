@@ -1,0 +1,29 @@
+{
+  "name": "Japanese Phrasebook",
+  "short_name": "Phrasebook",
+  "description": "⛩ 100% free Japanese Phrasebook app, built for travel and offline usage. Add it to your Home screen and access 670+ essential phrases in 19 topics. Requires no Internet connection and offers speech synthesis, so you know how to pronounce Japanese phrases correctly.",
+  "theme_color": "#f44336",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/japanese-phrasebook-screens.jpg",
+      "sizes": "1470x780",
+      "type": "image/jpeg"
+    }
+  ]
+}

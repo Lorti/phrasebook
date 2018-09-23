@@ -1,0 +1,35 @@
+{
+  "name": "phrasebook",
+  "version": "1.0.0",
+  "description": "⛩ 100% free Japanese Phrasebook app, built for travel and offline usage. Add it to your Home screen and access 670+ essential phrases in 19 topics. Requires no Internet connection and offers speech synthesis, so you know how to pronounce Japanese phrases correctly.",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "uuid": "node bin/uuid | pbcopy",
+    "sitemaps": "node bin/sitemap-generator"
+  },
+  "dependencies": {
+    "localforage": "^1.7.2",
+    "register-service-worker": "^1.0.0",
+    "vue": "^2.5.17",
+    "vue-material": "^1.0.0-beta-10.2",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.3",
+    "@vue/cli-plugin-eslint": "^3.0.3",
+    "@vue/cli-plugin-pwa": "^3.0.3",
+    "@vue/cli-service": "^3.0.3",
+    "@vue/eslint-config-airbnb": "^3.0.3",
+    "node-sass": "^4.9.0",
+    "prerender-spa-plugin": "^3.4.0",
+    "sass-loader": "^7.0.1",
+    "sitemap-generator": "^8.3.1",
+    "slugify": "^1.3.1",
+    "uuid": "^3.3.2",
+    "vue-template-compiler": "^2.5.17"
+  }
+}

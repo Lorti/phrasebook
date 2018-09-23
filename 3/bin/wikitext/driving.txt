@@ -1,0 +1,12 @@
+===Driving===
+; I want to rent a car. : レンタカーお願いします。 (''Rentakā (rent-a-car) onegaishimasu.'')
+; Can I get insurance? : 保険入れますか? (''Hoken hairemasu ka?'')
+; Do you have a driver's license? : 免許証を持っていますか? (''Menkyoshō wo motteimasu ka?'')
+; stop (''on a street sign'') : 止まれ／とまれ (''tomare'')
+; one way : 一方通行 (''ippō tsūkō'')
+; caution : 徐行 (''jokō'')
+; no parking : 駐車禁止 (''chūsha kinshi'')
+; speed limit : 制限速度 (''seigen sokudo'')
+; gas (''petrol'') station : ガソリンスタンド (''gasorin sutando'')
+; petrol : ガソリン (''gasorin'')
+; diesel : 軽油/ディーゼル (''keiyu / diizeru'')

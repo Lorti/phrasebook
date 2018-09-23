@@ -1,0 +1,15 @@
+====Months====
+Months are very orderly in Japanese, just add the suffix ''-gatsu'' to the ordinal number.
+
+; January : 1月 (''ichigatsu'')
+; February : 2月 (''nigatsu'')
+; March : 3月 (''sangatsu'')
+; April : 4月 (''shigatsu'')
+; May : 5月 (''gogatsu'')
+; June : 6月 (''rokugatsu'')
+; July : 7月 (''shichigatsu'')
+; August : 8月 (''hachigatsu'')
+; September : 9月 (''kugatsu'')
+; October : 10月 (''jūgatsu'')
+; November : 11月 (''jūichigatsu'')
+; December : 12月 (''jūnigatsu'')

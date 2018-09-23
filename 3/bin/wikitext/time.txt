@@ -1,0 +1,9 @@
+===Time===
+; now : 今 ''ima''
+; later : 後で ''atode''
+; before : 前に ''mae ni''
+; before ___ : ___ の前に '' ___ no mae ni''
+; morning : 朝 ''asa''
+; afternoon : 午後 ''gogo''
+; evening : 夕方 ''yūgata''
+; night : 夜 ''yoru''

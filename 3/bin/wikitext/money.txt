@@ -1,0 +1,10 @@
+===Money===
+; Do you accept American/Australian/Canadian dollars? : アメリカ/オーストラリア/カナダドルは使えますか? (''Amerika/ōsutoraria/kanada doru wa tsukaemasu ka?'')
+; Do you accept British pounds? : イギリスポンドは使えますか？ (''Igirisu pondo wa tsukaemasu ka?'')
+; Do you accept credit cards? : クレジットカードは使えますか？ (''Kurejitto kaado (credit card) wa tsukaemasu ka?'')
+; Can you change money for me? : お金両替できますか？ (''Okane ryōgae dekimasu ka?'')
+; Where can I get money changed? : お金はどこで両替できますか？ (''Okane wa doko de ryōgae dekimasu ka?'')
+; Can you change a traveler's check for me? : トラベラーズチェックを両替できますか？ (''Torabarāsu chekku (traveler's check) wo ryōgae dekimasu ka?'')
+; Where can I get a traveler's check changed? : トラベラーズチェックはどこで両替できますか？ (''Torabarāzu chekku (traveler's check) wa doko de ryōgae dekimasu ka?'')
+; What is the exchange rate? : 為替レートはいくらですか？(''Kawase rēto wa ikura desu ka?'')
+; Where is an automatic teller machine (ATM)? : ATM はどこにありますか？ (''ATM wa doko ni arimasuka?'')

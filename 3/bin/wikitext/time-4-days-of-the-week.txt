@@ -1,0 +1,10 @@
+=====Days of the week=====
+The days of the week are named after the sun, the moon and the five elements of Chinese philosophy.
+; Sunday : 日曜日 (''nichiyōbi'')
+; Monday : 月曜日 (''getsuyōbi'')
+; Tuesday : 火曜日 (''kayōbi'')
+; Wednesday : 水曜日 (''suiyōbi'')
+; Thursday : 木曜日 (''mokuyōbi'')
+; Friday : 金曜日 (''kin'yōbi'')
+; Saturday : 土曜日 (''doyōbi'')
+

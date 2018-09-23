@@ -1,0 +1,10 @@
+
+====Clock time====
+Clock times are formed as Chinese numeral plus 時 ''ji'', for example, ''goji'' 5時 for five o'clock. The exception is four o'clock which is pronounced ''yoji'' (四時) instead of ''shiji''. You will be understood if you simply substitute ''gozen'' 午前  for "AM" and ''gogo'' 午後 for PM, although other time qualifiers like 朝 ''asa'' for morning and 夜 ''yoru'' for night may be more natural.  The 24-hour clock is also commonly used in official contexts such as train schedules.  TV schedules occasionally use a modified 24-hour clock, with late night showtimes counted from the previous day, e.g. Monday at 26:00 indicates '''Tuesday''' at 2:00 AM.
+
+; six o'clock in the morning : 朝6時 (''asa rokuji'')
+; nine o'clock AM : 午前9時 (''gozen kuji'')
+; noon : 正午 (''shōgo'')
+; one o'clock PM : 午後1時 (''gogo ichiji.'')
+; two o'clock PM : 午後2時 (''gogo niji'')
+; midnight : 夜12時 (''yoru jūniji''), 零時 (''rēji'')

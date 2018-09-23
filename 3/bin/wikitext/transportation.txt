@@ -1,0 +1,9 @@
+===Transportation===
+
+; How much is a ticket to _____? :  _____ までいくらですか? (''_____ made ikura desu ka?'')
+; One ticket to _____, please. : _____ まで一枚お願いします。(''_____ made ichimai onegaishimasu.'')
+; Where does this train/bus go? : この電車・バスはどこ行きですか? (''Kono densha/basu wa doko yuki desu ka?'')
+; Where is the train/bus to _____? : _____ 行きの電車・バスはどこですか? (''_____ yuki no densha/basu wa doko desu ka?'')
+; Does this train/bus stop in _____? : この電車・バスは _____ に止まりますか? (''Kono densha/basu wa _____ ni tomarimasu ka?'')
+; When does the train/bus for _____ leave? : _____ 行きの電車・バスは何時に出発しますか? (''_____ yuki no densha/basu wa nanji ni shuppatsu shimasu ka?'')
+; When will this train/bus arrive in _____? : この電車・バスは何時に _____ に着きますか? (''Kono densha/basu wa nanji ni _____ ni tsukimasu ka?'')

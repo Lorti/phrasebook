@@ -1,0 +1,10 @@
+====Medical emergencies====
+; I need a doctor. : 医者に見てもらいたいです。 ''Isha ni mite moraitai desu.''
+; Is there a doctor who can speak English? : 英語の出来る医者はいますか？ ''Eigo no dekiru isha wa imasu ka?''
+; Please take me to a doctor. : 医者に連れていって下さい。 ''Isha ni tsurete itte kudasai.''
+; My wife/husband/child is sick. : 妻・旦那・子供が病気です。 ''Tsuma/danna/kodomo ga byōki desu.''
+; Please call an ambulance. : 救急車を呼んで下さい。 ''Kyūkyūsha o yonde kudasai.''
+; I need first aid. : 応急手当を下さい。 ''Ōkyū teate o kudasai.''
+; I need to go to the emergency room. : 救急室にいかなければなりません。 ''Kyūkyūshitsu ni ikanakereba narimasen.''<br />shorter: 救急室に行かないと。 ''Kyūkyūshitsu ni ikanai to.''
+; How long will it take to get better? : 治るのはどの位かかりますか？ ''Naoru no wa dono kurai kakarimasu ka?''
+; Where is a pharmacy? : 薬局はどこですか？ ''Yakkyoku wa doko desu ka?''
