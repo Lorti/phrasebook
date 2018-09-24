@@ -32,6 +32,7 @@ module.exports = {
             return context;
           },
         }),
+        // https://github.com/webpack-contrib/copy-webpack-plugin
         new CopyWebpackPlugin([
           {
             from: 'public/manifest.json',

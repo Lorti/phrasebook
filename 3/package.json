@@ -5,10 +5,11 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build; npm run shell",
     "lint": "vue-cli-service lint",
     "uuid": "node bin/uuid | pbcopy",
-    "sitemaps": "node bin/sitemap-generator"
+    "sitemaps": "node bin/sitemap-generator",
+    "shell": "node bin/shell-generator"
   },
   "dependencies": {
     "localforage": "^1.7.2",
