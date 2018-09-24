@@ -2,7 +2,7 @@
 const SitemapGenerator = require('sitemap-generator');
 
 const generator = SitemapGenerator('https://www.japanese-phrasebook.com/', {
-  filepath: `${__dirname}/../publuc/sitemap.xml`,
+  filepath: `${__dirname}/../public/sitemap.xml`,
   lastMod: true,
   stripQuerystring: true,
 });
