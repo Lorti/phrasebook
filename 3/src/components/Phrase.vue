@@ -60,7 +60,7 @@ export default {
     },
     removeFavorite(phrase) {
       // eslint-disable-next-line no-alert
-      if (confirm(`Do you really want to remove ${phrase.japanese} from your favorites?`)) {
+      if (window.confirm(`Do you really want to remove ${phrase.japanese} from your favorites?`)) {
         this.$store.dispatch('REMOVE_FAVORITE', phrase.id);
       }
     },

@@ -43,7 +43,7 @@
 </template>
 
 <script>
-import Phrase from '@/components/Phrase';
+import Phrase from '@/components/Phrase.vue';
 
 export default {
   name: 'Phrases',
