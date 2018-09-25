@@ -23,7 +23,9 @@ module.exports = {
         new PrerenderSPAPlugin({
           staticDir: config.output.path,
           routes: ['/', '/404', ...allSets.map(set => `/sets/${set.id}/${set.slug}`)],
-          renderer: new PrerenderSPAPlugin.PuppeteerRenderer(),
+          renderer: new PrerenderSPAPlugin.PuppeteerRenderer({
+            renderAfterDocumentEvent: 'rendered',
+          }),
           postProcess(context) {
             if (context.route === '/404') {
               context.outputPath = path.join(config.output.path, '/404.html');
