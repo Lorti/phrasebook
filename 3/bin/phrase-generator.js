@@ -1,4 +1,4 @@
-/* eslint-disable no-cond-assign,no-console */
+/* eslint-disable no-cond-assign,no-console,import/no-extraneous-dependencies */
 const path = require('path');
 const fs = require('fs');
 const uuidv4 = require('uuid/v4');
