@@ -1,16 +1,16 @@
 <template>
   <md-list-item>
-    <span class="md-list-item-text"
-          v-on="speechSynthesis ? { click: speak } : {}">
-      <template v-if="!$store.state.settings.swapLanguages">
-        <span>{{ phrase.english }}</span>
-        <span>{{ phrase.japanese }} <em>{{ phrase.romaji }}</em></span>
-      </template>
-      <template v-else>
-        <span>{{ phrase.japanese }}</span>
-        <span>{{ phrase.romaji }} <em>{{ phrase.english }}</em></span>
-      </template>
-    </span>
+    <template v-if="speechSynthesis">
+      <md-ripple>
+        <span class="md-list-item-text"
+              @click="speak"
+              v-html="textContent"></span>
+      </md-ripple>
+    </template>
+    <template v-else>
+        <span class="md-list-item-text"
+              v-html="textContent"></span>
+    </template>
 
     <md-button class="md-icon-button md-list-action"
                v-if="!onlyRemoveFavorites"
@@ -46,6 +46,14 @@ export default {
     speechSynthesis() {
       return this.$store.state.settings.speechSynthesis;
     },
+    textContent() {
+      if (!this.$store.state.settings.swapLanguages) {
+        return `<span>${this.phrase.english}</span>
+          <span>${this.phrase.japanese} <em>${this.phrase.romaji}</em></span>`;
+      }
+      return `<span>${this.phrase.japanese}</span>
+          <span>${this.phrase.romaji} <em>${this.phrase.english}</em></span>`;
+    },
   },
   methods: {
     isFavorite(phraseId) {
@@ -59,8 +67,8 @@ export default {
       }
     },
     removeFavorite(phrase) {
-      // eslint-disable-next-line no-alert
-      if (window.confirm(`Do you really want to remove ${phrase.japanese} from your favorites?`)) {
+      // eslint-disable-next-line no-alert,no-restricted-globals
+      if (confirm(`Do you really want to remove ${phrase.japanese} from your favorites?`)) {
         this.$store.dispatch('REMOVE_FAVORITE', phrase.id);
       }
     },
