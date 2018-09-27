@@ -49,10 +49,10 @@ export default {
     textContent() {
       if (!this.$store.state.settings.swapLanguages) {
         return `<span>${this.phrase.english}</span>
-          <span>${this.phrase.japanese} <em>${this.phrase.romaji}</em></span>`;
+          <span>${this.phrase.japanese} <em>${this.phrase.romaji || ''}</em></span>`;
       }
       return `<span>${this.phrase.japanese}</span>
-          <span>${this.phrase.romaji} <em>${this.phrase.english}</em></span>`;
+          <span>${this.phrase.romaji || ''} <em>${this.phrase.english}</em></span>`;
     },
   },
   methods: {
