@@ -43,7 +43,7 @@
 </template>
 
 <script>
-import Phrase from '@/components/Phrase';
+import Phrase from '@/components/Phrase.vue';
 
 export default {
   name: 'Phrases',
@@ -68,7 +68,7 @@ export default {
   },
   computed: {
     description() {
-      return `⛩  ${this.phrasesCount} phrases regarding ${this.name}, which are part of 670+ essential phrases in the 100% free Japanese Phrasebook app, optimized for travel and offline usage.`;
+      return `⛩ ${this.phrasesCount} phrases regarding ${this.name}, which are part of 670+ essential phrases in the 100% free Japanese Phrasebook app, optimized for travel and offline usage.`;
     },
     sortAlphabetically: {
       get() {

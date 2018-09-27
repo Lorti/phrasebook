@@ -35,7 +35,7 @@
 </template>
 
 <script>
-import Phrase from '@/components/Phrase';
+import Phrase from '@/components/Phrase.vue';
 
 export default {
   name: 'Favorites',
@@ -60,7 +60,7 @@ export default {
       return this.$store.getters.favorites;
     },
     filteredPhrases() {
-      let phrases = this.phrases;
+      let { phrases } = this;
       if (this.filter.length) {
         phrases = phrases.filter((phrase) => {
           const haystack = (phrase.japanese + phrase.english + phrase.romaji).toLowerCase();

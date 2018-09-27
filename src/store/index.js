@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 import Vue from 'vue';
 import Vuex from 'vuex';
 
@@ -10,7 +11,7 @@ Vue.use(Vuex);
 
 const actions = {
   async FETCH_DATABASE({ commit, state }) {
-    const { phrases, sets } = await fetch('/static/data.json').then(response => response.json());
+    const { phrases, sets } = await fetch('/data/default.json').then(response => response.json());
     commit('SET_SETS', sets);
     commit('SET_PHRASES', phrases);
 

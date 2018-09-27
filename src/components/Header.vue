@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="hero">
-      <img src="/static/kinkaku-ji.jpg" alt="Kinkaku-ji (金閣寺)">
+      <img src="/img/kinkaku-ji.jpg" alt="Kinkaku-ji (金閣寺)">
     </div>
 <!--
     <div class="bar">

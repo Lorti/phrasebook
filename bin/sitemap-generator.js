@@ -1,7 +1,8 @@
-const SitemapGenerator = require('sitemap-generator');
+// eslint-disable-next-line import/no-extraneous-dependencies
+const SitemapGenerator = require('bin/sitemap-generator');
 
 const generator = SitemapGenerator('https://www.japanese-phrasebook.com/', {
-  filepath: `${__dirname}/../root/sitemap.xml`,
+  filepath: `${__dirname}/../public/sitemap.xml`,
   lastMod: true,
   stripQuerystring: true,
 });

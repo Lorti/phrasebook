@@ -1,7 +1,3 @@
-<a href="https://www.japanese-phrasebook.com">
-  <img src="https://github.com/Lorti/phrasebook/blob/master/logo.png" width="256">
-</a> 
-
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/manuninja)
 
 ⛩ 100% free Japanese Phrasebook app, built for travel and offline usage. Add it to your Home screen and access 670+ essential phrases in 19 topics. Requires no Internet connection and offers speech synthesis, so you know how to pronounce Japanese phrases correctly.
