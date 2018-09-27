@@ -1,7 +1,7 @@
 <template>
-  <!-- https://github.com/vuejs/vue/issues/7349 -->
-  <md-list-item v-on="speechSynthesis ? { click: speak } : {}">
-    <div class="md-list-item-text">
+  <md-list-item>
+    <span class="md-list-item-text"
+          v-on="speechSynthesis ? { click: speak } : {}">
       <template v-if="!$store.state.settings.swapLanguages">
         <span>{{ phrase.english }}</span>
         <span>{{ phrase.japanese }} <em>{{ phrase.romaji }}</em></span>
@@ -10,7 +10,7 @@
         <span>{{ phrase.japanese }}</span>
         <span>{{ phrase.romaji }} <em>{{ phrase.english }}</em></span>
       </template>
-    </div>
+    </span>
 
     <md-button class="md-icon-button md-list-action"
                v-if="!onlyRemoveFavorites"
