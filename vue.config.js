@@ -52,11 +52,13 @@ module.exports = {
     name: 'Japanese Phrasebook',
     themeColor: '#f44336',
     msTileColor: '#f44336',
-    favicon32: 'img/icons/favicon-32x32.png',
-    favicon16: 'img/icons/favicon-16x16.png',
-    appleTouchIcon: 'img/icons/apple-touch-icon.png',
-    maskIcon: 'img/icons/safari-pinned-tab.svg',
-    msTileImage: 'img/icons/mstile-144x144.png',
+    iconPaths: {
+      favicon32: 'img/icons/favicon-32x32.png',
+      favicon16: 'img/icons/favicon-16x16.png',
+      appleTouchIcon: 'img/icons/apple-touch-icon-180x180.png',
+      maskIcon: 'img/icons/safari-pinned-tab.svg',
+      msTileImage: 'img/icons/msapplication-icon-144x144.png',
+    },
     workboxOptions: {
       cacheId: 'phrasebook',
       importWorkboxFrom: 'local',

@@ -2,7 +2,7 @@
 
 ⛩ 100% free Japanese Phrasebook app, built for travel and offline usage. Add it to your Home screen and access 670+ essential phrases in 19 topics. Requires no Internet connection and offers speech synthesis, so you know how to pronounce Japanese phrases correctly.
 
-[![](https://manu.ninja/images/japanese-phrasebook-screens.png)](https://www.japanese-phrasebook.com)
+[![](public/img/japanese-phrasebook-screens.png)](https://www.japanese-phrasebook.com)
 
 [Introducing “Japanese Phrasebook”](https://manu.ninja/introducing-japanese-phrasebook)
 
