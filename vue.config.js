@@ -20,6 +20,19 @@ module.exports = {
     }
     return {
       plugins: [
+        // https://github.com/webpack-contrib/copy-webpack-plugin
+        new CopyWebpackPlugin([
+          {
+            from: 'public/manifest.json',
+            to: 'manifest.webmanifest',
+          },
+          // Necessary for `vue-cli-service build --modern`,
+          // or data isn’t available for Prerender SPA plugin.
+          {
+            from: 'public/data/default.json',
+            to: 'data/default.json',
+          },
+        ]),
         // https://github.com/chrisvfritz/prerender-spa-plugin
         new PrerenderSPAPlugin({
           staticDir: config.output.path,
@@ -37,13 +50,6 @@ module.exports = {
             return context;
           },
         }),
-        // https://github.com/webpack-contrib/copy-webpack-plugin
-        new CopyWebpackPlugin([
-          {
-            from: 'public/manifest.json',
-            to: 'manifest.webmanifest',
-          },
-        ]),
       ],
     };
   },

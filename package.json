@@ -6,6 +6,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build; npm run shell",
+    "modern": "vue-cli-service build --modern; npm run shell",
     "lint": "vue-cli-service lint",
     "uuid": "node bin/uuid | pbcopy",
     "sitemaps": "node bin/sitemap-generator",
