@@ -13,6 +13,7 @@ const allSets = [...Object.values(sets)]
   .filter(set => !allSubsets.includes(set.id));
 
 module.exports = {
+
   // https://cli.vuejs.org/guide/webpack.html
   configureWebpack: (config) => {
     if (process.env.NODE_ENV !== 'production') {
@@ -53,6 +54,14 @@ module.exports = {
       ],
     };
   },
+
+  // https://cli.vuejs.org/guide/html-and-static-assets.html#relative-path-imports
+  chainWebpack: (config) => {
+    config.module.rules.delete('svg');
+    config.module.rule('images')
+      .test(/\.(svg|png|jpe?g|gif|webp)(\?.*)?$/);
+  },
+
   // https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-plugin-pwa
   pwa: {
     name: 'Japanese Phrasebook',
