@@ -3567,6 +3567,7 @@
       "id": "30a91a34-f3d7-4145-8e0d-f245330da7e0",
       "english": "Open",
       "japanese": "営業中",
+      "romaji": "eigyōchū",
       "sets": [
         "d241e2a6-13ca-416d-967f-53caa8984f54"
       ]
@@ -3575,6 +3576,7 @@
       "id": "7353dab2-e8fc-466d-ad09-ff4994717441",
       "english": "Closed",
       "japanese": "準備中",
+      "romaji": "junbichū",
       "sets": [
         "d241e2a6-13ca-416d-967f-53caa8984f54"
       ]
@@ -3583,6 +3585,7 @@
       "id": "0bab4e68-a2d3-4646-a883-825a573fef19",
       "english": "Entrance",
       "japanese": "入口",
+      "romaji": "iriguchi",
       "sets": [
         "d241e2a6-13ca-416d-967f-53caa8984f54"
       ]
@@ -3591,6 +3594,7 @@
       "id": "5e1acfc2-8d8e-45fd-b411-36257fbda523",
       "english": "Exit",
       "japanese": "出口",
+      "romaji": "deguchi",
       "sets": [
         "d241e2a6-13ca-416d-967f-53caa8984f54"
       ]
@@ -3599,7 +3603,8 @@
       "id": "c6e5e9fd-9782-4490-92a0-111b8bd6a94d",
       "english": "Big / Middle / Small",
       "japanese": "大・中・小",
-      "hiragana": "だい・ちゅう・しょう",
+      "hiragana": "おおきい・ちゅう・ちいさい",
+      "romaji": "ookii・chū・chiisai",
       "sets": [
         "d241e2a6-13ca-416d-967f-53caa8984f54"
       ]
@@ -3624,6 +3629,7 @@
       "id": "a31859a1-c121-467d-b8eb-85223cbc40d5",
       "english": "Toilet",
       "japanese": "お手洗い, トイレ, 化粧室",
+      "romaji": "otearai, toire, keshōshitsu",
       "sets": [
         "d241e2a6-13ca-416d-967f-53caa8984f54"
       ]
@@ -3632,6 +3638,7 @@
       "id": "914451da-a2a8-480d-9a8d-738c09ae3534",
       "english": "Men",
       "japanese": "男",
+      "romaji": "otoko",
       "sets": [
         "d241e2a6-13ca-416d-967f-53caa8984f54"
       ]
@@ -3640,6 +3647,7 @@
       "id": "d0070929-73e2-4e80-af99-882ceda47823",
       "english": "Women",
       "japanese": "女",
+      "romaji": "onna",
       "sets": [
         "d241e2a6-13ca-416d-967f-53caa8984f54"
       ]
@@ -3648,6 +3656,7 @@
       "id": "855d4eb4-5ecd-4fd9-850a-07b788b7c6d6",
       "english": "Forbidden",
       "japanese": "禁止",
+      "romaji": "kinshi",
       "sets": [
         "d241e2a6-13ca-416d-967f-53caa8984f54"
       ]
@@ -3656,6 +3665,7 @@
       "id": "47af003f-7d8e-4950-a9bc-87f3c9632ba8",
       "english": "Yen",
       "japanese": "円",
+      "romaji": "en",
       "sets": [
         "d241e2a6-13ca-416d-967f-53caa8984f54"
       ]
